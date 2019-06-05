@@ -1,0 +1,101 @@
+// JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+//
+// @package     jbzoo
+// @version     2.x Pro
+// @author      JBZoo App http://jbzoo.com
+// @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+// @license     http://jbzoo.com/license-pro.php JBZoo Licence
+// @coder       Denis Smetannikov <denis@jbzoo.com>
+//
+
+.jbzoo {
+
+    &.jbzoo-rborder .rborder,
+    .jbzoo-rborder .rborder {
+        border: 1px solid #ccc;
+        .border-radius(6px);
+    }
+
+    .jbzoo-item-teaser .item-title {
+        margin-bottom: 1em;
+    }
+	
+	// TODO remove me
+    .frontpage,
+    .category,
+    .subcategory,
+    .jbbox {
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+
+    .subcategory-description {
+        margin-bottom: 1em;
+    }
+
+    .items .jbzoo-item,
+    .item-full .jbzoo-item,
+    .commentslist .comments {
+        margin: 1em;
+    }
+
+    .item-full {
+        margin-bottom: 1em;
+        background: none;
+    }
+
+    .item-body {
+        margin-bottom: 1em;
+        padding: 6px;
+    }
+
+    .jbzoo-item {
+        margin: 0 0 1em 0;
+        padding: 0;
+
+        .title {
+            margin-bottom: 1em;
+        }
+
+    }
+
+    .category .description-teaser {
+        font-weight: bold;
+    }
+
+    .jbtooltip {
+        background: data-uri('../../img/icon/tooltip.png') no-repeat 50% 50%;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-left: 12px;
+    }
+
+    .jbcartvalue {
+        white-space: nowrap;
+    }
+
+    .jbcurrency {
+
+        &-value {
+            font-size: 1.2em;
+        }
+
+        &-symbol {
+            .opacity(.7);
+            font-size: 0.9em;
+        }
+
+    }
+
+    .required-dot {
+        color: #f00;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .creation-form .element.required strong:after {
+        content: "";
+    }
+
+}

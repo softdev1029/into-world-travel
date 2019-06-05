@@ -1,0 +1,7 @@
+drwxrwxr-x   3 sg       6012          115 Jul 19  2018 .
+drwxr-xr-x  67 sg       6012         4096 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         1790 Jul 19  2018 config.php
+-rw-r--r--   1 sg       6012        14340 Jul 19  2018 install.script.php
+drwxrwxr-x  12 sg       6012          181 Mar 26  2018 zlframework
+-rw-r--r--   1 sg       6012         5531 Jul 19  2018 zlframework.php
+-rw-r--r--   1 sg       6012         1009 Jul 19  2018 zlframework.xml

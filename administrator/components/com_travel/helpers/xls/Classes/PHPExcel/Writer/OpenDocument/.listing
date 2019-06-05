@@ -1,0 +1,11 @@
+drwxr-xr-x   3 sg       6012          174 Sep 18  2018 .
+drwxr-xr-x   6 sg       6012          237 Sep 18  2018 ..
+drwxr-xr-x   2 sg       6012           25 Sep 18  2018 Cell
+-rw-r--r--   1 sg       6012        12934 Sep 18  2018 Content.php
+-rw-r--r--   1 sg       6012         4017 Sep 18  2018 MetaInf.php
+-rw-r--r--   1 sg       6012         4297 Sep 18  2018 Meta.php
+-rw-r--r--   1 sg       6012         1509 Sep 18  2018 Mimetype.php
+-rw-r--r--   1 sg       6012         3337 Sep 18  2018 Settings.php
+-rw-r--r--   1 sg       6012         5185 Sep 18  2018 Styles.php
+-rw-r--r--   1 sg       6012         1530 Sep 18  2018 Thumbnails.php
+-rw-r--r--   1 sg       6012         1217 Sep 18  2018 WriterPart.php

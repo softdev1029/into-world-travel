@@ -1,0 +1,6 @@
+drwxrwxr-x   5 sg       6012           61 Mar 26  2018 .
+drwxrwxr-x  14 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012       299401 Jul  9  2018 cacert.pem
+drwxrwxr-x   2 sg       6012           22 Mar 26  2018 cli
+drwxrwxr-x   2 sg       6012           24 Mar 26  2018 geoip
+drwxrwxr-x   2 sg       6012           28 Mar 26  2018 stats

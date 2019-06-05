@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          279 Jul 19  2018 .
+drwxrwxr-x  11 sg       6012          163 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2295 Jul 19  2018 ga_auth.php
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+-rw-r--r--   1 sg       6012          785 Jul 19  2018 j2_controlpanel_full.php
+-rw-r--r--   1 sg       6012         2146 Jul 19  2018 j2_dashboard.php
+-rw-r--r--   1 sg       6012          653 Jul 19  2018 j3_controlpanel_full.php
+-rw-r--r--   1 sg       6012         1239 Jul 19  2018 j3_dashboard.php
+-rw-r--r--   1 sg       6012         1858 Jul 19  2018 snippet_ga.php
+-rw-r--r--   1 sg       6012          718 Jul 19  2018 snippet_gtm_body.php
+-rw-r--r--   1 sg       6012          914 Jul 19  2018 snippet_gtm_head.php
+-rw-r--r--   1 sg       6012         1147 Jul  9  2018 snippet_gtm.php
+-rw-r--r--   1 sg       6012         1815 Jul 19  2018 snippet_uga.php

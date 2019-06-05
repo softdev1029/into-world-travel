@@ -1,0 +1,12 @@
+drwxrwxr-x   6 sg       6012          195 Jul 19  2018 .
+drwxr-xr-x  50 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012          217 Jul 19  2018 access.xml
+-rw-r--r--   1 sg       6012         5062 Jul 19  2018 CHANGELOG.md
+-rw-r--r--   1 sg       6012          343 Jul 19  2018 config.xml
+drwxrwxr-x   2 sg       6012           71 Jul 19  2018 controllers
+drwxrwxr-x   3 sg       6012           16 Mar 26  2018 helpers
+-rw-r--r--   1 sg       6012          454 Jul 19  2018 install.script.php
+drwxrwxr-x   2 sg       6012           25 Mar 26  2018 partials
+drwxrwxr-x   3 sg       6012           24 Mar 26  2018 views
+-rw-r--r--   1 sg       6012         2533 Jul 19  2018 zoolanders.php
+-rw-r--r--   1 sg       6012         1575 Jul 19  2018 zoolanders.xml

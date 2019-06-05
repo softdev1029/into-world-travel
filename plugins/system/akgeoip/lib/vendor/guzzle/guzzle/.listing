@@ -1,0 +1,9 @@
+drwxrwxr-x   4 sg       6012          122 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        48901 Jul  9  2018 CHANGELOG.md
+-rw-r--r--   1 sg       6012         2277 Jul  9  2018 composer.json
+drwxrwxr-x  12 sg       6012          275 Mar 26  2018 docs
+-rw-r--r--   1 sg       6012         1111 Jul  9  2018 LICENSE
+-rw-r--r--   1 sg       6012         1635 Jul  9  2018 README.md
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 src
+-rw-r--r--   1 sg       6012        21526 Jul  9  2018 UPGRADING.md

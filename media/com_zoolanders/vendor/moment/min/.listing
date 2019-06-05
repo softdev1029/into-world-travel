@@ -1,0 +1,8 @@
+drwxr-xr-x   2 sg       6012          147 Jul 19  2018 .
+drwxr-xr-x   5 sg       6012          154 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012       323808 Jul 19  2018 locales.js
+-rw-r--r--   1 sg       6012       198331 Jul 19  2018 locales.min.js
+-rw-r--r--   1 sg       6012        51465 Jul 19  2018 moment.min.js
+-rw-r--r--   1 sg       6012       452185 Jul 19  2018 moment-with-locales.js
+-rw-r--r--   1 sg       6012       249778 Jul 19  2018 moment-with-locales.min.js
+-rw-r--r--   1 sg       6012      3738731 Jul 19  2018 tests.js

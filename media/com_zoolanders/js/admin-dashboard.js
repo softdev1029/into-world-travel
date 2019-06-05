@@ -1,0 +1,8 @@
+/**
+ * @package     ZOOlanders
+ * @version     3.3.15
+ * @author      ZOOlanders - http://zoolanders.com
+ * @license     GNU General Public License v2 or later
+ */
+
+!function(t,o,a){"use strict";o.component("zoolandersDashboard",{overlay:null,init:function(){var t=this;t.overlay=o.zoolandersOverlay(t.element,{content:o.lang.get("ZL_MSG_CONNECTING")}),t.initActions(),t.initModal(),t.options.autoload&&t.requestState(!0)},initActions:function(){var o=this;t("#toolbar-reload button").on("click",function(){o.requestState(!0)}),t("#zl_options_reset").on("click",function(o){o.preventDefault(),o.stopPropagation();var a=t(this).parent();a&&t("input",a).val("")})},initModal:function(){var n=this,e=t("#zl-modal-options").detach();t("form",e).on("submit",function(a){a.preventDefault();var e=t(this);t(".uk-button",e).zx("spin"),o.ajax.requestAndNotify({url:e.attr("action")+"&format=raw",type:e.attr("method"),data:e.serializeArray()}).done(function(t){n.modal.hide(),location.reload()}).always(function(o){t(".uk-button",e).zx("spin.off")})}),t("#toolbar-options button").on("click",function(){n.modal=a.modal.dialog(e.children()),t(".uk-modal-dialog",n.modal.element).prepend('<a class="uk-modal-close uk-close"></a>'),n.modal.element.wrap(t('<div class="zx" />')),n.modal.show()})},requestState:function(a){var n=this;n.overlay.cover(),o.ajax.requestAndNotify({url:o.url.get("ajax:",{controller:"zoolanders",task:"ping"}),data:{force:a}}).done(function(o){o.data&&o.data.extra_content&&t(".extra_content").html(o.data.extra_content)}).always(function(){n.overlay.uncover()})}})}(jQuery,zlux,UIkit);

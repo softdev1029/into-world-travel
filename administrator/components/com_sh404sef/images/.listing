@@ -1,0 +1,16 @@
+drwxrwxr-x   2 sg       6012          272 Mar 26  2018 .
+drwxrwxr-x  20 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         5759 Jul 19  2018 config.png
+-rw-r--r--   1 sg       6012         5657 Jul 19  2018 cut-logs.png
+-rw-r--r--   1 sg       6012         5710 Jul 19  2018 cut-redirect.png
+-rw-r--r--   1 sg       6012         5702 Jul 19  2018 cut-url.png
+-rw-r--r--   1 sg       6012          181 Jul 19  2018 down.png
+-rw-r--r--   1 sg       6012         5800 Jul 19  2018 help.png
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+-rw-r--r--   1 sg       6012         5855 Jul 19  2018 info.png
+-rw-r--r--   1 sg       6012         5595 Jul 19  2018 logs.png
+-rw-r--r--   1 sg       6012         5827 Jul 19  2018 redirect.png
+-rw-r--r--   1 sg       6012         7560 Jul 19  2018 sh404SEF-logo-big.png
+-rw-r--r--   1 sg       6012         9012 Jul 19  2018 sh404SEF-logo.png
+-rw-r--r--   1 sg       6012          197 Jul 19  2018 up.png
+-rw-r--r--   1 sg       6012         5803 Jul 19  2018 url.png

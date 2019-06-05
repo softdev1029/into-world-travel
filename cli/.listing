@@ -1,0 +1,16 @@
+drwxr-xr-x   2 sg       6012         4096 Jul  9  2018 .
+drwxrwxr-x  23 sg       6012         4096 Mar 22 13:53 ..
+-rw-r--r--   1 sg       6012         3788 Jul  9  2018 admintools-dbrepair.php
+-rw-r--r--   1 sg       6012         8199 Jul  9  2018 admintools-filescanner.php
+-rw-r--r--   1 sg       6012         3632 Jul  9  2018 admintools-update.php
+-rw-r--r--   1 sg       6012        13279 Jul  9  2018 akeeba-altbackup.php
+-rw-r--r--   1 sg       6012        10971 Jul  9  2018 akeeba-altcheck-failed.php
+-rw-r--r--   1 sg       6012        12672 Jul  9  2018 akeeba-backup.php
+-rw-r--r--   1 sg       6012         4739 Jul  9  2018 akeeba-check-failed.php
+-rw-r--r--   1 sg       6012         2096 Jun 26  2018 deletefiles.php
+-rw-r--r--   1 sg       6012         9676 Jun 26  2018 finder_indexer.php
+-rw-r--r--   1 sg       6012         1069 Jun 26  2018 garbagecron.php
+-rw-r--r--   1 sg       6012           31 Jun 26  2018 index.html
+-rw-r--r--   1 sg       6012         1192 Jun 26  2018 sessionGc.php
+-rw-r--r--   1 sg       6012         1431 Jun 26  2018 sessionMetadataGc.php
+-rw-r--r--   1 sg       6012         1739 Jun 26  2018 update_cron.php

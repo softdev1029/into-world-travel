@@ -1,0 +1,17 @@
+drwxrwxr-x  12 sg       6012          245 Mar 26  2018 .
+drwxrwxr-x  14 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           22 Mar 26  2018 Archiver
+-rw-r--r--   1 sg       6012         3924 Jul  9  2018 Autoloader.php
+drwxrwxr-x   2 sg       6012           40 Mar 26  2018 Base
+-rw-r--r--   1 sg       6012       299401 Jul  9  2018 cacert.pem
+-rw-r--r--   1 sg       6012        14546 Jul  9  2018 Configuration.php
+drwxrwxr-x   3 sg       6012          202 Mar 26  2018 Core
+drwxrwxr-x   3 sg       6012          194 Mar 26  2018 Driver
+-rw-r--r--   1 sg       6012        26718 Jul  9  2018 Factory.php
+drwxrwxr-x   3 sg       6012         4096 Mar 26  2018 Filter
+drwxrwxr-x   3 sg       6012           68 Mar 26  2018 Platform
+-rw-r--r--   1 sg       6012         8948 Jul  9  2018 Platform.php
+drwxrwxr-x   2 sg       6012          100 Mar 26  2018 Postproc
+drwxrwxr-x   3 sg       6012           17 Mar 26  2018 Psr
+drwxrwxr-x   2 sg       6012           56 Mar 26  2018 Scan
+drwxrwxr-x   5 sg       6012         4096 Mar 26  2018 Util

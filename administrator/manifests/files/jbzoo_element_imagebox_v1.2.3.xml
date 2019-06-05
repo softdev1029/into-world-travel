@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+    @coder       Sergey Kalistratov <kalistratov.s.m@gmail.com>
+-->
+<extension type="file" version="2.5" method="upgrade">
+    <version>1.0</version>
+    <author>JBZoo App</author>
+    <name>JBZoo element imagebox</name>
+    <authorUrl>http://jbzoo.com</authorUrl>
+    <creationDate>2015</creationDate>
+    <description>JBZoo element imagebox</description>
+    <authorEmail>kalistratov.s.m@gmail.com</authorEmail>
+    <copyright>Copyright (C) JBZoo.com,  All rights reserved.</copyright>
+    <license>http://jbzoo.com/license-pro.php JBZoo Licence</license>
+    <fileset>
+        <files target="media/zoo/applications/jbuniversal/elements/">
+            <folder>imagebox</folder>
+        </files>
+        <files target="media/zoo/applications/jbuniversal/framework/render/filter/">
+            <file>element.imagebox.php</file>
+        </files>
+        <files target="media/zoo/applications/jbuniversal/config/mod_jbzoo_search/">
+            <file>imagebox.xml</file>
+        </files>
+    </fileset>
+</extension>

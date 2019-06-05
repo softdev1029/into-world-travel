@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="2.5.6" zlfw="3.1">
+	<name>ZOOseo</name>
+	<author>ZOOlanders</author>
+	<creationDate>July 2013</creationDate>
+	<copyright>Copyright (C) JOOlanders SL</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html  GNU/GPLv2 only</license>
+	<authorEmail>info@zoolanders.com</authorEmail>
+	<authorUrl>http://www.zoolanders.com</authorUrl>
+	<version>3.3.2</version>
+	<description>PLG_ZOOSEO_SYS_DESCRIPTION</description>
+	<scriptfile>install.script.php</scriptfile>
+	<files>
+		<filename plugin="zooseo">zooseo.php</filename>
+		<filename>install.script.php</filename>
+		<filename>CHANGELOG.md</filename>
+		<folder>renderer</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_zooseo.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_zooseo.sys.ini</language>
+    </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="use_category_path" type="radio" description="PLG_ZOOSEO_CATEGORY_PATH_URL_DESC" label="PLG_ZOOSEO_CATEGORY_PATH_URL" default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="remove_item" type="radio" description="PLG_ZOOSEO_REMOVE_ITEM_DESC" label="PLG_ZOOSEO_REMOVE_ITEM" default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="remove_category" type="radio" description="PLG_ZOOSEO_REMOVE_CATEGORY_DESC" label="PLG_ZOOSEO_REMOVE_CATEGORY" default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="redirect_old_urls" type="radio" description="PLG_ZOOSEO_REDIRECT_OLD_URLS_DESC" label="PLG_ZOOSEO_REDIRECT_OLD_URLS" default="1">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="alias_priority" type="radio" description="PLG_ZOOSEO_ALIAS_PRIORITY_DESC" label="PLG_ZOOSEO_ALIAS_PRIORITY" default="item">
+					<option value="item">PLG_ZOOSEO_ITEM</option>
+					<option value="category">PLG_ZOOSEO_CATEGORY</option>
+				</field>
+				<field name="override_item_metadata" type="radio" description="PLG_ZOOSEO_OVERRIDE_ITEM_METADATA_DESC" label="PLG_ZOOSEO_OVERRIDE_ITEM_METADATA" default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="override_category_metadata" type="radio" description="PLG_ZOOSEO_OVERRIDE_CATEGORY_METADATA_DESC" label="PLG_ZOOSEO_OVERRIDE_CATEGORY_METADATA" default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="event" type="radio" description="PLG_ZOOSEO_EVENT_DESC" label="PLG_ZOOSEO_EVENT" default="saved">
+					<option value="none">PLG_ZOOSEO_EVENT_DISABLED</option>
+					<option value="saved">PLG_ZOOSEO_EVENT_SAVED</option>
+					<option value="init">PLG_ZOOSEO_EVENT_INIT</option>
+				</field>
+				<field name="category_event" type="radio" description="PLG_ZOOSEO_EVENT_CATEGORY_DESC" label="PLG_ZOOSEO_EVENT_CATEGORY" default="saved">
+					<option value="none">PLG_ZOOSEO_EVENT_DISABLED</option>
+					<option value="saved">PLG_ZOOSEO_EVENT_SAVED</option>
+					<option value="init">PLG_ZOOSEO_EVENT_INIT</option>
+				</field>
+				<field name="separator" type="text" description="PLG_ZOOSEO_SEPARATOR_DESC" label="PLG_ZOOSEO_SEPARATOR">
+				</field>
+				<field name="category_separator" type="text" description="PLG_ZOOSEO_SEPARATOR_DESC" label="PLG_ZOOSEO_CATEGORY_SEPARATOR">
+				</field>
+				<field name="category_metatitle" type="list" multiple="multiple" label="PLG_ZOOSEO_CATEGORY_METATITLE" description="PLG_ZOOSEO_CATEGORY_METATITLE" default="name">
+					<option value="name">PLG_ZOOSEO_TITLE</option>
+					<option value="alias">PLG_ZOOSEO_ALIAS</option>
+					<option value="description">PLG_ZOOSEO_DESCRIPTION</option>
+					<option value="teaser_description">PLG_ZOOSEO_TEASER_DESCRIPTION</option>
+				</field>
+				<field name="category_metadescription" type="list" multiple="multiple" label="PLG_ZOOSEO_CATEGORY_METADESCRIPTION" description="PLG_ZOOSEO_CATEGORY_METADESCRIPTION_DESC" default="teaser_description">
+				<option value="name">PLG_ZOOSEO_TITLE</option>
+				<option value="alias">PLG_ZOOSEO_ALIAS</option>
+					<option value="description">PLG_ZOOSEO_DESCRIPTION</option>
+					<option value="teaser_description">PLG_ZOOSEO_TEASER_DESCRIPTION</option>
+				</field>
+				<field name="category_keywords" type="list" multiple="multiple" label="PLG_ZOOSEO_CATEGORY_KEYWORDS" description="PLG_ZOOSEO_CATEGORY_KEYWORDS_DESC" default="name">
+					<option value="name">PLG_ZOOSEO_TITLE</option>
+					<option value="alias">PLG_ZOOSEO_ALIAS</option>
+					<option value="description">PLG_ZOOSEO_DESCRIPTION</option>
+					<option value="teaser_description">PLG_ZOOSEO_TEASER_DESCRIPTION</option>
+				</field>
+				<field name="category_author" type="list" multiple="multiple" label="PLG_ZOOSEO_CATEGORY_AUTHOR" description="PLG_ZOOSEO_CATEGORY_AUTHOR_DESC" default="">
+					<option value="name">PLG_ZOOSEO_TITLE</option>
+					<option value="alias">PLG_ZOOSEO_ALIAS</option>
+					<option value="description">PLG_ZOOSEO_DESCRIPTION</option>
+					<option value="teaser_description">PLG_ZOOSEO_TEASER_DESCRIPTION</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

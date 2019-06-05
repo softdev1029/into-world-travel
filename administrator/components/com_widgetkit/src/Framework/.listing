@@ -1,0 +1,9 @@
+drwxrwxr-x   5 sg       6012          122 Mar 26  2018 .
+drwxrwxr-x   8 sg       6012          160 Mar 26  2018 ..
+drwxrwxr-x   8 sg       6012          110 Mar 26  2018 assets
+-rw-r--r--   1 sg       6012          248 Jul  9  2018 bower.json
+-rw-r--r--   1 sg       6012         3329 Jul  9  2018 CHANGELOG.md
+-rw-r--r--   1 sg       6012          508 Jul  9  2018 composer.json
+drwxrwxr-x   7 sg       6012           72 Mar 26  2018 plugins
+-rw-r--r--   1 sg       6012          186 Jul  9  2018 README.md
+drwxrwxr-x  13 sg       6012          235 Mar 26  2018 src

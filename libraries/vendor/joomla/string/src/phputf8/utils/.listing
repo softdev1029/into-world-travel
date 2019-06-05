@@ -1,0 +1,9 @@
+drwxr-xr-x   2 sg       6012          139 Mar 26  2018 .
+drwxr-xr-x   5 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         8475 Jun 26  2018 ascii.php
+-rw-r--r--   1 sg       6012        13768 Jun 26  2018 bad.php
+-rw-r--r--   1 sg       6012         2882 Jun 26  2018 patterns.php
+-rw-r--r--   1 sg       6012         5109 Jun 26  2018 position.php
+-rw-r--r--   1 sg       6012         6978 Jun 26  2018 specials.php
+-rw-r--r--   1 sg       6012         9250 Jun 26  2018 unicode.php
+-rw-r--r--   1 sg       6012         6543 Jun 26  2018 validation.php

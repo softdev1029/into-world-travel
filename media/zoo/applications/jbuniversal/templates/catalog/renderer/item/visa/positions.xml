@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+-->
+<renderer>
+    <positions layout="feed">
+        <position name="description">Description</position>
+    </positions>
+
+    <positions layout="full">
+        <position name="hb">HeaderBanner</position>
+        <position name="hbtext">Header Text</position>
+        <position name="hbw">Header Who Book</position>
+        <position name="db">Disable button</position>
+        <position name="title">Title</position>
+                <position name="alttitle">altTitle</position>
+        <position name="code">Code</position>
+        <position name="lux">Lux</position>
+        <position name="subtitle">Subitle</position>
+                <position name="subtitle2">Subitle2</position>
+        <position name="content">Content</position>
+        <position name="testm">testm</position>
+        <position name="advb">Advb</position>
+        <position name="tab1name">Tab1: Name</position>
+<position name="tab1content">Tab1: Content</position>
+<position name="tab1banner">Tab1: Banner</position>
+<position name="tab1modul">Tab1: Modul</position>
+<position name="tab1gallery">Tab1: Gallery</position>
+        <position name="tab2name">Tab2: Name</position>
+<position name="tab2content">Tab2: Content</position>
+
+        <position name="tab3name">Tab3: Name</position>
+<position name="tab3content">Tab3: Content</position>
+
+        <position name="tab4name">Tab4: Name</position>
+<position name="tab4content">Tab4: Content</position>
+<position name="tab4banner">Tab4: Banner</position>
+<position name="tab4modul">Tab4: Modul</position>
+<position name="tab4price">Tab4: Price</position>
+
+        <position name="tab5name">Tab5: Name</position>
+        <position name="tab5content">Tab5: Content</position>
+
+        <position name="tab6name">Tab6: Name</position>
+        <position name="tab6content">Tab6: Content</position>
+
+        <position name="tab7name">Tab7: Name</position>
+        <position name="tab7content">Tab7: Content</position>
+    </positions>
+
+    <positions layout="teaser">
+        <position name="title">Title</position>
+        <position name="title2">Title2</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+<position name="lux">Lux</position>
+        <position name="text">Text</position>
+        <position name="text2">Text2</position>
+        <position name="buttons">Buttons</position>
+        <position name="quick-view">Quick view</position>
+    </positions>
+
+    <positions layout="related">
+        <position name="title">Title</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+    </positions>
+
+    <positions layout="subcategory_item">
+        <position name="title">Title</position>
+                <position name="title2">Title2</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+                <position name="link">Link</position>
+    </positions>
+
+    <positions layout="submission">
+        <position name="content">Content</position>
+        <position name="media">Media</position>
+        <position name="meta">Meta</position>
+        <position name="administration">Administration</position>
+    </positions>
+
+    <positions layout="compare">
+        <position name="fields">Fields</position>
+    </positions>
+
+    <positions layout="favorite">
+        <position name="title">Title</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="price">Price</position>
+    </positions>
+
+    <positions layout="ymlexport">
+        <position name="title">Title</position>
+        <position name="price">Price</position>
+        <position name="properties">Properties</position>
+        <position name="image">Image</position>
+        <position name="description">Description</position>
+        <position name="vendor">Vendor</position>
+        <position name="country_of_origin">Country of origin</position>
+    </positions>
+
+    <positions layout="edit">
+        <position name="content">Content</position>
+        <position name="media">Media</position>
+        <position name="meta">Meta</position>
+        <position name="administration">Administration</position>
+    </positions>
+
+    <positions layout="quickview">
+        <position name="top">Top</position>
+        <position name="title">Title</position>
+        <position name="price">Price</position>
+        <position name="image">Image</position>
+        <position name="description">Description</position>
+        <position name="properties">Properties</position>
+        <position name="bottom">Bottom</position>
+        <position name="related">Related</position>
+    </positions>
+
+</renderer>

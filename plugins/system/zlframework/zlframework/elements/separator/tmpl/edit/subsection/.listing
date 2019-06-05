@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012           79 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012           80 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          636 Jul 19  2018 params.php
+-rw-r--r--   1 sg       6012         1400 Jul 19  2018 script.js
+-rw-r--r--   1 sg       6012         1580 Jul 19  2018 script.min.js
+-rw-r--r--   1 sg       6012          352 Jul 19  2018 style.css

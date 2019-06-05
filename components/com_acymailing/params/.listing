@@ -1,0 +1,15 @@
+drwxrwxr-x   2 sg       6012          281 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012          136 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         5621 Jul  9  2018 birthday.xml
+-rw-r--r--   1 sg       6012         2017 Jul  9  2018 customfields.php
+-rw-r--r--   1 sg       6012         1776 Jul  9  2018 customtemplate.php
+-rw-r--r--   1 sg       6012         1590 Jul  9  2018 help.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         1386 Jul  9  2018 listid.php
+-rw-r--r--   1 sg       6012         1996 Jul  9  2018 lists.php
+-rw-r--r--   1 sg       6012         1941 Jul  9  2018 newsletters.php
+-rw-r--r--   1 sg       6012         1771 Jul  9  2018 pluginsfield.php
+-rw-r--r--   1 sg       6012          249 Jul  9  2018 tagcontenttags.xml
+-rw-r--r--   1 sg       6012         2678 Jul  9  2018 termscontent.php
+-rw-r--r--   1 sg       6012         1535 Jul  9  2018 testplug.php
+-rw-r--r--   1 sg       6012         1509 Jul  9  2018 vmfield.php

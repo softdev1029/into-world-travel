@@ -1,0 +1,9 @@
+drwxrwxr-x   3 sg       6012          158 Mar 26  2018 .
+drwxr-xr-x  16 sg       6012          222 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         1728 Jul  9  2018 helper.php
+drwxrwxr-x   3 sg       6012           19 Mar 26  2018 language
+-rw-r--r--   1 sg       6012         5946 Jul  9  2018 popup.php
+-rw-r--r--   1 sg       6012        17401 Jul  9  2018 script.install.helper.php
+-rw-r--r--   1 sg       6012          757 Jul  9  2018 script.install.php
+-rw-r--r--   1 sg       6012         1571 Jul  9  2018 sourcerer.php
+-rw-r--r--   1 sg       6012         1699 Jul  9  2018 sourcerer.xml

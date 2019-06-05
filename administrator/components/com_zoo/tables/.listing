@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          121 Mar 26  2018 .
+drwxrwxr-x  15 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3421 Jul  9  2018 application.php
+-rw-r--r--   1 sg       6012         8622 Jul  9  2018 category.php
+-rw-r--r--   1 sg       6012         5564 Jul  9  2018 comment.php
+-rw-r--r--   1 sg       6012        24958 Jul  9  2018 item.php
+-rw-r--r--   1 sg       6012         1652 Jul  9  2018 submission.php
+-rw-r--r--   1 sg       6012         5732 Jul  9  2018 tag.php

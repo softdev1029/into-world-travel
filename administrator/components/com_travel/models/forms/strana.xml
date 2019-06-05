@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <form>
+	<fieldset name='form' addfieldpath="/administrator/components/com_travel/models/fields"> 
+	
+    	 
+        	 
+
+   
+ 
+<field name="country_title" type="text"
+			default=""
+            readonly = "true"
+            label="Country"
+            description="title"
+            
+		    />
+<field name="proc_strana" type="text"
+			default=""
+            label="Mark-up in percentage or amount (10% or 10)"
+            description="alias"
+            
+		    />
+ 
+
+    <field name="id" type="hidden"
+			default=""
+            label="id"
+            description="id"
+            
+		    />
+    </fieldset>
+   
+</form>

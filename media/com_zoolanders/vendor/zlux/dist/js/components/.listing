@@ -1,0 +1,14 @@
+drwxr-xr-x   2 sg       6012          276 Jul 19  2018 .
+drwxr-xr-x   3 sg       6012           58 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         5946 Jul 19  2018 calendar.js
+-rw-r--r--   1 sg       6012         2412 Jul 19  2018 calendar.min.js
+-rw-r--r--   1 sg       6012         7553 Jul 19  2018 datatables.js
+-rw-r--r--   1 sg       6012         3433 Jul 19  2018 datatables.min.js
+-rw-r--r--   1 sg       6012        21685 Jul 19  2018 manager-files.js
+-rw-r--r--   1 sg       6012         6320 Jul 19  2018 manager-files.min.js
+-rw-r--r--   1 sg       6012        10347 Jul 19  2018 manager-items.js
+-rw-r--r--   1 sg       6012         3281 Jul 19  2018 manager-items.min.js
+-rw-r--r--   1 sg       6012        13493 Jul 19  2018 manager.js
+-rw-r--r--   1 sg       6012         6530 Jul 19  2018 manager.min.js
+-rw-r--r--   1 sg       6012         1711 Jul 19  2018 notify.js
+-rw-r--r--   1 sg       6012          904 Jul 19  2018 notify.min.js

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+    <name>Tag Meta Community</name>
+    <author>selfget.com</author>
+    <creationDate>September 2017</creationDate>
+    <copyright>Copyright (C) 2009 - 2017 selfget.com</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>info@selfget.com</authorEmail>
+    <authorUrl>http://www.selfget.com</authorUrl>
+    <packagename>tagmeta</packagename>
+    <version>1.9.0</version>
+    <url>http://www.selfget.com</url>
+    <packager>selfget.com</packager>
+    <packagerurl>http://www.selfget.com</packagerurl>
+    <description>Tag Meta Community package</description>
+    <updateservers>
+        <server type="extension" priority="1" name="Tag Meta Community">http://www.selfget.com/updates/tagmeta_community.xml</server>
+    </updateservers>
+    <files folder="packages">
+        <file type="component" id="com_tagmeta">com_tagmeta.zip</file>
+        <file type="plugin" id="tagmeta" group="system">plg_sys_tagmeta.zip</file>
+    </files>
+</extension>

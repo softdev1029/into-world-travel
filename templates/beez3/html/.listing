@@ -1,0 +1,11 @@
+drwxr-xr-x  10 sg       6012          180 Mar 26  2018 .
+drwxr-xr-x   7 sg       6012          257 Mar 26  2018 ..
+drwxr-xr-x   5 sg       6012           55 Mar 26  2018 com_contact
+drwxr-xr-x   8 sg       6012           98 Mar 26  2018 com_content
+drwxr-xr-x   4 sg       6012           40 Mar 26  2018 com_newsfeeds
+drwxr-xr-x   5 sg       6012           52 Mar 26  2018 com_weblinks
+drwxr-xr-x   3 sg       6012           20 Mar 26  2018 layouts
+drwxr-xr-x   2 sg       6012           25 Mar 26  2018 mod_breadcrumbs
+drwxr-xr-x   2 sg       6012           25 Mar 26  2018 mod_languages
+drwxr-xr-x   2 sg       6012           51 Mar 26  2018 mod_login
+-rw-r--r--   1 sg       6012         3599 Jun 26  2018 modules.php

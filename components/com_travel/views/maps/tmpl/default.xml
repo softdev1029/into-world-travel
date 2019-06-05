@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<layout title="Карта">
+		<message>Карта</message>
+    </layout>
+    <fields name="request">
+  <fieldset name='request' addfieldpath="/administrator/components/com_travel/models/fields"> 
+                                   
+                        
+        </fieldset>
+	</fields>
+</metadata>

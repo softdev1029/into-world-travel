@@ -1,0 +1,7 @@
+drwxrwxr-x   3 sg       6012          103 Mar 26  2018 .
+drwxrwxr-x  19 sg       6012          302 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+drwxrwxr-x   2 sg       6012          152 Mar 26  2018 tmpl
+-rw-r--r--   1 sg       6012        16863 Jul 19  2018 view.html.full.php
+-rw-r--r--   1 sg       6012          542 Jul 19  2018 view.html.php
+-rw-r--r--   1 sg       6012          868 Jul 19  2018 view.raw.php

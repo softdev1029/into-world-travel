@@ -1,0 +1,11 @@
+drwxr-xr-x   4 sg       6012          199 Jul  9  2018 .
+drwxr-xr-x  52 sg       6012         4096 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         4701 Jun 26  2018 Associations.php
+-rw-r--r--   1 sg       6012        15677 Jun 26  2018 LanguageHelper.php
+-rw-r--r--   1 sg       6012        31041 Jun 26  2018 Language.php
+-rw-r--r--   1 sg       6012         1746 Jun 26  2018 LanguageStemmer.php
+-rw-r--r--   1 sg       6012         2770 Jun 26  2018 Multilanguage.php
+drwxr-xr-x   2 sg       6012           26 Jul  9  2018 Stemmer
+-rw-r--r--   1 sg       6012        11769 Jun 26  2018 Text.php
+-rw-r--r--   1 sg       6012         5087 Jun 26  2018 Transliterate.php
+drwxr-xr-x   2 sg       6012           95 Jul  9  2018 Wrapper

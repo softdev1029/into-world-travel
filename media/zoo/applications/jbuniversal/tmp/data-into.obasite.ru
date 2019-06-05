@@ -1,0 +1,1 @@
+a:8:{s:6:"status";s:2:"ok";s:14:"update_message";s:0:"";s:9:"changelog";s:0:"";s:6:"domain";s:40:"aa8ca41f680891280e450bf4afcced436db89d43";s:7:"licence";i:1;s:7:"expired";i:0;s:4:"hash";s:40:"eccc6fa30fe33f773bf7d6a2d030a89e99d68dff";s:10:"_timestamp";i:1459927575;}

@@ -1,0 +1,12 @@
+drwxrwxr-x   8 sg       6012          199 Mar 26  2018 .
+drwxrwxr-x  12 sg       6012          181 Mar 26  2018 ..
+drwxrwxr-x   7 sg       6012           80 Mar 26  2018 assets
+drwxrwxr-x   2 sg       6012           58 Mar 26  2018 managerdates
+drwxrwxr-x   2 sg       6012           58 Mar 26  2018 managerdialog
+drwxrwxr-x   4 sg       6012          127 Mar 26  2018 managerfields
+drwxrwxr-x   2 sg       6012           58 Mar 26  2018 managerfiles
+drwxrwxr-x   2 sg       6012           58 Mar 26  2018 manageritems
+-rw-r--r--   1 sg       6012         5361 Jul 19  2018 zlux.less
+-rw-r--r--   1 sg       6012         3075 Jul 19  2018 zluxMain.css
+-rw-r--r--   1 sg       6012        10395 Jul 19  2018 zluxMain.js
+-rw-r--r--   1 sg       6012         3023 Jul 19  2018 zluxMain.less

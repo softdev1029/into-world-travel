@@ -1,0 +1,7 @@
+drwxrwxr-x   3 sg       6012          130 Mar 26  2018 .
+drwxrwxr-x   9 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3069 Jul  9  2018 AccountInformation.php
+-rw-r--r--   1 sg       6012         2630 Jul  9  2018 BucketInformation.php
+drwxrwxr-x   2 sg       6012          118 Mar 26  2018 Exception
+-rw-r--r--   1 sg       6012         2651 Jul  9  2018 FileInformation.php
+-rw-r--r--   1 sg       6012         2477 Jul  9  2018 UploadURL.php

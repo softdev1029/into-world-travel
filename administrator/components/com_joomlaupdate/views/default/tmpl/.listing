@@ -1,0 +1,10 @@
+drwxr-xr-x   2 sg       6012          208 Jul  9  2018 .
+drwxr-xr-x   3 sg       6012           39 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          721 Jun 26  2018 complete.php
+-rw-r--r--   1 sg       6012          573 Jun 26  2018 default_nodownload.php
+-rw-r--r--   1 sg       6012         3202 Jun 26  2018 default.php
+-rw-r--r--   1 sg       6012         3399 Jun 26  2018 default_reinstall.php
+-rw-r--r--   1 sg       6012          542 Jun 26  2018 default_updatemefirst.php
+-rw-r--r--   1 sg       6012         3378 Jun 26  2018 default_update.php
+-rw-r--r--   1 sg       6012         5300 Jun 26  2018 default_upload.php
+-rw-r--r--   1 sg       6012          218 Jun 26  2018 default.xml

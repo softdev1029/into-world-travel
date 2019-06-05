@@ -1,0 +1,7 @@
+drwxrwxr-x   3 sg       6012          108 Mar 26  2018 .
+drwxr-xr-x   8 sg       6012          101 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          558 Jul  9  2018 changelog.php
+-rw-r--r--   1 sg       6012          872 Jul  9  2018 file.script.php
+drwxrwxr-x   3 sg       6012           18 Mar 26  2018 renderer
+-rw-r--r--   1 sg       6012         6560 Jul  9  2018 zoosearch.php
+-rw-r--r--   1 sg       6012         1377 Jul  9  2018 zoosearch.xml

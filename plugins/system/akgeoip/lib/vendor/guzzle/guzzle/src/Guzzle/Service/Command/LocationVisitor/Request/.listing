@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012          278 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012           65 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2302 Jul  9  2018 AbstractRequestVisitor.php
+-rw-r--r--   1 sg       6012         2479 Jul  9  2018 BodyVisitor.php
+-rw-r--r--   1 sg       6012         1529 Jul  9  2018 HeaderVisitor.php
+-rw-r--r--   1 sg       6012         2024 Jul  9  2018 JsonVisitor.php
+-rw-r--r--   1 sg       6012          525 Jul  9  2018 PostFieldVisitor.php
+-rw-r--r--   1 sg       6012          702 Jul  9  2018 PostFileVisitor.php
+-rw-r--r--   1 sg       6012          536 Jul  9  2018 QueryVisitor.php
+-rw-r--r--   1 sg       6012         1079 Jul  9  2018 RequestVisitorInterface.php
+-rw-r--r--   1 sg       6012          499 Jul  9  2018 ResponseBodyVisitor.php
+-rw-r--r--   1 sg       6012         8099 Jul  9  2018 XmlVisitor.php

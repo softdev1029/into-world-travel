@@ -1,0 +1,15 @@
+drwxr-xr-x   2 sg       6012          264 Sep 18  2018 .
+drwxr-xr-x  15 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         9548 Sep 18  2018 APC.php
+-rw-r--r--   1 sg       6012        10594 Sep 18  2018 CacheBase.php
+-rw-r--r--   1 sg       6012         6776 Sep 18  2018 DiscISAM.php
+-rw-r--r--   1 sg       6012         3484 Sep 18  2018 ICache.php
+-rw-r--r--   1 sg       6012         4862 Sep 18  2018 Igbinary.php
+-rw-r--r--   1 sg       6012        10709 Sep 18  2018 Memcache.php
+-rw-r--r--   1 sg       6012         4333 Sep 18  2018 MemoryGZip.php
+-rw-r--r--   1 sg       6012         3800 Sep 18  2018 Memory.php
+-rw-r--r--   1 sg       6012         4319 Sep 18  2018 MemorySerialized.php
+-rw-r--r--   1 sg       6012         6451 Sep 18  2018 PHPTemp.php
+-rw-r--r--   1 sg       6012        11230 Sep 18  2018 SQLite3.php
+-rw-r--r--   1 sg       6012        10363 Sep 18  2018 SQLite.php
+-rw-r--r--   1 sg       6012         9945 Sep 18  2018 Wincache.php

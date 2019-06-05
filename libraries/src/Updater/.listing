@@ -1,0 +1,7 @@
+drwxr-xr-x   3 sg       6012          109 Jul  9  2018 .
+drwxr-xr-x  52 sg       6012         4096 Jul  9  2018 ..
+drwxr-xr-x   2 sg       6012           63 Jul  9  2018 Adapter
+-rw-r--r--   1 sg       6012         1493 Jun 26  2018 DownloadSource.php
+-rw-r--r--   1 sg       6012         7465 Jun 26  2018 UpdateAdapter.php
+-rw-r--r--   1 sg       6012        12571 Jun 26  2018 Update.php
+-rw-r--r--   1 sg       6012        11388 Jun 26  2018 Updater.php

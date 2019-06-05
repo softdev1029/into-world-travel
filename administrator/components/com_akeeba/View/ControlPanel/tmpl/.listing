@@ -1,0 +1,14 @@
+drwxrwxr-x   2 sg       6012          298 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           34 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2091 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012         1086 Jul  9  2018 footer.php
+-rw-r--r--   1 sg       6012         1640 Jul  9  2018 icons_advanced.php
+-rw-r--r--   1 sg       6012         2016 Jul  9  2018 icons_basic.php
+-rw-r--r--   1 sg       6012         2133 Jul  9  2018 icons_includeexclude.php
+-rw-r--r--   1 sg       6012         1177 Jul  9  2018 icons_troubleshooting.php
+-rw-r--r--   1 sg       6012         1013 Jul  9  2018 oneclick.php
+-rw-r--r--   1 sg       6012         1513 Jul  9  2018 profile.php
+-rw-r--r--   1 sg       6012          521 Jul  9  2018 sidebar_backup.php
+-rw-r--r--   1 sg       6012         2435 Jul  9  2018 sidebar_status.php
+-rw-r--r--   1 sg       6012         1061 Jul  9  2018 warning_phpversion.php
+-rw-r--r--   1 sg       6012         5461 Jul  9  2018 warnings.php

@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012          106 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           35 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          704 Jul  9  2018 vue-config.js
+-rw-r--r--   1 sg       6012          704 Jul  9  2018 vue-config.min.js
+-rw-r--r--   1 sg       6012         4464 Jul  9  2018 vue-translator.js
+-rw-r--r--   1 sg       6012         4393 Jul  9  2018 vue-translator.min.js

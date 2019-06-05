@@ -1,0 +1,4 @@
+drwxrwxr-x   2 sg       6012           61 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          235 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          389 Jul  9  2018 LocatorInterface.php
+-rw-r--r--   1 sg       6012         1790 Jul  9  2018 ResourceLocator.php

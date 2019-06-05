@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          178 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012          186 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1225 Jul  9  2018 BaseFactory.php
+-rw-r--r--   1 sg       6012         2181 Jul  9  2018 ControllerFactory.php
+-rw-r--r--   1 sg       6012         1164 Jul  9  2018 DispatcherFactory.php
+-rw-r--r--   1 sg       6012         2911 Jul  9  2018 ModelFactory.php
+-rw-r--r--   1 sg       6012         1258 Jul  9  2018 TransparentAuthenticationFactory.php
+-rw-r--r--   1 sg       6012         2083 Jul  9  2018 ViewFactory.php

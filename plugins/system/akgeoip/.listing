@@ -1,0 +1,6 @@
+drwxrwxr-x   4 sg       6012           65 Mar 26  2018 .
+drwxr-xr-x  67 sg       6012         4096 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         1377 Jul  9  2018 akgeoip.php
+-rw-r--r--   1 sg       6012         1091 Jul  9  2018 akgeoip.xml
+drwxrwxr-x   2 sg       6012           35 Mar 26  2018 db
+drwxrwxr-x   3 sg       6012          124 Mar 26  2018 lib

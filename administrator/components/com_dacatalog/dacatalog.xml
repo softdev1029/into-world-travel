@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>DaCatalog</name>
+	<creationDate>07.12.2016</creationDate>
+	<version>1.0</version>
+	<author>Звонов Ярослав</author>
+	<authorEmail>darkastral@ya.ru</authorEmail>
+	<description>Компонент каталога</description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>index.html</filename>
+	</files>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>DaCatalog</menu>
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+		<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>dacatalog.php</filename>
+			<filename>controller.php</filename>
+			
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+			
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin/language/ru-RU">
+			<language tag="ru-RU">ru-RU.com_dacatalog.sys.ini</language>
+			<language tag="ru-RU">ru-RU.com_dacatalog.ini</language>
+		</languages>		
+	</administration>
+</extension>

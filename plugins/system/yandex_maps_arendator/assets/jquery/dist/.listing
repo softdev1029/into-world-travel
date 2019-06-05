@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          156 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012          118 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        11835 Jul  9  2018 core.js
+-rw-r--r--   1 sg       6012       273305 Jul  9  2018 jquery.js
+-rw-r--r--   1 sg       6012        86345 Jul  9  2018 jquery.min.js
+-rw-r--r--   1 sg       6012       131171 Jul  9  2018 jquery.min.map
+-rw-r--r--   1 sg       6012       218111 Jul  9  2018 jquery.slim.js
+-rw-r--r--   1 sg       6012        68928 Jul  9  2018 jquery.slim.min.js
+-rw-r--r--   1 sg       6012       103496 Jul  9  2018 jquery.slim.min.map

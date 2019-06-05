@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012          217 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           34 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         4492 Jul  9  2018 activefiltering.php
+-rw-r--r--   1 sg       6012         5080 Jul  9  2018 base.php
+-rw-r--r--   1 sg       6012         1490 Jul  9  2018 custom.php
+-rw-r--r--   1 sg       6012         5123 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012         1485 Jul  9  2018 exceptions.php
+-rw-r--r--   1 sg       6012         3480 Jul  9  2018 fingerprinting.php
+-rw-r--r--   1 sg       6012         5254 Jul  9  2018 jhardening.php
+-rw-r--r--   1 sg       6012         6400 Jul  9  2018 logging.php
+-rw-r--r--   1 sg       6012         3120 Jul  9  2018 projecthoneypot.php
+-rw-r--r--   1 sg       6012         4832 Jul  9  2018 tsr.php

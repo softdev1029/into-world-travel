@@ -1,0 +1,10 @@
+drwxrwxr-x   2 sg       6012          203 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           42 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          148 Jul  9  2018 autoload_classmap.php
+-rw-r--r--   1 sg       6012          150 Jul  9  2018 autoload_namespaces.php
+-rw-r--r--   1 sg       6012          206 Jul  9  2018 autoload_psr4.php
+-rw-r--r--   1 sg       6012         1446 Jul  9  2018 autoload_real.php
+-rw-r--r--   1 sg       6012          752 Jul  9  2018 autoload_static.php
+-rw-r--r--   1 sg       6012        10770 Jul  9  2018 ClassLoader.php
+-rw-r--r--   1 sg       6012            3 Jul  9  2018 installed.json
+-rw-r--r--   1 sg       6012         1075 Jul  9  2018 LICENSE

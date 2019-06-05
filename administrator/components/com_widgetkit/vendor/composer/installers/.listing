@@ -1,0 +1,8 @@
+drwxrwxr-x   4 sg       6012          107 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012          221 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1971 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012         1062 Jul  9  2018 LICENSE
+-rw-r--r--   1 sg       6012          704 Jul  9  2018 phpunit.xml.dist
+-rw-r--r--   1 sg       6012         9257 Jul  9  2018 README.md
+drwxrwxr-x   3 sg       6012           43 Mar 26  2018 src
+drwxrwxr-x   3 sg       6012           43 Mar 26  2018 tests

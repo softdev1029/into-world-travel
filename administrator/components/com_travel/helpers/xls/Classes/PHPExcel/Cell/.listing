@@ -1,0 +1,8 @@
+drwxr-xr-x   2 sg       6012          158 Sep 18  2018 .
+drwxr-xr-x  15 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         8787 Sep 18  2018 AdvancedValueBinder.php
+-rw-r--r--   1 sg       6012         3382 Sep 18  2018 DataType.php
+-rw-r--r--   1 sg       6012        10310 Sep 18  2018 DataValidation.php
+-rw-r--r--   1 sg       6012         3881 Sep 18  2018 DefaultValueBinder.php
+-rw-r--r--   1 sg       6012         2838 Sep 18  2018 Hyperlink.php
+-rw-r--r--   1 sg       6012         1550 Sep 18  2018 IValueBinder.php

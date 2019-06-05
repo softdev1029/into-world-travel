@@ -1,0 +1,6 @@
+drwxr-xr-x   3 sg       6012           90 Mar 26  2018 .
+drwxr-xr-x   6 sg       6012          167 Jul 19  2018 ..
+drwxr-xr-x   2 sg       6012           27 Mar 26  2018 html
+-rw-r--r--   1 sg       6012         2752 Jun 26  2018 jsonresponse.php
+-rw-r--r--   1 sg       6012         3155 Jun 26  2018 languages.php
+-rw-r--r--   1 sg       6012         8164 Jun 26  2018 multilangstatus.php

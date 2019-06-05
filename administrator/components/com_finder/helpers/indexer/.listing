@@ -1,0 +1,14 @@
+drwxr-xr-x   5 sg       6012          214 Mar 26  2018 .
+drwxr-xr-x   4 sg       6012           71 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        22017 Jun 26  2018 adapter.php
+drwxr-xr-x   2 sg       6012           63 Mar 26  2018 driver
+-rw-r--r--   1 sg       6012        14332 Jun 26  2018 helper.php
+-rw-r--r--   1 sg       6012        14439 Jun 26  2018 indexer.php
+drwxr-xr-x   2 sg       6012           52 Mar 26  2018 parser
+-rw-r--r--   1 sg       6012         3036 Jun 26  2018 parser.php
+-rw-r--r--   1 sg       6012        35869 Jun 26  2018 query.php
+-rw-r--r--   1 sg       6012         8746 Jun 26  2018 result.php
+drwxr-xr-x   2 sg       6012           61 Mar 26  2018 stemmer
+-rw-r--r--   1 sg       6012         1923 Jun 26  2018 stemmer.php
+-rw-r--r--   1 sg       6012        10092 Jun 26  2018 taxonomy.php
+-rw-r--r--   1 sg       6012         3707 Jun 26  2018 token.php

@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012          276 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          160 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          288 Jul  9  2018 AbstractLogAdapter.php
+-rw-r--r--   1 sg       6012          615 Jul  9  2018 ArrayLogAdapter.php
+-rw-r--r--   1 sg       6012          583 Jul  9  2018 ClosureLogAdapter.php
+-rw-r--r--   1 sg       6012          672 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012          491 Jul  9  2018 LogAdapterInterface.php
+-rw-r--r--   1 sg       6012         7119 Jul  9  2018 MessageFormatter.php
+-rw-r--r--   1 sg       6012          739 Jul  9  2018 MonologLogAdapter.php
+-rw-r--r--   1 sg       6012          862 Jul  9  2018 PsrLogAdapter.php
+-rw-r--r--   1 sg       6012          493 Jul  9  2018 Zf1LogAdapter.php
+-rw-r--r--   1 sg       6012          393 Jul  9  2018 Zf2LogAdapter.php

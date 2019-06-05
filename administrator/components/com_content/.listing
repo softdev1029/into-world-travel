@@ -1,0 +1,12 @@
+drwxr-xr-x   7 sg       6012          177 Mar 26  2018 .
+drwxr-xr-x  50 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         3135 Jun 26  2018 access.xml
+-rw-r--r--   1 sg       6012        28065 Jun 26  2018 config.xml
+-rw-r--r--   1 sg       6012          682 Jun 26  2018 content.php
+-rw-r--r--   1 sg       6012         1415 Jun 26  2018 content.xml
+-rw-r--r--   1 sg       6012         1530 Jun 26  2018 controller.php
+drwxr-xr-x   2 sg       6012           65 Mar 26  2018 controllers
+drwxr-xr-x   3 sg       6012           61 Jul  9  2018 helpers
+drwxr-xr-x   4 sg       6012          111 Mar 26  2018 models
+drwxr-xr-x   2 sg       6012           26 Mar 26  2018 tables
+drwxr-xr-x   5 sg       6012           53 Mar 26  2018 views

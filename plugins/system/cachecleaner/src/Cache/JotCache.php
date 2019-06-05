@@ -1,0 +1,36 @@
+<?php
+/**
+ * @package         Cache Cleaner
+ * @version         6.0.1PRO
+ * 
+ * @author          Peter van Westen <info@regularlabs.com>
+ * @link            http://www.regularlabs.com
+ * @copyright       Copyright © 2017 Regular Labs All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+namespace RegularLabs\CacheCleaner\Cache;
+
+defined('_JEXEC') or die;
+
+
+use JFile;
+use JotCacheMainModelMain;
+
+class JotCache extends Cache
+{
+	public static function purge()
+	{
+		$file = JPATH_ADMINISTRATOR . '/components/com_jotcache/models/main.php';
+
+		if (!JFile::exists($file))
+		{
+			return;
+		}
+
+		require_once __DIR__ . '/JotCacheMainModelMain.php';
+
+		$model = new JotCacheMainModelMain;
+		$model->deleteall();
+	}
+}

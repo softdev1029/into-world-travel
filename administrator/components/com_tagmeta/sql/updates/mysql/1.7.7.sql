@@ -1,0 +1,1 @@
+ALTER TABLE `#__tagmeta_rules` ADD COLUMN `skip` varchar(255) NOT NULL DEFAULT '' AFTER `url`;

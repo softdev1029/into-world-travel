@@ -1,0 +1,3 @@
+a:10:{s:6:"status";s:6:"update";s:14:"update_message";s:411:"New <a href="http://jbzoo.ru/blog/jbzoo-4-gpl" target="_blank" style="color:#a00; font-weight: bold;text-decoration: underline;">JBZoo v4.0.0 GPL Version</a>.
+<br> 
+<a style="font-weight: bold;text-decoration: underline;" href="https://github.com/JBZoo/JBZoo" target="_blank">Download it FREE from our Github</a>. "Star" the project to support us and "Watch" the repo to know about new releases and any updates.";s:9:"changelog";s:0:"";s:15:"version_current";s:5:"2.3.0";s:12:"version_last";s:5:"4.0.0";s:6:"domain";s:40:"0d7d6ca38d42346df63d18286d4f75196e6122b5";s:7:"licence";i:1;s:7:"expired";i:1;s:4:"hash";s:40:"2847e8dca6243705d023d7f63e52cea1f503dee2";s:10:"_timestamp";i:1544393674;}

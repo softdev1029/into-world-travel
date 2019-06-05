@@ -1,0 +1,13 @@
+drwxrwxr-x  10 sg       6012          222 Mar 26  2018 .
+drwxrwxr-x  11 sg       6012         4096 Jan 21 12:40 ..
+drwxrwxr-x   7 sg       6012           98 Mar 26  2018 com_content
+-rw-r--r--   1 sg       6012           46 Jul  9  2018 index.html
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 layouts
+drwxrwxr-x   2 sg       6012           43 Mar 26  2018 mod_breadcrumbs
+drwxrwxr-x   2 sg       6012           43 Mar 26  2018 mod_finder
+drwxrwxr-x   2 sg       6012          124 Mar 26  2018 mod_menu
+drwxrwxr-x   2 sg       6012           25 Mar 26  2018 mod_rsform_feedback
+drwxrwxr-x   2 sg       6012           43 Mar 26  2018 mod_search
+drwxrwxr-x   2 sg       6012           43 Mar 26  2018 mod_syndicate
+-rw-r--r--   1 sg       6012         3312 Jul  9  2018 modules.php
+-rw-r--r--   1 sg       6012          763 Jul  9  2018 pagination.php

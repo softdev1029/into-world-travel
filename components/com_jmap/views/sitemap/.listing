@@ -1,0 +1,14 @@
+drwxrwxr-x   3 sg       6012          253 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012           71 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          189 Jul  9  2018 metadata.xml
+drwxrwxr-x   4 sg       6012         4096 Mar 26  2018 tmpl
+-rw-r--r--   1 sg       6012         2153 Jul  9  2018 view.amp.php
+-rw-r--r--   1 sg       6012         2146 Jul  9  2018 view.gnews.php
+-rw-r--r--   1 sg       6012         2303 Jul  9  2018 view.hreflang.php
+-rw-r--r--   1 sg       6012         7013 Jul  9  2018 view.html.php
+-rw-r--r--   1 sg       6012         4558 Jul  9  2018 view.images.php
+-rw-r--r--   1 sg       6012         1897 Jul  9  2018 view.mobile.php
+-rw-r--r--   1 sg       6012         2756 Jul  9  2018 view.rss.php
+-rw-r--r--   1 sg       6012         4336 Jul  9  2018 view.videos.php
+-rw-r--r--   1 sg       6012         1891 Jul  9  2018 view.xml.php

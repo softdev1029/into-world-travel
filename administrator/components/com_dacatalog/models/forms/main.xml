@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="params">
+		<field name="title" type="text"
+			   label="JGLOBAL_TITLE"
+			   required="true"
+		/>
+
+		<field name="catid"	type="category"
+			   extension="com_dacatalog"
+			   label="JCATEGORY"
+			   required="true"
+		/>
+
+		<field name="flightId" type="sql"
+			   label="flight"
+			   class="input-xxlarge"
+			   query="SELECT id, title FROM #__dacatalog_flights"
+			   multiple="multiple"
+			   key_field="id"
+			   value_field="title"
+		/>
+
+		<field name="hotels" type="hotels"
+			   label="hotels"
+		/>
+
+		<field name="excursionId" type="sql"
+			   label="excursion"
+			   query="SELECT id, title FROM #__dacatalog_excursions"
+			   multiple="multiple"
+			   key_field="id"
+			   value_field="title"
+		/>
+
+		<field name="trainId" type="sql"
+			   label="train"
+			   class="input-xxlarge"
+			   query="SELECT id, CONCAT(id, '. ', date, ' ', cityFrom, ' - ', cityTo) AS title FROM #__dacatalog_trains"
+			   multiple="multiple"
+			   key_field="id"
+			   value_field="title"
+		/>
+
+		<field name="visaId" type="sql"
+			   label="visa"
+			   query="SELECT id, title FROM #__dacatalog_visa"
+			   multiple="multiple"
+			   key_field="id"
+			   value_field="title"
+		/>
+
+		<field name="price" type="number"
+			   label="price"
+		/>
+
+		<field name="currency"	type="currency"
+			   label="currency"
+			   default="RUB"
+		/>
+
+		<field name="tax" type="text"
+			   label="tax"
+		/>
+
+		<field name="commission" type="text"
+			   label="commission"
+		/>
+
+		<field name="discount" type="text"
+			   label="discount"
+		/>
+
+		<field name="published"	type="list"
+			   label="JSTATUS"
+			   class="chzn-color-state"
+			   size="1"
+			   default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+
+		<field name="id" type="hidden"
+			   default="0"
+			   readonly="true"
+		/>
+	</fieldset>
+
+</form>

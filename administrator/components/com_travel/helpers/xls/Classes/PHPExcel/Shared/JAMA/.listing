@@ -1,0 +1,10 @@
+drwxr-xr-x   3 sg       6012          218 Sep 18  2018 .
+drwxr-xr-x   7 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012          500 Sep 18  2018 CHANGELOG.TXT
+-rw-r--r--   1 sg       6012         4531 Sep 18  2018 CholeskyDecomposition.php
+-rw-r--r--   1 sg       6012        32463 Sep 18  2018 EigenvalueDecomposition.php
+-rw-r--r--   1 sg       6012         8112 Sep 18  2018 LUDecomposition.php
+-rw-r--r--   1 sg       6012        41266 Sep 18  2018 Matrix.php
+-rw-r--r--   1 sg       6012         7693 Sep 18  2018 QRDecomposition.php
+-rw-r--r--   1 sg       6012        18638 Sep 18  2018 SingularValueDecomposition.php
+drwxr-xr-x   2 sg       6012           40 Sep 18  2018 utils

@@ -1,0 +1,16 @@
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          181 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3145 Jul  9  2018 AbstractBackoffStrategy.php
+-rw-r--r--   1 sg       6012         1045 Jul  9  2018 AbstractErrorCodeBackoffStrategy.php
+-rw-r--r--   1 sg       6012         2321 Jul  9  2018 BackoffLogger.php
+-rw-r--r--   1 sg       6012         4413 Jul  9  2018 BackoffPlugin.php
+-rw-r--r--   1 sg       6012          995 Jul  9  2018 BackoffStrategyInterface.php
+-rw-r--r--   1 sg       6012         1524 Jul  9  2018 CallbackBackoffStrategy.php
+-rw-r--r--   1 sg       6012          713 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012          903 Jul  9  2018 ConstantBackoffStrategy.php
+-rw-r--r--   1 sg       6012          991 Jul  9  2018 CurlBackoffStrategy.php
+-rw-r--r--   1 sg       6012          654 Jul  9  2018 ExponentialBackoffStrategy.php
+-rw-r--r--   1 sg       6012          902 Jul  9  2018 HttpBackoffStrategy.php
+-rw-r--r--   1 sg       6012          909 Jul  9  2018 LinearBackoffStrategy.php
+-rw-r--r--   1 sg       6012          686 Jul  9  2018 ReasonPhraseBackoffStrategy.php
+-rw-r--r--   1 sg       6012          975 Jul  9  2018 TruncatedBackoffStrategy.php

@@ -1,0 +1,14 @@
+drwxr-xr-x  11 sg       6012          198 Jul  9  2018 .
+drwxr-xr-x  16 sg       6012          322 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012          178 Jun 26  2018 autoload.php
+drwxr-xr-x   2 sg       6012          229 Mar 26  2018 composer
+-rw-r--r--   1 sg       6012          150 Jun 26  2018 .htaccess
+drwxr-xr-x   3 sg       6012           29 Mar 26  2018 ircmaxell
+drwxr-xr-x  18 sg       6012          232 Jul  9  2018 joomla
+drwxr-xr-x   3 sg       6012           21 Mar 26  2018 leafo
+drwxr-xr-x   4 sg       6012           48 Jul  9  2018 paragonie
+drwxr-xr-x   3 sg       6012           23 Mar 26  2018 phpmailer
+drwxr-xr-x   4 sg       6012           34 Jul  9  2018 psr
+drwxr-xr-x   3 sg       6012           23 Mar 26  2018 simplepie
+drwxr-xr-x   8 sg       6012          127 Jul  9  2018 symfony
+-rw-r--r--   1 sg       6012          183 Jun 26  2018 web.config

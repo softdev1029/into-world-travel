@@ -1,0 +1,11 @@
+drwxrwxr-x   7 sg       6012          183 Mar 26  2018 .
+drwxrwxr-x   9 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        11306 Jul  9  2018 AzureStorage.php
+drwxrwxr-x   2 sg       6012           47 Mar 26  2018 Blob
+drwxrwxr-x   2 sg       6012           27 Mar 26  2018 Credentials
+-rw-r--r--   1 sg       6012         5884 Jul  9  2018 Credentials.php
+drwxrwxr-x   2 sg       6012           97 Mar 26  2018 Exception
+drwxrwxr-x   3 sg       6012           64 Mar 26  2018 Http
+drwxrwxr-x   2 sg       6012           40 Mar 26  2018 Retrypolicy
+-rw-r--r--   1 sg       6012         2945 Jul  9  2018 Retrypolicy.php
+-rw-r--r--   1 sg       6012         3782 Jul  9  2018 Signedidentifier.php

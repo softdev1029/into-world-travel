@@ -1,0 +1,10 @@
+drwxr-xr-x   4 sg       6012          144 Mar 26  2018 .
+drwxr-xr-x   8 sg       6012          186 Mar 26  2018 ..
+drwxr-xr-x   2 sg       6012          119 Mar 26  2018 fields
+-rw-r--r--   1 sg       6012         3713 Jun 26  2018 filter.php
+-rw-r--r--   1 sg       6012         3841 Jun 26  2018 filters.php
+drwxr-xr-x   2 sg       6012           97 Mar 26  2018 forms
+-rw-r--r--   1 sg       6012          388 Jun 26  2018 indexer.php
+-rw-r--r--   1 sg       6012        11707 Jun 26  2018 index.php
+-rw-r--r--   1 sg       6012        10780 Jun 26  2018 maps.php
+-rw-r--r--   1 sg       6012         2134 Jun 26  2018 statistics.php

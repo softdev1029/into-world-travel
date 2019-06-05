@@ -1,0 +1,15 @@
+drwxrwxr-x   3 sg       6012          297 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012           91 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          306 Jul  9  2018 Backup.php
+-rw-r--r--   1 sg       6012          372 Jul  9  2018 Browser.php
+-rw-r--r--   1 sg       6012          388 Jul  9  2018 DatabaseFilters.php
+-rw-r--r--   1 sg       6012          380 Jul  9  2018 FileFilters.php
+-rw-r--r--   1 sg       6012          386 Jul  9  2018 IncludeFolders.php
+drwxrwxr-x   4 sg       6012          139 Mar 26  2018 Json
+-rw-r--r--   1 sg       6012         5964 Jul  9  2018 Json.php
+-rw-r--r--   1 sg       6012          392 Jul  9  2018 MultipleDatabases.php
+-rw-r--r--   1 sg       6012          374 Jul  9  2018 Profiles.php
+-rw-r--r--   1 sg       6012          398 Jul  9  2018 RegExDatabaseFilters.php
+-rw-r--r--   1 sg       6012          390 Jul  9  2018 RegExFileFilters.php
+-rw-r--r--   1 sg       6012          378 Jul  9  2018 Statistics.php
+-rw-r--r--   1 sg       6012          372 Jul  9  2018 Updates.php

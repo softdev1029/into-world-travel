@@ -1,0 +1,14 @@
+drwxrwxr-x   5 sg       6012          225 Mar 26  2018 .
+drwxrwxr-x  30 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          938 Jul  9  2018 basic.php
+drwxrwxr-x   2 sg       6012           23 Mar 26  2018 compare
+-rw-r--r--   1 sg       6012         1011 Jul  9  2018 email.php
+drwxrwxr-x   2 sg       6012           23 Mar 26  2018 filter
+-rw-r--r--   1 sg       6012         2402 Jul  9  2018 jbblock.php
+-rw-r--r--   1 sg       6012          721 Jul  9  2018 jbsimple.php
+-rw-r--r--   1 sg       6012          578 Jul  9  2018 jbsubtitle.php
+-rw-r--r--   1 sg       6012          716 Jul  9  2018 jbtable.php
+-rw-r--r--   1 sg       6012          572 Jul  9  2018 jbtitle.php
+-rw-r--r--   1 sg       6012          817 Jul  9  2018 jbxml.php
+drwxrwxr-x   2 sg       6012           40 Mar 26  2018 submission
+-rw-r--r--   1 sg       6012         1149 Jul  9  2018 variations.php

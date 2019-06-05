@@ -1,0 +1,8 @@
+drwxrwxr-x   3 sg       6012          120 Mar 26  2018 .
+drwxrwxr-x  33 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           98 Mar 26  2018 AesAdapter
+-rw-r--r--   1 sg       6012         7331 Jul  9  2018 Aes.php
+-rw-r--r--   1 sg       6012         4566 Jul  9  2018 Base32.php
+-rw-r--r--   1 sg       6012          399 Jul  9  2018 RandvalInterface.php
+-rw-r--r--   1 sg       6012         4366 Jul  9  2018 Randval.php
+-rw-r--r--   1 sg       6012         4821 Jul  9  2018 Totp.php

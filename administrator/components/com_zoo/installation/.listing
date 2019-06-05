@@ -1,0 +1,8 @@
+drwxrwxr-x   3 sg       6012          129 Mar 26  2018 .
+drwxrwxr-x  15 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          471 Jul  9  2018 dependencies.config
+-rw-r--r--   1 sg       6012         1907 Jul  9  2018 index.sql
+-rw-r--r--   1 sg       6012         5395 Jul  9  2018 install.sql
+-rw-r--r--   1 sg       6012         9027 Jul  9  2018 requirements.php
+-rw-r--r--   1 sg       6012         1060 Jul  9  2018 uninstall.sql
+drwxrwxr-x   2 sg       6012          180 Mar 26  2018 updates

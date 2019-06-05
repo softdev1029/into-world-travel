@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout name="itemmetadata">
+		<name>Item Metadata</name>
+		<description>Basic Metadata tags, the same ones you can find on each Item => Metadata: Title, Description, Keywords and Author</description>
+	</layout>
+</metadata>

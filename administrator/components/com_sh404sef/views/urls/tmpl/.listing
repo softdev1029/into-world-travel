@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012          248 Jul 19  2018 .
+drwxrwxr-x   3 sg       6012          122 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2571 Jul  9  2018 default_j2_filters.php
+-rw-r--r--   1 sg       6012         9048 Jul  9  2018 default_j2.php
+-rw-r--r--   1 sg       6012        13673 Jul 19  2018 default_j3.php
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+-rw-r--r--   1 sg       6012          586 Jul 19  2018 refresh_j3.php
+-rw-r--r--   1 sg       6012         1092 Jul  9  2018 view404_j2_filters.php
+-rw-r--r--   1 sg       6012         5391 Jul  9  2018 view404_j2.full.php
+-rw-r--r--   1 sg       6012          536 Jul  9  2018 view404_j2.php
+-rw-r--r--   1 sg       6012         8609 Jul 19  2018 view404_j3.full.php
+-rw-r--r--   1 sg       6012          537 Jul 19  2018 view404_j3.php

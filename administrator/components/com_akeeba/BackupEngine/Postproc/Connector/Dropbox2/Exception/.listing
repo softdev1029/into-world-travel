@@ -1,0 +1,7 @@
+drwxrwxr-x   2 sg       6012          118 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           23 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          699 Jul  9  2018 APIError.php
+-rw-r--r--   1 sg       6012          476 Jul  9  2018 Base.php
+-rw-r--r--   1 sg       6012          675 Jul  9  2018 cURLError.php
+-rw-r--r--   1 sg       6012          662 Jul  9  2018 InvalidJSON.php
+-rw-r--r--   1 sg       6012          690 Jul  9  2018 UnexpectedHTTPStatus.php

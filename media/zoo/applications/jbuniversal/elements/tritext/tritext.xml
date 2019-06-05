@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="tritext" group="ikit.by" orderable="true">
+	<name>Tritext</name>
+	<author>iKIT</author>
+	<creationDate>dec 2015</creationDate>
+	<copyright>Copyright (C) iKIT.by</copyright>
+	<authorEmail>info@ikit.by</authorEmail>
+	<authorUrl>http://www.ikit.by</authorUrl>
+	<version>1.1</version>
+    <license></license>
+	<description>triText - Тройное текстовое поле для создания программы мероприятия.</description>
+	<params>
+		<param name="jplugins" type="radio" default="0" label="Load Plugins" description="JOOMLA_CONTENT_COMPONENT">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</param>
+	</params>
+	<params group="render">
+		    <param name="separated_by" type="zoolist" default="Space" label="Separated by" description="CHOOSE_SEPARATOR_REPEATED_ELEMENTS">
+			<option name="Space"><![CDATA[separator=[ ]]]></option>
+			<option name="Comma"><![CDATA[separator=[, ]]]></option>
+			<option name="Hyphen"><![CDATA[separator=[ - ]]]></option>
+			<option name="Pipe"><![CDATA[separator=[ | ]]]></option>
+			<option name="Break"><![CDATA[separator=[<br />]]]></option>
+			<option name="Paragraph"><![CDATA[tag=[<p>%s</p>]]]></option>
+			<option name="Div"><![CDATA[tag=[<div>%s</div>]]]></option>
+			<option name="List Item"><![CDATA[tag=[<li>%s</li>]]]></option>
+			<option name="h1"><![CDATA[tag=[<h1>%s</h1>]]]></option>
+			<option name="h2"><![CDATA[tag=[<h2>%s</h2>]]]></option>
+			<option name="h3"><![CDATA[tag=[<h3>%s</h3>]]]></option>
+			<option name="h4"><![CDATA[tag=[<h4>%s</h4>]]]></option>
+			<option name="h5"><![CDATA[tag=[<h5>%s</h5>]]]></option>
+			<option name="h6"><![CDATA[tag=[<h6>%s</h6>]]]></option>
+			<option name="Bold"><![CDATA[tag=[<strong>%s</strong>]]]></option>
+			<option name="Blockquote"><![CDATA[tag=[<blockquote>%s</blockquote>]]]></option>
+			<option name="Aside"><![CDATA[tag=[<aside>%s</aside>]]]></option>
+			<option name="Preformated"><![CDATA[tag=[<pre>%s</pre>]]]></option>
+			<option name="Mashine"><![CDATA[tag=[<kbd>%s</kbd>]]]></option>
+			<option name="Cite"><![CDATA[tag=[<cite>%s</cite>]]]></option>
+			<option name="Address"><![CDATA[tag=[<address>%s</address>]]]></option>
+			<option name="Em"><![CDATA[tag=[<em>%s</em>]]]></option>
+			<option name="Unordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]]]></option>
+			<option name="Ordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ol>%s</ol>]]]></option>
+			<option name="Warp Item"><![CDATA[tag=[<article class="item">%s</article>]]]></option>
+		</param>
+	</params></element>

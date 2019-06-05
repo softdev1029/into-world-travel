@@ -1,0 +1,17 @@
+drwxr-xr-x   4 sg       6012          297 Sep 18  2018 .
+drwxr-xr-x  15 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         8832 Sep 18  2018 Abstract.php
+-rw-r--r--   1 sg       6012        10982 Sep 18  2018 CSV.php
+-rw-r--r--   1 sg       6012         1763 Sep 18  2018 DefaultReadFilter.php
+-rw-r--r--   1 sg       6012        38896 Sep 18  2018 Excel2003XML.php
+drwxr-xr-x   2 sg       6012           40 Sep 18  2018 Excel2007
+-rw-r--r--   1 sg       6012       134706 Sep 18  2018 Excel2007.php
+drwxr-xr-x   4 sg       6012          118 Sep 18  2018 Excel5
+-rw-r--r--   1 sg       6012       292640 Sep 18  2018 Excel5.php
+-rw-r--r--   1 sg       6012         1546 Sep 18  2018 Exception.php
+-rw-r--r--   1 sg       6012        41888 Sep 18  2018 Gnumeric.php
+-rw-r--r--   1 sg       6012        21306 Sep 18  2018 HTML.php
+-rw-r--r--   1 sg       6012         1527 Sep 18  2018 IReader.php
+-rw-r--r--   1 sg       6012         1470 Sep 18  2018 IReadFilter.php
+-rw-r--r--   1 sg       6012        37096 Sep 18  2018 OOCalc.php
+-rw-r--r--   1 sg       6012        19628 Sep 18  2018 SYLK.php

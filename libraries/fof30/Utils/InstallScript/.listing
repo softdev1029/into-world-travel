@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012           88 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012          336 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        20645 Jul  9  2018 BaseInstaller.php
+-rw-r--r--   1 sg       6012        35146 Jul  9  2018 Component.php
+-rw-r--r--   1 sg       6012         7614 Jul  9  2018 Module.php
+-rw-r--r--   1 sg       6012         7927 Jul  9  2018 Plugin.php

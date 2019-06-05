@@ -1,0 +1,7 @@
+drwxrwxr-x   2 sg       6012          140 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          160 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          626 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012          574 Jul  9  2018 InflectorInterface.php
+-rw-r--r--   1 sg       6012          851 Jul  9  2018 Inflector.php
+-rw-r--r--   1 sg       6012         1965 Jul  9  2018 MemoizingInflector.php
+-rw-r--r--   1 sg       6012         1771 Jul  9  2018 PreComputedInflector.php

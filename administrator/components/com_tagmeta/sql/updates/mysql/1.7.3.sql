@@ -1,0 +1,2 @@
+ALTER TABLE `#__tagmeta_rules` ADD `custom_header` varchar(255) DEFAULT NULL AFTER `canonical`;
+ALTER TABLE `#__tagmeta_rules` ADD `rydir` tinyint(1) NOT NULL DEFAULT '2' COMMENT '0=No,1=Yes,2=Skip' AFTER `rodp`;

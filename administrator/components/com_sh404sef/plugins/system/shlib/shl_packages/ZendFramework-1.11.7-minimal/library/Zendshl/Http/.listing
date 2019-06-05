@@ -1,0 +1,12 @@
+drwxrwxr-x   5 sg       6012          190 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012          115 Mar 26  2018 ..
+drwxrwxr-x   3 sg       6012           60 Mar 26  2018 Client
+-rw-r--r--   1 sg       6012        47851 Jul 19  2018 Client.php
+-rw-r--r--   1 sg       6012        13464 Jul 19  2018 CookieJar.php
+-rw-r--r--   1 sg       6012        12408 Jul 19  2018 Cookie.php
+-rw-r--r--   1 sg       6012         1196 Jul 19  2018 Exception.php
+-rw-r--r--   1 sg       6012           31 Jul 19  2018 index.html
+drwxrwxr-x   2 sg       6012           42 Mar 26  2018 Response
+-rw-r--r--   1 sg       6012        18812 Jul 19  2018 Response.php
+drwxrwxr-x   4 sg       6012         4096 Mar 26  2018 UserAgent
+-rw-r--r--   1 sg       6012        26348 Jul 19  2018 UserAgent.php

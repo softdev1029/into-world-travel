@@ -1,0 +1,9 @@
+drwxr-xr-x   2 sg       6012          152 Mar 26  2018 .
+drwxr-xr-x   3 sg       6012           39 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         1306 Jun 26  2018 default_core.php
+-rw-r--r--   1 sg       6012         2452 Jun 26  2018 default_custom.php
+-rw-r--r--   1 sg       6012         1331 Jun 26  2018 default_params.php
+-rw-r--r--   1 sg       6012         1059 Jun 26  2018 default.php
+-rw-r--r--   1 sg       6012          307 Jun 26  2018 default.xml
+-rw-r--r--   1 sg       6012         5633 Jun 26  2018 edit.php
+-rw-r--r--   1 sg       6012          312 Jun 26  2018 edit.xml

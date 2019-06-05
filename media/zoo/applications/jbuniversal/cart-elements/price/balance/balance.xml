@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+    @coder       Alexander Oganov <t_tapak@yahoo.com>
+-->
+<element type="element" group="Core" hidden="false" core="true">
+    <name>JBZOO_ELEMENT_PRICE_BALANCE_NAME</name>
+    <author>JBZoo.com</author>
+    <creationDate>2014</creationDate>
+    <copyright>Copyright (C) JBZoo.com</copyright>
+    <authorEmail>admin@jbzoo.com</authorEmail>
+    <authorUrl>http://jbzoo.com</authorUrl>
+    <version>1.0</version>
+    <description>JBZOO_ELEMENT_PRICE_BALANCE_DESC</description>
+
+    <params>
+        <param name="usestock" type="jbbool" default="1" label="JBZOO_ELEMENT_PRICE_BALANCE_USESTOCK"
+               description="JBZOO_ELEMENT_PRICE_BALANCE_USESTOCK_DESC"/>
+    </params>
+
+    <params group="render">
+        <param name="layout" type="list" default="simple" label="JBZOO_ELEMENT_PRICE_BALANCE_LAYOUT"
+               description="JBZOO_ELEMENT_PRICE_BALANCE_LAYOUT_DESC">
+            <option value="simple">JBZOO_ELEMENT_PRICE_BALANCE_LAYOUT_SIMPLE</option>
+            <option value="full">JBZOO_ELEMENT_PRICE_BALANCE_LAYOUT_FULL</option>
+        </param>
+    </params>
+
+    <params group="filter">
+        <param name="jbzoo_filter_render" type="list" label="JBZOO_ELEMENT_TEMPLATE"
+               description="JBZOO_ELEMENT_TEMPLATE_DESC" default="_auto_">
+            <option value="balance-jqueryui">JBZOO_ELEMENT_TEMPLATE_JQUERYUI</option>
+            <option value="balance-radio">JBZOO_ELEMENT_TEMPLATE_RADIO</option>
+            <option value="balance-select">JBZOO_ELEMENT_TEMPLATE_SELECT</option>
+            <option value="balance-chosen">JBZOO_ELEMENT_TEMPLATE_SELECT_CHOSEN</option>
+        </param>
+
+        <param name="jbzoo_filter_default" type="text" label="JBZOO_FILTER_DEFAULT"
+               description="JBZOO_FILTER_DEFAULT_DESC"/>
+
+        <param name="jbzoo_filter_count" type="jbbool" default="1"
+               label="JBZOO_FILTER_COUNT" description="JBZOO_FILTER_COUNT_DESC"/>
+    </params>
+
+</element>

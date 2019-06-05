@@ -1,0 +1,15 @@
+drwxr-xr-x   3 sg       6012          251 Sep 18  2018 .
+drwxr-xr-x   3 sg       6012         4096 Mar 26 10:09 ..
+-rw-r--r--   1 sg       6012         4178 Sep 18  2018 ajax-loader.gif
+-rw-r--r--   1 sg       6012          161 Sep 18  2018 config.rb
+drwxr-xr-x   2 sg       6012           75 Sep 18  2018 fonts
+-rw-r--r--   1 sg       6012          408 Sep 18  2018 next.png
+-rw-r--r--   1 sg       6012          391 Sep 18  2018 prev.png
+-rw-r--r--   1 sg       6012         1776 Sep 18  2018 slick.css
+-rw-r--r--   1 sg       6012        88955 Sep 18  2018 slick.js
+-rw-r--r--   1 sg       6012         1756 Sep 18  2018 slick.less
+-rw-r--r--   1 sg       6012        42863 Sep 18  2018 slick.min.js
+-rw-r--r--   1 sg       6012         1756 Sep 18  2018 slick.scss
+-rw-r--r--   1 sg       6012         3145 Sep 18  2018 slick-theme.css
+-rw-r--r--   1 sg       6012         4181 Sep 18  2018 slick-theme.less
+-rw-r--r--   1 sg       6012         4758 Sep 18  2018 slick-theme.scss

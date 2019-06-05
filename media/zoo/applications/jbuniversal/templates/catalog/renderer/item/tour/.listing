@@ -1,0 +1,16 @@
+drwxrwxr-x   2 sg       6012          283 Feb  4 15:40 .
+drwxrwxr-x  13 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2555 Jul  9  2018 calendar.php
+-rw-r--r--   1 sg       6012          445 Jul  9  2018 compare.php
+-rw-r--r--   1 sg       6012         1627 Jul  9  2018 edit.php
+-rw-r--r--   1 sg       6012         1763 Jul  9  2018 favorite.php
+-rw-r--r--   1 sg       6012          530 Jul  9  2018 feed.php
+-rw-r--r--   1 sg       6012        40991 Feb  4 15:40 full.php
+-rw-r--r--   1 sg       6012         2483 Jul  9  2018 metadata.xml
+-rw-r--r--   1 sg       6012        14653 Jul  9  2018 positions.xml
+-rw-r--r--   1 sg       6012         2489 Jul  9  2018 quickview.php
+-rw-r--r--   1 sg       6012         1416 Jul  9  2018 related.php
+-rw-r--r--   1 sg       6012         2551 Jul  9  2018 subcategory_item.php
+-rw-r--r--   1 sg       6012         1660 Jul  9  2018 submission.php
+-rw-r--r--   1 sg       6012         2551 Jul  9  2018 teaser.php
+-rw-r--r--   1 sg       6012         2618 Jul  9  2018 ymlexport.php

@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          143 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1732 Jul  9  2018 brightness.php
+-rw-r--r--   1 sg       6012         1382 Jul  9  2018 grayscale.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         1344 Jul  9  2018 invert.php
+-rw-r--r--   1 sg       6012         1646 Jul  9  2018 saturate.php
+-rw-r--r--   1 sg       6012         2176 Jul  9  2018 sepia.php
+-rw-r--r--   1 sg       6012         1541 Jul  9  2018 threshold.php

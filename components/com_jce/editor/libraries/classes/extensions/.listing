@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          143 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3742 Jul  9  2018 aggregator.php
+-rw-r--r--   1 sg       6012         8273 Jul  9  2018 filesystem.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         7980 Jul  9  2018 link.php
+-rw-r--r--   1 sg       6012         3616 Jul  9  2018 mediaplayer.php
+-rw-r--r--   1 sg       6012         4801 Jul  9  2018 popups.php
+-rw-r--r--   1 sg       6012         1516 Jul  9  2018 search.php

@@ -1,0 +1,11 @@
+drwxrwxr-x   3 sg       6012          173 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           18 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012          120 Mar 26  2018 author
+-rw-r--r--   1 sg       6012         1321 Jul  9  2018 edit.php
+-rw-r--r--   1 sg       6012          344 Jul  9  2018 feed.php
+-rw-r--r--   1 sg       6012         3083 Jul  9  2018 full.php
+-rw-r--r--   1 sg       6012          905 Jul  9  2018 metadata.xml
+-rw-r--r--   1 sg       6012        13197 Jul  9  2018 positions.config
+-rw-r--r--   1 sg       6012         1402 Jul  9  2018 positions.xml
+-rw-r--r--   1 sg       6012         1321 Jul  9  2018 submission.php
+-rw-r--r--   1 sg       6012         2406 Jul  9  2018 teaser.php

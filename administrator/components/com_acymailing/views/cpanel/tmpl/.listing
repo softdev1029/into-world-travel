@@ -1,0 +1,14 @@
+drwxrwxr-x   2 sg       6012          244 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2642 Jul  9  2018 acl.php
+-rw-r--r--   1 sg       6012         4401 Jul  9  2018 cron.php
+-rw-r--r--   1 sg       6012         2380 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         2339 Jul  9  2018 interface_enterprise.php
+-rw-r--r--   1 sg       6012        17413 Jul  9  2018 interface.php
+-rw-r--r--   1 sg       6012         1470 Jul  9  2018 languages.php
+-rw-r--r--   1 sg       6012        18650 Jul  9  2018 mail.php
+-rw-r--r--   1 sg       6012         3780 Jul  9  2018 plugins.php
+-rw-r--r--   1 sg       6012         4880 Jul  9  2018 queue.php
+-rw-r--r--   1 sg       6012        11921 Jul  9  2018 security.php
+-rw-r--r--   1 sg       6012        10193 Jul  9  2018 subscription.php

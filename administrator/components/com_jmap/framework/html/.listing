@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          231 Mar 26  2018 .
+drwxrwxr-x  17 sg       6012          253 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2231 Jul  9  2018 articles.php
+-rw-r--r--   1 sg       6012         1006 Jul  9  2018 categories.php
+-rw-r--r--   1 sg       6012         1939 Jul  9  2018 catspriorities.php
+-rw-r--r--   1 sg       6012         1396 Jul  9  2018 datasets.php
+-rw-r--r--   1 sg       6012         2045 Jul  9  2018 datasources.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         1771 Jul  9  2018 languages.php
+-rw-r--r--   1 sg       6012         4081 Jul  9  2018 menu.php
+-rw-r--r--   1 sg       6012         9456 Jul  9  2018 metaimage.php
+-rw-r--r--   1 sg       6012         3900 Jul  9  2018 radiocache.php
+-rw-r--r--   1 sg       6012         7016 Jul  9  2018 text.php

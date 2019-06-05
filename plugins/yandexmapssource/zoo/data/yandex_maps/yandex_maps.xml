@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="maps" group="Web Service">
+	<name>Яндекс Карты (xdan.ru)</name>
+	<author>Chupurnov Valeriy</author>
+	<creationDate>December 2016</creationDate>
+	<copyright>Copyright (C) xdan.ru Chupurnov Valeriy</copyright>
+	<authorEmail>skoder@ya.ru</authorEmail>
+	<authorUrl>http://xdan.ru</authorUrl>
+	<version>1.0.4</version>
+	<description>Элемент для выбора позиционирования на Яндекс Карте</description>
+	<params>
+		<param name="name" type="text" default="Яндекс.Карты" label="Name" description="Имя элемента в редакторе" />
+		<param name="description" type="text" default="yandex_maps" label="Description" description="Описание элемента в редакторе" />
+		<param name="width" type="text" min="100" default="300" label="Ширина" description="Ширина блока карты" />	
+		<param name="height" type="text" min="100" default="300" label="Высота" description="Высота блока карты" />
+		<param name="autocomplete" type="list" default="1" label="Показывать поле ввода адреса" description="Показывать поле ввода адреса" >
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="show_iconpicker" type="list" default="1" label="Показывать выбор иконки" description="Показывать выбор иконки" >
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+	</params>
+	<params addpath="/media/zoo/elements/yandex_maps/fields"  group="render">
+		<param name="map_id" type="maps" default="" label="Карта" description="Карта на которой будет отображен объект" constraint="googlemaps" />
+		<param name="alone" type="list" default="0" label="Показывать только один объект" description="Показывать только один объект">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+	</params>
+</element>

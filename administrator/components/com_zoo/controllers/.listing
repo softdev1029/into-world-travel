@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012          196 Mar 26  2018 .
+drwxrwxr-x  15 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        10833 Jul  9  2018 category.php
+-rw-r--r--   1 sg       6012         9469 Jul  9  2018 comment.php
+-rw-r--r--   1 sg       6012        13414 Jul  9  2018 configuration.php
+-rw-r--r--   1 sg       6012         2431 Jul  9  2018 frontpage.php
+-rw-r--r--   1 sg       6012        26211 Jul  9  2018 item.php
+-rw-r--r--   1 sg       6012        31218 Jul  9  2018 manager.php
+-rw-r--r--   1 sg       6012         5152 Jul  9  2018 new.php
+-rw-r--r--   1 sg       6012        11370 Jul  9  2018 submission.php
+-rw-r--r--   1 sg       6012         3919 Jul  9  2018 tag.php
+-rw-r--r--   1 sg       6012         1293 Jul  9  2018 update.php

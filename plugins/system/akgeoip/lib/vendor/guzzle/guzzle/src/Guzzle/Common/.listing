@@ -1,0 +1,11 @@
+drwxrwxr-x   3 sg       6012          228 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          160 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1195 Jul  9  2018 AbstractHasDispatcher.php
+-rw-r--r--   1 sg       6012        11534 Jul  9  2018 Collection.php
+-rw-r--r--   1 sg       6012          503 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012         1064 Jul  9  2018 Event.php
+drwxrwxr-x   2 sg       6012          198 Mar 26  2018 Exception
+-rw-r--r--   1 sg       6012          487 Jul  9  2018 FromConfigInterface.php
+-rw-r--r--   1 sg       6012         1358 Jul  9  2018 HasDispatcherInterface.php
+-rw-r--r--   1 sg       6012          245 Jul  9  2018 ToArrayInterface.php
+-rw-r--r--   1 sg       6012          641 Jul  9  2018 Version.php

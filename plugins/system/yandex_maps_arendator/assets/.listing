@@ -1,0 +1,12 @@
+drwxrwxr-x   7 sg       6012          211 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012          212 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012          119 Mar 26  2018 chosen
+-rw-r--r--   1 sg       6012           32 Jul  9  2018 index.html
+drwxrwxr-x   2 sg       6012          140 Mar 26  2018 jodit
+drwxrwxr-x   3 sg       6012          100 Mar 26  2018 jodit-connector
+drwxrwxr-x   5 sg       6012          118 Mar 26  2018 jquery
+-rw-r--r--   1 sg       6012        17718 Jul  9  2018 jquery.periodpicker.min.css
+-rw-r--r--   1 sg       6012         4818 Jul  9  2018 jquery.timepicker.min.css
+drwxrwxr-x   2 sg       6012          286 Mar 26  2018 periodpicker
+-rw-r--r--   1 sg       6012        24949 Jul  9  2018 profile.js
+-rw-r--r--   1 sg       6012         4542 Jul  9  2018 style.css

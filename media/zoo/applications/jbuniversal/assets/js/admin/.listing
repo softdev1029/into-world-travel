@@ -1,0 +1,12 @@
+drwxrwxr-x   3 sg       6012          204 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012          139 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         4123 Jul  9  2018 colors.js
+-rw-r--r--   1 sg       6012         2099 Jul  9  2018 delimiter.js
+-rw-r--r--   1 sg       6012         9707 Jul  9  2018 editpositions.js
+-rw-r--r--   1 sg       6012         1362 Jul  9  2018 itemorder.js
+-rw-r--r--   1 sg       6012         3278 Jul  9  2018 jkeyvalue.js
+-rw-r--r--   1 sg       6012         1261 Jul  9  2018 keyvalue.js
+-rw-r--r--   1 sg       6012         3325 Jul  9  2018 menu.js
+-rw-r--r--   1 sg       6012          918 Jul  9  2018 ordermacroslist.js
+drwxrwxr-x   2 sg       6012           37 Mar 26  2018 validator
+-rw-r--r--   1 sg       6012         7124 Jul  9  2018 validator.js

@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          212 Mar 26  2018 .
+drwxrwxr-x  12 sg       6012          295 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1008 Jul  9  2018 browser.php
+-rw-r--r--   1 sg       6012       251905 Jul  9  2018 cacert.pem
+-rw-r--r--   1 sg       6012         1305 Jul  9  2018 editor.php
+-rw-r--r--   1 sg       6012         6645 Jul  9  2018 encrypt.php
+-rw-r--r--   1 sg       6012         3300 Jul  9  2018 extension.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          980 Jul  9  2018 parameter.php
+-rw-r--r--   1 sg       6012         3352 Jul  9  2018 plugins.php
+-rw-r--r--   1 sg       6012         6028 Jul  9  2018 toolbar.php
+-rw-r--r--   1 sg       6012        15088 Jul  9  2018 updates.php
+-rw-r--r--   1 sg       6012         2581 Jul  9  2018 xml.php

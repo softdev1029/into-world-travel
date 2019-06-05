@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          135 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           40 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2103 Jul  9  2018 01.basic.ini
+-rw-r--r--   1 sg       6012         2110 Jul  9  2018 02.advanced.ini
+-rw-r--r--   1 sg       6012         2235 Jul  9  2018 02.platform.ini
+-rw-r--r--   1 sg       6012          224 Jul  9  2018 03.filters.ini
+-rw-r--r--   1 sg       6012         2431 Jul  9  2018 04.quota.ini
+-rw-r--r--   1 sg       6012         3036 Jul  9  2018 05.tuning.ini

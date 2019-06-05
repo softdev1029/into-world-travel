@@ -1,0 +1,7 @@
+drwxrwxr-x   2 sg       6012           96 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012          146 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          947 Jul  9  2018 clean.php
+-rw-r--r--   1 sg       6012         2173 Jul  9  2018 head.php
+-rw-r--r--   1 sg       6012         1043 Jul  9  2018 helpers.php
+-rw-r--r--   1 sg       6012         1250 Jul  9  2018 protect.php
+-rw-r--r--   1 sg       6012        26450 Jul  9  2018 replace.php

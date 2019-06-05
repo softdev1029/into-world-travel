@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          124 Jul 19  2018 .
+drwxrwxr-x   3 sg       6012           16 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          810 Jul 19  2018 dashboard.php
+-rw-r--r--   1 sg       6012         7148 Jul 19  2018 extensions.php
+-rw-r--r--   1 sg       6012         2942 Jul 19  2018 menu.php
+-rw-r--r--   1 sg       6012        13120 Jul 19  2018 remote.php
+-rw-r--r--   1 sg       6012         3322 Jul 19  2018 response.php
+-rw-r--r--   1 sg       6012         3282 Jul 19  2018 transifex.php

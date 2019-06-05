@@ -1,0 +1,10 @@
+drwxrwxr-x   3 sg       6012          168 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          326 Jul  9  2018 CHANGELOG.md
+-rw-r--r--   1 sg       6012          624 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012          528 Jul  9  2018 .coveralls-phpunit.xml.dist
+-rw-r--r--   1 sg       6012        26436 Jul  9  2018 LICENSE
+-rw-r--r--   1 sg       6012          428 Jul  9  2018 phpunit.xml.dist
+-rw-r--r--   1 sg       6012         2596 Jul  9  2018 README.md
+drwxrwxr-x   3 sg       6012           21 Mar 26  2018 src
+-rw-r--r--   1 sg       6012          892 Jul  9  2018 .travis.yml

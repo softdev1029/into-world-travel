@@ -1,0 +1,13 @@
+drwxr-xr-x   2 sg       6012          307 Mar 26  2018 .
+drwxr-xr-x   3 sg       6012           32 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3555 Jun 26  2018 AbstractEvent.php
+-rw-r--r--   1 sg       6012         1062 Jun 26  2018 DelegatingDispatcher.php
+-rw-r--r--   1 sg       6012          655 Jun 26  2018 DispatcherAwareInterface.php
+-rw-r--r--   1 sg       6012         1121 Jun 26  2018 DispatcherAwareTrait.php
+-rw-r--r--   1 sg       6012          598 Jun 26  2018 DispatcherInterface.php
+-rw-r--r--   1 sg       6012        10580 Jun 26  2018 Dispatcher.php
+-rw-r--r--   1 sg       6012         2057 Jun 26  2018 EventImmutable.php
+-rw-r--r--   1 sg       6012          718 Jun 26  2018 EventInterface.php
+-rw-r--r--   1 sg       6012         2577 Jun 26  2018 Event.php
+-rw-r--r--   1 sg       6012         4211 Jun 26  2018 ListenersPriorityQueue.php
+-rw-r--r--   1 sg       6012          562 Jun 26  2018 Priority.php

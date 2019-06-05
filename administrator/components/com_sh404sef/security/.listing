@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          203 Mar 26  2018 .
+drwxrwxr-x  20 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+-rw-r--r--   1 sg       6012           61 Jul  9  2018 sh404SEF_AntiFlood_Data.dat
+-rw-r--r--   1 sg       6012           29 Jul 19  2018 sh404SEF_IP_black_list.dat
+-rw-r--r--   1 sg       6012           29 Jul 19  2018 sh404SEF_IP_white_list.dat
+-rw-r--r--   1 sg       6012           44 Jul 19  2018 sh404SEF_uAgent_black_list.dat
+-rw-r--r--   1 sg       6012           44 Jul 19  2018 sh404SEF_uAgent_white_list.dat

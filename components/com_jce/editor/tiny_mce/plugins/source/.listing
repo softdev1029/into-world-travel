@@ -1,0 +1,11 @@
+drwxrwxr-x   7 sg       6012          143 Mar 26  2018 .
+drwxrwxr-x  56 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           60 Mar 26  2018 classes
+drwxrwxr-x   3 sg       6012           60 Mar 26  2018 css
+-rw-r--r--   1 sg       6012         6313 Jul  9  2018 editor_plugin.js
+drwxrwxr-x   2 sg       6012           41 Mar 26  2018 img
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+drwxrwxr-x   3 sg       6012           76 Mar 26  2018 js
+-rw-r--r--   1 sg       6012          618 Jul  9  2018 source.php
+-rw-r--r--   1 sg       6012         2566 Jul  9  2018 source.xml
+drwxrwxr-x   2 sg       6012           43 Mar 26  2018 tmpl

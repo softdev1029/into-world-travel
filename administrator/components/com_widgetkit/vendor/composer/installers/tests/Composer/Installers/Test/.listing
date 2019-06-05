@@ -1,0 +1,15 @@
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           18 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2071 Jul  9  2018 AsgardInstallerTest.php
+-rw-r--r--   1 sg       6012         1978 Jul  9  2018 BitrixInstallerTest.php
+-rw-r--r--   1 sg       6012         4222 Jul  9  2018 CakePHPInstallerTest.php
+-rw-r--r--   1 sg       6012         2399 Jul  9  2018 CraftInstallerTest.php
+-rw-r--r--   1 sg       6012         2166 Jul  9  2018 DokuWikiInstallerTest.php
+-rw-r--r--   1 sg       6012         2670 Jul  9  2018 GravInstallerTest.php
+-rw-r--r--   1 sg       6012        23539 Jul  9  2018 InstallerTest.php
+-rw-r--r--   1 sg       6012         1771 Jul  9  2018 MediaWikiInstallerTest.php
+-rw-r--r--   1 sg       6012         1683 Jul  9  2018 OctoberInstallerTest.php
+-rw-r--r--   1 sg       6012         1317 Jul  9  2018 PimcoreInstallerTest.php
+-rw-r--r--   1 sg       6012         1574 Jul  9  2018 PiwikInstallerTest.php
+-rw-r--r--   1 sg       6012         1626 Jul  9  2018 TestCase.php
+-rw-r--r--   1 sg       6012         1408 Jul  9  2018 YawikInstallerTest.php

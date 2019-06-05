@@ -1,0 +1,8 @@
+drwxr-xr-x   2 sg       6012          167 Mar 26  2018 .
+drwxr-xr-x   5 sg       6012           48 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          925 Jun 26  2018 default_config.php
+-rw-r--r--   1 sg       6012          998 Jun 26  2018 default_directory.php
+-rw-r--r--   1 sg       6012         1212 Jun 26  2018 default_navigation.php
+-rw-r--r--   1 sg       6012         1482 Jun 26  2018 default.php
+-rw-r--r--   1 sg       6012         3890 Jun 26  2018 default_phpsettings.php
+-rw-r--r--   1 sg       6012         2301 Jun 26  2018 default_system.php

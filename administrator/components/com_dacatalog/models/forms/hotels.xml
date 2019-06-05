@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="params">
+		<field name="city" type="text"
+			   label="city"
+			   required="true"
+		/>
+
+		<field name="title" type="text"
+			   label="title_hotel"
+			   required="true"
+		/>
+
+		<field name="stars"	type="list"
+			   label="stars"
+			   default="3">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</field>
+
+		<field name="roomTitle" type="text"
+			   label="roomTitle"
+			   required="true"
+		/>
+
+		<field name="price" type="roomprices"
+			   label="price"
+		/>
+
+		<field name="currency"	type="currency"
+			   label="currency"
+			   default="RUB"
+		/>
+
+		<field name="published"	type="list"
+			   label="JSTATUS"
+			   class="chzn-color-state"
+			   size="1"
+			   default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+
+		<field name="id" type="hidden"
+			   default="0"
+			   readonly="true"
+		/>
+
+	</fieldset>
+
+
+</form>

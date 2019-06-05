@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS `#__yandex_maps_periods_object` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `period_start` tinyint(2) unsigned NOT NULL DEFAULT '0' COMMENT 'Время начала периода',
+  `period_end` tinyint(2) unsigned NOT NULL DEFAULT '1' COMMENT 'Время конца периода',
+  `mon` tinyint(1) unsigned DEFAULT NULL COMMENT 'Понедельник',
+  `tue` tinyint(1) unsigned DEFAULT NULL COMMENT 'Вторник',
+  `wed` tinyint(1) unsigned DEFAULT NULL COMMENT 'Среда',
+  `thu` tinyint(1) unsigned DEFAULT NULL COMMENT 'Четверг',
+  `fri` tinyint(1) unsigned DEFAULT NULL COMMENT 'Пятница',
+  `sat` tinyint(1) unsigned DEFAULT NULL COMMENT 'Суббота',
+  `sun` tinyint(1) unsigned DEFAULT NULL COMMENT 'Воскресение',
+  `object_id` int(10) unsigned NOT NULL COMMENT 'Объект',
+  PRIMARY KEY (`id`),
+  KEY `pn` (`mon`,`object_id`),
+  KEY `vt` (`tue`),
+  KEY `sr` (`wed`),
+  KEY `cht` (`thu`),
+  KEY `pt` (`fri`),
+  KEY `sb` (`sat`),
+  KEY `vsk` (`sun`),
+  KEY `period_start` (`period_end`),
+  KEY `period_end` (`period_start`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Таблица показа объекта на карте по графику. Используется в плагине Яндекс Карты - Арендатор' AUTO_INCREMENT=1;

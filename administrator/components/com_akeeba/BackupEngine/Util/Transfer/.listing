@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          140 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        20132 Jul  9  2018 FtpCurl.php
+-rw-r--r--   1 sg       6012        13373 Jul  9  2018 Ftp.php
+-rw-r--r--   1 sg       6012         1117 Jul  9  2018 RemoteResourceInterface.php
+-rw-r--r--   1 sg       6012        18632 Jul  9  2018 SftpCurl.php
+-rw-r--r--   1 sg       6012        13973 Jul  9  2018 Sftp.php
+-rw-r--r--   1 sg       6012         4622 Jul  9  2018 TransferInterface.php

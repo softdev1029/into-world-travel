@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/into.obasite.ru/webstat"
+AuthUserFile /var/www/tmp/data/etc/97125708.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

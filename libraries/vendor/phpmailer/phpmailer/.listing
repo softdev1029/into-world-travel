@@ -1,0 +1,12 @@
+drwxr-xr-x   3 sg       6012          241 Mar 26  2018 .
+drwxr-xr-x   3 sg       6012           23 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2464 Jun 26  2018 class.phpmaileroauthgoogle.php
+-rw-r--r--   1 sg       6012         7216 Jun 26  2018 class.phpmaileroauth.php
+-rw-r--r--   1 sg       6012       147052 Jun 26  2018 class.phpmailer.php
+-rw-r--r--   1 sg       6012        11006 Jun 26  2018 class.pop3.php
+-rw-r--r--   1 sg       6012        43495 Jun 26  2018 class.smtp.php
+-rw-r--r--   1 sg       6012       128969 Jun 26  2018 composer.lock
+drwxr-xr-x   2 sg       6012           80 Mar 26  2018 extras
+-rw-r--r--   1 sg       6012        26421 Jun 26  2018 LICENSE
+-rw-r--r--   1 sg       6012         1689 Jun 26  2018 PHPMailerAutoload.php
+-rw-r--r--   1 sg       6012            7 Jun 26  2018 VERSION

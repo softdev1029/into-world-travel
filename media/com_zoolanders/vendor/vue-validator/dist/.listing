@@ -1,0 +1,6 @@
+drwxr-xr-x   2 sg       6012          106 Jul 19  2018 .
+drwxr-xr-x   7 sg       6012          172 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012          287 Jul 19  2018 README.md
+-rw-r--r--   1 sg       6012          588 Jul 19  2018 vue-validator.common.js
+-rw-r--r--   1 sg       6012          854 Jul 19  2018 vue-validator.js
+-rw-r--r--   1 sg       6012          484 Jul 19  2018 vue-validator.min.js

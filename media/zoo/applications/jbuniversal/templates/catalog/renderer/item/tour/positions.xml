@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+-->
+<renderer>
+    <positions layout="feed">
+        <position name="description">Description</position>
+    </positions>
+
+    <positions layout="full">
+        <position name="file">File</position>
+        <position name="color">color</position>
+        <position name="color2">color2</position>
+        <position name="hb">HeaderBanner</position>
+        <position name="hbb">HeaderBanner Beadge</position>
+        <position name="hbtext">HeaderBanner Text</position>
+        
+        
+        <position name="db">Disable button</position>
+        <position name="title">Title</position>
+        <position name="alttitle">altTitle</position>
+        <position name="code">Code</position>
+        
+        
+        <position name="subtitle2">Subitle2</position>
+        <position name="content">Content</position>
+        <position name="advb">Advb</position>
+        
+        <position name="tab1name">Tab1: Name</position>
+        <position name="tab1content">Tab1: Content</position>
+        <position name="tab1banner">Tab1: Maps</position>
+        <position name="tab1modul">Tab1: video</position>
+        <position name="tab1gallery">Tab1: Gallery</position>
+        <position name="tab1blog">Tab1: Blog</position>
+        <position name="highlights">Tab1: highlights</position>
+        
+        <position name="tab2name">Tab2: Name</position>
+        <position name="tab2content">Tab2: Content</position>
+        
+        <position name="tab3name">Tab3: Name - Accommodation</position>
+        <position name="tab3content">Tab3: Content - Accommodation</position>
+        <position name="tab3gallery">Tab3: Gallery</position>
+        <position name="tab3hotel">Tab3: Hotel</position>
+        
+        <position name="tab3acccabin1">Tab3-Cabin1: Name</position>
+        <position name="tab3acccabin1nimg">Tab3-Cabin1: Name image</position>
+        <position name="tab3acccabin1content">Tab3-Cabin1: Content</position>
+        <position name="tab3acccabin1image">Tab3-Cabin1: Image -left</position>
+        <position name="tab3acccabin1gallery">Tab3-Cabin1: Gallery</position>
+        <position name="tab3acccabin1shema">Tab3-Cabin1: Shema</position>
+        
+        <position name="tab3acccabin2">Tab3-Cabin2: Name</position>
+        <position name="tab3acccabin2nimg">Tab3-Cabin2: Name image</position>
+        <position name="tab3acccabin2content">Tab3-Cabin2: Content</position>
+        <position name="tab3acccabin2image">Tab3-Cabin2: Image -left</position>
+        <position name="tab3acccabin2gallery">Tab3-Cabin2: Gallery</position>
+        <position name="tab3acccabin2shema">Tab3-Cabin2: Shema</position>
+        
+        <position name="tab3acccabin3">Tab3-Cabin3: Name</position>
+        <position name="tab3acccabin3nimg">Tab3-Cabin3: Name image</position>
+        <position name="tab3acccabin3content">Tab3-Cabin3: Content</position>
+        <position name="tab3acccabin3image">Tab3-Cabin3: Image -left</position>
+        <position name="tab3acccabin3gallery">Tab3-Cabin3: Gallery</position>
+        <position name="tab3acccabin3shema">Tab3-Cabin3: Shema</position>
+        
+        <position name="tab3acccabin4">Tab3-Cabin4: Name</position>
+        <position name="tab3acccabin4nimg">Tab3-Cabin4: Name image</position>
+        <position name="tab3acccabin4content">Tab3-Cabin4: Content</position>
+        <position name="tab3acccabin4image">Tab3-Cabin4: Image -left</position>
+        <position name="tab3acccabin4gallery">Tab3-Cabin4: Gallery</position>
+        <position name="tab3acccabin4shema">Tab3-Cabin4: Shema</position>
+        
+        <position name="tab3acccabin5">Tab3-Cabin5: Name</position>
+        <position name="tab3acccabin5nimg">Tab3-Cabin5: Name image</position>
+        <position name="tab3acccabin5content">Tab3-Cabin5: Content</position>
+        <position name="tab3acccabin5image">Tab3-Cabin5: Image -left</position>
+        <position name="tab3acccabin5gallery">Tab3-Cabin5: Gallery</position>
+        <position name="tab3acccabin5shema">Tab3-Cabin5: Shema</position>
+        
+        <position name="tab3acccabin6">Tab3-Cabin6: Name</position>
+        <position name="tab3acccabin6nimg">Tab3-Cabin6: Name image</position>
+        <position name="tab3acccabin6content">Tab3-Cabin6: Content</position>
+        <position name="tab3acccabin6image">Tab3-Cabin6: Image -left</position>
+        <position name="tab3acccabin6gallery">Tab3-Cabin6: Gallery</position>
+        <position name="tab3acccabin6shema">Tab3-Cabin6: Shema</position>
+        
+        <position name="tab3acccabin7">Tab3-Cabin7: Name</position>
+        <position name="tab3acccabin7nimg">Tab3-Cabin7: Name image</position>
+        <position name="tab3acccabin7content">Tab3-Cabin7: Content</position>
+        <position name="tab3acccabin7image">Tab3-Cabin7: Image -left</position>
+        <position name="tab3acccabin7gallery">Tab3-Cabin7: Gallery</position>
+        <position name="tab3acccabin7shema">Tab3-Cabin7: Shema</position>
+
+        <position name="tab3acccabin8">Tab3-Cabin8: Name</position>
+        <position name="tab3acccabin8nimg">Tab3-Cabin8: Name image</position>
+        <position name="tab3acccabin8content">Tab3-Cabin8: Content</position>
+        <position name="tab3acccabin8image">Tab3-Cabin8: Image -left</position>
+        <position name="tab3acccabin8gallery">Tab3-Cabin8: Gallery</position>
+        <position name="tab3acccabin8shema">Tab3-Cabin8: Shema</position>
+
+        <position name="tab3acccabin9">Tab3-Cabin9: Name</position>
+        <position name="tab3acccabin9nimg">Tab3-Cabin9: Name image</position>
+        <position name="tab3acccabin9content">Tab3-Cabin9: Content</position>
+        <position name="tab3acccabin9image">Tab3-Cabin9: Image -left</position>
+        <position name="tab3acccabin9gallery">Tab3-Cabin9: Gallery</position>
+        <position name="tab3acccabin9shema">Tab3-Cabin9: Shema</position>
+
+        <position name="tab3acccabin10">Tab3-Cabin10: Name</position>
+        <position name="tab3acccabin10nimg">Tab3-Cabin10: Name image</position>
+        <position name="tab3acccabin10content">Tab3-Cabin10: Content</position>
+        <position name="tab3acccabin10image">Tab3-Cabin10: Image -left</position>
+        <position name="tab3acccabin10gallery">Tab3-Cabin10: Gallery</position>
+        <position name="tab3acccabin10shema">Tab3-Cabin10: Shema</position>
+
+        <position name="tab3acccabin11">Tab3-Cabin11: Name</position>
+        <position name="tab3acccabin11nimg">Tab3-Cabin11: Name image</position>
+        <position name="tab3acccabin11content">Tab3-Cabin11: Content</position>
+        <position name="tab3acccabin11image">Tab3-Cabin11: Image -left</position>
+        <position name="tab3acccabin11gallery">Tab3-Cabin11: Gallery</position>
+        <position name="tab3acccabin11shema">Tab3-Cabin11: Shema</position>
+
+        <position name="tab3acccabin12">Tab3-Cabin12: Name</position>
+        <position name="tab3acccabin12nimg">Tab3-Cabin12: Name image</position>
+        <position name="tab3acccabin12content">Tab3-Cabin12: Content</position>
+        <position name="tab3acccabin12image">Tab3-Cabin12: Image -left</position>
+        <position name="tab3acccabin12gallery">Tab3-Cabin12: Gallery</position>
+        <position name="tab3acccabin12shema">Tab3-Cabin12: Shema</position>
+
+        <position name="tab3acccabin13">Tab3-Cabin13: Name</position>
+        <position name="tab3acccabin13nimg">Tab3-Cabin13: Name image</position>
+        <position name="tab3acccabin13content">Tab3-Cabin13: Content</position>
+        <position name="tab3acccabin13image">Tab3-Cabin13: Image -left</position>
+        <position name="tab3acccabin13gallery">Tab3-Cabin13: Gallery</position>
+        <position name="tab3acccabin13shema">Tab3-Cabin13: Shema</position>
+
+        <position name="tab3acccabin14">Tab3-Cabin14: Name</position>
+        <position name="tab3acccabin14nimg">Tab3-Cabin14: Name image</position>
+        <position name="tab3acccabin14content">Tab3-Cabin14: Content</position>
+        <position name="tab3acccabin14image">Tab3-Cabin14: Image -left</position>
+        <position name="tab3acccabin14gallery">Tab3-Cabin14: Gallery</position>
+        <position name="tab3acccabin14shema">Tab3-Cabin14: Shema</position>
+
+        <position name="tab3acccabin15">Tab3-Cabin15: Name</position>
+        <position name="tab3acccabin15nimg">Tab3-Cabin15: Name image</position>
+        <position name="tab3acccabin15content">Tab3-Cabin15: Content</position>
+        <position name="tab3acccabin15image">Tab3-Cabin15: Image -left</position>
+        <position name="tab3acccabin15gallery">Tab3-Cabin15: Gallery</position>
+        <position name="tab3acccabin15shema">Tab3-Cabin15: Shema</position>
+
+        <position name="tab3acccabin16">Tab3-Cabin16: Name</position>
+        <position name="tab3acccabin16nimg">Tab3-Cabin16: Name image</position>
+        <position name="tab3acccabin16content">Tab3-Cabin16: Content</position>
+        <position name="tab3acccabin16image">Tab3-Cabin16: Image -left</position>
+        <position name="tab3acccabin16gallery">Tab3-Cabin16: Gallery</position>
+        <position name="tab3acccabin16shema">Tab3-Cabin16: Shema</position>
+        
+
+        <position name="tab4name">Tab4: Name</position>
+        <position name="tab4content">Tab4: Content</position>
+
+        <position name="tab5name">Tab5: Name</position>
+        <position name="tab5content">Tab5: Content</position>
+
+        <position name="tab6name">Tab6: Name</position>
+        <position name="tab6content">Tab6: Content</position>
+
+        <position name="tab7name">Tab7: Name</position>
+        <position name="tab7content">Tab7: Content</position>
+        
+        <position name="tabreviews">Tab: Reviews</position>
+    </positions>
+
+
+
+
+
+
+
+
+
+
+    <positions layout="teaser">
+    <position name="title">Title</position>
+                <position name="title2">Title2</position>
+                                <position name="title3">Title3</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+        
+        <position name="flights">flights</position>
+        <position name="day">day</position>
+        <position name="price">price</position>
+        <position name="typet">typet</position>
+        <position name="typet1">typet1</position>
+        
+                <position name="link">Link</position>
+                                <position name="link2">Link2</position>
+    </positions>
+
+
+    <positions layout="calendar">
+    <position name="title">Title</position>
+                <position name="title2">Title2</position>
+                                <position name="title3">Title3</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+        
+        <position name="flights">flights</position>
+        <position name="day">day</position>
+        <position name="price">price</position>
+        <position name="typet">typet</position>
+        <position name="typet1">typet1</position>
+        
+                <position name="link">Link</position>
+                                <position name="link2">Link2</position>
+    </positions>
+
+
+
+
+
+    <positions layout="subcategory_item">
+        <position name="title">Title</position>
+                <position name="title2">Title2</position>
+                                <position name="title3">Title3</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+        
+        <position name="flights">flights</position>
+        <position name="day">day</position>
+        <position name="price">price</position>
+        <position name="typet">typet</position>
+        <position name="typet1">typet1</position>
+        
+                <position name="link">Link</position>
+                                <position name="link2">Link2</position>
+    </positions>
+
+    <positions layout="submission">
+        <position name="content">Content</position>
+        <position name="media">Media</position>
+        <position name="meta">Meta</position>
+        <position name="administration">Administration</position>
+    </positions>
+
+    <positions layout="compare">
+        <position name="fields">Fields</position>
+    </positions>
+
+    <positions layout="favorite">
+        <position name="title">Title</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="price">Price</position>
+    </positions>
+
+    <positions layout="ymlexport">
+        <position name="title">Title</position>
+        <position name="price">Price</position>
+        <position name="properties">Properties</position>
+        <position name="image">Image</position>
+        <position name="description">Description</position>
+        <position name="vendor">Vendor</position>
+        <position name="country_of_origin">Country of origin</position>
+    </positions>
+
+    <positions layout="edit">
+        <position name="content">Content</position>
+        <position name="media">Media</position>
+        <position name="meta">Meta</position>
+        <position name="administration">Administration</position>
+    </positions>
+
+    <positions layout="quickview">
+        <position name="top">Top</position>
+        <position name="title">Title</position>
+        <position name="price">Price</position>
+        <position name="image">Image</position>
+        <position name="description">Description</position>
+        <position name="properties">Properties</position>
+        <position name="bottom">Bottom</position>
+        <position name="related">Related</position>
+    </positions>
+
+</renderer>

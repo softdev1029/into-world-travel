@@ -1,0 +1,6 @@
+drwxr-xr-x   3 sg       6012           94 Mar 26  2018 .
+drwxr-xr-x  45 sg       6012         4096 Dec 25 20:39 ..
+-rw-r--r--   1 sg       6012         5058 Jun 26  2018 helper.php
+-rw-r--r--   1 sg       6012          984 Jun 26  2018 mod_related_items.php
+-rw-r--r--   1 sg       6012         2366 Jun 26  2018 mod_related_items.xml
+drwxr-xr-x   2 sg       6012           25 Mar 26  2018 tmpl

@@ -1,0 +1,15 @@
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x  13 sg       6012          181 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          245 Jul  9  2018 CacheKeyProviderInterface.php
+-rw-r--r--   1 sg       6012        13114 Jul  9  2018 CachePlugin.php
+-rw-r--r--   1 sg       6012          981 Jul  9  2018 CacheStorageInterface.php
+-rw-r--r--   1 sg       6012         1667 Jul  9  2018 CallbackCanCacheStrategy.php
+-rw-r--r--   1 sg       6012          649 Jul  9  2018 CanCacheStrategyInterface.php
+-rw-r--r--   1 sg       6012          705 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012         1502 Jul  9  2018 DefaultCacheKeyProvider.php
+-rw-r--r--   1 sg       6012         7986 Jul  9  2018 DefaultCacheStorage.php
+-rw-r--r--   1 sg       6012          908 Jul  9  2018 DefaultCanCacheStrategy.php
+-rw-r--r--   1 sg       6012         6353 Jul  9  2018 DefaultRevalidation.php
+-rw-r--r--   1 sg       6012          406 Jul  9  2018 DenyRevalidation.php
+-rw-r--r--   1 sg       6012          846 Jul  9  2018 RevalidationInterface.php
+-rw-r--r--   1 sg       6012          406 Jul  9  2018 SkipRevalidation.php

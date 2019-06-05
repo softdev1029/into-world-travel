@@ -1,0 +1,9 @@
+drwxrwxr-x   5 sg       6012          138 Mar 26  2018 .
+drwxr-xr-x  45 sg       6012         4096 Dec 25 20:39 ..
+-rw-r--r--   1 sg       6012         1384 Jul  9  2018 changelog.php
+drwxrwxr-x   2 sg       6012           76 Mar 26  2018 fields
+-rw-r--r--   1 sg       6012          861 Jul  9  2018 file.script.php
+-rw-r--r--   1 sg       6012          975 Jul  9  2018 mod_zooitem.php
+-rw-r--r--   1 sg       6012         2745 Jul  9  2018 mod_zooitem.xml
+drwxrwxr-x   4 sg       6012           33 Mar 26  2018 renderer
+drwxrwxr-x   3 sg       6012           79 Mar 26  2018 tmpl

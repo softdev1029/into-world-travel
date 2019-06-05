@@ -1,0 +1,8 @@
+drwxrwxr-x   3 sg       6012          106 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2958 Jul  9  2018 base.php
+-rw-r--r--   1 sg       6012        10074 Jul  9  2018 file.php
+-rw-r--r--   1 sg       6012         1732 Jul  9  2018 helper.php
+-rw-r--r--   1 sg       6012           31 Jul  9  2018 index.html
+drwxrwxr-x   6 sg       6012           66 Mar 26  2018 joomla
+-rw-r--r--   1 sg       6012          985 Jul  9  2018 layout.php

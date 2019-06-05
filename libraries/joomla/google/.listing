@@ -1,0 +1,9 @@
+drwxr-xr-x   5 sg       6012          110 Mar 26  2018 .
+drwxr-xr-x  29 sg       6012         4096 Jul 19  2018 ..
+drwxr-xr-x   2 sg       6012           24 Mar 26  2018 auth
+-rw-r--r--   1 sg       6012         2006 Jun 26  2018 auth.php
+drwxr-xr-x   4 sg       6012          105 Mar 26  2018 data
+-rw-r--r--   1 sg       6012         4201 Jun 26  2018 data.php
+drwxr-xr-x   2 sg       6012           43 Mar 26  2018 embed
+-rw-r--r--   1 sg       6012         2525 Jun 26  2018 embed.php
+-rw-r--r--   1 sg       6012         3663 Jun 26  2018 google.php

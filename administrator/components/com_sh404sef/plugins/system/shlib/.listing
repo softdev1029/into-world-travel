@@ -1,0 +1,11 @@
+drwxrwxr-x   6 sg       6012          174 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012           69 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         8434 Jul 19  2018 changelog.log
+-rw-r--r--   1 sg       6012           45 Jul 19  2018 index.html
+-rw-r--r--   1 sg       6012         8851 Jul 19  2018 installation.script.php
+drwxrwxr-x   3 sg       6012           37 Mar 26  2018 language
+drwxrwxr-x   3 sg       6012           19 Mar 26  2018 layouts
+drwxrwxr-x   3 sg       6012           41 Mar 26  2018 media
+-rw-r--r--   1 sg       6012         5479 Jul 19  2018 shlib.php
+-rw-r--r--   1 sg       6012         8423 Jul 19  2018 shlib.xml
+drwxrwxr-x  12 sg       6012          181 Jul 19  2018 shl_packages

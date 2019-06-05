@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>travel</name>
+    <version>1.0.0</version>
+    <description>RoomXML</description>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <author>Федянин</author>
+    <authoremail>alae@bk.ru</authoremail>
+    <authorurl>http://webalan.ru</authorurl>
+    <copyright>Copyright (C) 2018 Open Source Matters. All rights reserved.</copyright>
+    <creationDate>31.07.2018</creationDate>
+    <files folder="site">
+    <filename>controller.php</filename>
+<folder>css</folder>
+<folder>helpers</folder>
+<folder>images</folder>
+<folder>js</folder>
+<folder>language</folder>
+<folder>models</folder>
+<filename>travel.php</filename>
+<folder>views</folder>
+   </files>
+    
+     <languages folder="site/language">
+            <language tag="ru-RU">ru-RU/ru-RU.com_travel.ini</language>
+        </languages>
+    
+     <install>
+          <sql>
+             <file charset="utf8" driver="mysql">install.sql</file>
+          </sql>
+       </install>
+       <uninstall>
+          <sql>
+             <file charset="utf8" driver="mysql">uninstall.sql</file>
+          </sql>
+       </uninstall>
+    <administration>
+        <menu img="components/com_travel/assets/images/leaf.png" link="option=com_travel">travel</menu>
+             
+        <files folder="admin">
+             <filename>access.xml</filename>
+<folder>assets</folder>
+<filename>config.xml</filename>
+<filename>controller.php</filename>
+<folder>controllers</folder>
+<folder>helpers</folder>
+<folder>images</folder>
+<filename>install.sql</filename>
+<folder>language</folder>
+<folder>models</folder>
+<folder>tables</folder>
+<filename>travel.php</filename>
+<filename>uninstall.sql</filename>
+<folder>views</folder>
+        </files>
+         <languages folder="admin/language">
+            <language tag="ru-RU">ru-RU/ru-RU.com_travel.ini</language>
+        </languages>
+    </administration>
+</extension>

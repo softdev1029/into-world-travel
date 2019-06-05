@@ -1,0 +1,12 @@
+drwxr-xr-x  11 sg       6012          159 Mar 26  2018 .
+drwxrwxr-x  23 sg       6012         4096 Mar 22 13:53 ..
+drwxr-xr-x   9 sg       6012          146 Apr 24 15:38 cache
+drwxr-xr-x  50 sg       6012         4096 Sep 18  2018 components
+drwxr-xr-x   3 sg       6012           40 Mar 26  2018 help
+drwxr-xr-x   2 sg       6012          105 Mar 26  2018 includes
+-rw-r--r--   1 sg       6012         1539 Jun 26  2018 index.php
+drwxr-xr-x   5 sg       6012           67 Mar 26  2018 language
+drwxrwxr-x   2 sg       6012            6 Mar 26  2018 logs
+drwxr-xr-x   5 sg       6012           52 Mar 26  2018 manifests
+drwxr-xr-x  21 sg       6012         4096 Jul  9  2018 modules
+drwxr-xr-x   5 sg       6012           46 Mar 26  2018 templates

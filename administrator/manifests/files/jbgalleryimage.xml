@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="2.5" method="upgrade">
+  <name>FL Gallery Image</name>
+  <author>Васюков Дмитрий</author>
+  <creationDate>November 2015</creationDate>
+  <authorEmail>info@fictionlabs.ru</authorEmail>
+  <authorUrl>http://fictionlabs.ru</authorUrl>
+  <version>1.1.2</version>
+  <description>Ajax Based Image element for JBZoo</description>
+  <fileset>
+    <files target="images/">
+      <filename>watermark.png</filename>
+    </files>
+    <files target="media/zoo/applications/jbuniversal/framework/elements/user/">
+      <filename>jbgalleryimage.php</filename>
+    </files>
+    <files target="media/zoo/applications/jbuniversal/elements/">
+      <folder>jbgalleryimage</folder>
+    </files>
+  </fileset>
+</extension>

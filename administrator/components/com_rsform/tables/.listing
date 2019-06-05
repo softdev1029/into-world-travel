@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          294 Mar 26  2018 .
+drwxrwxr-x  10 sg       6012          290 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           50 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          454 Jul  9  2018 rsform_akismet.php
+-rw-r--r--   1 sg       6012          611 Jul  9  2018 rsform_condition_details.php
+-rw-r--r--   1 sg       6012          646 Jul  9  2018 rsform_conditions.php
+-rw-r--r--   1 sg       6012          511 Jul  9  2018 rsform_directory.php
+-rw-r--r--   1 sg       6012          688 Jul  9  2018 rsform_emails.php
+-rw-r--r--   1 sg       6012         2271 Jul  9  2018 rsform_forms.php
+-rw-r--r--   1 sg       6012         1016 Jul  9  2018 rsform_mailchimp.php
+-rw-r--r--   1 sg       6012          649 Jul  9  2018 rsform_mappings.php
+-rw-r--r--   1 sg       6012          741 Jul  9  2018 rsform_pdfs.php
+-rw-r--r--   1 sg       6012          624 Jul  9  2018 rsform_posts.php

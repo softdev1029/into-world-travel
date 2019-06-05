@@ -1,0 +1,159 @@
+/* Created by Artisteer v4.2.0.60623 */
+
+.oba-header, #oba-header-bg, .oba-layout-cell, .oba-layout-wrapper, .oba-footer, .oba-nav, #oba-hmenu-bg, .oba-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.oba-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.oba-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#oba-header-bg 
+{
+   display: none;
+}
+
+.oba-hmenu>li, .oba-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.oba-hmenu, ul.oba-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#oba-hmenu-bg 
+{
+   display: none;
+}
+
+ul.oba-hmenu>li:first-child {
+   padding-right:4px;
+}
+
+ul.oba-hmenu ul{
+   background-color: #EFF2F5 !important;
+}
+
+.oba-content-layout, .oba-content-layout-row, .oba-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.oba-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.oba-vmenu, ul.oba-vmenu ul, ul.oba-vmenu li{
+   zoom: 1;
+}
+
+ul.oba-vmenu ul 
+{
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.oba-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.oba-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.oba-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.oba-search
+{
+   zoom: 1;
+}
+.oba-postheadericons span{
+   zoom: 1;
+}
+.oba-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.oba-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='oba-sidebar1-bg' + (className.indexOf('oba-sidebar1-fix') == -1 ? '' : ' oba-sidebar1-bg-fix' ));
+}
+
+.oba-sidebar1-bg 
+{
+   border-right:1px solid #D6DEDF;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 300px;
+   overflow:hidden;
+   display:block;
+   background-color: #EAEEEF;
+}
+
+.oba-sidebar2 
+{
+   width: auto;
+   float:none;
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='oba-sidebar2-bg' + (className.indexOf('oba-sidebar2-fix') == -1 ? '' : ' oba-sidebar2-bg-fix' ));
+}
+
+.oba-sidebar2-bg 
+{
+   border-left:1px solid #D6DEDF;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   right:  0;
+   bottom:0;
+   top:0;
+   width: 300px;
+   overflow:hidden;
+   display:block;
+   background-color: #EAEEEF;
+}
+

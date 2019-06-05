@@ -1,0 +1,12 @@
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012           87 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        37451 Jul  9  2018 beautify.min.js
+-rw-r--r--   1 sg       6012        31752 Jul  9  2018 codemirror.addons.min.js
+-rw-r--r--   1 sg       6012         9203 Jul  9  2018 codemirror.addons.search.min.js
+-rw-r--r--   1 sg       6012       171602 Jul  9  2018 codemirror.min.js
+-rw-r--r--   1 sg       6012         1960 Jul  9  2018 codemirror.mode.bbcode.min.js
+-rw-r--r--   1 sg       6012         1960 Jul  9  2018 codemirror.mode.bbcodemixed.min.js
+-rw-r--r--   1 sg       6012        48147 Jul  9  2018 codemirror.mode.htmlmixed.min.js
+-rw-r--r--   1 sg       6012        14537 Jul  9  2018 codemirror.mode.javascript.min.js
+-rw-r--r--   1 sg       6012        74933 Jul  9  2018 codemirror.mode.php.min.js
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html

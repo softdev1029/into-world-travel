@@ -1,0 +1,12 @@
+drwxrwxr-x   3 sg       6012          204 Mar 26  2018 .
+drwxr-xr-x  16 sg       6012          222 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         1927 Jul  9  2018 data.php
+-rw-r--r--   1 sg       6012         3670 Jul  9  2018 fields.xml
+-rw-r--r--   1 sg       6012         4256 Jul  9  2018 helper.php
+drwxrwxr-x   3 sg       6012           19 Mar 26  2018 language
+-rw-r--r--   1 sg       6012         2541 Jul  9  2018 popup.php
+-rw-r--r--   1 sg       6012         4019 Jul  9  2018 popup.tmpl.php
+-rw-r--r--   1 sg       6012        19088 Jul  9  2018 script.install.helper.php
+-rw-r--r--   1 sg       6012          729 Jul  9  2018 script.install.php
+-rw-r--r--   1 sg       6012         2778 Jul  9  2018 tabs.php
+-rw-r--r--   1 sg       6012         1941 Jul  9  2018 tabs.xml

@@ -1,0 +1,12 @@
+drwxr-xr-x   2 sg       6012          228 Mar 26  2018 .
+drwxr-xr-x  17 sg       6012          226 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012          927 Jun 26  2018 associations.php
+-rw-r--r--   1 sg       6012         1967 Jun 26  2018 details.php
+-rw-r--r--   1 sg       6012         1184 Jun 26  2018 fieldset.php
+-rw-r--r--   1 sg       6012         2728 Jun 26  2018 frontediting_modules.php
+-rw-r--r--   1 sg       6012         1402 Jun 26  2018 global.php
+-rw-r--r--   1 sg       6012          537 Jun 26  2018 item_title.php
+-rw-r--r--   1 sg       6012         1064 Jun 26  2018 metadata.php
+-rw-r--r--   1 sg       6012         3415 Jun 26  2018 params.php
+-rw-r--r--   1 sg       6012          935 Jun 26  2018 publishingdata.php
+-rw-r--r--   1 sg       6012          539 Jun 26  2018 title_alias.php

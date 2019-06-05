@@ -1,0 +1,4 @@
+drwxrwxr-x   2 sg       6012           53 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012           81 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        10804 Jul  9  2018 TwitterOAuth.php
+-rw-r--r--   1 sg       6012         2469 Jul  9  2018 TwitterType.php

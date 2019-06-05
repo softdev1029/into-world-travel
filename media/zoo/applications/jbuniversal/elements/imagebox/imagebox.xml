@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="imagebox" group="Form">
+    <name>ImageBox</name>
+    <author>isay777.</author>
+    <creationDate>May 2015</creationDate>
+    <copyright>Copyright (C) 2011 - 2015</copyright>
+    <authorEmail>Info@smuzi-studio.ru</authorEmail>
+    <authorUrl>http://smuzi-studio.ru/</authorUrl>
+    <version>1.2.1</version>
+    <license>http://opensource.org/licenses/GPL-2.0 GNU/GPLv2 only</license>
+    <description>for jbzoo and zoo</description>
+    <params>
+        <param name="renderwidth" type="text" default="" label="Ширина изображений"
+               description="Изменить ширину изображений"/>
+        <param name="renderheight" type="text" default="" label="Высота изображений"
+               description="Изменить высоту изображений"/>
+        <param name="adminwidth" type="text" default="" label="Ширина изображений в админке"
+               description="Изменить ширину изображений в админке"/>
+        <param name="adminheight" type="text" default="90" label="Высота изображений в админке"
+               description="Изменить высоту изображений в админке"/>
+        <param name="input_type" type="radio" default="checkbox" label="Тип выбора" description="Выбираем тип">
+            <option value="checkbox">Checkbox</option>
+            <option value="radio">Radio</option>
+            <option value="select">Select</option>
+        </param>
+        <param name="hide_select" type="radio" default="true" label="Скрыть выбор"
+               description="Если выбрано Да - не будет показан выбор">
+            <option value="false">JNO</option>
+            <option value="true">JYES</option>
+        </param>
+        <param name="show_label" type="radio" default="false" label="Показать подпись"
+               description="Показывать подпись к иконке или нет">
+            <option value="false">JNO</option>
+            <option value="true">JYES</option>
+        </param>
+        <param name="multiple" type="radio" default="0" label="Множественный выбор?" description="">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </param>
+        <param name="data_limit" type="text" label="Дата лимит"
+               description="If it's a select multiple and set to any value, it'll cap the selectable elements at that value"/>
+    </params>
+    <params group="render">
+        <param name="option_name" type="radio" default="1" label="Показать имя" description="Show/Hide option name">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </param>
+        <param name="separated_by" type="zoolist" default="Space" label="Разделитель"
+               description="CHOOSE_SEPARATOR_REPEATED_ELEMENTS">
+            <option name="Space"><![CDATA[separator=[ ]]]></option>
+            <option name="Comma"><![CDATA[separator=[, ]]]></option>
+            <option name="Hyphen"><![CDATA[separator=[ - ]]]></option>
+            <option name="Pipe"><![CDATA[separator=[ | ]]]></option>
+            <option name="Break"><![CDATA[separator=[<br />]]]></option>
+            <option name="Span"><![CDATA[tag=[<span>%s</span>]]]></option>
+            <option name="Paragraph"><![CDATA[tag=[<p>%s</p>]]]></option>
+            <option name="Div"><![CDATA[tag=[<div>%s</div>]]]></option>
+            <option name="List Item"><![CDATA[tag=[<li>%s</li>]]]></option>
+            <option name="Unordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]]]></option>
+            <option name="Ordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ol>%s</ol>]]]></option>
+            <option name="Warp Item"><![CDATA[tag=[<article class="item">%s</article>]]]></option>
+            <option name="Blank"><![CDATA[tag=[%s]]]></option>
+            <option name="UIkit Block"><![CDATA[tag=[<div class="uk-margin">%s</div>]]]></option>
+            <option name="UIkit Article"><![CDATA[tag=[<article class="uk-article">%s</article>]]]></option>
+            <option name="UIkit List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list">%s</ul>]]]></option>
+            <option name="UIkit List Line">
+                <![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list uk-list-line">%s</ul>]]]></option>
+        </param>
+    </params>
+</element>

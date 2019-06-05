@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter">
+		<field
+			name="search"
+			type="text"
+			label="COM_TAGMETA_FILTER"
+			hint="JSEARCH_FILTER_LABEL"
+		/>
+		<field
+			name="state"
+			type="status"
+			label="JOPTION_SELECT_PUBLISHED"
+			description="JOPTION_SELECT_PUBLISHED_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">JOPTION_SELECT_PUBLISHED</option>
+		</field>
+	</fields>
+	<fields name="list">
+		<field
+			name="fullordering"
+			type="list"
+			label="JGLOBAL_SORT_BY"
+			description="JGLOBAL_SORT_BY"
+			onchange="this.form.submit();"
+			default="a.ordering ASC"
+			>
+			<option value="">JGLOBAL_SORT_BY</option>
+			<option value="a.ordering ASC">JGRID_HEADING_ORDERING_ASC</option>
+			<option value="a.ordering DESC">JGRID_HEADING_ORDERING_DESC</option>
+			<option value="a.published ASC">JSTATUS_ASC</option>
+			<option value="a.published DESC">JSTATUS_DESC</option>
+			<option value="a.id ASC">COM_TAGMETA_HEADING_RULES_ID_ASC</option>
+			<option value="a.id DESC">COM_TAGMETA_HEADING_RULES_ID_DESC</option>
+			<option value="a.url ASC">COM_TAGMETA_HEADING_RULES_URL_ASC</option>
+			<option value="a.url DESC">COM_TAGMETA_HEADING_RULES_URL_DESC</option>
+			<option value="a.skip ASC">COM_TAGMETA_HEADING_RULES_SKIP_ASC</option>
+			<option value="a.skip DESC">COM_TAGMETA_HEADING_RULES_SKIP_DESC</option>
+			<option value="a.case_sensitive ASC">COM_TAGMETA_HEADING_RULES_CASE_SENSITIVE_ASC</option>
+			<option value="a.case_sensitive DESC">COM_TAGMETA_HEADING_RULES_CASE_SENSITIVE_DESC</option>
+			<option value="a.request_only ASC">COM_TAGMETA_HEADING_RULES_REQUEST_ONLY_ASC</option>
+			<option value="a.request_only DESC">COM_TAGMETA_HEADING_RULES_REQUEST_ONLY_DESC</option>
+			<option value="a.decode_url ASC">COM_TAGMETA_HEADING_RULES_DECODE_URL_ASC</option>
+			<option value="a.decode_url DESC">COM_TAGMETA_HEADING_RULES_DECODE_URL_DESC</option>
+			<option value="a.last_rule ASC">COM_TAGMETA_HEADING_RULES_LAST_RULE_ASC</option>
+			<option value="a.last_rule DESC">COM_TAGMETA_HEADING_RULES_LAST_RULE_DESC</option>
+			<option value="a.title ASC">COM_TAGMETA_HEADING_RULES_TITLE_ASC</option>
+			<option value="a.title DESC">COM_TAGMETA_HEADING_RULES_TITLE_DESC</option>
+			<option value="a.description ASC">COM_TAGMETA_HEADING_RULES_DESCRIPTION_ASC</option>
+			<option value="a.description DESC">COM_TAGMETA_HEADING_RULES_DESCRIPTION_DESC</option>
+			<option value="a.author ASC">COM_TAGMETA_HEADING_RULES_AUTHOR_ASC</option>
+			<option value="a.author DESC">COM_TAGMETA_HEADING_RULES_AUTHOR_DESC</option>
+			<option value="a.keywords ASC">COM_TAGMETA_HEADING_RULES_KEYWORDS_ASC</option>
+			<option value="a.keywords DESC">COM_TAGMETA_HEADING_RULES_KEYWORDS_DESC</option>
+			<option value="a.rights ASC">COM_TAGMETA_HEADING_RULES_RIGHTS_ASC</option>
+			<option value="a.rights DESC">COM_TAGMETA_HEADING_RULES_RIGHTS_DESC</option>
+			<option value="a.xreference ASC">COM_TAGMETA_HEADING_RULES_XREFERENCE_ASC</option>
+			<option value="a.xreference DESC">COM_TAGMETA_HEADING_RULES_XREFERENCE_DESC</option>
+			<option value="a.canonical ASC">COM_TAGMETA_HEADING_RULES_CANONICAL_ASC</option>
+			<option value="a.canonical DESC">COM_TAGMETA_HEADING_RULES_CANONICAL_DESC</option>
+			<option value="a.comment ASC">COM_TAGMETA_HEADING_RULES_COMMENT_ASC</option>
+			<option value="a.comment DESC">COM_TAGMETA_HEADING_RULES_COMMENT_DESC</option>
+			<option value="a.synonyms ASC">COM_TAGMETA_HEADING_RULES_SYNONYMS_ASC</option>
+			<option value="a.synonyms DESC">COM_TAGMETA_HEADING_RULES_SYNONYMS_DESC</option>
+			<option value="a.preserve_title ASC">COM_TAGMETA_HEADING_RULES_PRESERVE_TITLE_ASC</option>
+			<option value="a.preserve_title DESC">COM_TAGMETA_HEADING_RULES_PRESERVE_TITLE_DESC</option>
+			<option value="a.hits ASC">COM_TAGMETA_HEADING_RULES_HITS_ASC</option>
+			<option value="a.hits DESC">COM_TAGMETA_HEADING_RULES_HITS_DESC</option>
+			<option value="a.last_visit ASC">COM_TAGMETA_HEADING_RULES_LAST_VISIT_ASC</option>
+			<option value="a.last_visit DESC">COM_TAGMETA_HEADING_RULES_LAST_VISIT_DESC</option>
+		</field>
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="25"
+			label="COM_TAGMETA_LIST_LIMIT"
+			description="COM_TAGMETA_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

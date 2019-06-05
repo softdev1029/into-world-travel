@@ -1,0 +1,6 @@
+drwxr-xr-x   4 sg       6012           82 Jul  9  2018 .
+drwxr-xr-x  17 sg       6012          220 Jul  9  2018 ..
+drwxr-xr-x   2 sg       6012           31 Jul  9  2018 params
+drwxr-xr-x   2 sg       6012           31 Jul  9  2018 tmpl
+-rw-r--r--   1 sg       6012          480 Jun 26  2018 usergrouplist.php
+-rw-r--r--   1 sg       6012         1345 Jun 26  2018 usergrouplist.xml

@@ -1,0 +1,10 @@
+drwxrwxr-x   6 sg       6012          140 Mar 26  2018 .
+drwxrwxr-x  56 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           64 Mar 26  2018 classes
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 css
+-rw-r--r--   1 sg       6012         2398 Jul  9  2018 editor_plugin.js
+-rw-r--r--   1 sg       6012          595 Jul  9  2018 imgmanager.php
+-rw-r--r--   1 sg       6012        13183 Jul  9  2018 imgmanager.xml
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+drwxrwxr-x   2 sg       6012           45 Mar 26  2018 js
+drwxrwxr-x   2 sg       6012           81 Mar 26  2018 tmpl

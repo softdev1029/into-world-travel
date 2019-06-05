@@ -1,0 +1,10 @@
+drwxrwxr-x   2 sg       6012          188 Mar 26  2018 .
+drwxrwxr-x   8 sg       6012          160 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          828 Jul  9  2018 ContentInterface.php
+-rw-r--r--   1 sg       6012         3564 Jul  9  2018 Content.php
+-rw-r--r--   1 sg       6012         2381 Jul  9  2018 ContentProvider.php
+-rw-r--r--   1 sg       6012          351 Jul  9  2018 ItemCollection.php
+-rw-r--r--   1 sg       6012          115 Jul  9  2018 ItemInterface.php
+-rw-r--r--   1 sg       6012         7748 Jul  9  2018 Item.php
+-rw-r--r--   1 sg       6012          539 Jul  9  2018 TypeInterface.php
+-rw-r--r--   1 sg       6012         1275 Jul  9  2018 Type.php

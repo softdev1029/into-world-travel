@@ -1,0 +1,13 @@
+drwxr-xr-x   3 sg       6012         4096 Sep 18  2018 .
+drwxr-xr-x   3 sg       6012           25 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         1804 Sep 18  2018 01-Autofilters.md
+-rw-r--r--   1 sg       6012          911 Sep 18  2018 02-Setting-an-Autofilter.md
+-rw-r--r--   1 sg       6012         1110 Sep 18  2018 03-Autofilter-Expressions.md
+-rw-r--r--   1 sg       6012         1926 Sep 18  2018 04-01-Autofilter-Expressions-Simple.md
+-rw-r--r--   1 sg       6012         1607 Sep 18  2018 04-02-Autofilter-Expressions-Dategroup.md
+-rw-r--r--   1 sg       6012         3326 Sep 18  2018 04-03-Autofilter-Expressions-Custom.md
+-rw-r--r--   1 sg       6012         4474 Sep 18  2018 04-04-Autofilter-Expressions-Dynamic.md
+-rw-r--r--   1 sg       6012         2481 Sep 18  2018 04-05-Autofilter-Expressions-Topten.md
+-rw-r--r--   1 sg       6012         1653 Sep 18  2018 05-Executing-Autofilters.md
+-rw-r--r--   1 sg       6012          170 Sep 18  2018 06-Autofilter-Sorting.md
+drwxr-xr-x   2 sg       6012         4096 Sep 18  2018 images

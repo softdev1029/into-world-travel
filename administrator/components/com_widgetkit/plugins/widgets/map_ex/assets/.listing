@@ -1,0 +1,15 @@
+drwxrwxr-x   2 sg       6012          314 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012          116 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         4360 Jul  9  2018 jquery.formchimp.js
+-rw-r--r--   1 sg       6012         1344 Jul  9  2018 jquery.formchimp.min.js
+-rw-r--r--   1 sg       6012         1045 Jul  9  2018 jquery.wait.js
+-rw-r--r--   1 sg       6012          399 Jul  9  2018 jquery.wait.min.js
+-rw-r--r--   1 sg       6012        24329 Jul  9  2018 maps.js
+-rw-r--r--   1 sg       6012        17076 Jul  9  2018 maps.min.js
+-rw-r--r--   1 sg       6012        19513 Jul  9  2018 marked.min.js
+-rw-r--r--   1 sg       6012          432 Jul  9  2018 replacer.js
+-rw-r--r--   1 sg       6012           95 Jul  9  2018 replacer.min.js
+-rw-r--r--   1 sg       6012        16449 Jul  9  2018 underscore-min.js
+-rw-r--r--   1 sg       6012        27589 Jul  9  2018 underscore-min.map
+-rw-r--r--   1 sg       6012         5054 Jul  9  2018 versioncompare.js
+-rw-r--r--   1 sg       6012         2209 Jul  9  2018 versioncompare.min.js

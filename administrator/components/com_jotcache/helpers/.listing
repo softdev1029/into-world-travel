@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          153 Mar 26  2018 .
+drwxrwxr-x   9 sg       6012          220 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3689 Jul  9  2018 browseragents.php
+-rw-r--r--   1 sg       6012           32 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         1967 Jul  9  2018 memcached.php
+-rw-r--r--   1 sg       6012         1622 Jul  9  2018 memcache.php
+-rw-r--r--   1 sg       6012         4360 Jul  9  2018 recacherunner.php
+-rw-r--r--   1 sg       6012         1233 Jul  9  2018 selector.php
+-rw-r--r--   1 sg       6012          750 Jul  9  2018 status.php

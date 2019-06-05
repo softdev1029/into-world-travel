@@ -1,0 +1,64 @@
+.fl-galleryimage .well {
+   position: relative;
+}
+.fl-galleryimage .fl-button-sort, .fl-galleryimage .fl-button-delete-full, .fl-galleryimage .fl-button-delete-simple {
+	position: absolute;
+	right: 9px;
+}
+.fl-galleryimage .fl-button-sort {
+	top: 9px;
+}
+.fl-galleryimage .fl-button-delete-full, .fl-files .fl-button-delete-simple {
+	top: 36px;
+}
+@-webkit-keyframes fl-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+.fl-galleryimage .icon-refresh {
+    -webkit-animation-name:             fl-rotate; 
+    -webkit-animation-duration:         1.5s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+}
+.fl-galleryimage .icon-ok, .fl-galleryimage .icon-refresh {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-left: 2px
+}
+.fl-galleryimage .icon-ok, .fl-galleryimage .icon-refresh {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-left: 2px
+}
+.fl-galleryimage .fl-upload-from-server {
+  margin-bottom: 20px;
+}
+.fl-galleryimage .fl-upload-from-server button {
+  float: right;
+}
+.fl-galleryimage .fl-files li {
+  padding: 9px;
+}
+#fl-galleryimage-dropzone .fl-file {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+#fl-galleryimage-dropzone input {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  left: 0;
+  font-size: 500px;
+}

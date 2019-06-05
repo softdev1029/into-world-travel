@@ -1,0 +1,10 @@
+drwxr-xr-x   2 sg       6012          213 Jul  9  2018 .
+drwxr-xr-x   4 sg       6012          190 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012        38298 Jun 26  2018 ComponentAdapter.php
+-rw-r--r--   1 sg       6012        16501 Jun 26  2018 FileAdapter.php
+-rw-r--r--   1 sg       6012        24578 Jun 26  2018 LanguageAdapter.php
+-rw-r--r--   1 sg       6012        14505 Jun 26  2018 LibraryAdapter.php
+-rw-r--r--   1 sg       6012        20743 Jun 26  2018 ModuleAdapter.php
+-rw-r--r--   1 sg       6012        19983 Jun 26  2018 PackageAdapter.php
+-rw-r--r--   1 sg       6012        19756 Jun 26  2018 PluginAdapter.php
+-rw-r--r--   1 sg       6012        17242 Jun 26  2018 TemplateAdapter.php

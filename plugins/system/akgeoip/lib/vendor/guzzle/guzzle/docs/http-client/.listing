@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          139 Mar 26  2018 .
+drwxrwxr-x  12 sg       6012          275 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        23684 Jul  9  2018 client.rst
+-rw-r--r--   1 sg       6012         5804 Jul  9  2018 entity-bodies.rst
+-rw-r--r--   1 sg       6012         3414 Jul  9  2018 http-redirects.rst
+-rw-r--r--   1 sg       6012        32279 Jul  9  2018 request.rst
+-rw-r--r--   1 sg       6012         4852 Jul  9  2018 response.rst
+-rw-r--r--   1 sg       6012         2332 Jul  9  2018 uri-templates.rst

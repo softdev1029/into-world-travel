@@ -1,0 +1,12 @@
+drwxrwxr-x   9 sg       6012          181 Mar 26  2018 .
+drwxrwxr-x   8 sg       6012          143 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 default
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 list
+-rw-r--r--   1 sg       6012         1565 Jul 19  2018 params.php
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 screen
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 showcase_box
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 showcase_buttons
+-rw-r--r--   1 sg       6012          994 Jul 19  2018 slides_settings.php
+-rw-r--r--   1 sg       6012          821 Jul 19  2018 style.php
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 tabs
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 tabs_bar

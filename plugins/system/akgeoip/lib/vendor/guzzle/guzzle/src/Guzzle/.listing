@@ -1,0 +1,13 @@
+drwxrwxr-x  13 sg       6012          160 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 ..
+drwxrwxr-x   3 sg       6012         4096 Mar 26  2018 Batch
+drwxrwxr-x   2 sg       6012          268 Mar 26  2018 Cache
+drwxrwxr-x   3 sg       6012          228 Mar 26  2018 Common
+drwxrwxr-x   7 sg       6012         4096 Mar 26  2018 Http
+drwxrwxr-x   2 sg       6012          140 Mar 26  2018 Inflection
+drwxrwxr-x   2 sg       6012          177 Mar 26  2018 Iterator
+drwxrwxr-x   2 sg       6012          276 Mar 26  2018 Log
+drwxrwxr-x   6 sg       6012          112 Mar 26  2018 Parser
+drwxrwxr-x  13 sg       6012          181 Mar 26  2018 Plugin
+drwxrwxr-x   7 sg       6012          250 Mar 26  2018 Service
+drwxrwxr-x   2 sg       6012          148 Mar 26  2018 Stream

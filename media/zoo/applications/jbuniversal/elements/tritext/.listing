@@ -1,0 +1,6 @@
+drwxrwxr-x   3 sg       6012           74 Mar 26  2018 .
+drwxrwxr-x  28 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           30 Jul  9  2018 index.html
+drwxrwxr-x   2 sg       6012           56 Mar 26  2018 tmpl
+-rw-r--r--   1 sg       6012         2175 Jul  9  2018 tritext.php
+-rw-r--r--   1 sg       6012         2665 Jul  9  2018 tritext.xml

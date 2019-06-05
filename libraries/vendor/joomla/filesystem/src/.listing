@@ -1,0 +1,13 @@
+drwxr-xr-x   6 sg       6012          190 Jul  9  2018 .
+drwxr-xr-x   4 sg       6012           44 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         4207 Jun 26  2018 Buffer.php
+drwxr-xr-x   2 sg       6012           27 Jul  9  2018 Clients
+drwxr-xr-x   2 sg       6012           37 Jul  9  2018 Exception
+-rw-r--r--   1 sg       6012         5982 Jun 26  2018 File.php
+-rw-r--r--   1 sg       6012        14442 Jun 26  2018 Folder.php
+-rw-r--r--   1 sg       6012         5168 Jun 26  2018 Helper.php
+-rw-r--r--   1 sg       6012        11462 Jun 26  2018 Patcher.php
+-rw-r--r--   1 sg       6012         6716 Jun 26  2018 Path.php
+drwxr-xr-x   2 sg       6012           49 Jul  9  2018 Stream
+-rw-r--r--   1 sg       6012        32285 Jun 26  2018 Stream.php
+drwxr-xr-x   2 sg       6012           34 Jul  9  2018 Support

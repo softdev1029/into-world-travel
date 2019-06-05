@@ -1,0 +1,10 @@
+drwxrwxr-x   6 sg       6012          143 Mar 26  2018 .
+drwxrwxr-x  28 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   5 sg       6012           57 Mar 26  2018 assets
+-rw-r--r--   1 sg       6012          890 Jul  9  2018 csvimagebox.php
+drwxrwxr-x   2 sg       6012           69 Mar 26  2018 fields
+-rw-r--r--   1 sg       6012        10684 Jul  9  2018 imagebox.php
+-rw-r--r--   1 sg       6012         4715 Jul  9  2018 imagebox.xml
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+drwxrwxr-x   5 sg       6012           63 Mar 26  2018 language
+drwxrwxr-x   2 sg       6012           46 Mar 26  2018 tmpl

@@ -1,0 +1,12 @@
+drwxr-xr-x   5 sg       6012          217 Jul 19  2018 .
+drwxr-xr-x   3 sg       6012          112 Jul 19  2018 ..
+drwxr-xr-x   2 sg       6012         4096 Jul 19  2018 i18n
+drwxr-xr-x   4 sg       6012           96 Jul 19  2018 jquery.plupload.queue
+drwxr-xr-x   4 sg       6012           90 Jul 19  2018 jquery.ui.plupload
+-rw-r--r--   1 sg       6012       286298 Jul 19  2018 moxie.js
+-rw-r--r--   1 sg       6012        97174 Jul 19  2018 moxie.min.js
+-rw-r--r--   1 sg       6012        29903 Jul 19  2018 Moxie.swf
+-rw-r--r--   1 sg       6012        63118 Jul 19  2018 Moxie.xap
+-rw-r--r--   1 sg       6012        60628 Jul 19  2018 plupload.dev.js
+-rw-r--r--   1 sg       6012       113501 Jul 19  2018 plupload.full.min.js
+-rw-r--r--   1 sg       6012        16326 Jul 19  2018 plupload.min.js

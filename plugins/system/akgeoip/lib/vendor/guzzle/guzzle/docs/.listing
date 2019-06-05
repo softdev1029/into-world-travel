@@ -1,0 +1,17 @@
+drwxrwxr-x  12 sg       6012          275 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012          122 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           26 Mar 26  2018 batching
+-rw-r--r--   1 sg       6012         3047 Jul  9  2018 conf.py
+-rw-r--r--   1 sg       6012         1322 Jul  9  2018 docs.rst
+drwxrwxr-x   2 sg       6012           36 Mar 26  2018 _downloads
+drwxrwxr-x   2 sg       6012           65 Mar 26  2018 getting-started
+drwxrwxr-x   2 sg       6012          139 Mar 26  2018 http-client
+-rw-r--r--   1 sg       6012          125 Jul  9  2018 index.rst
+drwxrwxr-x   2 sg       6012           64 Mar 26  2018 iterators
+-rw-r--r--   1 sg       6012         5564 Jul  9  2018 Makefile
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 plugins
+-rw-r--r--   1 sg       6012           41 Jul  9  2018 requirements.txt
+drwxrwxr-x   2 sg       6012          104 Mar 26  2018 _static
+drwxrwxr-x   2 sg       6012           66 Mar 26  2018 _templates
+drwxrwxr-x   2 sg       6012           30 Mar 26  2018 testing
+drwxrwxr-x   2 sg       6012          111 Mar 26  2018 webservice-client

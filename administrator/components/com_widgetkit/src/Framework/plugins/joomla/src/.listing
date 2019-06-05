@@ -1,0 +1,11 @@
+drwxrwxr-x   2 sg       6012          212 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           35 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2975 Jul  9  2018 ArticleHelper.php
+-rw-r--r--   1 sg       6012          295 Jul  9  2018 ContentFilter.php
+-rw-r--r--   1 sg       6012          298 Jul  9  2018 CsrfProvider.php
+-rw-r--r--   1 sg       6012         2671 Jul  9  2018 Database.php
+-rw-r--r--   1 sg       6012          932 Jul  9  2018 DateHelper.php
+-rw-r--r--   1 sg       6012         6401 Jul  9  2018 JoomlaPlugin.php
+-rw-r--r--   1 sg       6012          754 Jul  9  2018 Option.php
+-rw-r--r--   1 sg       6012         1029 Jul  9  2018 UrlGenerator.php
+-rw-r--r--   1 sg       6012         1592 Jul  9  2018 UserProvider.php

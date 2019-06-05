@@ -1,0 +1,16 @@
+drwxrwxr-x   2 sg       6012          280 Mar 26  2018 .
+drwxrwxr-x  14 sg       6012          284 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        45068 Jul  9  2018 ajaxserver.php
+-rw-r--r--   1 sg       6012         8583 Jul  9  2018 analyzer.php
+-rw-r--r--   1 sg       6012         8837 Jul  9  2018 config.php
+-rw-r--r--   1 sg       6012        17148 Jul  9  2018 cpanel.php
+-rw-r--r--   1 sg       6012         3809 Jul  9  2018 datasets.php
+-rw-r--r--   1 sg       6012        42171 Jul  9  2018 google.php
+-rw-r--r--   1 sg       6012         4883 Jul  9  2018 htaccess.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012        21267 Jul  9  2018 indexing.php
+-rw-r--r--   1 sg       6012         8415 Jul  9  2018 metainfo.php
+-rw-r--r--   1 sg       6012         7220 Jul  9  2018 pingomatic.php
+-rw-r--r--   1 sg       6012         4295 Jul  9  2018 seospider.php
+-rw-r--r--   1 sg       6012        57778 Jul  9  2018 sources.php
+-rw-r--r--   1 sg       6012        13874 Jul  9  2018 wizard.php

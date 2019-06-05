@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          177 Mar 26  2018 .
+drwxrwxr-x   4 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1120 Jul  9  2018 AliasFactory.php
+-rw-r--r--   1 sg       6012         4122 Jul  9  2018 CompositeFactory.php
+-rw-r--r--   1 sg       6012         1605 Jul  9  2018 ConcreteClassFactory.php
+-rw-r--r--   1 sg       6012          426 Jul  9  2018 FactoryInterface.php
+-rw-r--r--   1 sg       6012          639 Jul  9  2018 MapFactory.php
+-rw-r--r--   1 sg       6012         2157 Jul  9  2018 ServiceDescriptionFactory.php

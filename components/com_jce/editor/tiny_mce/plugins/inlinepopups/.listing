@@ -1,0 +1,7 @@
+drwxrwxr-x   4 sg       6012           98 Mar 26  2018 .
+drwxrwxr-x  56 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012           42 Mar 26  2018 classes
+drwxrwxr-x   2 sg       6012           42 Mar 26  2018 css
+-rw-r--r--   1 sg       6012         7197 Jul  9  2018 editor_plugin.js
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          625 Jul  9  2018 inlinepopups.xml

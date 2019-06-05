@@ -1,0 +1,16 @@
+drwxrwxr-x   3 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012          128 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012       187505 Jul  9  2018 bootstrap.j25.css
+-rw-r--r--   1 sg       6012       161803 Jul  9  2018 bootstrap.j25.min.css
+-rw-r--r--   1 sg       6012        15702 Jul  9  2018 bootstrap.j32.css
+-rw-r--r--   1 sg       6012        12706 Jul  9  2018 bootstrap.j32.min.css
+-rw-r--r--   1 sg       6012        16376 Jul  9  2018 bootstrap.j3.css
+-rw-r--r--   1 sg       6012        13294 Jul  9  2018 bootstrap.j3.min.css
+-rw-r--r--   1 sg       6012       203910 Jul  9  2018 bootstrap.min.css
+drwxrwxr-x   3 sg       6012           58 Mar 26  2018 smoothness
+-rw-r--r--   1 sg       6012         2146 Jul  9  2018 strapper.css
+-rw-r--r--   1 sg       6012          646 Jul  9  2018 strapper.j25.css
+-rw-r--r--   1 sg       6012          243 Jul  9  2018 strapper.j25.min.css
+-rw-r--r--   1 sg       6012         1998 Jul  9  2018 strapper.j3.css
+-rw-r--r--   1 sg       6012         1595 Jul  9  2018 strapper.j3.min.css
+-rw-r--r--   1 sg       6012         1829 Jul  9  2018 strapper.min.css

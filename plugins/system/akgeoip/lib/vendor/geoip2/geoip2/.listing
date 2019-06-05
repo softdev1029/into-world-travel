@@ -1,0 +1,9 @@
+drwxrwxr-x   3 sg       6012          133 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1492 Jul  9  2018 CHANGELOG.md
+-rw-r--r--   1 sg       6012          716 Jul  9  2018 composer.json
+-rw-r--r--   1 sg       6012        26436 Jul  9  2018 LICENSE
+-rw-r--r--   1 sg       6012          516 Jul  9  2018 phpunit.xml.dist
+-rw-r--r--   1 sg       6012         7895 Jul  9  2018 README.md
+drwxrwxr-x   3 sg       6012           20 Mar 26  2018 src
+-rw-r--r--   1 sg       6012          440 Jul  9  2018 .travis.yml

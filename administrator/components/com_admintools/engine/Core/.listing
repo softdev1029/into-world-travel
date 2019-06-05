@@ -1,0 +1,12 @@
+drwxrwxr-x   3 sg       6012          202 Mar 26  2018 .
+drwxrwxr-x  12 sg       6012          245 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1898 Jul  9  2018 01.basic.ini
+-rw-r--r--   1 sg       6012         1285 Jul  9  2018 02.advanced.ini
+-rw-r--r--   1 sg       6012         1740 Jul  9  2018 04.quota.ini
+-rw-r--r--   1 sg       6012         2568 Jul  9  2018 05.tuning.ini
+-rw-r--r--   1 sg       6012         3500 Jul  9  2018 Database.php
+drwxrwxr-x   2 sg       6012           62 Mar 26  2018 Domain
+-rw-r--r--   1 sg       6012         9943 Jul  9  2018 Filters.php
+-rw-r--r--   1 sg       6012        17065 Jul  9  2018 Kettenrad.php
+-rw-r--r--   1 sg       6012         4268 Jul  9  2018 scripting.ini
+-rw-r--r--   1 sg       6012         6422 Jul  9  2018 Timer.php

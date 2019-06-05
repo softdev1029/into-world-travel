@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          119 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1091 Jul  9  2018 acl.php
+-rw-r--r--   1 sg       6012         8795 Jul  9  2018 filter.lists.php
+-rw-r--r--   1 sg       6012         4573 Jul  9  2018 form.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          466 Jul  9  2018 languages.php
+-rw-r--r--   1 sg       6012         8436 Jul  9  2018 listing.php

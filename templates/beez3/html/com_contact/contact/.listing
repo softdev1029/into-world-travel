@@ -1,0 +1,10 @@
+drwxr-xr-x   2 sg       6012          218 Jul  9  2018 .
+drwxr-xr-x   5 sg       6012           55 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3618 Jun 26  2018 default_address.php
+-rw-r--r--   1 sg       6012          782 Jun 26  2018 default_articles.php
+-rw-r--r--   1 sg       6012         3328 Jun 26  2018 default_form.php
+-rw-r--r--   1 sg       6012         1342 Jun 26  2018 default_links.php
+-rw-r--r--   1 sg       6012         7228 Jun 26  2018 default.php
+-rw-r--r--   1 sg       6012         1124 Jun 26  2018 default_profile.php
+-rw-r--r--   1 sg       6012         2010 Jun 26  2018 default_user_custom_fields.php
+-rw-r--r--   1 sg       6012         2958 Jun 26  2018 encyclopedia.php

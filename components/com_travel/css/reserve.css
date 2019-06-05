@@ -1,0 +1,5223 @@
+.zen-roomspageroom {
+  position:relative;
+}
+
+.zen-roomspageroom:before,
+.zen-roomspageroom:after {
+  display:table;
+  content:'';
+}
+
+.flrderror {
+background: #f1a7a7;
+}
+.zen-roomspageroom:after {
+  clear:both;
+}
+
+.zen-roomspageroom-title:before,
+.zen-roomspageroom-title:after {
+  display:table;
+  content:'';
+}
+
+.zen-roomspageroom-title:after {
+  clear:both;
+}
+
+@media (max-width:680px) {
+  .zen-roomspageroom-title {
+    background-image:-webkit-linear-gradient(top,rgba(41,47,55,0.8),#292f37);
+    background-image:-moz-linear-gradient(top,rgba(41,47,55,0.8),#292f37);
+    background-image:-o-linear-gradient(top,rgba(41,47,55,0.8),#292f37);
+    background-image:linear-gradient(to bottom,rgba(41,47,55,0.8),#292f37);
+    color:#fff;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-roomspageroom-title {
+    color:#292f37;
+  }
+}
+
+.zen-roomspageroom-title-name {
+  font-size:20px;
+  font-weight:bold;
+}
+
+@media (max-width:680px) {
+  .zen-roomspageroom-title-name {
+    padding:7px 0 7px 10px;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-roomspageroom-title-name {
+    margin:0 0 14px;
+  }
+}
+
+.zen-roomspageroom-title-info {
+  float:right;
+  font-size:13px;
+  padding:4px 10px 4px 0;
+}
+
+.zen-roomspageroom-title-square {
+  color:#85878b;
+  font-size:16px;
+  padding-left:6px;
+}
+
+.zen-roomspageroom-title-square::before {
+  content:'\b7';
+  padding-right:6px;
+}
+
+@media (max-width:680px) {
+  .zen-roomspageroom-title-square {
+    color:#bebcb9;
+  }
+}
+
+.zen-roomspageroom-photo,
+.zen-roomspageroom-nophoto {
+  background:#292f37;
+  border-radius:3px;
+  float:left;
+  height:164px;
+  overflow:hidden;
+  position:relative;
+  width:244px;
+}
+
+.zen-roomspageroom-photo::before,
+.zen-roomspageroom-nophoto::before {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/whitelabel/zen/thumb-loading.svg) no-repeat 50% 50%;
+  content:'';
+  height:50%;
+  left:50%;
+  position:absolute;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:50%;
+}
+
+.zen-booking-hotelcard .zen-roomspageroom-photo,
+.zen-booking-hotelcard .zen-roomspageroom-nophoto {
+  border-radius:0;
+  height:100%;
+  width:120px;
+}
+
+@media (min-width:681px) and (max-width:954px) {
+  .zen-roomspageroom-photo,
+  .zen-roomspageroom-nophoto {
+    width:164px;
+  }
+}
+
+.zen-roomspageroom-photo {
+  cursor:pointer;
+}
+
+.zen-booking-hotelcard .zen-roomspageroom-photo {
+  cursor:default;
+  pointer-events:none;
+}
+
+.zen-roomspageroom-photo-img {
+  height:100%;
+  object-fit:cover;
+  position:relative;
+  width:100%;
+}
+
+.ie .zen-roomspageroom-photo-img,
+.edge .zen-roomspageroom-photo-img {
+  width:auto;
+}
+
+.zen-roomspageroom-photo-counter {
+  background:50% 50% url(//st.worldota.net/master/876db6f-b31a969/img/zen/roomspage/room/photo.svg) no-repeat;
+  bottom:10px;
+  color:#0074c5;
+  font-size:12px;
+  font-weight:bold;
+  height:21px;
+  line-height:21px;
+  position:absolute;
+  right:10px;
+  text-align:center;
+  width:26px;
+}
+
+@media (min-width:681px) and (max-width:954px) {
+  .zen-roomspageroom-content {
+    margin-left:174px;
+  }
+}
+
+@media (min-width:955px) and (max-width:1074px) {
+  .zen-roomspageroom-content {
+    margin-left:254px;
+  }
+}
+
+@media (min-width:1075px) {
+  .zen-roomspageroom-content {
+    margin-left:254px;
+  }
+}
+
+.zen-roomspageroom-content-item {
+  background:#fff;
+  display:block;
+  margin-bottom:2px;
+}
+
+.zen-roomspageroom-content-item:first-child {
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+.zen-roomspageroom-content-item:last-child {
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  margin-bottom:0;
+}
+
+.zen-roomspageroom-button {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#1871bc;
+  font-size:16px;
+  font-weight:bold;
+  line-height:38px;
+  padding:0 33px;
+  text-decoration:none;
+}
+
+.zen-roomspageroom-gallery-content {
+  background:rgba(41,47,55,0.8);
+  color:#fff;
+  padding:14px 30px;
+}
+
+.zen-gallery-arrow {
+  opacity:.3;
+  pointer-events:none;
+  position:absolute;
+  top:10px;
+}
+
+.zen-mobile-gallery {
+  background:#2f353c;
+  height:150px;
+  overflow:hidden;
+  position:relative;
+  z-index:1;
+}
+
+.zen-booking-hotelcard .zen-mobile-gallery {
+  height:95px;
+}
+
+.zen-mobile-gallery-controls-prev,
+.zen-mobile-gallery-controls-next {
+  background-color:rgba(41,47,55,0.5);
+  border-radius:43px;
+  cursor:default;
+  height:43px;
+  position:absolute;
+  width:43px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  cursor:pointer;
+  background:none;
+  bottom:0;
+  position:absolute;
+  z-index:1;
+}
+
+.zen-mobile-gallery-controls-prev .zen-gallery-arrow,
+.zen-mobile-gallery-controls-next .zen-gallery-arrow {
+  opacity:.7;
+}
+
+.zen-mobile-gallery-controls-prev:hover .zen-gallery-arrow,
+.zen-mobile-gallery-controls-next:hover .zen-gallery-arrow {
+  opacity:1;
+}
+
+.zen-mobile-gallery-controls-prev {
+  left:0;
+}
+
+.zen-mobile-gallery-controls-prev .zen-gallery-arrow {
+  left:13px;
+}
+
+.zen-mobile-gallery-controls-next {
+  right:0;
+}
+
+.zen-mobile-gallery-controls-next .zen-gallery-arrow {
+  right:13px;
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+
+.zen-mobile-gallery-controls-counter {
+  bottom:14px;
+  color:#fff;
+  left:0;
+  margin:0 auto;
+  position:absolute;
+  right:0;
+  text-align:center;
+  width:30%;
+  z-index:1;
+}
+
+.zen-mobile-gallery-link {
+  display:block;
+  height:100%;
+  width:100%;
+}
+
+.zen-mobile-gallery-image-loading {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/whitelabel/zen/thumb-loading.svg) no-repeat 50% 50%;
+  height:100px;
+  margin:70px 0 0;
+}
+
+.zen-mobile-gallery-image-error {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/whitelabel/zen/thumb-error.svg) no-repeat 50% 50%;
+  height:100px;
+  margin:70px 0 0;
+}
+
+.hotels-narrow .zen-mobile-gallery-image-error {
+  margin:19px 0 0;
+}
+
+.zen-fullscreenpopup {
+  background:rgba(0,0,0,0.6);
+  border-top:0;
+  bottom:0;
+  box-sizing:border-box;
+  display:table;
+  height:100vh;
+  left:0;
+  padding:0 1vw;
+  position:fixed;
+  top:0;
+  vertical-align:middle;
+  width:100vw;
+  z-index:23;
+}
+
+.zen-fullscreenpopup-wrapper {
+  display:table-cell;
+  position:relative;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.zen-fullscreenpopup-inner {
+  margin:0 auto;
+  max-width:1000px;
+  position:relative;
+}
+
+.body-popup-short .zen-fullscreenpopup-inner {
+  max-width:600px;
+}
+
+@media (max-width:954px) {
+  .zen-fullscreenpopup-inner {
+    max-width:600px;
+  }
+  .body-booking .zen-fullscreenpopup-inner {
+    max-width:320px;
+  }
+}
+
+.zen-fullscreenpopup-content {
+  max-height:80vh;
+  overflow:auto;
+}
+
+@media (min-width:681px) {
+  .zen-fullscreenpopup-content {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-fullscreenpopup-content {
+    max-height:300px;
+  }
+}
+
+.zen-fullscreenpopup-close {
+  align-items:center;
+  background:#ffffff;
+  border-radius:50%;
+  cursor:pointer;
+  display:flex;
+  height:30px;
+  justify-content:center;
+  margin:0 auto;
+  width:30px;
+}
+
+@media (min-width:681px) {
+  .zen-fullscreenpopup-close {
+    margin-top:-40px;
+    position:absolute;
+    right:0;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-fullscreenpopup-close {
+    margin-top:20px;
+  }
+}
+
+.zen-fullscreenpopup-close-icon {
+  background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0icmdiYSgwLDAsMCwwLjYpIiBkPSJNMS41LS4yTC0uMiAxLjUgNC4zIDZsLTQuNSA0LjUgMS43IDEuN0w2IDcuN2w0LjUgNC41IDEuNy0xLjdMNy43IDZsNC41LTQuNS0xLjctMS43TDYgNC4zIDEuNS0uMnoiLz48L3N2Zz4=);
+  height:12px;
+  width:12px;
+}
+
+.zen-popup-ratecancellation {
+  background-color:#fff;
+  border-radius:3px;
+  max-width:600px;
+  padding:16px 18px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-popup-ratecancellation-header {
+  color:#292f37;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-popup-ratecancellation-policy {
+  color:#292f37;
+  font-size:13px;
+  font-weight:400;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-popup-ratecancellation-policy-good {
+  border-left:4px solid #4fac00;
+}
+
+.zen-popup-ratecancellation-policy-neutral {
+  border-left:4px solid #292f37;
+}
+
+.zen-popup-ratecancellation-policy-bad {
+  border-left:4px solid #cb1b00;
+}
+
+.zen-popup-ratecancellation-policy-note {
+  font-weight:400;
+  margin-bottom:0;
+}
+
+.zen-popup-ratecancellation-bonuses {
+  border-top:2px solid #eef1f4;
+  margin-top:13px;
+  padding-top:13px;
+}
+
+.zen-popup-ratecancellation-no-show-title {
+  font-size:14px;
+  font-weight:700;
+  margin:10px 0 4px;
+  padding-left:10px;
+}
+
+.zen-popup-ratecancellation-no-show-text {
+  font-weight:600;
+  padding-left:10px;
+}
+
+.zen-popup-ratemeal {
+  background-color:#fff;
+  border-radius:3px;
+  max-width:600px;
+  padding:16px 18px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-popup-ratemeal-header {
+  color:#292f37;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-popup-ratemeal-text {
+  color:#292f37;
+  font-size:13px;
+  font-weight:400;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-popup-ratemeal-text-good {
+  border-left:4px solid #4fac00;
+}
+
+.zen-popup-ratemeal-text-neutral {
+  border-left:4px solid #292f37;
+}
+
+.zen-popup-ratemeal-text-bad {
+  border-left:4px solid #cb1b00;
+}
+
+.zen-popup-ratepayment {
+  background-color:#fff;
+  border-radius:3px;
+  max-width:600px;
+  padding:16px 18px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-popup-ratepayment-text {
+  color:#292f37;
+  font-size:13px;
+  font-weight:400;
+  margin-bottom:10px;
+  padding-left:10px;
+  border-left:4px solid #4fac00;
+}
+
+.zen-popup-ratepayment-header {
+  color:#292f37;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-popup-ratepayment-pharagraph {
+  margin:10px 0;
+}
+
+.zen-statuserror {
+  align-items:center;
+  background:rgba(242,241,240,0.8);
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  left:0;
+  overflow:auto;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:21;
+}
+
+.zen-statuserror-content {
+  align-content:center;
+  background:#fff;
+  border-radius:3px;
+  box-shadow:0 6px 20px #f2f1f0;
+  box-sizing:border-box;
+  display:flex;
+  flex-wrap:wrap;
+  font-size:14px;
+  justify-content:center;
+  max-width:870px;
+  min-height:270px;
+  padding:20px 25px;
+}
+
+@media (max-width:680px) {
+  .zen-statuserror-content {
+    width:auto;
+  }
+}
+
+.zen-statuserror-text {
+  max-width:580px;
+}
+
+@media (max-width:680px) {
+  .zen-statuserror-text {
+    text-align:center;
+  }
+}
+
+.zen-statuserror-title {
+  color:#be0000;
+  font-size:22px;
+  font-weight:400;
+  margin-bottom:15px;
+}
+
+.zen-statuserror-description {
+  line-height:20px;
+  margin-bottom:10px;
+}
+
+.zen-statuserror-description a {
+  cursor:default;
+  pointer-events:none;
+  text-decoration:none;
+  color:#292f37;
+}
+
+@media (max-width:680px) {
+  .zen-statuserror-description a {
+    color:#1871bc;
+    cursor:pointer;
+    pointer-events:auto;
+  }
+}
+
+.zen-statuserror-disconnect {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzI0IiBoZWlnaHQ9IjQ3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTIuNDQ4IDE2aDIyNC43NzltMjY0LjkyMyAwaDIyOS41NTMiIHN0cm9rZT0iI0JFMDAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNNDQ3Ljg0IDIzLjA4OGMtOC41MjMgMC0xMy4yMjctMS4yMi0xOC4xNy0yLjQ5OC00LjE0Ni0xLjA3NC04LjQzNS0yLjE4NS0xNS41MTYtMi43MDYtMTAuNTUxLS4yNzMtMTUuOTA2IDEuNDE2LTIwLjYzMyAyLjkwOC0zLjYwOCAxLjEzOS03LjAxNiAyLjIxNC0xMS45NyAyLjIxNGEyIDIgMCAwIDEgMC00YzQuMzM4IDAgNy4zMTctLjk0IDEwLjc2Ni0yLjAyOCA1LjAyOC0xLjU4NiAxMC43MjctMy4zOTMgMjIuMDM3LTMuMDg3IDcuNTM0LjU1IDEyLjIwMiAxLjc2IDE2LjMyIDIuODI3IDUuNjEyIDEuNDUzIDEwLjQ2IDIuNzA5IDIxLjA0OCAyLjI5bC4wOTctLjAwNC4wOTUuMDA1YzQuNDY4LjI1MiA4Ljc5My0uOTI4IDEzLjM2OS0yLjE4MSA0LjgzLTEuMzIyIDEwLjMwNy0yLjgyMSAxNi43NjktMi44MjFoMjQuNzY5YTIgMiAwIDEgMSAwIDRoLTI0Ljc3Yy01LjkyMyAwLTEwLjkgMS4zNjItMTUuNzEyIDIuNjgtNC44NyAxLjMzMi05LjQ2NyAyLjU5My0xNC41NTQgMi4zMi0xLjQwMi4wNTYtMi43MTQuMDgtMy45NDUuMDhtLTE2OC45NiAyLjc2OWMtNy44OTIgMC0xMi40MDEtMS42NTUtMTcuMTQyLTMuMzkzLTUuMzcyLTEuOTcxLTExLjQ2MS00LjIwNC0yNC4yMjUtNC40NTZIMjA3YTIgMiAwIDAgMSAwLTRoMzAuNTUzYzEzLjQ3My4yNjYgMTkuODk2IDIuNjIyIDI1LjU2MyA0LjcgNS4yMjUgMS45MTcgOS43NCAzLjU3IDE5LjA3NSAzLjA1MyA2LjcyOC0uMzc0IDEyLjQ2Ni0yLjA0IDE4LjU0Mi0zLjgwNCAxMS4yNS0zLjI2NyAyMi44ODMtNi42NDQgNDAuNjYyLTEuMTFhMiAyIDAgMSAxLTEuMTg4IDMuODE5Yy0xNi42My01LjE3Ny0yNy4xODUtMi4xMTItMzguMzYgMS4xMzMtNi4wMjIgMS43NDgtMTIuMjUxIDMuNTU3LTE5LjQzNCAzLjk1Ni0xLjI1LjA2OS0yLjQyNS4xMDItMy41MzIuMTAyek0zNDMgNDYuNzM0YTIgMiAwIDAgMS0xLjQzMy0zLjM5Nmw2LjE2Ni02LjMzM2EyLjAwMSAyLjAwMSAwIDAgMSAyLjg2NyAyLjc5MWwtNi4xNjcgNi4zMzRhMS45OTUgMS45OTUgMCAwIDEtMS40MzMuNjA0em0zNC4zMzUtMS4zMzRhMS45OTYgMS45OTYgMCAwIDEtMS42MTktLjgyM2wtNS4zMzMtNy4zMzNhMiAyIDAgMSAxIDMuMjM0LTIuMzU0bDUuMzMzIDcuMzMzYTIgMiAwIDAgMS0xLjYxNSAzLjE3N3ptLTUuNjY5LTMyLjE2NmExLjk5OCAxLjk5OCAwIDAgMS0xLjUzLTMuMjg2bDctOC4zMzRhMS45OTggMS45OTggMCAxIDEgMy4wNjIgMi41NzJsLTcgOC4zMzRhMS45OTUgMS45OTUgMCAwIDEtMS41MzIuNzE0em0tMTYuODMxLS44MzRjLS43NDggMC0xLjQ2NC0uNDItMS44MDctMS4xNGwtMy4zMzQtN2EyIDIgMCAwIDEgMy42MTItMS43MmwzLjMzMyA3YTIgMiAwIDAgMS0xLjgwNCAyLjg2em04LjU2MyAxMS42NjdhMi41NjQgMi41NjQgMCAxIDEtNS4xMjkgMCAyLjU2NCAyLjU2NCAwIDAgMSA1LjEyOCAweiIgZmlsbD0iI0JEMjAyNSIvPjwvZz48L3N2Zz4=);
+  background-position:center;
+  background-repeat:no-repeat;
+  height:47px;
+  width:100%;
+}
+
+.zenpopuptipcontainer {
+  display:none;
+  position:relative;
+}
+
+.zenpopuptipcontainer-show {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  border-radius:50%;
+  border:1px solid rgba(133,135,139,0.2);
+  cursor:help;
+  height:13px;
+  line-height:13px;
+  text-align:center;
+  width:13px;
+  display:block;
+  z-index:2;
+}
+
+.zenpopuptipcontainer-show:hover {
+  background-color:#292f37;
+  border-color:#292f37;
+}
+
+.zenpopuptipcontainer-show::after {
+  color:#1871bc;
+  content:'?';
+  font-size:11px;
+  font-weight:600;
+  vertical-align:top;
+}
+
+.zenpopuptipcontainer-show:hover::after {
+  color:#fff;
+}
+
+.zenpopuptipcontainer-show::before {
+  content:'';
+  height:30px;
+  left:-7px;
+  position:absolute;
+  top:-7px;
+  width:30px;
+}
+
+.zenpopuptipcontainer-error {
+  display:block;
+  content:'';
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/ui/fielderroricon.svg);
+  background-repeat:no-repeat;
+  height:16px;
+  width:15px;
+}
+
+.zenpopuptip {
+  background:#fffbef;
+  border:1px solid rgba(133,135,139,0.3);
+  border-radius:3px;
+  box-sizing:border-box;
+  max-width:320px;
+  padding:15px 20px;
+  position:fixed;
+  z-index:23;
+}
+
+.zentexttip,
+.zendereamsinfotip {
+  text-align:left;
+}
+
+.zen-fullscreenpopup .zentexttip,
+.zen-fullscreenpopup .zendereamsinfotip {
+  background:#fff;
+  border:1px solid rgba(133,135,139,0.3);
+  border-radius:3px;
+  margin:0 10px;
+  padding:20px;
+}
+
+.zentexttip-title,
+.zendereamsinfotip-title {
+  font-size:13px;
+  font-weight:600;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zentexttip-text,
+.zendereamsinfotip-text {
+  font-size:13px;
+}
+
+.zendereamsinfotip-title {
+  padding-left:10px;
+}
+
+.zendereamsinfotip-text {
+  border-left:4px solid #4fac00;
+  padding-left:10px;
+}
+
+.zendereamsinfotip-bonus-popup-charge {
+  font-style:italic;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.zendereamsinfotip-bonus-popup-link {
+  color:#1871bc;
+  margin-top:5px;
+}
+
+.zen-roomspage-popup-policydescription-wrapper {
+  background-color:#fff;
+  border-radius:3px;
+  max-width:600px;
+  padding:16px 18px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-roomspage-popup-policydescription-header {
+  color:#292f37;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-policydescription-text {
+  color:#292f37;
+  font-size:13px;
+  font-weight:400;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-rateinfo-wrapper {
+  background-color:#fff;
+  border-radius:3px;
+  max-width:600px;
+  padding:16px 18px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-roomspage-popup-rateinfo-header {
+  color:#292f37;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-rateinfo-policy,
+.zen-roomspage-popup-rateinfo-text {
+  color:#292f37;
+  font-size:13px;
+  font-weight:400;
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-rateinfo-policy-good,
+.zen-roomspage-popup-rateinfo-text-good {
+  border-left:4px solid #4fac00;
+}
+
+.zen-roomspage-popup-rateinfo-policy-neutral,
+.zen-roomspage-popup-rateinfo-text-neutral {
+  border-left:4px solid #292f37;
+}
+
+.zen-roomspage-popup-rateinfo-policy-bad,
+.zen-roomspage-popup-rateinfo-text-bad {
+  border-left:4px solid #cb1b00;
+}
+
+.zen-roomspage-popup-rateinfo-policy-note,
+.zen-roomspage-popup-rateinfo-text-note {
+  font-weight:400;
+  margin-bottom:0;
+}
+
+.zen-roomspage-popup-rateinfo-bonuses {
+  border-top:2px solid #eef1f4;
+  margin-top:13px;
+  padding-top:13px;
+}
+
+.zen-roomspage-popup-rateinfo-no-show-title {
+  font-size:14px;
+  font-weight:700;
+  margin:10px 0 4px;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-rateinfo-no-show-text {
+  font-weight:600;
+  padding-left:10px;
+}
+
+.zen-roomspage-popup-rateinfo-bonuses-link {
+  color:#1871bc;
+}
+
+.zenpromotip {
+  max-width:270x;
+}
+
+.zenpromotip-fixed {
+  position:fixed;
+}
+
+.zenpromotip-description {
+  font-size:13px;
+}
+
+.zenpromotip-discount {
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.zenpromotip-reason {
+  color:#cb1b00;
+}
+
+.zenpromotip-reason-text {
+  position:relative;
+}
+
+.zenpromotip-reason-text-value {
+  white-space:nowrap;
+}
+
+.mobile .zenpromotip {
+  bottom:0;
+  left:0;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:23;
+}
+
+.mobile .zenpromotip-shadow {
+  background:rgba(133,135,139,0.3);
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.mobile .zenpromotip-content {
+  background:#fff;
+  border-radius:5px;
+  left:5px;
+  padding:20px 30px;
+  position:absolute;
+  right:5px;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.mobile .zenpromotip-header {
+  margin-bottom:10px;
+}
+
+.mobile .zenpromotip-value {
+  font-size:18px;
+  font-weight:700;
+}
+
+.mobile .zenpromotip-close {
+  background:#fff;
+  border-radius:50%;
+  border:2px solid rgba(133,135,139,0.3);
+  cursor:pointer;
+  height:30px;
+  box-sizing:border-box;
+  position:relative;
+  text-align:center;
+  width:30px;
+  z-index:1;
+  position:absolute;
+  right:15px;
+  top:10px;
+}
+
+.mobile .zenpromotip-close::before,
+.mobile .zenpromotip-close::after {
+  transform-origin:0 0;
+  transform:rotate(45deg) translate(-50%,-50%);
+  background:#85878b;
+  content:'';
+  left:50%;
+  position:absolute;
+  top:50%;
+}
+
+.mobile .zenpromotip-close::before {
+  height:3px;
+  width:14px;
+}
+
+.mobile .zenpromotip-close::after {
+  height:14px;
+  width:3px;
+}
+
+.mobile .zenpromotip-close-icon {
+  margin-top:9px;
+}
+
+.mobile .zenpromotip-close-icon-path {
+  fill:rgba(0,0,0,0.6);
+}
+
+.mobile .zenpromotip-reason {
+  position:relative;
+}
+
+.mobile .zenpromotip-reason::before {
+  background:#fffbef;
+  bottom:-5px;
+  content:'';
+  left:-20px;
+  position:absolute;
+  right:-20px;
+  top:-5px;
+}
+
+.zen-booking {
+  box-sizing:border-box;
+  margin:0 auto;
+  max-width:870px;
+  padding-top:5px;
+  width:100%;
+}
+
+@media (min-width:681px) and (max-width:954px) {
+  .zen-booking {
+    padding:5px 15px 15px;
+  }
+}
+
+@media (min-width:955px) {
+  .zen-booking {
+    max-width:870px;
+  }
+}
+
+.zen-booking-loading::before {
+  background:rgba(255,255,255,0.9);
+  bottom:0;
+  content:'';
+  left:0;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:23;
+}
+
+.zen-booking-loading::after {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iIzAwODZkYyI+PGNpcmNsZSB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4KSIgY3k9IjE2IiByPSIwIj48YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiB2YWx1ZXM9IjA7IDQ7IDA7IDAiIGR1cj0iMS4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIwIiBrZXlTcGxpbmVzPSIwLjIgMC4yIDAuNCAwLjg7MC4yIDAuNiAwLjQgMC44OzAuMiAwLjYgMC40IDAuOCIgY2FsY01vZGU9InNwbGluZSIvPjwvY2lyY2xlPjxjaXJjbGUgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYpIiBjeT0iMTYiIHI9IjAiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InIiIHZhbHVlcz0iMDsgNDsgMDsgMCIgZHVyPSIxLjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49Ii4zIiBrZXlTcGxpbmVzPSIwLjIgMC4yIDAuNCAwLjg7MC4yIDAuNiAwLjQgMC44OzAuMiAwLjYgMC40IDAuOCIgY2FsY01vZGU9InNwbGluZSIvPjwvY2lyY2xlPjxjaXJjbGUgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQpIiBjeT0iMTYiIHI9IjAiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InIiIHZhbHVlcz0iMDsgNDsgMDsgMCIgZHVyPSIxLjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49Ii42IiBrZXlTcGxpbmVzPSIwLjIgMC4yIDAuNCAwLjg7MC4yIDAuNiAwLjQgMC44OzAuMiAwLjYgMC40IDAuOCIgY2FsY01vZGU9InNwbGluZSIvPjwvY2lyY2xlPjwvc3ZnPg==);
+  height:32px;
+  width:32px;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  content:'';
+  left:50%;
+  position:fixed;
+  top:50%;
+  z-index:23;
+}
+
+@media (min-width:955px) {
+  .zen-booking-main {
+    float:left;
+    max-width:570px;
+  }
+}
+
+.zen-booking-back-link {
+  color:#0074c5;
+  font-size:13px;
+  text-decoration:none;
+}
+
+.zen-booking-back-link::after {
+  content:'';
+  display:block;
+  margin-bottom:5px;
+}
+
+.zen-booking-head {
+  margin-bottom:20px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-booking-head-title {
+  font-size:22px;
+  font-weight:700;
+}
+
+.zen-booking-head-subtitle {
+  font-size:18px;
+  font-weight:600;
+}
+
+@media (min-width:955px) {
+  .zen-booking-sidebar {
+    float:right;
+    width:285px;
+  }
+}
+
+.zen-booking-sidebar-fixed {
+  position:fixed;
+  top:0;
+  left:50%;
+  margin-left:150px;
+  width:285px;
+  z-index:7;
+}
+
+.zen-booking-content-bill-wrapper {
+  margin:20px 0;
+  overflow-x:hidden;
+}
+
+.zen-booking-sidebar-bill-wrapper {
+  width:100%;
+}
+
+@media (max-width:954px) {
+  .zen-booking-sidebar-bill-wrapper {
+    bottom:0;
+    position:fixed;
+    right:0;
+    z-index:12;
+  }
+}
+
+@media (min-width:681px) and (max-width:1074px) {
+  .zen-booking-sidebar-bill-wrapper {
+    width:285px;
+  }
+}
+
+.zen-booking-stepbar-wrapper {
+  text-align:center;
+  margin:15px 0;
+}
+
+@media (min-width:681px) {
+  .zen-booking-stepbar-wrapper {
+    margin:15px auto;
+  }
+}
+
+.zen-booking-payment {
+  background:#fff;
+  border-radius:5px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  margin:15px 0;
+  padding:0;
+}
+
+.zen-booking-loaded .zen-booking-payment {
+  padding:15px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-loaded .zen-booking-payment {
+    padding:25px 20px 20px 75px;
+  }
+}
+
+@media (min-width:1075px) {
+  .zen-booking-payment {
+    margin-bottom:50px;
+  }
+}
+
+.zen-booking-agoda {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#85878b;
+  font-size:11px;
+  font-weight:600;
+  margin:0 0 10px 25px;
+  position:relative;
+}
+
+@media (min-width:681px) {
+  .zen-booking-agoda {
+    margin-left:0;
+  }
+}
+
+.zen-booking-agoda+.zen-booking-eula {
+  margin-left:25px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-agoda+.zen-booking-eula {
+    margin-left:0;
+  }
+}
+
+.zen-booking-agoda-input {
+  left:-9999px;
+  position:absolute;
+}
+
+.zen-booking-agoda-fake-input {
+  background-color:#fff;
+  border-radius:2px;
+  box-shadow:0 2px 1px #ceccc8;
+  display:inline-block;
+  height:15px;
+  position:relative;
+  vertical-align:middle;
+  width:15px;
+  background-color:rgba(133,135,139,0.3);
+  position:absolute;
+  left:-25px;
+}
+
+input[type='checkbox']:checked ~ .zen-booking-agoda-fake-input {
+  background-color:#1871bc;
+  box-shadow:0 2px 2px 0 rgba(226,29,23,0.2),0 0 1px 1px #1871bc;
+}
+
+input[type='checkbox']:checked ~ .zen-booking-agoda-fake-input::after {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEuMDMiIGhlaWdodD0iOC4wNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTAuNy4zM2ExLjExIDEuMTEgMCAwIDAtMS41NyAwbC01LjEgNS4wOS0yLjE0LTIuMTVBMS4xMSAxLjExIDAgMCAwIC4zMiA0Ljg0bDIuODkgMi44OWExLjA5IDEuMDkgMCAwIDAgLjQzLjI5IDEuMTEgMS4xMSAwIDAgMCAxLjIxLS4yNGw1Ljg1LTUuODVhMS4xMSAxLjExIDAgMCAwIDAtMS42eiIvPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size:contain;
+  content:'';
+  height:9px;
+  left:50%;
+  position:absolute;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:11.25px;
+}
+
+.zen-booking-agoda-text {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  cursor:pointer;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.arrivaldetails {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding-top:23px;
+  position:relative;
+  background:#fff;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  box-sizing:border-box;
+  width:100%;
+}
+
+@media (max-width:680px) {
+  .arrivaldetails {
+    padding-top:20px;
+  }
+}
+
+.arrivaldetails::before {
+  background:#f2f1f0;
+  content:'';
+  height:2px;
+  left:-100px;
+  position:absolute;
+  right:-100px;
+  top:0;
+}
+
+.arrivaldetails-title {
+  font-size:22px;
+  font-weight:400;
+  margin-bottom:15px;
+}
+
+@media (max-width:680px) {
+  .arrivaldetails-title {
+    font-size:20px;
+  }
+}
+
+.arrivaldetails-time-select-wrapper {
+  margin-bottom:21px;
+}
+
+.arrivaldetails-time-select {
+  display:inline-block;
+  vertical-align:top;
+  min-width:160px;
+}
+
+.arrivaldetails-time-select .zen-booking-select-inner {
+  font-size:17px;
+  font-weight:600;
+  height:45px;
+  line-height:19px;
+  width:160px;
+}
+
+ 
+
+.arrivaldetails-time-tip {
+  color:#85878b;
+  display:inline-block;
+  font-size:11px;
+  font-weight:normal;
+  margin-left:15px;
+  padding-top:8px;
+  vertical-align:top;
+  width:140px;
+}
+
+@media (max-width:680px) {
+  .arrivaldetails-time-tip {
+    font-size:12px;
+    width:120px;
+    margin-left:10px;
+  }
+}
+
+.arrivaldetails-requests-question {
+  color:#1871bc;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:16px;
+  padding-left:38px;
+  position:relative;
+}
+
+.arrivaldetails-requests-question::after {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0wIDRjMC0yLjIxIDEuNzk4LTQgNC4wMDMtNGgxNi45OTRBNC4wMDQgNC4wMDQgMCAwIDEgMjUgNHY3YTQgNCAwIDAgMS00LjAwNyA0aC0uOTg3djMuNzI1TDEzLjYxNiAxNUgzLjk5MkEzLjk5OCAzLjk5OCAwIDAgMSAwIDExVjR6IiBpZD0iYSIvPjxtYXNrIGlkPSJiIiB4PSItMiIgeT0iLTIiIHdpZHRoPSIyOSIgaGVpZ2h0PSIyMi43MjUiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0tMi0yaDI5djIyLjcyNUgtMnoiLz48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyIDIpIiBzdHJva2U9IiMyOTJmMzciIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHVzZSBtYXNrPSJ1cmwoI2IpIiBzdHJva2Utd2lkdGg9IjQiIHhsaW5rOmhyZWY9IiNhIi8+PHBhdGggZD0iTTUuNSA1aDE1LjU3Mk01LjMyNCAxMEgxNS40IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
+  content:'';
+  display:inline-block;
+  height:26px;
+  left:0;
+  position:absolute;
+  top:-2px;
+  width:29px;
+}
+
+.arrivaldetails-requests-label {
+  font-size:15px;
+  font-weight:400;
+  margin-bottom:15px;
+  width:312px;
+}
+
+@media (max-width:680px) {
+  .arrivaldetails-requests-label {
+    width:90%;
+  }
+}
+
+.arrivaldetails-requests-field-wrapper {
+  margin-bottom:20px;
+  position:relative;
+}
+
+.arrivaldetails-requests-field {
+  border-radius:3px;
+  border:1px solid rgba(133,135,139,0.2);
+  box-shadow:inset 0 2px 2px 0 rgba(133,135,139,0.2);
+  box-sizing:border-box;
+  font-size:17px;
+  font-weight:600;
+  min-height:121px;
+  margin-right:25px;
+  outline:none;
+  padding:19px 0 0 15px;
+  resize:vertical;
+  width:calc(100% - 35px);
+}
+
+@media (min-width:681px) {
+  .arrivaldetails-requests-field {
+    min-height:101px;
+    width:340px;
+  }
+}
+
+.arrivaldetails-requests-field-tip {
+  display:inline-block;
+  font-size:11px;
+  font-weight:normal;
+  left:15px;
+  position:absolute;
+  top:5px;
+}
+
+.arrivaldetails-requests-field-button {
+  border-radius:50%;
+  border:2px solid #eef1f4;
+  cursor:pointer;
+  height:26px;
+  position:absolute;
+  right:0;
+  top:6px;
+  width:26px;
+  -webkit-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+@media (min-width:681px) {
+  .arrivaldetails-requests-field-button {
+    left:365px;
+    right:auto;
+  }
+}
+
+.arrivaldetails-requests-field-button:hover {
+  background:rgba(133,135,139,0.3);
+  border:2px solid rgba(133,135,139,0.3);
+}
+
+.arrivaldetails-requests-field-button::before,
+.arrivaldetails-requests-field-button::after {
+  background:rgba(133,135,139,0.3);
+  content:'';
+  left:50%;
+  position:absolute;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+.arrivaldetails-requests-field-button::before {
+  height:3px;
+  width:14px;
+}
+
+.arrivaldetails-requests-field-button::after {
+  height:14px;
+  width:3px;
+}
+
+.arrivaldetails-requests-field-button:hover::before,
+.arrivaldetails-requests-field-button:hover::after {
+  background:#fff;
+  content:'';
+  left:50%;
+  position:absolute;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+.arrivaldetails-hidden-request .arrivaldetails-requests-question {
+  color:#1871bc;
+}
+
+.arrivaldetails-hidden-request .arrivaldetails-requests-question::after {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0wIDRjMC0yLjIxIDEuNzk4LTQgNC4wMDMtNGgxNi45OTRBNC4wMDQgNC4wMDQgMCAwIDEgMjUgNHY3YTQgNCAwIDAgMS00LjAwNyA0aC0uOTg3djMuNzI1TDEzLjYxNiAxNUgzLjk5MkEzLjk5OCAzLjk5OCAwIDAgMSAwIDExVjR6IiBpZD0iYSIvPjxtYXNrIGlkPSJiIiB4PSItMiIgeT0iLTIiIHdpZHRoPSIyOSIgaGVpZ2h0PSIyMi43MjUiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0tMi0yaDI5djIyLjcyNUgtMnoiLz48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyIDIpIiBzdHJva2U9IiMxODcxYmMiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHVzZSBtYXNrPSJ1cmwoI2IpIiBzdHJva2Utd2lkdGg9IjQiIHhsaW5rOmhyZWY9IiNhIi8+PHBhdGggZD0iTTUuNSA1aDE1LjU3Mk01LjMyNCAxMEgxNS40IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L3N2Zz4=) 50% 50% no-repeat;
+}
+
+.arrivaldetails-hidden-request .arrivaldetails-requests-label {
+  display:none;
+}
+
+.arrivaldetails-hidden-request .arrivaldetails-requests-field-wrapper {
+  display:none;
+}
+
+.zen-booking-authpane {
+  background:#fff;
+  border-radius:5px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  margin:15px 0;
+  padding:0;
+  overflow:hidden;
+  position:relative;
+}
+
+.zen-booking-loaded .zen-booking-authpane {
+  padding:3px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-loaded .zen-booking-authpane {
+    padding:4px 20px 4px 75px;
+  }
+}
+
+.zen-booking-authpane-loading * {
+  opacity:.4;
+  cursor:wait;
+}
+
+.zen-booking-authpane-title {
+  color:#1871bc;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:400;
+  margin:9px 0 10px;
+  line-height:22px;
+  padding-right:30px;
+  position:relative;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-booking-authpane-title::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgc3Ryb2tlPSIjMTg3MWJjIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNCIgcj0iMTQiLz48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0xOS42NTcgMTJMMTQgMTcuNjU3IDguMzQzIDEyIi8+PC9nPjwvc3ZnPg==);
+  content:'';
+  height:30px;
+  position:absolute;
+  right:0;
+  top:0;
+  width:30px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-authpane-title::before {
+    left:-38px;
+    top:-5px;
+  }
+}
+
+.zen-booking-authpane-title:hover {
+  text-shadow:0 3px 6px rgba(32,110,179,0.15);
+}
+
+.zen-booking-authpane-title-closed::before {
+  transform:rotate(90deg);
+}
+
+@media (min-width:681px) {
+  .zen-booking-authpane-title-closed::before {
+    transform:rotate(270deg);
+  }
+}
+
+.zen-booking-authpane-form-error {
+  align-items:center;
+  background:#fff8dd;
+  display:flex;
+  height:50px;
+  margin:14px -20px -5px -75px;
+  padding-left:75px;
+  padding-right:20px;
+}
+
+.zen-booking-authpane-form-error-message {
+  color:#be0000;
+  font-size:15px;
+  max-width:350px;
+}
+
+.zen-booking-authpane-form-title {
+  margin-top:10px;
+  max-width:350px;
+}
+
+.zen-booking-authpane-form-main {
+  border-radius:3px;
+  border:1px solid #f2f1f0;
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  margin:18px 0 10px;
+  max-width:340px;
+}
+
+.zen-booking-authpane-form-main-buttons {
+  max-width:340px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-form-main-buttons {
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:20px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-form-main-buttons-networkless {
+    margin-bottom:0;
+  }
+}
+
+.zen-booking-authpane-form-main-signIn {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  display:inline-block;
+  font-size:15px;
+  font-weight:600;
+  height:40px;
+  line-height:40px;
+  margin-bottom:25px;
+  max-width:180px;
+  vertical-align:middle;
+  width:100%;
+}
+
+.zen-booking-authpane-form-main-signIn:focus {
+  outline:none;
+}
+
+.zen-booking-authpane-form-main-signIn:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zen-booking-authpane-form-main-signIn-checked,
+.zen-booking-authpane-form-main-signIn-checked:hover,
+.zen-booking-authpane-form-main-signIn-active,
+.zen-booking-authpane-form-main-signIn-active:hover,
+.zen-booking-authpane-form-main-signIn:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zen-booking-authpane-form-main-signIn-disabled,
+.zen-booking-authpane-form-main-signIn:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+.zen-booking-authpane-form-main-signIn:hover {
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-form-main-signIn {
+    margin-bottom:15px;
+    max-width:350px;
+    text-align:center;
+  }
+}
+
+.zen-booking-authpane-form-main-forgot {
+  color:#1871bc;
+  cursor:pointer;
+  float:right;
+  font-size:12px;
+}
+
+.zen-booking-authpane-form-main-forgot:hover {
+  text-decoration:underline;
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-form-main-forgot {
+    float:none;
+  }
+}
+
+.zen-booking-authpane-form-social {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background:#fff;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  box-sizing:border-box;
+  margin-button:15px;
+  position:relative;
+  width:100%;
+}
+
+.zen-booking-authpane-form-social-title {
+  font-size:15px;
+  font-weight:400;
+  margin-bottom:20px;
+}
+
+.zen-booking-authpane-form-social-networks {
+  align-items:center;
+  display:flex;
+  justify-content:flex-start;
+  margin-bottom:30px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-form-social-networks {
+    justify-content:space-around;
+  }
+}
+
+.zen-booking-authpane-close {
+  align-items:center;
+  background:#fff;
+  border-radius:50%;
+  border:2px solid #f2f1f0;
+  cursor:pointer;
+  display:flex;
+  height:30px;
+  justify-content:center;
+  margin:0 auto;
+  position:absolute;
+  right:18px;
+  top:10px;
+  width:30px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-authpane-close {
+    display:none;
+  }
+}
+
+.zen-booking-authpane-close-icon {
+  background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0icmdiYSgwLDAsMCwwLjYpIiBkPSJNMS41LS4yTC0uMiAxLjUgNC4zIDZsLTQuNSA0LjUgMS43IDEuN0w2IDcuN2w0LjUgNC41IDEuNy0xLjdMNy43IDZsNC41LTQuNS0xLjctMS43TDYgNC4zIDEuNS0uMnoiLz48L3N2Zz4=);
+  height:12px;
+  width:12px;
+}
+
+@font-face {
+  font-family:'Ostrovok-Icons';
+  src:url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.eot);
+  src:url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.eot#iefix) format("embedded-opentype"),url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.ttf) format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+.fonticon {
+  font-family:'Ostrovok-Icons';
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1;
+  speak:none;
+  text-decoration:none;
+  text-transform:none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zen-booking-bill {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  position:relative;
+  transition:transform .27s ease-out;
+}
+
+@media (max-width:954px) {
+  .zen-booking-bill {
+    box-shadow:0 -6px 16px 0 #f2f1f0;
+  }
+}
+
+.zen-booking-bill-collapsed {
+  height:0;
+  overflow:hidden;
+  transform:translateY(100%);
+}
+
+.zen-booking-bill-overlay {
+  background:rgba(41,47,55,0.3);
+  position:absolute;
+  bottom:0;
+  right:0;
+  transform:translateZ(0);
+  width:100%;
+  z-index:6;
+  width:100vw;
+  height:100vh;
+}
+
+.zen-booking-bill-content {
+  position:relative;
+  z-index:8;
+}
+
+@media (max-width:680px) {
+  .zen-booking-sidebar-bill-wrapper .zen-booking-bill-content {
+    max-height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transform:translateZ(0);
+    -webkit-overflow-scrolling:touch;
+  }
+}
+
+.zen-booking-bill-main {
+  background:#fff;
+  border-radius:5px;
+  padding:0 20px;
+  position:relative;
+  z-index:8;
+}
+
+@media (min-width:1075px) {
+  .zen-booking-bill-expanded .zen-booking-bill-main {
+    padding-top:15px;
+  }
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-main {
+  box-shadow:0 1px 5px 0 #f2f1f0;
+  padding-top:5px;
+}
+
+.zen-booking-bill-fixed .zen-booking-bill-main {
+  padding-top:20px;
+}
+
+.zen-booking-bill-rooms {
+  margin-bottom:5px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-bill-rooms {
+    padding-top:20px;
+  }
+}
+
+.zen-booking-bill-room {
+  display:flex;
+  justify-content:space-between;
+  line-height:14px;
+}
+
+.zen-booking-bill-room-name {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:4px;
+}
+
+.zen-booking-bill-room-guests {
+  color:#85878b;
+  font-size:11px;
+ 
+  width:143px;
+}
+
+.zen-booking-bill-room-price {
+  font-size:13px;
+}
+
+.zen-booking-bill-room-price-striked {
+  color:#a50000;
+  text-decoration:line-through;
+  font-size:10px;
+  margin-top:-1em;
+}
+
+.zen-booking-bill-policydescrtiption,
+.zen-booking-bill-rateinfo {
+  color:#1871bc;
+  cursor:pointer;
+  font-size:12px;
+  font-weight:400;
+  margin-bottom:5px;
+}
+
+.zen-booking-bill-policydescrtiption::before {
+  color:#85878b;
+  content:'\00a0\00a0\00B7\00a0\00a0';
+}
+
+.zen-booking-bill-policydescrtiption::after {
+  content:'';
+  display:block;
+}
+
+.zen-booking-bill-rows {
+  margin-top:10px;
+  overflow:hidden;
+}
+
+.zen-booking-bill-row {
+  display:flex;
+  font-size:13px;
+  margin:10px 0 10px 5px;
+  justify-content:space-between;
+}
+
+.zen-booking-bill-postpay-taxes .zen-booking-bill-row {
+  margin-left:0;
+}
+
+.zen-booking-bill-row-separator {
+  color:#85878b;
+  font-size:11px;
+  margin-left:5px;
+  display:inline-block;
+  position:relative;
+}
+
+.zen-booking-bill-row-separator::after {
+  content:'';
+  background-color:rgba(133,135,139,0.3);
+  position:absolute;
+  top:50%;
+  margin:-1px 0 0 8px;
+  width:1000px;
+  height:1px;
+}
+
+.zen-booking-bill-row-title {
+  font-size:12px;
+}
+
+.zen-booking-bill-row-title-tip {
+  colot:#85878b;
+}
+
+.zen-booking-bill-row-title-tip::before {
+  content:'\0020';
+}
+
+.zen-booking-bill-row-price-discount::before {
+  content:'- ';
+}
+
+.zen-booking-bill-row-price {
+  font-weight:400;
+}
+
+.zen-booking-bill-row-price-inactive {
+  color:#85878b;
+  font-size:12px;
+}
+
+.zen-booking-bill-total {
+  padding:6px 0 15px;
+}
+
+@media (min-width:1075px) {
+  .zen-booking-bill-total {
+    padding:15px 0;
+  }
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-total {
+  border-top:1px solid #dadbdc;
+  margin-top:10px;
+}
+
+.zen-booking-bill-total-postpaynotice {
+  color:#292f37;
+  font-size:12px;
+  line-height:17px;
+  margin-top:5px;
+}
+
+.zen-booking-bill-total-postpaynotice-label {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-weight:600;
+}
+
+.zen-booking-bill-expand-button {
+  height:10px;
+  margin:8px 0 0;
+  text-align:center;
+}
+
+.zen-booking-bill-expand-button::before {
+  background:transparent;
+  content:'';
+  display:inline-block;
+  height:12px;
+  width:12px;
+  border-left:2px solid #1871bc;
+  border-top:2px solid #1871bc;
+  -webkit-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-expand-button {
+  margin:0 0 8px;
+  position:relative;
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-expand-button::before {
+  -webkit-transform:rotate(225deg);
+  -ms-transform:rotate(225deg);
+  transform:rotate(225deg);
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-expand-button::after {
+  bottom:-20px;
+  content:'';
+  left:0;
+  position:absolute;
+  right:0;
+  top:-20px;
+}
+
+.zen-booking-bill-total-price+.zen-booking-bill-prepay-tax {
+  margin-top:10px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-bill-total-price+.zen-booking-bill-prepay-tax {
+    margin-top:15px;
+  }
+}
+
+.zen-booking-bill-total-price-title {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  float:left;
+  font-size:15px;
+  font-weight:600;
+  line-height:24px;
+  white-space:nowrap;
+}
+
+.zen-booking-bill-total-price-value {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  float:right;
+  font-size:22px;
+  font-weight:600;
+  line-height:24px;
+  text-align:right;
+}
+
+.zen-booking-bill-expanded .zen-booking-bill-total-price-value {
+  margin-left:1em;
+}
+
+.zen-booking-bill-approx-price {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#85878b;
+  font-size:12px;
+  font-weight:600;
+  line-height:16px;
+  margin-top:2px;
+  text-align:right;
+}
+
+.zen-booking-bill-approx-price::before {
+  content:'≈\00a0';
+  font-weight:400;
+}
+
+.zen-booking-bill-prepaytaxes {
+  margin-top:5px;
+  max-width:80%;
+}
+
+.zen-booking-bill-prepaytaxes-union {
+  color:#85878b;
+  font-size:11px;
+  line-height:15px;
+  margin-top:7px;
+}
+
+.zen-booking-bill-prepaytaxes-union::first-letter {
+  text-transform:uppercase;
+}
+
+.zen-booking-bill-prepay-tax {
+  color:#85878b;
+  display:flex;
+  font-size:12px;
+  margin-bottom:5px;
+  justify-content:space-between;
+}
+
+.zen-booking-bill-postpay {
+  background-color:#fafafa;
+  border-radius:0 0 5px 5px;
+  color:#85878b;
+  margin-top:-5px;
+  padding:17px 20px;
+  position:relative;
+  z-index:7;
+}
+
+.zen-booking-bill-postpay-taxes-title {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:15px;
+  font-weight:600;
+}
+
+.zen-booking-bill-postpay-taxes-description {
+  font-size:12px;
+}
+
+.zen-booking-bill-loyaltyhint {
+  color:#1871bc;
+  font-size:11px;
+  margin-top:4px;
+  text-align:center;
+}
+
+.zen-booking-bill-bonus-info {
+  margin-top:15px;
+  text-align:center;
+}
+
+.zen-booking-sidebar-bill-wrapper .zen-booking-bill-bonus-info {
+  background:#f2f1f0;
+  margin-top:-3px;
+  padding:7px 0 4px;
+  position:relative;
+  z-index:6;
+}
+
+@media (min-width:1075px) {
+  .zen-booking-sidebar-bill-wrapper .zen-booking-bill-bonus-info {
+    background:none;
+    margin-top:15px;
+  }
+}
+
+.zen-booking-bill-bonus-info-main {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#ff6464;
+  cursor:pointer;
+  font-size:13px;
+  font-weight:600;
+}
+
+@media (min-width:681px) and (max-width:1074px) {
+  .zen-booking-bill-bonus-info-main {
+    display:inline-block;
+  }
+}
+
+@media (min-width:1075px) {
+  .zen-booking-bill-bonus-info-main {
+    font-size:15px;
+  }
+}
+
+.zen-booking-bill-bonus-info-main::after {
+  font-family:'Ostrovok-Icons';
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1;
+  speak:none;
+  text-decoration:none;
+  text-transform:none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background-image:-webkit-linear-gradient(top,transparent,transparent);
+  background-image:-moz-linear-gradient(top,transparent,transparent);
+  background-image:-o-linear-gradient(top,transparent,transparent);
+  background-image:linear-gradient(to bottom,transparent,transparent);
+  background:none;
+  color:#ff6464;
+  content:'c';
+  font-size:15px;
+  height:20px;
+  left:2px;
+  line-height:20px;
+  position:relative;
+  top:-2px;
+  vertical-align:middle;
+  width:20px;
+}
+
+.zen-booking-bill-fixed .zen-booking-bill-bonus-info-main {
+  font-size:15px;
+}
+
+.zen-booking-bill-bonus-info-sub {
+  cursor:pointer;
+  font-size:13px;
+  margin-top:4px;
+  text-transform:lowercase;
+}
+
+@media (min-width:681px) and (max-width:1074px) {
+  .zen-booking-bill-bonus-info-sub {
+    display:inline-block;
+  }
+  .zen-booking-bill-bonus-info-sub::before {
+    content:'\00A0';
+  }
+}
+
+.zen-booking-bill-payment-systems {
+  margin-top:35px;
+  padding:15px 20px 10px;
+}
+
+.zen-booking-bill-payment-systems-row-top {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.zen-booking-bill-payment-systems-row-bottom {
+  align-items:center;
+  display:flex;
+  justify-content:space-around;
+}
+
+.zen-booking-bill-payment-systems-dss {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/dss.svg);
+  height:29px;
+  width:70px;
+}
+
+.zen-booking-bill-payment-systems-mastercard {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/mastercard.svg);
+  height:23px;
+  width:64px;
+}
+
+.zen-booking-bill-payment-systems-paypal {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/paypal.svg);
+  height:40px;
+  width:40px;
+}
+
+.zen-booking-bill-payment-systems-stripe {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/stripe.svg);
+  height:27px;
+  width:98px;
+}
+
+.zen-booking-bill-payment-systems-thawte {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/thawte.svg);
+  height:23px;
+  width:89px;
+}
+
+.zen-booking-bill-payment-systems-visa {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/zen/booking/paymentsystems/visa.svg);
+  height:23px;
+  width:51px;
+}
+
+.zen-bookerror {
+  background:rgba(242,241,240,0.8);
+  position:fixed;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  overflow:auto;
+  z-index:21;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.zen-bookerror-content {
+  background:#fff;
+  border-radius:3px;
+  box-sizing:border-box;
+  box-shadow:0 6px 20px #f2f1f0;
+  font-size:14px;
+  max-width:600px;
+  padding:50px 20px;
+  position:relative;
+  width:100%;
+}
+
+@media (min-width:681px) {
+  .zen-bookerror-content {
+    padding:40px 60px;
+    width:auto;
+  }
+}
+
+.zen-bookerror-title {
+  font-size:18px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+@media (min-width:681px) {
+  .zen-bookerror-title {
+    margin-bottom:10px;
+  }
+}
+
+.zen-bookerror-desc {
+  line-height:20px;
+  margin-bottom:15px;
+}
+
+.zen-bookerror-close {
+  background:#fff;
+  border-radius:50%;
+  border:2px solid rgba(133,135,139,0.3);
+  cursor:pointer;
+  height:30px;
+  box-sizing:border-box;
+  position:relative;
+  text-align:center;
+  width:30px;
+  z-index:1;
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+.zen-bookerror-close::before,
+.zen-bookerror-close::after {
+  transform-origin:0 0;
+  transform:rotate(45deg) translate(-50%,-50%);
+  background:#85878b;
+  content:'';
+  left:50%;
+  position:absolute;
+  top:50%;
+}
+
+.zen-bookerror-close::before {
+  height:3px;
+  width:14px;
+}
+
+.zen-bookerror-close::after {
+  height:14px;
+  width:3px;
+}
+
+.zen-bookerror-close-icon {
+  margin-top:9px;
+}
+
+.zen-bookerror-close-icon-path {
+  fill:rgba(0,0,0,0.6);
+}
+
+@media (max-width:680px) {
+  .zen-bookerror-close {
+    right:15px;
+    top:15px;
+  }
+}
+
+.zen-bookerror-supported-payments {
+  display:flex;
+  margin-bottom:20px;
+}
+
+.zen-bookerror-ust-email {
+  margin:10px 0 15px;
+}
+
+.zen-bookerror-email {
+  background:#fff5e0;
+  font-weight:600;
+  padding:0 3px;
+  white-space:nowrap;
+}
+
+.zen-bookerror-button {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  height:46px;
+  line-height:46px;
+  padding:0 25px;
+  margin-bottom:15px;
+  width:100%;
+}
+
+.zen-bookerror-button:focus {
+  outline:none;
+}
+
+.zen-bookerror-button:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zen-bookerror-button-checked,
+.zen-bookerror-button-checked:hover,
+.zen-bookerror-button-active,
+.zen-bookerror-button-active:hover,
+.zen-bookerror-button:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zen-bookerror-button-disabled,
+.zen-bookerror-button:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+@media (min-width:681px) {
+  .zen-bookerror-button {
+    margin-bottom:0;
+    width:auto;
+  }
+}
+
+.zen-bookerror-controls {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+@media (min-width:681px) {
+  .zen-bookerror-controls {
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+  }
+}
+
+.zen-bookerror-controls-is-block {
+  flex-wrap:nowrap;
+  justify-content:space-between;
+}
+
+.zen-bookerror-hotellink,
+.zen-bookerror-regionlink {
+  color:#1871bc;
+  text-decoration:none;
+  max-width:170px;
+  line-height:20px;
+}
+
+.zen-bookerror-hotellink:first-child {
+  margin-right:30px;
+}
+
+.zen-bookerror-hotellink:not(:first-child) {
+  max-width:none;
+}
+
+@media (min-width:681px) {
+  .zen-bookerror-hotellink:not(:first-child) {
+    margin:3px 0 0 30px;
+  }
+}
+
+.zen-bookerror-postfail {
+  margin-bottom:20px;
+}
+
+.zen-bookerror-postfail-promocode {
+  background:#fff8dd;
+  border-radius:3px;
+  font-size:20px;
+  letter-spacing:3px;
+  line-height:30px;
+  padding:10px 30px;
+  text-align:center;
+}
+
+.zen-bookerror-postfail-description {
+  line-height:23px;
+  margin-bottom:10px;
+}
+
+.bottombanner {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background-color:#fff;
+  border-radius:5px;
+  box-sizing:border-box;
+  padding:25px 75px 20px;
+  position:relative;
+  width:100%;
+}
+
+@media (max-width:680px) {
+  .bottombanner {
+    padding:30px 5px 20px 20px;
+  }
+}
+
+.bottombanner-title {
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-title {
+    font-size:18px;
+  }
+}
+
+.bottombanner-text {
+  font-size:15px;
+  margin-bottom:25px;
+  width:300px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-text {
+    width:215px;
+  }
+}
+
+.bottombanner-partners {
+  width:317px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partners {
+    margin:0 auto;
+    width:265px;
+  }
+}
+
+.bottombanner-partner {
+  display:inline-block;
+  height:40px;
+  margin-bottom:10px;
+  margin-right:39px;
+  vertical-align:top;
+}
+
+.bottombanner-partner:nth-child(3) {
+  margin-right:0;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner {
+    margin-bottom:0;
+    margin-right:25px;
+  }
+}
+
+.bottombanner-partner-img-visa {
+  height:26px;
+  width:60px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner-img-visa {
+    height:22px;
+    width:50px;
+  }
+}
+
+.bottombanner-partner-img-mastercard {
+  height:27px;
+  width:74px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner-img-mastercard {
+    height:21px;
+    width:59px;
+  }
+}
+
+.bottombanner-partner-img-thawte {
+  height:26px;
+  width:104px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner-img-thawte {
+    height:22px;
+    width:87px;
+  }
+}
+
+.bottombanner-partner-img-pcidss {
+  height:34px;
+  width:81px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner-img-pcidss {
+    height:25px;
+    margin-left:30px;
+    width:60px;
+  }
+}
+
+.bottombanner-partner-img-stripe {
+  height:32px;
+  width:114px;
+}
+
+@media (max-width:680px) {
+  .bottombanner-partner-img-stripe {
+    height:22px;
+    width:80px;
+  }
+}
+
+.zen-booking-banner-container {
+  background:#dddddd;
+  border-radius:5px;
+}
+
+.zen-booking-banner-container .doubleclick-common {
+  height:237px;
+  margin:0 auto;
+  width:570px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-banner-container .doubleclick-common {
+    width:320px;
+  }
+}
+
+.carepackage-inner {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background:#fff;
+  border-radius:5px;
+  font-weight:400;
+  margin:15px 0;
+  padding:25px 50px 20px 75px;
+  position:relative;
+}
+
+.carepackage-inner::before {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/booking/umbrella.png);
+  content:'';
+  height:158px;
+  position:absolute;
+  right:0;
+  top:-25px;
+  width:125px;
+  z-index:9;
+}
+
+@media (min-width:681px) {
+  .carepackage-inner::before {
+    right:-20px;
+    top:-30px;
+    width:181px;
+  }
+}
+
+@media (max-width:680px) {
+  .carepackage-inner {
+    padding:15px 20px;
+  }
+}
+
+.carepackage-radiobutton {
+  position:relative;
+}
+
+.carepackage-title {
+  font-size:22px;
+  font-weight:400;
+  margin-bottom:15px;
+  width:70%;
+}
+
+.carepackage-text-top {
+  align-items:center;
+  display:flex;
+  font-size:13px;
+}
+
+@media (min-width:681px) {
+  .carepackage-text-top {
+    font-size:15px;
+  }
+}
+
+.carepackage-top-doc {
+  margin-bottom:6px;
+  margin-right:10px;
+}
+
+.carepackage-text {
+  font-size:13px;
+  line-height:20px;
+  margin-bottom:20px;
+  margin-right:50px;
+}
+
+@media (min-width:681px) {
+  .carepackage-text {
+    font-size:15px;
+  }
+}
+
+.carepackage-text-doc {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#ff3c41;
+  font-weight:600;
+}
+
+.carepackage-expand-title {
+  color:#1871bc;
+  cursor:pointer;
+  font-size:15px;
+  line-height:22px;
+  margin:20px 0;
+  padding-right:30px;
+  position:relative;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.carepackage-expand-title::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgc3Ryb2tlPSIjMTg3MWJjIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGNpcmNsZSBjeD0iMTQiIGN5PSIxNCIgcj0iMTQiLz48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0xOS42NTcgMTJMMTQgMTcuNjU3IDguMzQzIDEyIi8+PC9nPjwvc3ZnPg==);
+  content:'';
+  height:30px;
+  position:absolute;
+  right:0;
+  top:0;
+  width:30px;
+}
+
+@media (min-width:681px) {
+  .carepackage-expand-title::before {
+    left:-43px;
+    top:-5px;
+  }
+}
+
+.carepackage-expand-title:hover {
+  text-shadow:0 3px 6px rgba(32,110,179,0.15);
+}
+
+.carepackage-expand-title-rotated-arrow::before {
+  transform:rotate(90deg);
+}
+
+.carepackage-item {
+  margin-bottom:12px;
+  padding-left:30px;
+  position:relative;
+}
+
+.carepackage-item::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEuMDMiIGhlaWdodD0iOC4wNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjNGZhYzAwIiBkPSJNMTAuNy4zM2ExLjExIDEuMTEgMCAwIDAtMS41NyAwbC01LjEgNS4wOS0yLjE0LTIuMTVBMS4xMSAxLjExIDAgMCAwIC4zMiA0Ljg0bDIuODkgMi44OWExLjA5IDEuMDkgMCAwIDAgLjQzLjI5IDEuMTEgMS4xMSAwIDAgMCAxLjIxLS4yNGw1Ljg1LTUuODVhMS4xMSAxLjExIDAgMCAwIDAtMS42eiIvPjwvc3ZnPg==) 50% 50% no-repeat;
+  background-size:cover;
+  content:'';
+  display:inline-block;
+  height:12px;
+  left:0;
+  position:absolute;
+  top:5px;
+  width:16px;
+}
+
+.carepackage-item-doc {
+  margin-top:30px;
+}
+
+.carepackage-item-doc::after {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/zen/upsell/doc.svg) no-repeat;
+  background-size:cover;
+  content:'';
+  height:17px;
+  left:29px;
+  position:absolute;
+  top:-20px;
+  width:45px;
+}
+
+@media (min-width:681px) {
+  .carepackage-item-doc {
+    margin-top:0;
+  }
+  .carepackage-item-doc::before {
+    background:url(//st.worldota.net/master/876db6f-b31a969/img/zen/upsell/doc.svg) no-repeat;
+    background-size:cover;
+    height:17px;
+    left:-26px;
+    top:-1px;
+    width:45px;
+  }
+  .carepackage-item-doc::after {
+    display:none;
+  }
+}
+
+.carepackage-item-title {
+  font-size:15px;
+}
+
+.carepackage-item-subtitle {
+  color:#85878b;
+  font-size:13px;
+  line-height:18px;
+}
+
+.carepackage-radio-label {
+  border-radius:3px;
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  margin-left:-25px;
+  padding:10px 0 10px 25px;
+  width:100%;
+  position:relative;
+}
+
+.carepackage-radio-label::before {
+  background:#fff;
+  border-radius:100%;
+  border:1px solid #85878b;
+  content:'';
+  height:15px;
+  position:absolute;
+  width:15px;
+}
+
+@media (max-width:680px) {
+  .carepackage-radio-label {
+    padding-right:20px;
+  }
+}
+
+.carepackage-radio {
+  display:none;
+}
+
+.carepackage-radio:checked+.carepackage-radio-label::after {
+  background:#000;
+  border-radius:100%;
+  content:'';
+  height:9px;
+  left:29px;
+  position:absolute;
+  top:14px;
+  width:9px;
+}
+
+.carepackage-radio:checked+.carepackage-radio-label {
+  background:#fff8dd;
+}
+
+.carepackage-radio-description {
+  margin-left:30px;
+}
+
+.carepackage-radio-total {
+  text-align:right;
+  white-space:nowrap;
+}
+
+.carepackage-radio-title {
+  display:block;
+  font-size:15px;
+  margin-bottom:4px;
+}
+
+.carepackage-radio-subtitle {
+  color:#85878b;
+  display:block;
+  font-size:13px;
+}
+
+@media (min-width:681px) {
+  .carepackage-radio-total {
+    margin-right:20px;
+  }
+}
+
+.carepackage-strong-text {
+  color:#ff6464;
+}
+
+.carepackage-eula {
+  color:#85878b;
+  font-size:11px;
+  margin-top:10px;
+  padding-left:30px;
+}
+
+@media (max-width:680px) {
+  .carepackage-eula {
+    padding-bottom:20px;
+  }
+}
+
+.carepackage-eula-link {
+  color:#85878b;
+  text-decoration-color:rgba(133,135,139,0.3);
+}
+
+.zen-booking-contacts {
+  background:#fff;
+  border-radius:5px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  margin:15px 0;
+  padding:0;
+  overflow:hidden;
+}
+
+.zen-booking-loaded .zen-booking-contacts {
+  padding:15px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-loaded .zen-booking-contacts {
+    padding:25px 20px 20px 75px;
+  }
+}
+
+.zen-booking-contacts-title {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:22px;
+  font-weight:400;
+  padding-right:30px;
+  position:relative;
+  margin-bottom:5px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-contacts-title {
+    font-size:20px;
+  }
+}
+
+.zen-booking-contacts-title::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  content:'';
+  height:19px;
+  position:absolute;
+  right:0;
+  top:-7px;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-contacts-title::before {
+    height:30px;
+    left:-40px;
+    width:24px;
+  }
+}
+
+.zen-booking-contacts-subtitle {
+  font-size:15px;
+}
+
+.zen-booking-contacts-form-main {
+  border:1px solid rgba(133,135,139,0.3);
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  border-radius:3px;
+  margin:20px 0 14px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-contacts-form-main {
+    max-width:340px;
+  }
+}
+
+.zen-booking-contacts-form-rooms {
+  margin-bottom:30px;
+}
+
+.zen-booking-contacts-form-room-toggle {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#1871bc;
+  cursor:pointer;
+  display:inline-block;
+  font-size:15px;
+  font-weight:600;
+}
+
+.zen-booking-contacts-form-room-toggle-show::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xMi41IDZhNC41NzUgNC41NzUgMCAwIDAtMy40MzkgMS41MyA0LjIgNC4yIDAgMCAwLTEuMDI5IDMuMjk3bC4zMTYgMi41MWMuMjcyIDIuMTYzIDIuMTkyIDMuNzk1IDQuNDY3IDMuNzk1IDIuMjc1IDAgNC4xOTYtMS42MzIgNC40NjgtMy43OTVsLjMxNi0yLjUxYTQuMTk3IDQuMTk3IDAgMCAwLTEuMDMtMy4yOThBNC41NzMgNC41NzMgMCAwIDAgMTMuMTMyIDZIMTIuNXoiIGlkPSJhIi8+PG1hc2sgaWQ9ImIiIHg9IjAiIHk9IjAiIHdpZHRoPSI5LjYzMSIgaGVpZ2h0PSIxMS4xMzIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMSkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHVzZSBzdHJva2U9IiMxODcxYmMiIG1hc2s9InVybCgjYikiIHN0cm9rZS13aWR0aD0iNCIgeGxpbms6aHJlZj0iI2EiLz48cGF0aCBkPSJNOC4zMjcgMTljLS40NjUuMTg3LS45MTcuNDMtMS4zMzIuNzMtLjk1My42ODktMS43MTIgMS42ODEtMS45OTUgMy4wMDZNMTcgMTlhNi4zIDYuMyAwIDAgMSAxLjMzMy43M2MuOTUyLjY4OSAxLjcxMSAxLjY4MSAxLjk5NCAzLjAwNiIgc3Ryb2tlPSIjMTg3MWJjIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yMy41MTYgNS4zNTVBMTIuOTgyIDEyLjk4MiAwIDAgMCAxMyAwQzUuODIgMCAwIDUuODIgMCAxM3M1LjgyIDEzIDEzIDEzYzQuMzI3IDAgOC4xNi0yLjExNCAxMC41MjMtNS4zNjUiIHN0cm9rZT0iIzE4NzFiYyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cmVjdCBmaWxsPSIjMTg3MWJjIiB4PSIyMiIgeT0iMTIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyIiByeD0iMSIvPjxyZWN0IGZpbGw9IiMxODcxYmMiIHRyYW5zZm9ybT0icm90YXRlKDkwIDI4IDEzKSIgeD0iMjIiIHk9IjEyIiB3aWR0aD0iMTIiIGhlaWdodD0iMiIgcng9IjEiLz48L2c+PC9zdmc+);
+  content:'';
+  display:inline-block;
+  height:28px;
+  margin-right:6px;
+  vertical-align:-8px;
+  width:35px;
+}
+
+.zen-booking-contacts-form-room-toggle-hide::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik00LjUgMGE0LjU3NSA0LjU3NSAwIDAgMC0zLjQzOSAxLjUzQTQuMiA0LjIgMCAwIDAgLjAzMiA0LjgyN2wuMzE2IDIuNTFDLjYyIDkuNSAyLjU0IDExLjEzMiA0LjgxNSAxMS4xMzJjMi4yNzUgMCA0LjE5Ni0xLjYzMiA0LjQ2OC0zLjc5NWwuMzE2LTIuNTFhNC4xOTcgNC4xOTcgMCAwIDAtMS4wMy0zLjI5OEE0LjU3MyA0LjU3MyAwIDAgMCA1LjEzMiAwSDQuNXoiIGlkPSJhIi8+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMSkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOCA2KSI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHBhdGggZD0iTTQuNSAwYTQuNTc1IDQuNTc1IDAgMCAwLTMuNDM5IDEuNTNBNC4yIDQuMiAwIDAgMCAuMDMyIDQuODI3bC4zMTYgMi41MUMuNjIgOS41IDIuNTQgMTEuMTMyIDQuODE1IDExLjEzMmMyLjI3NSAwIDQuMTk2LTEuNjMyIDQuNDY4LTMuNzk1bC4zMTYtMi41MWE0LjE5NyA0LjE5NyAwIDAgMC0xLjAzLTMuMjk4QTQuNTczIDQuNTczIDAgMCAwIDUuMTMyIDBINC41eiIgc3Ryb2tlPSIjMTg3MWJjIiBzdHJva2Utd2lkdGg9IjQiIG1hc2s9InVybCgjYikiLz48L2c+PHBhdGggZD0iTTguMzI3IDE5Yy0uNDY1LjE4Ny0uOTE3LjQzLTEuMzMyLjczLS45NTMuNjg5LTEuNzEyIDEuNjgxLTEuOTk1IDMuMDA2TTE3IDE5YTYuMyA2LjMgMCAwIDEgMS4zMzMuNzNjLjk1Mi42ODkgMS43MTEgMS42ODEgMS45OTQgMy4wMDYiIHN0cm9rZT0iIzE4NzFiYyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMjMuNTE2IDUuMzU1QTEyLjk4MiAxMi45ODIgMCAwIDAgMTMgMEM1LjgyIDAgMCA1LjgyIDAgMTNzNS44MiAxMyAxMyAxM2M0LjMyNyAwIDguMTYtMi4xMTQgMTAuNTIzLTUuMzY1IiBzdHJva2U9IiMxODcxYmMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHJlY3QgZmlsbD0iIzE4NzFiYyIgZmlsbC1ydWxlPSJub256ZXJvIiB4PSIyMiIgeT0iMTIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyIiByeD0iMSIvPjwvZz48L3N2Zz4=);
+  content:'';
+  display:inline-block;
+  height:28px;
+  margin-right:6px;
+  vertical-align:-8px;
+  width:35px;
+}
+
+.zen-booking-contacts-form-guest {
+  position:relative;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+@media (min-width:681px) {
+  .zen-booking-contacts-form-guest {
+    max-width:340px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-contacts-form-guest:last-child {
+    margin-right:35px;
+  }
+}
+
+.zen-booking-contacts-form-guest-title {
+  font-size:15px;
+  font-weight:400;
+  margin-bottom:15px;
+}
+
+.zen-booking-contacts-form-guest-fields {
+  border:1px solid rgba(133,135,139,0.3);
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  border-radius:3px;
+  margin-bottom:15px;
+}
+
+.zensuggestfield {
+  position:relative;
+}
+
+.zensuggestfield-dropdown {
+  background:#fff;
+  border-radius:0 0 5px 5px;
+  border:1px solid rgba(133,135,139,0.3);
+  box-shadow:0 2px 8px 0 rgba(133,135,139,0.3);
+  box-sizing:border-box;
+  cursor:pointer;
+  left:-1px;
+  position:absolute;
+  width:calc(100% + 2px);
+  z-index:4;
+}
+
+.zensuggestfield-dropdown-option {
+  align-items:center;
+  display:flex;
+  height:28px;
+  padding-left:15px;
+}
+
+.zensuggestfield-dropdown-option:hover {
+  background:#0086dc;
+  color:#fff;
+}
+
+.zensuggestfield-dropdown-option-active {
+  background:#0086dc;
+  color:#fff;
+}
+
+.zensuggestfield-dropdown-option-extra {
+  background:#fff8dd;
+  position:relative;
+}
+
+.zensuggestfield-dropdown-option-extra:hover {
+  background:#fff8dd;
+  color:inherit;
+}
+
+.zensuggestfield-dropdown-option-cancel {
+  background:rgba(133,135,139,0.3);
+  border-radius:50%;
+  cursor:pointer;
+  height:16px;
+  position:absolute;
+  right:8px;
+  top:7px;
+  width:16px;
+  z-index:1;
+}
+
+.zensuggestfield-dropdown-option-cancel::before,
+.zensuggestfield-dropdown-option-cancel::after {
+  transform-origin:0 0;
+  transform:rotate(45deg) translate(-50%,-50%);
+  background:#fff8dd;
+  content:'';
+  left:50%;
+  position:absolute;
+  top:50%;
+}
+
+.zensuggestfield-dropdown-option-cancel::before {
+  height:3px;
+  width:12px;
+}
+
+.zensuggestfield-dropdown-option-cancel::after {
+  height:12px;
+  width:3px;
+}
+
+.zen-formcardtip-wrapper {
+  align-items:center;
+  background:#fff;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  padding:15px;
+  position:fixed;
+  z-index:12;
+}
+
+.zen-fullscreenpopup .zen-formcardtip-wrapper {
+  background-size:contain;
+  margin:0 auto;
+  position:static;
+  z-index:0;
+}
+
+.zen-formcardtip {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/card_cvc_tip_all.png) no-repeat;
+  margin-bottom:15px;
+  width:213px;
+  height:130px;
+  background-size:cover;
+}
+
+.zen-formcardtip-amex {
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/card_cvc_tip_amex.png) no-repeat;
+  width:213px;
+  height:130px;
+  background-size:cover;
+}
+
+.zen-booking-creditcard {
+  position:relative;
+}
+
+.zen-booking-creditcard-title {
+  font-size:22px;
+  font-weight:400;
+  padding-right:30px;
+  position:relative;
+  margin-bottom:5px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-title {
+    font-size:20px;
+  }
+}
+
+.zen-booking-creditcard-title::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  content:'';
+  height:19px;
+  position:absolute;
+  right:0;
+  top:-7px;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-title::before {
+    height:30px;
+    left:-40px;
+    width:24px;
+  }
+}
+
+.zen-booking-creditcard-subtitle {
+  font-size:13px;
+  line-height:18px;
+  max-width:400px;
+  margin-bottom:20px;
+}
+
+.zen-booking-creditcard-main {
+  align-items:flex-start;
+  background:#fff8dd;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  margin:0 -20px 20px;
+  padding:15px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-main {
+    flex-wrap:nowrap;
+    margin:0 -20px 15px -75px;
+    padding:15px 20px 15px 75px;
+  }
+}
+
+.zen-form-field-card-amex::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/amex.svg);
+  height:26px;
+  width:74px;
+}
+
+.zen-form-field-card-dinersclub::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/dinersclub.svg);
+  height:46px;
+  width:64px;
+}
+
+.zen-form-field-card-discover::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/discover.svg);
+  height:40px;
+  width:88px;
+}
+
+.zen-form-field-card-jcb::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/jcb.svg);
+  height:42px;
+  width:54px;
+}
+
+.zen-form-field-card-maestro::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/maestro.svg);
+  height:41px;
+  width:67px;
+}
+
+.zen-form-field-card-mastercard::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mastercard.svg);
+  height:26px;
+  width:33px;
+}
+
+.zen-form-field-card-mir::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mir.svg);
+  height:17px;
+  width:61px;
+}
+
+.zen-form-field-card-visa::after {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/visa.svg);
+  height:20px;
+  width:61px;
+}
+
+.zen-booking-creditcard-sidebar {
+  -webkit-order:0;
+  -ms-order:0;
+  order:0;
+  align-self:stretch;
+  position:relative;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-sidebar {
+    -webkit-order:1;
+    -ms-order:1;
+    order:1;
+    display:flex;
+    flex-direction:column;
+    margin-left:30px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-creditcard-sidebar {
+    width:100%;
+  }
+}
+
+zen-booking-creditcard-logos-wrapper {
+  margin-top:-5px;
+}
+
+.zen-booking-creditcard-logos {
+  align-items:stretch;
+  display:flex;
+  flex-wrap:wrap;
+  margin-left:-2px;
+  margin-top:6px;
+  margin-bottom:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-logos {
+    margin-top:10px;
+    margin-bottom:0;
+    width:140px;
+  }
+}
+
+.zen-booking-creditcard-logo {
+  border-radius:3px;
+  height:23px;
+  margin-bottom:5px;
+  margin-right:5px;
+  width:41px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-creditcard-logo {
+    width:35px;
+  }
+}
+
+.zen-booking-creditcard-logo-amex {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/amex.svg) center no-repeat;
+  background-size:80%;
+}
+
+.zen-booking-creditcard-logo-dinersclub {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/dinersclub.svg) center no-repeat;
+  background-size:70%;
+}
+
+.zen-booking-creditcard-logo-discover {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/discover.svg) center no-repeat;
+  background-size:80%;
+}
+
+.zen-booking-creditcard-logo-jcb {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/jcb.svg) center no-repeat;
+  background-size:50%;
+}
+
+.zen-booking-creditcard-logo-mastercard {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mastercard.svg) center no-repeat;
+  background-size:60%;
+}
+
+.zen-booking-creditcard-logo-visa {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/visa.svg) center no-repeat;
+  background-size:80%;
+}
+
+.zen-booking-creditcard-logo-mir {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mir.svg) center no-repeat;
+  background-size:80%;
+}
+
+.zen-booking-creditcard-logo-maestro {
+  background:rgba(255,255,255,0.6) url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/maestro.svg) center no-repeat;
+  background-size:70%;
+}
+
+.zen-booking-creditcard-usercards-cardtype {
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:25px;
+  margin-right:10px;
+  width:40px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-usercards-cardtype {
+    margin-right:15px;
+  }
+}
+
+.zen-booking-creditcard-usercards-cardtype-amex {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/amex.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-dinersclub {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/dinersclub.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-discover {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/dinersclub.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-jcb {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/jcb.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-maestro {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/maestro.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-mastercard {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mastercard.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-mir {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/mir.svg);
+}
+
+.zen-booking-creditcard-usercards-cardtype-visa {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/svg/cardlogos/visa.svg);
+}
+
+.zen-booking-creditcard-usercards-inner {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  align-items:center;
+  display:flex;
+  font-size:15px;
+  font-weight:600;
+  height:40px;
+  justify-content:space-between;
+  margin-bottom:10px;
+  width:280px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-usercards-inner {
+    margin-bottom:20px;
+    width:auto;
+  }
+}
+
+.zen-booking-creditcard-usercards-label {
+  max-width:120px;
+}
+
+.zen-booking-creditcard-usercards-select {
+  align-items:center;
+  background-image:linear-gradient(0deg,#f5f7fa 0%,#fff 100%);
+  border-radius:3px;
+  border:1px solid rgba(133,135,139,0.3);
+  border-bottom:1px solid #c0beb2;
+  box-shadow:0 1px 0 0 rgba(133,135,139,0.3);
+  cursor:pointer;
+  display:flex;
+  height:38px;
+  justify-content:left;
+  letter-spacing:2px;
+  line-height:20px;
+  padding-left:11px;
+  position:relative;
+  width:145px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-usercards-select {
+    padding-left:12px;
+    width:181px;
+  }
+}
+
+.zen-booking-creditcard-usercards-select::before {
+  border-color:#292f37 transparent transparent;
+  border-style:solid;
+  border-width:7px 4.5px 0;
+  content:'';
+  height:0;
+  position:absolute;
+  right:13px;
+  top:16px;
+  width:0;
+}
+
+.zen-booking-creditcard-usercards-dropdown {
+  background:#fff;
+  border-radius:3px;
+  box-shadow:0 4px 8px 0 rgba(133,135,139,0.3);
+  height:auto;
+  left:-6px;
+  padding:5px 0;
+  position:absolute;
+  top:-6px;
+  width:168px;
+  z-index:13;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-usercards-dropdown {
+    width:210px;
+    left:-8px;
+  }
+}
+
+.zen-booking-creditcard-usercards-card {
+  align-items:center;
+  display:flex;
+  height:40px;
+  justify-content:left;
+  padding-left:17px;
+  width:auto;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-usercards-card {
+    padding-left:20px;
+  }
+}
+
+.zen-booking-creditcard-usercards-card:hover {
+  background:rgba(24,113,188,0.1);
+}
+
+.zen-booking-creditcard-usercards-cardtext {
+  letter-spacing:0;
+}
+
+.zen-booking-creditcard-card {
+  background-color:#fff;
+  border-radius:3px;
+  border:1px solid rgba(133,135,139,0.3);
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-card {
+    width:320px;
+    margin-bottom:0;
+  }
+}
+
+.zen-booking-creditcard-card-disabled {
+  background:none;
+  box-shadow:none;
+}
+
+.zen-booking-creditcard-card-number {
+  width:100%;
+  position:relative;
+}
+
+.zen-booking-creditcard-card-number::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:19px;
+  position:absolute;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-card-number::before {
+    content:'';
+    left:-34px;
+    top:13px;
+  }
+}
+
+.zen-booking-creditcard-savecard-checkbox {
+  min-height:20px;
+  padding-left:30px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-creditcard-savecard-checkbox {
+    bottom:0;
+    left:0;
+    position:absolute;
+  }
+}
+
+.zen-booking-creditcard-savecard-checkbox-form {
+  display:flex;
+  justify-content:left;
+}
+
+.zen-booking-creditcard-savecard-checkbox-label {
+  cursor:pointer;
+  display:inline-block;
+  order:2;
+  position:relative;
+  width:70%;
+}
+
+.zen-booking-creditcard-savecard-checkbox-label::before {
+  background:#fff;
+  border-radius:3px;
+  box-shadow:0 2px 0 #ceccc8;
+  content:'';
+  height:20px;
+  left:-30px;
+  position:absolute;
+  width:20px;
+}
+
+.zen-booking-creditcard-savecard-checkbox-input {
+  display:none;
+}
+
+.zen-booking-creditcard-savecard-checkbox-input:checked+.zen-booking-creditcard-savecard-checkbox-label::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEuMDMiIGhlaWdodD0iOC4wNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTAuNy4zM2ExLjExIDEuMTEgMCAwIDAtMS41NyAwbC01LjEgNS4wOS0yLjE0LTIuMTVBMS4xMSAxLjExIDAgMCAwIC4zMiA0Ljg0bDIuODkgMi44OWExLjA5IDEuMDkgMCAwIDAgLjQzLjI5IDEuMTEgMS4xMSAwIDAgMCAxLjIxLS4yNGw1Ljg1LTUuODVhMS4xMSAxLjExIDAgMCAwIDAtMS42eiIvPjwvc3ZnPg==),linear-gradient(-180deg,#2a81cb 5%,#1564aa 100%);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:80%,100%;
+  box-shadow:none;
+}
+
+.zen-booking-creditcard-savecard-tooltip {
+  display:inline-block;
+  margin-left:5px;
+  transform:translateY(15%);
+}
+
+.zen-booking-creditcard-card-expiration {
+  width:50%;
+}
+
+.zen-form-expiration {
+  border-top:1px solid rgba(133,135,139,0.2);
+  padding:3px 10px;
+  position:relative;
+}
+
+.zen-form-expiration-header {
+  display:flex;
+  justify-content:space-between;
+}
+
+.zen-form-expiration-errormessage {
+  color:#a50000;
+  font-size:11px;
+}
+
+.zen-form-expiration-inner {
+  display:flex;
+  justify-content:space-between;
+}
+
+.zen-form-expiration-inner .zen-form-field-tip {
+  top:55%;
+}
+
+.zen-form-expiration-fields {
+  display:flex;
+  position:relative;
+}
+
+.zen-form-expiration-fields::after {
+  content:'\/';
+  font-size:16px;
+  font-weight:700;
+  left:27px;
+  letter-spacing:1.2px;
+  position:absolute;
+  top:3px;
+  z-index:2;
+}
+
+.zen-form-expiration-fields input {
+  width:40px;
+  padding-right:0;
+}
+
+.zen-form-expiration-fields input:last-child {
+  width:100%;
+}
+
+.zen-form-expiration-fields .zen-form-field-input-error {
+  color:#a50000;
+}
+
+.zen-form-expiration-delimiter {
+  font-size:16px;
+  font-weight:700;
+  line-height:22px;
+  margin:0 5px;
+}
+
+.zen-booking-creditcard-card-securecode {
+  margin-left:-2px;
+  width:calc(50% + 2px);
+}
+
+.zen-booking-creditcard-card-securecode .zen-form-field {
+  background-color:#fff;
+  border-left:1px solid rgba(133,135,139,0.2);
+}
+
+.zen-booking-creditcard-card-zipcode .zen-form-field {
+  background-color:#fff;
+}
+
+.zen-booking-creditcard-card-cardholder,
+.zen-booking-creditcard-card-zipcode {
+  width:100%;
+}
+
+.zen-booking-creditcard-card-submit {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  height:50px;
+  line-height:50px;
+  margin-bottom:10px;
+  padding:0 20px;
+  font-weight:600;
+}
+
+.zen-booking-creditcard-card-submit:focus {
+  outline:none;
+}
+
+.zen-booking-creditcard-card-submit:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zen-booking-creditcard-card-submit-checked,
+.zen-booking-creditcard-card-submit-checked:hover,
+.zen-booking-creditcard-card-submit-active,
+.zen-booking-creditcard-card-submit-active:hover,
+.zen-booking-creditcard-card-submit:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zen-booking-creditcard-card-submit-disabled,
+.zen-booking-creditcard-card-submit:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+@media (max-width:680px) {
+  .zen-booking-creditcard-card-submit {
+    font-size:17px;
+    width:100%;
+  }
+}
+
+.zen-booking-currencyselect {
+  display:flex;
+  justify-content:space-between;
+}
+
+.zen-booking-currencyselect-title {
+  font-size:12px;
+}
+
+.zen-booking-currencyselect-selectbutton {
+  position:relative;
+  padding-left:9px;
+}
+
+.zen-booking-currencyselect-selectbutton-label {
+  color:#1871bc;
+  font-size:12px;
+  font-weight:400;
+  position:relative;
+  text-transform:uppercase;
+}
+
+.zen-booking-currencyselect-selectbutton-label::before {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMyIgaGVpZ2h0PSI1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiMxODcxYmMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMi41TDAgMHY1eiIvPjwvc3ZnPg==) no-repeat;
+  content:'';
+  height:5px;
+  left:-6px;
+  position:absolute;
+  top:4px;
+  width:3px;
+}
+
+.zen-booking-currencyselect-selectbutton-select {
+  bottom:0;
+  cursor:pointer;
+  height:100%;
+  left:0;
+  opacity:0;
+  position:absolute;
+  right:0;
+  top:0;
+  width:100%;
+}
+
+.zen-booking-eula {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  color:#85878b;
+  font-size:11px;
+  font-weight:400;
+}
+
+.zen-booking-stepbar .zen-booking-eula {
+  margin-top:15px;
+}
+
+.zen-booking-eula-link {
+  color:#85878b;
+  text-decoration-color:rgba(133,135,139,0.3);
+}
+
+.zen-booking-hotelcard {
+  background:#fff;
+  border-radius:0 0 5px 5px;
+  display:flex;
+  flex-wrap:wrap;
+  overflow:hidden;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard {
+    border-radius:5px;
+    justify-content:space-between;
+  }
+}
+
+.zen-booking-hotelcard .zen-mobile-gallery-controls {
+  display:none;
+}
+
+.zen-booking-hotelcard-images {
+  width:100%;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-images {
+    position:relative;
+    width:120px;
+    z-index:1;
+  }
+}
+
+@media (max-width:680px) {
+  .body-zenstatus .zen-booking-hotelcard-images {
+    display:none;
+  }
+}
+
+.zen-booking-hotelcard-gallery {
+  height:95px;
+  width:100%;
+}
+
+.zen-booking-hotelcard-photo {
+  height:100%;
+  width:120px;
+}
+
+.zen-booking-hotelcard-info {
+  box-sizing:border-box;
+  min-height:100px;
+  padding:5px 15px;
+}
+
+@media (min-width:1075px) {
+  .zen-booking-hotelcard-info {
+    width:280px;
+  }
+}
+
+@media (min-width:681px) and (max-width:1074px) {
+  .zen-booking-hotelcard-info {
+    width:calc(100% - 120px - 170px);
+  }
+}
+
+@media (max-width:680px) {
+  .body-zenstatus .zen-booking-hotelcard-info {
+    min-height:70px;
+  }
+}
+
+.zen-booking-hotelcard-stars {
+  margin:-2px 0;
+}
+
+.zen-booking-hotelcard-name {
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:4px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-name {
+    font-weight:400;
+  }
+}
+
+.zen-booking-hotelcard-rate {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:16px;
+  font-weight:600;
+  line-height:20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-rate {
+    font-size:15px;
+  }
+}
+
+.zen-booking-hotelcard-rate-address,
+.zen-booking-hotelcard-rate-bedding {
+  font-size:13px;
+  font-weight:400;
+  line-height:20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-rate-address,
+  .zen-booking-hotelcard-rate-bedding {
+    line-height:18px;
+  }
+}
+
+.zen-booking-hotelcard-rate-address {
+  background:#ffe8b7;
+  border-radius:3px;
+  margin-left:-5px;
+  padding-left:5px;
+}
+
+.zen-booking-hotelcard-dates {
+  box-sizing:border-box;
+  padding:10px 20px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  display:flex;
+}
+
+@media (max-width:680px) {
+  .zen-booking-hotelcard-dates {
+    border-top:1px solid #dadbdc;
+    width:100%;
+  }
+  .zen-booking-hotelcard-dates:first-child {
+    border-top:0;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-dates {
+    padding:10px 15px;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-dates {
+    border-left:1px solid #dadbdc;
+    flex-direction:column;
+    justify-content:left;
+    width:170px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-hotelcard-checkin {
+    margin-right:20vw;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-checkin {
+    margin-bottom:10px;
+  }
+}
+
+.zen-booking-hotelcard-dates-title {
+  font-size:10px;
+  font-weight:400;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-dates-title {
+    font-size:11px;
+    margin-bottom:3px;
+  }
+}
+
+.zen-booking-hotelcard-dates-date {
+  font-size:14px;
+  font-weight:600;
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-dates-date {
+    font-size:15px;
+  }
+}
+
+.zen-booking-hotelcard-dates-time {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:15px;
+  font-weight:600;
+  margin-left:5px;
+}
+
+.zen-booking-hotelcard-valueadds {
+  box-sizing:border-box;
+  padding:10px 20px;
+  width:100%;
+}
+
+@media (max-width:680px) {
+  .zen-booking-hotelcard-valueadds {
+    border-top:1px solid #dadbdc;
+    width:100%;
+  }
+  .zen-booking-hotelcard-valueadds:first-child {
+    border-top:0;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-valueadds {
+    padding:10px 15px;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-hotelcard-valueadds {
+    border-top:1px solid #dadbdc;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-hotelcard-valueadds {
+    padding:10px 20px 15px;
+  }
+  .body-zenstatus .zen-booking-hotelcard-valueadds {
+    display:none;
+  }
+}
+
+@font-face {
+  font-family:'Ostrovok-Icons';
+  src:url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.eot);
+  src:url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.eot#iefix) format("embedded-opentype"),url(//st.worldota.net/master/876db6f-b31a969/fonts/icons/icons.ttf) format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+.fonticon {
+  font-family:'Ostrovok-Icons';
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1;
+  speak:none;
+  text-decoration:none;
+  text-transform:none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.zenbookingloyalty {
+  font-size:12px;
+  line-height:17px;
+}
+
+.zenbookingloyaltyfield {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin:0 -20px;
+  padding:5px 20px 5px 27px;
+  position:relative;
+}
+
+.zenbookingloyaltyfield .zen-select-label {
+  color:#292f37;
+  text-transform:none;
+}
+
+.zenbookingloyaltyfield-expanded {
+  background:#fff8dd;
+  margin-bottom:2px;
+  padding-bottom:15px;
+}
+
+.zenbookingloyaltyfield-label {
+  color:#1871bc;
+  cursor:pointer;
+  font-size:12px;
+  position:relative;
+}
+
+.zenbookingloyaltyfield-label::before {
+  content:'';
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMyIgaGVpZ2h0PSI1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiMxODcxYmMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMgMi41TDAgMHY1eiIvPjwvc3ZnPg==) no-repeat;
+  position:absolute;
+  left:-8px;
+  top:6px;
+  height:5px;
+  width:3px;
+}
+
+.zenbookingloyaltyfield-expanded .zenbookingloyaltyfield-label::before {
+  transform:rotate(90deg);
+}
+
+.zenbookingloyaltyfield-label-extra {
+  color:#85878b;
+  margin-left:1em;
+}
+
+.zenbookingloyaltyfield-value {
+  font-size:12px;
+  text-align:right;
+}
+
+.zenbookingloyaltyfield-value-has-discount::before {
+  content:'\2212\00a0';
+}
+
+.zenbookingloyaltyfield-content {
+  margin-top:10px;
+  width:100%;
+}
+
+.zenbookingloyaltyfield-promo {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  position:relative;
+}
+
+.zenbookingloyaltyfield-promo-inner {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+@media (min-width:681px) and (max-width:954px) {
+  .zenbookingloyaltyfield-promo-inner {
+    justify-content:normal;
+    max-width:300px;
+  }
+}
+
+.zenbookingloyalty-auth-link-click {
+  color:#1871bc;
+  cursor:pointer;
+}
+
+.zenbookingloyalty-auth-link-click:hover {
+  text-decoration:underline;
+}
+
+.zenbookingloyaltyfield-promo-input-wrapper {
+  width:calc(100% - 50px);
+}
+
+.zenbookingloyaltyfield-promo-input {
+  background:#fff;
+  border:1px solid rgba(133,135,139,0.2);
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  border-radius:3px;
+  color:#292f37;
+  font-size:17px;
+  font-weight:600;
+  height:40px;
+  line-height:40px;
+  padding:0 10px;
+  box-sizing:border-box;
+  width:100%;
+}
+
+.zenbookingloyaltyfield-promo-input::placeholder {
+  color:rgba(133,135,139,0.5);
+}
+
+.zenbookingloyaltyfield-promo-input::-webkit-input-placeholder {
+  color:rgba(133,135,139,0.5);
+}
+
+.zenbookingloyaltyfield-promo-input::-moz-placeholder {
+  color:rgba(133,135,139,0.5);
+}
+
+.zenbookingloyaltyfield-promo-input:-ms-input-placeholder {
+  color:rgba(133,135,139,0.5);
+}
+
+.zenbookingloyaltyfield-promo-input:focus {
+  outline:none;
+  box-shadow:inset 0 0 2px 1px #50a3df;
+}
+
+.zenbookingloyaltyfield-promo-input::-ms-clear {
+  display:none;
+}
+
+.zenbookingloyaltyfield-promo-input-error {
+  box-shadow:inset 0 0 2px 2px #a50000;
+}
+
+.zenbookingloyaltyfield-promo-button {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  position:relative;
+  width:40px;
+}
+
+.zenbookingloyaltyfield-promo-button:focus {
+  outline:none;
+}
+
+.zenbookingloyaltyfield-promo-button:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zenbookingloyaltyfield-promo-button-checked,
+.zenbookingloyaltyfield-promo-button-checked:hover,
+.zenbookingloyaltyfield-promo-button-active,
+.zenbookingloyaltyfield-promo-button-active:hover,
+.zenbookingloyaltyfield-promo-button:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zenbookingloyaltyfield-promo-button-disabled,
+.zenbookingloyaltyfield-promo-button:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+@media (min-width:681px) and (max-width:954px) {
+  .zenbookingloyaltyfield-promo-button {
+    margin-left:10px;
+  }
+}
+
+.zenbookingloyaltyfield-promo-button-icon {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xMy44MzQgMjMuMDEzaDEyLjI2OGE0IDQgMCAwIDAgNC00VjE1YTQgNCAwIDAgMC00LTRoLTMuMDN2MmgzLjAzYTIgMiAwIDAgMSAyIDJ2NC4wMTNhMiAyIDAgMCAxLTIgMmgtMTIuMjhsMy4yMy0zLjIyOS0xLjQxNS0xLjQxNEwxMCAyMi4wMDdsNS42MzcgNS42MzcgMS40MTQtMS40MTQtMy4yMTctMy4yMTd6IiBpZD0iYiIvPjxmaWx0ZXIgeD0iLTIyLjQlIiB5PSItMTUlIiB3aWR0aD0iMTQ0LjglIiBoZWlnaHQ9IjE2MC4xJSIgZmlsdGVyVW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiBpZD0iYSI+PGZlT2Zmc2V0IGR5PSIzIiBpbj0iU291cmNlQWxwaGEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIi8+PGZlQ29sb3JNYXRyaXggdmFsdWVzPSIwIDAgMCAwIDAuMDE5NjA3ODQzMSAwIDAgMCAwIDAuMjM5MjE1Njg2IDAgMCAwIDAgMC4zODQzMTM3MjUgMCAwIDAgMC4xNSAwIiBpbj0ic2hhZG93Qmx1ck91dGVyMSIvPjwvZmlsdGVyPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtOCAtMTEpIiBmaWxsPSJub25lIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI2IiLz48L2c+PC9zdmc+);
+  height:22px;
+  width:25px;
+  background-position:0 3px;
+  background-repeat:no-repeat;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.zenbookingloyaltyfield-promo-error {
+  color:#a50000;
+  font-size:12px;
+  margin-top:5px;
+}
+
+.zenbookingloyaltyfield-promo-error-value {
+  white-space:nowrap;
+}
+
+.zenbookingloyaltyfield-unapply {
+  color:#1871bc;
+  cursor:pointer;
+  display:inline-block;
+  font-size:12px;
+  margin-top:10px;
+}
+
+.zenbookingloyaltyfield-hint {
+  color:#292f37;
+  font-size:12px;
+}
+
+.zenbookingloyaltyfield-hint-paragraph {
+  margin-bottom:1em;
+}
+
+.zenbookingloyaltyfield-hint-light {
+  color:#85878b;
+}
+
+.zenbookingloyaltyfield-hint-light-hide {
+  display:none;
+}
+
+.zenbookingloyaltyfield-user-dreams,
+.zenbookingloyaltyfield-unreturn-dreams {
+  color:#85878b;
+  width:100%;
+}
+
+.zenbookingloyaltyfield-user-dreams-count {
+  color:#ff6464;
+  font-weight:600;
+}
+
+.zenbookingloyaltyfield-user-dreams-count::after {
+  font-family:'Ostrovok-Icons';
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1;
+  speak:none;
+  text-decoration:none;
+  text-transform:none;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  content:'c';
+  margin-left:2px;
+}
+
+.zenbookingloyaltyfield-select-wrapper {
+  width:100%;
+}
+
+.zenbookingpromoselect {
+  position:relative;
+}
+
+.zenbookingpromoselect-opener {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background-image:-webkit-linear-gradient(top,#fff 0%,#faf9f8 100%);
+  background-image:-moz-linear-gradient(top,#fff 0%,#faf9f8 100%);
+  background-image:-o-linear-gradient(top,#fff 0%,#faf9f8 100%);
+  background-image:linear-gradient(to bottom,#fff 0%,#faf9f8 100%);
+  border-radius:3px;
+  border:1px solid rgba(153,146,139,0.2);
+  box-shadow:0 2px 0 0 rgba(79,71,63,0.15);
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  line-height:23px;
+  margin-bottom:10px;
+  padding:8px 10px 9px;
+  position:relative;
+}
+
+.zenbookingpromoselect-opener::before {
+  content:'';
+  border-top:5px solid #292f37;
+  border-left:4px solid transparent;
+  border-right:4px solid transparent;
+  position:absolute;
+  right:15px;
+  top:19px;
+}
+
+.zenbookingpromoselect-list {
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow:0 4px 8px 0 rgba(133,135,139,0.3);
+  display:none;
+  left:-22px;
+  max-height:251px;
+  overflow-y:auto;
+  position:absolute;
+  top:0;
+  width:275px;
+  z-index:1;
+  -webkit-overflow-scrolling:touch;
+}
+
+@media (max-width:680px) {
+  .zenbookingpromoselect-list {
+    right:-12px;
+    width:auto;
+  }
+}
+
+.zenbookingpromoselect-list-opened {
+  display:block;
+}
+
+.zenbookingpromoselect-list-inner {
+  max-height:251px;
+  overflow-y:auto;
+}
+
+.zenbookingpromoselect-list-item {
+  border-bottom:1px solid rgba(133,135,139,0.3);
+  cursor:pointer;
+  padding:10px 15px;
+}
+
+.zenbookingpromoselect-list-item:hover {
+  background-color:rgba(24,113,188,0.1);
+}
+
+.zenbookingpromoselect-list-item:first-child {
+  padding-top:7px;
+}
+
+.zenbookingpromoselect-list-item:last-child {
+  border:0;
+  margin-bottom:50px;
+}
+
+.zenbookingpromoselect-list-item-inapplicable {
+  color:#85878b;
+  cursor:default;
+}
+
+.zenbookingpromoselect-list-item-name {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:15px;
+  font-weight:600;
+  letter-spacing:2.4px;
+  line-height:20px;
+}
+
+.zenbookingpromoselect-list-item-tip.zenpopuptipcontainer {
+  display:inline-block;
+  margin-left:10px;
+}
+
+.zenbookingpromoselect-list-item-discount {
+  color:#85878b;
+  font-size:13px;
+  line-height:18px;
+}
+
+.zenbookingpromoselect-list-manual {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background:#fff;
+  border-top:1px solid rgba(133,135,139,0.3);
+  bottom:0;
+  box-sizing:border-box;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:600;
+  height:50px;
+  line-height:20px;
+  padding:10px 17px;
+  position:absolute;
+  width:100%;
+  z-index:1;
+}
+
+.paymenttypes {
+  margin-bottom:20px;
+  padding-bottom:10px;
+  position:relative;
+}
+
+.paymenttypes::before {
+  background:#f2f1f0;
+  bottom:0;
+  content:'';
+  height:2px;
+  left:-100px;
+  position:absolute;
+  right:-100px;
+}
+
+@media (max-width:680px) {
+  .paymenttypes::before {
+    left:0;
+    right:0;
+  }
+}
+
+.paymenttypes-title {
+  font-size:22px;
+  font-weight:400;
+  padding-right:30px;
+  position:relative;
+  margin-bottom:5px;
+}
+
+@media (min-width:681px) {
+  .paymenttypes-title {
+    font-size:20px;
+  }
+}
+
+.paymenttypes-title::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  content:'';
+  height:19px;
+  position:absolute;
+  right:0;
+  top:-7px;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .paymenttypes-title::before {
+    height:30px;
+    left:-40px;
+    width:24px;
+  }
+}
+
+@media (max-width:680px) {
+  .paymenttypes-title::before {
+    display:none;
+  }
+}
+
+.paymenttypes-fields {
+  margin-bottom:2px;
+  margin-top:10px;
+}
+
+.paymentypes-field-radio {
+  display:none;
+}
+
+.paymentypes-field-radio:checked+.paymentypes-field-label {
+  background-color:rgba(24,113,188,0.1);
+  color:#292f37;
+}
+
+.paymentypes-field-radio:checked+.paymentypes-field-label::after {
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEuMDMiIGhlaWdodD0iOC4wNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjMjkyZjM3IiBkPSJNMTAuNy4zM2ExLjExIDEuMTEgMCAwIDAtMS41NyAwbC01LjEgNS4wOS0yLjE0LTIuMTVBMS4xMSAxLjExIDAgMCAwIC4zMiA0Ljg0bDIuODkgMi44OWExLjA5IDEuMDkgMCAwIDAgLjQzLjI5IDEuMTEgMS4xMSAwIDAgMCAxLjIxLS4yNGw1Ljg1LTUuODVhMS4xMSAxLjExIDAgMCAwIDAtMS42eiIvPjwvc3ZnPg==) 50% 50% no-repeat;
+  content:'';
+  height:9px;
+  left:35px;
+  position:absolute;
+  top:17px;
+  width:13px;
+}
+
+.paymentypes-field-radio:checked+.paymentypes-field-label .paymenttypes-field-item {
+  color:#292f37;
+}
+
+@media (max-width:680px) {
+  .paymentypes-field-radio:checked+.paymentypes-field-label::after {
+    left:10px;
+  }
+}
+
+.paymentypes-field-label {
+  border-radius:5px;
+  cursor:pointer;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin-left:-60px;
+  margin-right:-5px;
+  padding-left:60px;
+  position:relative;
+}
+
+@media (max-width:680px) {
+  .paymentypes-field-label {
+    margin-left:0;
+    padding-left:0;
+  }
+}
+
+.paymenttypes-field-item {
+  color:#1871bc;
+  font-size:15px;
+  font-weight:600;
+  line-height:43px;
+}
+
+@media (max-width:680px) {
+  .paymenttypes-field-item {
+    padding-left:30px;
+  }
+}
+
+.paymenttypes-field-add-label {
+  align-items:center;
+  color:#85878b;
+  display:flex;
+  padding-right:15px;
+}
+
+@media (max-width:680px) {
+  .paymenttypes-field-add-label {
+    display:none;
+  }
+}
+
+.paymenttypes-upsell-disabled-message {
+  color:#85878b;
+  margin-bottom:10px;
+}
+
+@media (max-width:680px) {
+  .paymenttypes-upsell-disabled-message {
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+
+.zen-booking-paypal {
+  position:relative;
+}
+
+.zen-booking-paypal::before {
+  background-repeat:no-repeat;
+  background:url(//st.worldota.net/master/876db6f-b31a969/img/paypal.svg);
+  content:'';
+  height:100px;
+  position:absolute;
+  right:0;
+  top:0;
+  width:100px;
+}
+
+.zen-booking-paypal-title {
+  font-size:22px;
+  font-weight:400;
+  padding-right:30px;
+  position:relative;
+  margin-bottom:5px;
+  margin-right:50px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-paypal-title {
+    font-size:20px;
+  }
+}
+
+.zen-booking-paypal-title::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  content:'';
+  height:19px;
+  position:absolute;
+  right:0;
+  top:-7px;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-paypal-title::before {
+    height:30px;
+    left:-40px;
+    width:24px;
+  }
+}
+
+@media (max-width:680px) {
+  .zen-booking-paypal-title::before {
+    display:none;
+  }
+}
+
+.zen-booking-paypal-subtitle {
+  font-size:13px;
+  line-height:18px;
+  margin-right:145px;
+  margin-bottom:20px;
+}
+
+@media (max-width:680px) {
+  .zen-booking-paypal-subtitle {
+    margin-right:110px;
+  }
+}
+
+.zen-booking-paypal-submit {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  font-weight:600;
+  height:50px;
+  line-height:50px;
+  margin-bottom:10px;
+  padding:0 20px;
+  width:296px;
+}
+
+.zen-booking-paypal-submit:focus {
+  outline:none;
+}
+
+.zen-booking-paypal-submit:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zen-booking-paypal-submit-checked,
+.zen-booking-paypal-submit-checked:hover,
+.zen-booking-paypal-submit-active,
+.zen-booking-paypal-submit-active:hover,
+.zen-booking-paypal-submit:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zen-booking-paypal-submit-disabled,
+.zen-booking-paypal-submit:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+@media (max-width:680px) {
+  .zen-booking-paypal-submit {
+    font-size:17px;
+    width:100%;
+  }
+}
+
+.zen-booking-select-inner {
+   -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  box-sizing:border-box;
+  line-height:17px;
+  padding-left:10px;
+  text-align:left;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  
+  cursor:pointer;
+  font-size:18px;
+  font-weight:700;
+  display:inline-block;
+  padding-right:40px;
+  position:relative;
+}
+
+.zen-booking-select-inner:focus {
+  outline:none;
+}
+
+@media (min-width:681px) and (max-width:1074px) {
+  .zen-booking-select-inner {
+    padding-left:15px;
+  }
+}
+
+@media (min-width:1075px) {
+  .zen-booking-select-inner {
+    padding-left:19px;
+  }
+}
+
+ 
+.zen-booking-select-inner-no-select {
+  cursor:default;
+}
+
+.zen-booking-select-inner-no-select::before {
+  display:none;
+}
+
+.zen-booking-select-label {
+  color:#85878b;
+  font-size:11px;
+  font-weight:600;
+}
+
+.zen-booking-select-value {
+  color:#292f37;
+}
+
+.zen-booking-select-button {
+  bottom:0;
+  left:0;
+  right:0;
+  position:absolute;
+  top:0;
+  z-index:1;
+}
+
+.zen-booking-select-button-no-select {
+  display:none;
+}
+
+.zen-booking-select-inner {
+  
+}
+
+@media (min-width:681px) {
+  .zen-booking-select-inner-inner {
+    max-width:280px;
+  }
+}
+
+.zen-booking-select-value-tip {
+  color:#85878b;
+  font-size:12px;
+  font-weight:600;
+}
+
+.zen-booking-select-value-tip::before {
+  content:'\0020\2027\0020';
+}
+
+.zen-booking-select-list {
+  cursor:pointer;
+  height:100%;
+  left:0;
+  opacity:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.zen-booking-stepbar {
+  background:#fff;
+  border-radius:5px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  margin:15px 0;
+  padding:0;
+  margin:0 auto;
+  text-align:left;
+}
+
+.zen-booking-loaded .zen-booking-stepbar {
+  padding:15px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-loaded .zen-booking-stepbar {
+    padding:25px 20px 20px 75px;
+  }
+}
+
+.zen-booking-stepbar-continue {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  border-radius:3px;
+  cursor:pointer;
+  height:40px;
+  line-height:38px;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  background-image:-webkit-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-moz-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:-o-linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  background-image:linear-gradient(to bottom,#2f9cea 0%,#1d81d9 98%);
+  box-shadow:inset 0 -2px 0 #206eb3;
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  text-shadow:0 4px 3px rgba(32,110,179,0.2);
+  display:inline-block;
+  height:50px;
+  line-height:50px;
+  vertical-align:middle;
+  width:100%;
+}
+
+.zen-booking-stepbar-continue:focus {
+  outline:none;
+}
+
+.zen-booking-stepbar-continue:hover {
+  background:#1d81d9;
+  text-shadow:0 2px 2px rgba(32,110,179,0.2);
+  box-shadow:inset 0 -2px 0 #206eb3;
+}
+
+.zen-booking-stepbar-continue-checked,
+.zen-booking-stepbar-continue-checked:hover,
+.zen-booking-stepbar-continue-active,
+.zen-booking-stepbar-continue-active:hover,
+.zen-booking-stepbar-continue:active {
+  background:#1d6bc3;
+  text-shadow:none;
+}
+
+.zen-booking-stepbar-continue-disabled,
+.zen-booking-stepbar-continue:disabled {
+  cursor:default;
+  opacity:.3;
+  pointer-events:none;
+}
+
+@media (min-width:681px) {
+  .zen-booking-stepbar-continue {
+    max-width:240px;
+    padding:0 40px;
+    width:auto;
+  }
+}
+
+.zen-booking-stepbar-description {
+  font-size:15px;
+  vertical-align:middle;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+@media (max-width:680px) {
+  .zen-booking-stepbar-description {
+    text-align:center;
+    margin-top:12px;
+  }
+}
+
+@media (min-width:681px) {
+  .zen-booking-stepbar-description {
+    display:inline-block;
+    margin-left:20px;
+    max-width:250px;
+  }
+}
+
+.zen-booking-stepbar-description-step {
+  font-weight:600;
+}
+
+.zen-booking-ust {
+  background:#fff;
+  border-radius:5px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  margin:15px 0;
+  padding:0;
+  background:#ffe8b7;
+  overflow:hidden;
+}
+
+.zen-booking-loaded .zen-booking-ust {
+  padding:15px 20px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-loaded .zen-booking-ust {
+    padding:25px 20px 20px 75px;
+  }
+}
+
+.zen-booking-ust-title {
+  font-size:22px;
+  font-weight:400;
+  padding-right:30px;
+  position:relative;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+@media (min-width:681px) {
+  .zen-booking-ust-title {
+    font-size:20px;
+  }
+}
+
+.zen-booking-ust-title::before {
+  background-image:url(//st.worldota.net/master/876db6f-b31a969/img/booking/title-secure.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  content:'';
+  height:19px;
+  position:absolute;
+  right:0;
+  top:-7px;
+  width:15px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-ust-title::before {
+    height:30px;
+    left:-40px;
+    width:24px;
+  }
+}
+
+.zen-booking-ust-subtitle {
+  font-size:15px;
+}
+
+.zen-booking-ust-form-fields {
+  border:1px solid rgba(133,135,139,0.3);
+  box-shadow:inset 0 2px 2px 0 rgba(218,216,213,0.5);
+  border-radius:3px;
+  margin:20px 0 14px;
+}
+
+@media (min-width:681px) {
+  .zen-booking-ust-form-fields {
+    max-width:340px;
+  }
+}
+
+.zen-booking-ust-form-fields-calltype {
+  margin-bottom:3px;
+}
+
+.zen-booking-ust-form-fields-callype,
+.zen-booking-ust-form-fields-email,
+.zen-booking-ust-form-fields-sessionid,
+.zen-booking-ust-form-fields-callfrom,
+.zen-booking-ust-form-fields-callid {
+  background:#fff;
+}
+
+.valueadds {
+  align-items:flex-start;
+  display:flex;
+  flex-direction:column;
+  list-style:none;
+}
+
+.valueadds-expanded {
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+@media (max-width:680px) {
+  .valueadds-expanded {
+    flex-direction:column;
+  }
+}
+
+.valueadds-item {
+  cursor:pointer;
+  font-size:13px;
+  font-weight:400;
+  line-height:18px;
+  margin-bottom:6px;
+  padding-left:30px;
+  position:relative;
+}
+
+.valueadds-item:last-child {
+  margin-bottom:0;
+}
+
+@media (max-width:680px) {
+  .valueadds-item {
+    line-height:16px;
+  }
+}
+
+.valueadds-short .valueadds-item {
+  font-size:11px;
+  line-height:13px;
+  margin-bottom:10px;
+}
+
+.valueadds-short .valueadds-item:last-child {
+  margin-bottom:0;
+}
+
+.valueadds-expanded .valueadds-item {
+  align-items:flex-start;
+  display:flex;
+  flex-direction:column;
+  flex:auto 0;
+  margin-bottom:0;
+  margin-right:10px;
+  padding-left:0;
+}
+
+@media (max-width:680px) {
+  .valueadds-expanded .valueadds-item {
+    margin-bottom:10px;
+  }
+  .valueadds-expanded .valueadds-item:last-child {
+    margin-bottom:0;
+  }
+}
+
+.valueadds-item-pro {
+  color:#397d00;
+}
+
+.valueadds-item-payment {
+  color:#292f37;
+}
+
+.valueadds-item-title-wrapper {
+  margin-right:20px;
+}
+
+.valueadds-short .valueadds-item-title-wrapper {
+  margin-right:10px;
+}
+
+.valueadds-expanded .valueadds-item-title-wrapper {
+  font-weight:600;
+  line-height:16px;
+  margin-right:0;
+  padding-left:30px;
+  padding-right:20px;
+  position:relative;
+  white-space:nowrap;
+}
+
+.valueadds-item-title-wrapper span {
+  color:#397d00;
+}
+
+.valueadds-item-title-wrapper::before {
+  background-position:center right;
+  background-repeat:no-repeat;
+  content:'';
+  height:17px;
+  left:0;
+  position:absolute;
+  top:0;
+  width:23px;
+}
+
+.valueadds-item-meal .valueadds-item-title-wrapper::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIgNy40MDFWMTNIMVY3LjQwMWMtLjU5Ny0uMjQ2LTEtLjkyMy0xLTEuNjg3VjIuMjg2aDF2My40MjhjMCAuNDU4LjI1NS43ODYuNS43ODZzLjUtLjMyOC41LS43ODZWMi4yODZoMXYzLjQyOGMwIC43NjQtLjQwMyAxLjQ0LTEgMS42ODd6TTIyIDJsMS0uNjI1VjEzaC0xVjcuNWwtLjk2OS0uOTY5TDIyIDJ6TTEyIDE0YTcgNyAwIDEgMSAwLTE0IDcgNyAwIDAgMSAwIDE0em0wLTFhNiA2IDAgMSAwIDAtMTIgNiA2IDAgMCAwIDAgMTJ6bTAtMmE0IDQgMCAxIDEgMC04IDQgNCAwIDAgMSAwIDh6bTAtMWEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6IiBmaWxsPSIjMjkyZjM3IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=);
+}
+
+.valueadds-item-cancellation .valueadds-item-title-wrapper::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuMzcgMS4wOGwtLjExMy4wMTdMNy4wOTQuMTFDNy40NjUuMDUgNy44NDQuMDEyIDguMjIgMGwuMDMyIDFhNS43NyA1Ljc3IDAgMCAwLS4zMjMuMDE3aC0uMDE3bC0uMDA2LjAwMS0uMDE2LjAwMWgtLjAwMmwtLjAwNS4wMDFoLS4wMWwtLjAwMi4wMDFoLS4wMDMtLjAwN2wtLjAwNi4wMDFoLS4wMDNsLS4wMDQuMDAxaC0uMDAzLS4wMDRsLS4wMDQuMDAxSDcuODNsLS4wMDQuMDAxSDcuODE2bC0uMDAyLjAwMWgtLjAwOGwtLjAwNS4wMDEtLjAwOC4wMDFoLS4wMDdsLS4wMDIuMDAxLS4wMTUuMDAxLS4wMDcuMDAxLS4wMDkuMDAxaC0uMDA3bC0uMDE2LjAwMmE1LjczOSA1LjczOSAwIDAgMC0uMjQuMDI4bC0uMDI0LjAwM2EuMDc3LjA3NyAwIDAgMS0uMDE1LjAwMmwtLjAwNy4wMDFoLS4wMDJsLS4wMDcuMDAyLS4wMDYuMDAxaC0uMDAzbC0uMDA1LjAwMUg3LjQybC0uMDA2LjAwMUg3LjQxbC0uMDA0LjAwMWgtLjAwM2wtLjAwMy4wMDEtLjAwOC4wMDEtLjAwNi4wMDFhLjA4OC4wODggMCAwIDEtLjAxNy4wMDJ6bS0yLjQ4Mi44MzVhNy42NCA3LjY0IDAgMCAwLS40MTUuMjQ1bC0uNTM2LS44NDRjLjMxOC0uMjAyLjY1My0uMzg1Ljk5NS0uNTQzbC40Mi45MWE2LjIwOSA2LjIwOSAwIDAgMC0uMzA4LjE1bC0uMDA3LjAwMnYuMDAxbC0uMDE0LjAwNy0uMDA2LjAwMy0uMDAyLjAwMS0uMDA1LjAwMy0uMDAyLjAwMWEuMDA4LjAwOCAwIDAgMS0uMDA1LjAwMmwtLjAwMi4wMDFhLjAyMi4wMjIgMCAwIDEtLjAwNS4wMDNsLS4wMDcuMDA0LS4wMDIuMDAxYS4wMDguMDA4IDAgMCAwLS4wMDQuMDAybC0uMDAzLjAwMS0uMDA0LjAwMi0uMDA0LjAwMi0uMDAzLjAwMy0uMDAzLjAwMS0uMDAzLjAwMS0uMDAzLjAwMi0uMDAzLjAwMi0uMDA2LjAwMy0uMDAyLjAwMS0uMDA0LjAwMi0uMDAyLjAwMS0uMDA0LjAwMnYuMDAxbC0uMDA5LjAwNC0uMDAyLjAwMS0uMDA0LjAwMnYuMDAxYS4wNjQuMDY0IDAgMCAwLS4wMTUuMDA4LjAyMi4wMjIgMCAwIDEtLjAwNi4wMDNsLS4wMTUuMDA4em0tMi4yNCAxLjg5N0E3LjQ2OSA3LjQ2OSAwIDAgMCAxLjgyIDUuMDlsLS44OS0uNDU1YTguNDcxIDguNDcxIDAgMCAxIDEuMjg4LTEuODU3bC43MzkuNjc0LS4wNzUuMDgzLS4wMS4wMTJIMi44N2EuMDI3LjAyNyAwIDAgMS0uMDA1LjAwNmwtLjAxLjAxMi0uMDA1LjAwNUgyLjg1bC0uMDEuMDEyaC0uMDAxYS4wMjIuMDIyIDAgMCAxLS4wMDQuMDA2LjAyNy4wMjcgMCAwIDAtLjAwNS4wMDdsLS4wMDYuMDA2YS4wMDguMDA4IDAgMCAwLS4wMDQuMDA1bC0uMDAyLjAwMi0uMDAzLjAwNGgtLjAwMWwtLjAwNS4wMDdoLS4wMDFsLS4wMDQuMDA1LS4wMDEuMDAyLS4wMDQuMDA0aC0uMDAxbC0uMDA0LjAwN2gtLjAwMmEuMDE0LjAxNCAwIDAgMS0uMDAzLjAwNWwtLjAwMi4wMDItLjAwMy4wMDQtLjAwMi4wMDItLjAwNC4wMDUtLjAwMi4wMDItLjAwMi4wMDMtLjAwMi4wMDMtLjAwMy4wMDItLjAwMi4wMDNhLjAyMi4wMjIgMCAwIDAtLjAwNC4wMDVjLS4wMDEgMC0uMDAyIDAtLjAwMi4wMDJsLS4wMDMuMDAzLS4wMDIuMDAzLS4wMDMuMDAzLS4wMDEuMDAyLS4wMDMuMDAzLS4wMDQuMDA1LS4wMDIuMDAyLS4wMDIuMDAzLS4wMDIuMDAzLS4wMDMuMDAzLS4wMDIuMDAyLS4wMDQuMDA1LS4wMDIuMDAyYS4wMTQuMDE0IDAgMCAxLS4wMDMuMDA0bC0uMDAxLjAwMi0uMDAzLjAwMy0uMDAxLjAwMi0uMDA2LjAwNi0uMDAyLjAwMi0uMDAyLjAwMy0uMDAxLjAwMi0uMDExLjAxMi0uMDA0LjAwNWgtLjAwMWwtLjAxLjAxNC0uMDA0LjAwNC0uMDE1LjAxOS0uMDE1LjAxOXpNMS4wMDIgOC4zODhjLS4wMDMuMTkuMDAxLjM4Mi4wMTMuNTczbC0uOTk4LjA2YTguNTE1IDguNTE1IDAgMCAxIC4xNjItMi4yNTNsLjk4LjIwM2E3LjU0IDcuNTQgMCAwIDAtLjE1MiAxLjIzMnYuMDI0bC0uMDAyLjAxNXYuMDQ5YzAgLjAwMSAwIC4wMDQtLjAwMi4wMDZWOC4zODh6bTE4LjY4Mi43ODRsLS43MDcuNzA3LTIuMDI0LTIuMDI0Yy4xODQgMi4zNDMtLjU4IDQuNzUtMi4zMzYgNi41Ny0zLjI1NiAzLjM3LTguNjQ4IDMuNDY0LTEyLjAyLjIwN2E4LjM0NSA4LjM0NSAwIDAgMS0xLjEzNS0xLjM3MmwtLjAwNS4wMDQtLjAzMS0uMDUzYy0uMDExLS4wMTctLjAyNC0uMDMyLS4wMzUtLjA0OGwuMDA1LS4wMDRhOC40MDQgOC40MDQgMCAwIDEtLjk0NC0xLjkybC45NDYtLjMyYy4wMzMuMDk0LjA2Ny4xOS4xMDQuMjg0di4wMDFsLjAwNi4wMTV2LjAwMWMwIC4wMDEgMCAuMDAzLjAwMi4wMDVhLjA2OS4wNjkgMCAwIDEgLjAwNC4wMWwuMDAyLjAwNXYuMDAxbC4wMDIuMDA1di4wMDFsLjAwNC4wMDh2LjAwMmwuMDAyLjAwNHYuMDAybC4wMDMuMDA0LjAwMy4wMXYuMDAxbC4wMDMuMDA0di4wMDNjLjAwMy4wMDQuMDA0LjAwOC4wMDUuMDEyIDAgLjAwMSAwIC4wMDIuMDAyLjAwM3YuMDAzbC4wMDIuMDAzLjAwMy4wMDZ2LjAwM2wuMDAyLjAwM3YuMDAzbC4wMDMuMDA0di4wMDNjLjAwMi4wMDIuMDAzLjAwMy4wMDMuMDA1IDAgLjAwMSAwIC4wMDMuMDAyLjAwNHYuMDAybC4wMDIuMDA0LjAwMi4wMDN2LjAwNWwuMDAzLjAwM3YuMDA0bC4wMDIuMDAyLjAwMi4wMDV2LjAwMmEzNzc2MjE2NjMyLjE0IDM3NzYyMTY2MzIuMTQgMCAwIDAgLjAwNS4wMXYuMDAzYy4wMDIgMCAuMDAyLjAwMS4wMDIuMDAyYS4wMDguMDA4IDAgMCAxIC4wMDIuMDA0LjAwMy4wMDMgMCAwIDEgMCAuMDAybC4wMDQuMDA3di4wMDJjMCAuMDAxIDAgLjAwMy4wMDIuMDA0di4wMDJsLjAwMy4wMDV2LjAwMmwuMDAzLjAwNnYuMDAybC4wMDMuMDA0di4wMDJhLjA0OS4wNDkgMCAwIDAgLjAwNC4wMDdsLjAwMy4wMDZ2LjAwMmEuMDIyLjAyMiAwIDAgMCAuMDAzLjAwNXYuMDAxYS4wNDkuMDQ5IDAgMCAwIC4wMDMuMDA3di4wMDFsLjAwMy4wMDZ2LjAwMWwuMDAzLjAwNnYuMDAxbC4wMDMuMDA3LjAwMy4wMDZ2LjAwMmwuMDAzLjAwNi4wMDMuMDA3di4wMDFsLjAwMy4wMDZ2LjAwMWwuMDA2LjAxM3YuMDAxYS4wMTQuMDE0IDAgMCAxIC4wMDMuMDA2di4wMDFsLjAwNy4wMTN2LjAwMWMwIC4wMDMuMDAyLjAwNS4wMDMuMDA3bC4wMDYuMDE0di4wMDFsLjAwNy4wMTNhLjA0OS4wNDkgMCAwIDAgLjAwMy4wMDd2LjAwMWEuMTYzLjE2MyAwIDAgMCAuMDA2LjAxM3YuMDAxbC4wMDMuMDA3LjAwNy4wMTQuMDA5LjAyMS4wMS4wMjFhNy4yNyA3LjI3IDAgMCAwIC41NjcgMS4wMDVjLjI5NS40NDQuNjMzLjg2NSAxLjAzIDEuMjVhNy41IDcuNSAwIDAgMCAxMC42MDYtLjE4NGMxLjU3My0xLjYyNyAyLjI0My0zLjc4IDIuMDU4LTUuODdsLTIuMDIxIDIuMDItLjcwNy0uNzA3IDMuMjI4LTMuMjI5IDMuMjI5IDMuMjN6bS04LjIzMiAxLjA5NGMwIC41OTUtLjIyNCAxLjA4OC0uNjcxIDEuNDc1LS40NDcuMzg4LTEuMDcyLjYzMy0xLjg3My43MzRWMTRoLS44NDl2LTEuNDY3Yy0uNDkxIDAtLjk2Ny0uMDM4LTEuNDI3LS4xMTQtLjQ2LS4wNzgtLjgzNy0uMTgzLTEuMTMxLS4zMTl2LTEuMDI1Yy4zNjUuMTYxLjc4NC4yOTQgMS4yNTkuMzk3LjQ3Ni4xMDMuOTA5LjE1NSAxLjMuMTU1VjguNzM0Yy0uOS0uMjg1LTEuNTMtLjYxNi0xLjg5MS0uOTkzLS4zNjItLjM3Ny0uNTQyLS44NjQtLjU0Mi0xLjQ2IDAtLjU3NS4yMjItMS4wNDYuNjY2LTEuNDE0LjQ0Ni0uMzY4IDEuMDM0LS41OTEgMS43NjYtLjY3VjNoLjg0OXYxLjE4NGE2LjY1MiA2LjY1MiAwIDAgMSAyLjMzNC40ODdsLS4zNDIuODZhNi42OTUgNi42OTUgMCAwIDAtMS45OTItLjQ2djIuODU0Yy42ODguMjE5IDEuMjAzLjQzMyAxLjU0NC42NC4zNDIuMjEuNTk1LjQ0OC43NTYuNzE4LjE2My4yNjkuMjQ0LjU5Ny4yNDQuOTgzem0tMS4xMTguMDg1YzAtLjMxNS0uMDk4LS41NzEtLjI5My0uNzY3LS4xOTUtLjE5NC0uNTcyLS4zODgtMS4xMzMtLjU4djIuNTU2Yy45NS0uMTMgMS40MjYtLjUzNCAxLjQyNi0xLjIxek02LjczNyA2LjI2N2MwIC4zMzQuMDk4LjYuMjk2LjgwMy4xOTYuMjAyLjUzOC4zOTIgMS4wMjUuNTcyVjUuMDk3Yy0uNDM0LjA3LS43NjMuMjA4LS45ODYuNDEyYS45ODUuOTg1IDAgMCAwLS4zMzUuNzU4eiIgZmlsbD0iIzI5MmYzNyIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+}
+
+.valueadds-item-payment .valueadds-item-title-wrapper::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjIyNCAxLjc1N2ExIDEgMCAwIDEgMS4zMi41MDdMMTMuMzE3IDRINi4xODZsNS4wMzgtMi4yNDN6TTEzLjUgMTJhMS41IDEuNSAwIDAgMS0xLjUtMS41YzAtLjE2LjAzMi0uMzEyLjA3OC0uNDU3QTEuNDk3IDEuNDk3IDAgMCAxIDEzLjUgOUgxN3YzaC0zLjV6bTIuNSAyYTIgMiAwIDAgMS0yIDJIMmExIDEgMCAwIDEtMS0xVjZhMSAxIDAgMCAxIDEtMWgxMmMuMzU2IDAgLjY4NS4xMDEuOTc1LjI2NUExLjk5IDEuOTkgMCAwIDEgMTYgN3YxaC0yLjVjLS45MzQgMC0xLjc0LjUyMS0yLjE2OSAxLjI4MWEyLjQ2OCAyLjQ2OCAwIDAgMC0uMzMxIDEuMjJsLjAwMi4wMjFBMi41MDEgMi41MDEgMCAwIDAgMTMuNSAxM0gxNnYxem0xLTZoMXY1aC0xdjFjMCAuODYtLjM2NiAxLjYyOC0uOTQ1IDIuMTc1QTIuOTg4IDIuOTg4IDAgMCAxIDE0IDE3SDJjLS4zNjYgMC0uNzA1LS4xMDYtMS0uMjc4LS41OTUtLjM0Ny0xLS45ODYtMS0xLjcyMlY2YzAtLjczNi40MDUtMS4zNzUgMS0xLjcyMkExLjk4OCAxLjk4OCAwIDAgMSAyIDRoMS43MjhMMTAuODE3Ljg0NGEyIDIgMCAwIDEgMi42NDEgMS4wMTNMMTQuNDEyIDRsLjAyLjA0NGEyLjk3OSAyLjk3OSAwIDAgMSAxLjYyMy43ODFDMTYuNjM0IDUuMzczIDE3IDYuMTQzIDE3IDd2MXptLTIuMDU4IDJhLjY2Ny42NjcgMCAwIDAtLjQ0Mi0uMTc0LjY2Ny42NjcgMCAwIDAtLjQ0My4xNzUuNjY1LjY2NSAwIDAgMC0uMjMyLjVjMCAuMi4wOTIuMzc2LjIzMS41YS42Ny42NyAwIDAgMCAuNDQ0LjE3NS42Ny42NyAwIDAgMCAuNDQzLS4xNzVjLjAyLS4wMi4wNC0uMDM2LjA1Ny0uMDU4YS42NjIuNjYyIDAgMCAwIC4xNzQtLjQ0Mi42NjYuNjY2IDAgMCAwLS4yMzItLjV6IiBmaWxsPSIjMjkyZjM3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
+}
+
+.valueadds-item-meal.valueadds-item-pro .valueadds-item-title-wrapper::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIgNy40MDFWMTNIMVY3LjQwMWMtLjU5Ny0uMjQ2LTEtLjkyMy0xLTEuNjg3VjIuMjg2aDF2My40MjhjMCAuNDU4LjI1NS43ODYuNS43ODZzLjUtLjMyOC41LS43ODZWMi4yODZoMXYzLjQyOGMwIC43NjQtLjQwMyAxLjQ0LTEgMS42ODd6TTIyIDJsMS0uNjI1VjEzaC0xVjcuNWwtLjk2OS0uOTY5TDIyIDJ6TTEyIDE0YTcgNyAwIDEgMSAwLTE0IDcgNyAwIDAgMSAwIDE0em0wLTFhNiA2IDAgMSAwIDAtMTIgNiA2IDAgMCAwIDAgMTJ6bTAtMmE0IDQgMCAxIDEgMC04IDQgNCAwIDAgMSAwIDh6bTAtMWEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6IiBmaWxsPSIjMzk3ZDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48L3N2Zz4=);
+}
+
+.valueadds-item-cancellation.valueadds-item-pro .valueadds-item-title-wrapper::before {
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuMzcgMS4wOGwtLjExMy4wMTdMNy4wOTQuMTFDNy40NjUuMDUgNy44NDQuMDEyIDguMjIgMGwuMDMyIDFhNS43NyA1Ljc3IDAgMCAwLS4zMjMuMDE3aC0uMDE3bC0uMDA2LjAwMS0uMDE2LjAwMWgtLjAwMmwtLjAwNS4wMDFoLS4wMWwtLjAwMi4wMDFoLS4wMDMtLjAwN2wtLjAwNi4wMDFoLS4wMDNsLS4wMDQuMDAxaC0uMDAzLS4wMDRsLS4wMDQuMDAxSDcuODNsLS4wMDQuMDAxSDcuODE2bC0uMDAyLjAwMWgtLjAwOGwtLjAwNS4wMDEtLjAwOC4wMDFoLS4wMDdsLS4wMDIuMDAxLS4wMTUuMDAxLS4wMDcuMDAxLS4wMDkuMDAxaC0uMDA3bC0uMDE2LjAwMmE1LjczOSA1LjczOSAwIDAgMC0uMjQuMDI4bC0uMDI0LjAwM2EuMDc3LjA3NyAwIDAgMS0uMDE1LjAwMmwtLjAwNy4wMDFoLS4wMDJsLS4wMDcuMDAyLS4wMDYuMDAxaC0uMDAzbC0uMDA1LjAwMUg3LjQybC0uMDA2LjAwMUg3LjQxbC0uMDA0LjAwMWgtLjAwM2wtLjAwMy4wMDEtLjAwOC4wMDEtLjAwNi4wMDFhLjA4OC4wODggMCAwIDEtLjAxNy4wMDJ6bS0yLjQ4Mi44MzVhNy42NCA3LjY0IDAgMCAwLS40MTUuMjQ1bC0uNTM2LS44NDRjLjMxOC0uMjAyLjY1My0uMzg1Ljk5NS0uNTQzbC40Mi45MWE2LjIwOSA2LjIwOSAwIDAgMC0uMzA4LjE1bC0uMDA3LjAwMnYuMDAxbC0uMDE0LjAwNy0uMDA2LjAwMy0uMDAyLjAwMS0uMDA1LjAwMy0uMDAyLjAwMWEuMDA4LjAwOCAwIDAgMS0uMDA1LjAwMmwtLjAwMi4wMDFhLjAyMi4wMjIgMCAwIDEtLjAwNS4wMDNsLS4wMDcuMDA0LS4wMDIuMDAxYS4wMDguMDA4IDAgMCAwLS4wMDQuMDAybC0uMDAzLjAwMS0uMDA0LjAwMi0uMDA0LjAwMi0uMDAzLjAwMy0uMDAzLjAwMS0uMDAzLjAwMS0uMDAzLjAwMi0uMDAzLjAwMi0uMDA2LjAwMy0uMDAyLjAwMS0uMDA0LjAwMi0uMDAyLjAwMS0uMDA0LjAwMnYuMDAxbC0uMDA5LjAwNC0uMDAyLjAwMS0uMDA0LjAwMnYuMDAxYS4wNjQuMDY0IDAgMCAwLS4wMTUuMDA4LjAyMi4wMjIgMCAwIDEtLjAwNi4wMDNsLS4wMTUuMDA4em0tMi4yNCAxLjg5N0E3LjQ2OSA3LjQ2OSAwIDAgMCAxLjgyIDUuMDlsLS44OS0uNDU1YTguNDcxIDguNDcxIDAgMCAxIDEuMjg4LTEuODU3bC43MzkuNjc0LS4wNzUuMDgzLS4wMS4wMTJIMi44N2EuMDI3LjAyNyAwIDAgMS0uMDA1LjAwNmwtLjAxLjAxMi0uMDA1LjAwNUgyLjg1bC0uMDEuMDEyaC0uMDAxYS4wMjIuMDIyIDAgMCAxLS4wMDQuMDA2LjAyNy4wMjcgMCAwIDAtLjAwNS4wMDdsLS4wMDYuMDA2YS4wMDguMDA4IDAgMCAwLS4wMDQuMDA1bC0uMDAyLjAwMi0uMDAzLjAwNGgtLjAwMWwtLjAwNS4wMDdoLS4wMDFsLS4wMDQuMDA1LS4wMDEuMDAyLS4wMDQuMDA0aC0uMDAxbC0uMDA0LjAwN2gtLjAwMmEuMDE0LjAxNCAwIDAgMS0uMDAzLjAwNWwtLjAwMi4wMDItLjAwMy4wMDQtLjAwMi4wMDItLjAwNC4wMDUtLjAwMi4wMDItLjAwMi4wMDMtLjAwMi4wMDMtLjAwMy4wMDItLjAwMi4wMDNhLjAyMi4wMjIgMCAwIDAtLjAwNC4wMDVjLS4wMDEgMC0uMDAyIDAtLjAwMi4wMDJsLS4wMDMuMDAzLS4wMDIuMDAzLS4wMDMuMDAzLS4wMDEuMDAyLS4wMDMuMDAzLS4wMDQuMDA1LS4wMDIuMDAyLS4wMDIuMDAzLS4wMDIuMDAzLS4wMDMuMDAzLS4wMDIuMDAyLS4wMDQuMDA1LS4wMDIuMDAyYS4wMTQuMDE0IDAgMCAxLS4wMDMuMDA0bC0uMDAxLjAwMi0uMDAzLjAwMy0uMDAxLjAwMi0uMDA2LjAwNi0uMDAyLjAwMi0uMDAyLjAwMy0uMDAxLjAwMi0uMDExLjAxMi0uMDA0LjAwNWgtLjAwMWwtLjAxLjAxNC0uMDA0LjAwNC0uMDE1LjAxOS0uMDE1LjAxOXpNMS4wMDIgOC4zODhjLS4wMDMuMTkuMDAxLjM4Mi4wMTMuNTczbC0uOTk4LjA2YTguNTE1IDguNTE1IDAgMCAxIC4xNjItMi4yNTNsLjk4LjIwM2E3LjU0IDcuNTQgMCAwIDAtLjE1MiAxLjIzMnYuMDI0bC0uMDAyLjAxNXYuMDQ5YzAgLjAwMSAwIC4wMDQtLjAwMi4wMDZWOC4zODh6bTE4LjY4Mi43ODRsLS43MDcuNzA3LTIuMDI0LTIuMDI0Yy4xODQgMi4zNDMtLjU4IDQuNzUtMi4zMzYgNi41Ny0zLjI1NiAzLjM3LTguNjQ4IDMuNDY0LTEyLjAyLjIwN2E4LjM0NSA4LjM0NSAwIDAgMS0xLjEzNS0xLjM3MmwtLjAwNS4wMDQtLjAzMS0uMDUzYy0uMDExLS4wMTctLjAyNC0uMDMyLS4wMzUtLjA0OGwuMDA1LS4wMDRhOC40MDQgOC40MDQgMCAwIDEtLjk0NC0xLjkybC45NDYtLjMyYy4wMzMuMDk0LjA2Ny4xOS4xMDQuMjg0di4wMDFsLjAwNi4wMTV2LjAwMWMwIC4wMDEgMCAuMDAzLjAwMi4wMDVhLjA2OS4wNjkgMCAwIDEgLjAwNC4wMWwuMDAyLjAwNXYuMDAxbC4wMDIuMDA1di4wMDFsLjAwNC4wMDh2LjAwMmwuMDAyLjAwNHYuMDAybC4wMDMuMDA0LjAwMy4wMXYuMDAxbC4wMDMuMDA0di4wMDNjLjAwMy4wMDQuMDA0LjAwOC4wMDUuMDEyIDAgLjAwMSAwIC4wMDIuMDAyLjAwM3YuMDAzbC4wMDIuMDAzLjAwMy4wMDZ2LjAwM2wuMDAyLjAwM3YuMDAzbC4wMDMuMDA0di4wMDNjLjAwMi4wMDIuMDAzLjAwMy4wMDMuMDA1IDAgLjAwMSAwIC4wMDMuMDAyLjAwNHYuMDAybC4wMDIuMDA0LjAwMi4wMDN2LjAwNWwuMDAzLjAwM3YuMDA0bC4wMDIuMDAyLjAwMi4wMDV2LjAwMmEzNzc2MjE2NjMyLjE0IDM3NzYyMTY2MzIuMTQgMCAwIDAgLjAwNS4wMXYuMDAzYy4wMDIgMCAuMDAyLjAwMS4wMDIuMDAyYS4wMDguMDA4IDAgMCAxIC4wMDIuMDA0LjAwMy4wMDMgMCAwIDEgMCAuMDAybC4wMDQuMDA3di4wMDJjMCAuMDAxIDAgLjAwMy4wMDIuMDA0di4wMDJsLjAwMy4wMDV2LjAwMmwuMDAzLjAwNnYuMDAybC4wMDMuMDA0di4wMDJhLjA0OS4wNDkgMCAwIDAgLjAwNC4wMDdsLjAwMy4wMDZ2LjAwMmEuMDIyLjAyMiAwIDAgMCAuMDAzLjAwNXYuMDAxYS4wNDkuMDQ5IDAgMCAwIC4wMDMuMDA3di4wMDFsLjAwMy4wMDZ2LjAwMWwuMDAzLjAwNnYuMDAxbC4wMDMuMDA3LjAwMy4wMDZ2LjAwMmwuMDAzLjAwNi4wMDMuMDA3di4wMDFsLjAwMy4wMDZ2LjAwMWwuMDA2LjAxM3YuMDAxYS4wMTQuMDE0IDAgMCAxIC4wMDMuMDA2di4wMDFsLjAwNy4wMTN2LjAwMWMwIC4wMDMuMDAyLjAwNS4wMDMuMDA3bC4wMDYuMDE0di4wMDFsLjAwNy4wMTNhLjA0OS4wNDkgMCAwIDAgLjAwMy4wMDd2LjAwMWEuMTYzLjE2MyAwIDAgMCAuMDA2LjAxM3YuMDAxbC4wMDMuMDA3LjAwNy4wMTQuMDA5LjAyMS4wMS4wMjFhNy4yNyA3LjI3IDAgMCAwIC41NjcgMS4wMDVjLjI5NS40NDQuNjMzLjg2NSAxLjAzIDEuMjVhNy41IDcuNSAwIDAgMCAxMC42MDYtLjE4NGMxLjU3My0xLjYyNyAyLjI0My0zLjc4IDIuMDU4LTUuODdsLTIuMDIxIDIuMDItLjcwNy0uNzA3IDMuMjI4LTMuMjI5IDMuMjI5IDMuMjN6bS04LjIzMiAxLjA5NGMwIC41OTUtLjIyNCAxLjA4OC0uNjcxIDEuNDc1LS40NDcuMzg4LTEuMDcyLjYzMy0xLjg3My43MzRWMTRoLS44NDl2LTEuNDY3Yy0uNDkxIDAtLjk2Ny0uMDM4LTEuNDI3LS4xMTQtLjQ2LS4wNzgtLjgzNy0uMTgzLTEuMTMxLS4zMTl2LTEuMDI1Yy4zNjUuMTYxLjc4NC4yOTQgMS4yNTkuMzk3LjQ3Ni4xMDMuOTA5LjE1NSAxLjMuMTU1VjguNzM0Yy0uOS0uMjg1LTEuNTMtLjYxNi0xLjg5MS0uOTkzLS4zNjItLjM3Ny0uNTQyLS44NjQtLjU0Mi0xLjQ2IDAtLjU3NS4yMjItMS4wNDYuNjY2LTEuNDE0LjQ0Ni0uMzY4IDEuMDM0LS41OTEgMS43NjYtLjY3VjNoLjg0OXYxLjE4NGE2LjY1MiA2LjY1MiAwIDAgMSAyLjMzNC40ODdsLS4zNDIuODZhNi42OTUgNi42OTUgMCAwIDAtMS45OTItLjQ2djIuODU0Yy42ODguMjE5IDEuMjAzLjQzMyAxLjU0NC42NC4zNDIuMjEuNTk1LjQ0OC43NTYuNzE4LjE2My4yNjkuMjQ0LjU5Ny4yNDQuOTgzem0tMS4xMTguMDg1YzAtLjMxNS0uMDk4LS41NzEtLjI5My0uNzY3LS4xOTUtLjE5NC0uNTcyLS4zODgtMS4xMzMtLjU4djIuNTU2Yy45NS0uMTMgMS40MjYtLjUzNCAxLjQyNi0xLjIxek02LjczNyA2LjI2N2MwIC4zMzQuMDk4LjYuMjk2LjgwMy4xOTYuMjAyLjUzOC4zOTIgMS4wMjUuNTcyVjUuMDk3Yy0uNDM0LjA3LS43NjMuMjA4LS45ODYuNDEyYS45ODUuOTg1IDAgMCAwLS4zMzUuNzU4eiIgZmlsbD0iIzM5N2QwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+}
+
+.valueadds-item-title {
+  display:inline;
+}
+
+.valueadds-item-popuptip {
+  display:inline-block;
+  margin-left:5px;
+  margin-top:2px;
+  position:absolute;
+}
+
+.valueadds-expanded .valueadds-item-popuptip {
+  margin-top:1px;
+}
+
+.valueadds-item-description {
+  display:block;
+  font-size:11px;
+  line-height:16px;
+  padding-left:30px;
+}
+
+.ie11 .valueadds-item-description {
+  max-width:135px;
+}
+
+.valueadds-item-pro .valueadds-item-description {
+  color:#397d00;
+}
+
+.zen-roomspage {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f2f1f0;
+   
+    /* justify-content: center; */
+    /* margin-top: 10px; */
+    padding-top: 12px;
+}
+.zen-form-field-input:invalid, .zen-form-field-input:valid {
+    box-shadow: none;
+    outline: none;
+}
+.zen-form-field-input {
+    -moz-appearance: textfield;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600;
+    padding-right: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.zen-form-field-input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+        border: 0px;
+}
+.chzn-container-single {
+    max-width:100%;
+}
+.zensuggestfield {
+    position: relative;
+}
+
+.zen-booking-authpane-form-main-email .zen-form-field, .zen-booking-contacts-form-main-email .zen-form-field, .zen-booking-contacts-form-main-firstname:first-child .zen-form-field, .zen-booking-contacts-form-guest-firstname .zen-form-field, .zen-booking-creditcard-card-number .zen-form-field {
+    border-top: 0;
+    margin-top: 0;
+    border-radius: 3px 3px 0 0;
+}
+.zen-form-field {
+    border-top: 1px solid rgba(133,135,139,0.2);
+    box-sizing: border-box;
+    display: block;
+    height: 50px;
+    padding: 3px 10px;
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.zen-form-field-title {
+    color: #292f37;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}

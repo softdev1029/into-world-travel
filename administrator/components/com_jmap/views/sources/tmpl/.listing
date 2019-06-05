@@ -1,0 +1,14 @@
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         4938 Jul  9  2018 default_edit_content.php
+-rw-r--r--   1 sg       6012         2410 Jul  9  2018 default_edit_details.php
+-rw-r--r--   1 sg       6012         2595 Jul  9  2018 default_edit_links.php
+-rw-r--r--   1 sg       6012         2630 Jul  9  2018 default_edit_menu.php
+-rw-r--r--   1 sg       6012        20784 Jul  9  2018 default_edit_params.php
+-rw-r--r--   1 sg       6012         2328 Jul  9  2018 default_edit.php
+-rw-r--r--   1 sg       6012         1426 Jul  9  2018 default_edit_pluginimport.php
+-rw-r--r--   1 sg       6012         1222 Jul  9  2018 default_edit_pluginparams.php
+-rw-r--r--   1 sg       6012        20140 Jul  9  2018 default_edit_sqlquery.php
+-rw-r--r--   1 sg       6012        10199 Jul  9  2018 default_edit_xmlparams.php
+-rw-r--r--   1 sg       6012         8514 Jul  9  2018 default_list.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html

@@ -1,0 +1,8 @@
+drwxr-xr-x   2 sg       6012          124 Jul 19  2018 .
+drwxr-xr-x   6 sg       6012          167 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1060 Jun 26  2018 database.php
+-rw-r--r--   1 sg       6012         1250 Jun 26  2018 discover.php
+-rw-r--r--   1 sg       6012         2306 Jun 26  2018 install.php
+-rw-r--r--   1 sg       6012         3036 Jun 26  2018 manage.php
+-rw-r--r--   1 sg       6012         4985 Jun 26  2018 update.php
+-rw-r--r--   1 sg       6012         3000 Jun 26  2018 updatesites.php

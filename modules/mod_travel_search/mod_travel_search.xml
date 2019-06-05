@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>Форма поиска отелей</name>
+	<author>Webalan</author>
+	<creationDate>2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>alae@bk.ru</authorEmail>
+	<authorUrl>http://webalan.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>Форма поиска отелей</description>
+
+ 
+
+	<files>
+		<filename module="mod_travel_search">mod_travel_search.php</filename>
+		<folder>tmpl</folder>
+	</files>
+ 
+
+	 
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Настройки">
+			 
+
+			 
+			</fieldset>
+			<fieldset name="advanced">
+			 
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="Cуффикс класса модуля"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+					rows="3"
+				/>
+
+			 
+			</fieldset>
+		</fields>
+	</config>
+</extension>

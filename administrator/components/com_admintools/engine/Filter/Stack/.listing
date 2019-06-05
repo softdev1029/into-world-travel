@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          178 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          753 Jul  9  2018 dateconditional.ini
+-rw-r--r--   1 sg       6012          505 Jul  9  2018 errorlogs.ini
+-rw-r--r--   1 sg       6012          505 Jul  9  2018 hoststats.ini
+-rw-r--r--   1 sg       6012         1237 Jul  9  2018 README.html
+-rw-r--r--   1 sg       6012         1667 Jul  9  2018 StackDateconditional.php
+-rw-r--r--   1 sg       6012         1019 Jul  9  2018 StackErrorlogs.php
+-rw-r--r--   1 sg       6012         1018 Jul  9  2018 StackHoststats.php

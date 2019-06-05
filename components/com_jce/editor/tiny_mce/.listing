@@ -1,0 +1,8 @@
+drwxrwxr-x   4 sg       6012          116 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012           91 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012        26931 Jul  9  2018 license.txt
+drwxrwxr-x  56 sg       6012         4096 Mar 26  2018 plugins
+drwxrwxr-x   4 sg       6012           52 Mar 26  2018 themes
+-rw-r--r--   1 sg       6012       329440 Jul  9  2018 tiny_mce.js
+-rw-r--r--   1 sg       6012         4913 Jul  9  2018 tiny_mce_popup.js

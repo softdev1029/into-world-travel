@@ -1,0 +1,9 @@
+drwxrwxr-x   4 sg       6012          164 Mar 26  2018 .
+drwxr-xr-x  67 sg       6012         4096 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         5357 Jul  9  2018 betterpreview.php
+-rw-r--r--   1 sg       6012         6931 Jul  9  2018 betterpreview.xml
+-rw-r--r--   1 sg       6012         5721 Jul  9  2018 helper.php
+drwxrwxr-x   9 sg       6012          251 Mar 26  2018 helpers
+drwxrwxr-x   3 sg       6012           19 Mar 26  2018 language
+-rw-r--r--   1 sg       6012        16869 Jul  9  2018 script.install.helper.php
+-rw-r--r--   1 sg       6012         2920 Jul  9  2018 script.install.php

@@ -1,0 +1,9 @@
+drwxr-xr-x   3 sg       6012          126 Mar 26  2018 .
+drwxr-xr-x  29 sg       6012         4096 Jul 19  2018 ..
+-rw-r--r--   1 sg       6012         1933 Jun 26  2018 archive.php
+-rw-r--r--   1 sg       6012         3803 Jun 26  2018 bzip2.php
+-rw-r--r--   1 sg       6012         1028 Jun 26  2018 extractable.php
+-rw-r--r--   1 sg       6012         5323 Jun 26  2018 gzip.php
+-rw-r--r--   1 sg       6012         6343 Jun 26  2018 tar.php
+drwxr-xr-x   2 sg       6012           25 Mar 26  2018 wrapper
+-rw-r--r--   1 sg       6012        16915 Jun 26  2018 zip.php

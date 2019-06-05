@@ -1,0 +1,12 @@
+drwxrwxr-x   4 sg       6012          198 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012          128 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         7393 Jul 19  2018 abstractconfig.php
+-rw-r--r--   1 sg       6012         7945 Jul 19  2018 controller.php
+-rw-r--r--   1 sg       6012        11275 Jul 19  2018 download.php
+-rw-r--r--   1 sg       6012         3805 Jul 19  2018 inihelper.php
+-rw-r--r--   1 sg       6012         5654 Jul 19  2018 model.php
+drwxrwxr-x   2 sg       6012           62 Mar 26  2018 storage
+drwxrwxr-x   2 sg       6012           89 Mar 26  2018 tmpl
+-rw-r--r--   1 sg       6012        10644 Jul 19  2018 updatefetch.php
+-rw-r--r--   1 sg       6012         3521 Jul 19  2018 view.php
+-rw-r--r--   1 sg       6012        11524 Jul 19  2018 xmlslurp.php

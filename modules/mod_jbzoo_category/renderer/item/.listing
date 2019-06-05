@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          128 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           18 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1636 Jul  9  2018 bootstrap.php
+-rw-r--r--   1 sg       6012         1634 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012          940 Jul  9  2018 metadata.xml
+-rw-r--r--   1 sg       6012          978 Jul  9  2018 positions.config
+-rw-r--r--   1 sg       6012         1363 Jul  9  2018 positions.xml
+-rw-r--r--   1 sg       6012         1640 Jul  9  2018 uikit.php

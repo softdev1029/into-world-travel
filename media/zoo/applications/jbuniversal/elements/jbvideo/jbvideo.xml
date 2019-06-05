@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+    @coder       Andrey Voytsehovsky <kess@jbzoo.com>
+-->
+<element type="jbvideo" group="JBZoo">
+    <name>JBZoo Video</name>
+    <author>Kess (fork by CB9TOIIIA)</author>
+    <creationDate>Jan 2016</creationDate>
+    <copyright>Copyright (C) JBZoo.com, All rights reserved.</copyright>
+    <authorEmail>admin@jbzoo.com</authorEmail>
+    <authorUrl>http://jbzoo.com</authorUrl>
+    <version>1.01</version>
+    <description>Embeds video from different video-hosting services</description>
+    <params>
+    </params>
+    <params group="render">
+
+        <param name="width" type="text" default="640" label="JBZOO_JBVIDEO_WIDTH"
+               description="JBZOO_JBVIDEO_WIDTH_DESC"/>
+
+        <param name="height" type="text" default="360" label="JBZOO_JBVIDEO_HEIGHT"
+               description="JBZOO_JBVIDEO_HEIGHT_DESC"/>
+
+        <param name="autoplay" type="jbbool" default="0" label="JBZOO_JBVIDEO_AUTOPLAY"
+               description="JBZOO_JBVIDEO_AUTOPLAY_DESC"/>
+
+        <param name="show_thumb" type="jbbool" default="0" label="JBZOO_JBVIDEO_SHOW_THUMB"
+               description="JBZOO_JBVIDEO_SHOW_THUMB_DESC"/>
+
+        <param name="thumb_width" type="text" default="320" label="JBZOO_JBVIDEO_THUMB_WIDTH"
+               description="JBZOO_JBVIDEO_THUMB_WIDTH_DESC"/>
+
+        <param name="thumb_height" type="text" default="180" label="JBZOO_JBVIDEO_THUMB_HEIGHT"
+               description="JBZOO_JBVIDEO_THUMB_HEIGHT_DESC"/>
+
+        <param name="thumb_type" type="list" default="1" label="JBZOO_JBVIDEO_THUMB_TYPE"
+               description="JBZOO_JBVIDEO_THUMB_TYPE_DESC">
+            <option value="1">JBZOO_JBVIDEO_THUMB_TYPE_SIMPLE</option>
+            <option value="2">JBZOO_JBVIDEO_THUMB_TYPE_ITEMLINK</option>
+            <option value="3">JBZOO_JBVIDEO_THUMB_TYPE_POPUP</option>
+        </param>
+
+        <param name="only_first" type="jbbool" default="0" label="JBZOO_JBVIDEO_ONLY_FIRST"
+               description="JBZOO_JBVIDEO_ONLY_FIRST_DESC"/>
+
+        <!-- youtube params -->
+        <param name="youtube_params" type="jbspacer" default="JBZOO_JBVIDEO_YOUTUBE_PARAMS"/>
+
+        <param name="youtube_privacy" type="jbbool" default="0" label="JBZOO_JBVIDEO_YOUTUBE_PRIVACY"
+               description="JBZOO_JBVIDEO_YOUTUBE_PRIVACY_DESC"/>
+
+        <param name="youtube_related" type="jbbool" default="1" label="JBZOO_JBVIDEO_YOUTUBE_RELATED"
+               description="JBZOO_JBVIDEO_YOUTUBE_RELATED_DESC"/>
+
+        <param name="youtube_allow_fullscreen" type="jbbool" default="1" label="JBZOO_JBVIDEO_YOUTUBE_ALLOW_FULLSCREEN"
+               description="JBZOO_JBVIDEO_YOUTUBE_ALLOW_FULLSCREEN_DESC"/>
+
+        <param name="youtube_annotations" type="jbbool" default="1" label="JBZOO_JBVIDEO_YOUTUBE_ANNOTATIONS"
+               description="JBZOO_JBVIDEO_YOUTUBE_ANNOTATIONS_DESC"/>
+
+        <param name="youtube_loop" type="jbbool" default="0" label="JBZOO_JBVIDEO_YOUTUBE_LOOP"
+               description="JBZOO_JBVIDEO_YOUTUBE_LOOP_DESC"/>
+
+        <param name="youtube_info" type="jbbool" default="1" label="JBZOO_JBVIDEO_YOUTUBE_INFO"
+               description="JBZOO_JBVIDEO_YOUTUBE_INFO_DESC"/>
+
+        <param name="youtube_controls" type="jbbool" default="1" label="JBZOO_JBVIDEO_YOUTUBE_CONTROLS"
+               description="JBZOO_JBVIDEO_YOUTUBE_CONTROLS_DESC"/>
+
+        <param name="youtube_theme" type="list" default="1" label="JBZOO_JBVIDEO_YOUTUBE_THEME"
+               description="JBZOO_JBVIDEO_YOUTUBE_THEME_DESC">
+            <option value="1">JBZOO_JBVIDEO_YOUTUBE_THEME_DARK</option>
+            <option value="2">JBZOO_JBVIDEO_YOUTUBE_THEME_LIGHT</option>
+        </param>
+
+        <param name="youtube_color" type="list" default="1" label="JBZOO_JBVIDEO_YOUTUBE_COLOR"
+               description="JBZOO_JBVIDEO_YOUTUBE_COLOR_DESC">
+            <option value="1">JBZOO_JBVIDEO_YOUTUBE_COLOR_RED</option>
+            <option value="2">JBZOO_JBVIDEO_YOUTUBE_COLOR_WHITE</option>
+        </param>
+
+        <param name="youtube_thumb" type="list" default="1" label="JBZOO_JBVIDEO_YOUTUBE_THUMB"
+               description="JBZOO_JBVIDEO_YOUTUBE_THUMB_DESC">
+            <option value="1">JBZOO_JBVIDEO_YOUTUBE_THUMB_DEFAULT</option>
+            <option value="2">JBZOO_JBVIDEO_YOUTUBE_THUMB_MQDEFAULT</option>
+            <option value="3">JBZOO_JBVIDEO_YOUTUBE_THUMB_HQDEFAULT</option>
+            <option value="4">JBZOO_JBVIDEO_YOUTUBE_THUMB_SDDEFAULT</option>
+            <option value="5">JBZOO_JBVIDEO_YOUTUBE_THUMB_MAXRESDEFAULT</option>
+        </param>
+
+        <!-- vimeo params -->
+        <param name="vimeo_params" type="jbspacer" default="JBZOO_JBVIDEO_VIMEO_PARAMS"/>
+
+        <param name="vimeo_autopause" type="jbbool" default="1" label="JBZOO_JBVIDEO_VIMEO_AUTOPAUSE"
+               description="JBZOO_JBVIDEO_VIMEO_AUTOPAUSE_DESC"/>
+
+        <param name="vimeo_badge" type="jbbool" default="1" label="JBZOO_JBVIDEO_VIMEO_BADGE"
+               description="JBZOO_JBVIDEO_VIMEO_BADGE_DESC"/>
+
+        <param name="vimeo_byline" type="jbbool" default="1" label="JBZOO_JBVIDEO_VIMEO_BYLINE"
+               description="JBZOO_JBVIDEO_VIMEO_BYLINE_DESC"/>
+
+        <param name="vimeo_loop" type="jbbool" default="0" label="JBZOO_JBVIDEO_VIMEO_LOOP"
+               description="JBZOO_JBVIDEO_VIMEO_LOOP_DESC"/>
+
+        <param name="vimeo_portrait" type="jbbool" default="1" label="JBZOO_JBVIDEO_VIMEO_PORTRAIT"
+               description="JBZOO_JBVIDEO_VIMEO_PORTRAIT_DESC"/>
+
+        <param name="vimeo_title" type="jbbool" default="1" label="JBZOO_JBVIDEO_VIMEO_TITLE"
+               description="JBZOO_JBVIDEO_VIMEO_TITLE_DESC"/>
+
+        <param name="vimeo_color" type="text" default="00adef" label="JBZOO_JBVIDEO_VIMEO_COLOR"
+               description="JBZOO_JBVIDEO_VIMEO_COLOR_DESC"/>
+
+        <param name="vimeo_thumb" type="list" default="1" label="JBZOO_JBVIDEO_VIMEO_THUMB"
+               description="JBZOO_JBVIDEO_VIMEO_THUMB_DESC">
+            <option value="1">JBZOO_JBVIDEO_VIMEO_THUMB_SMALL</option>
+            <option value="2">JBZOO_JBVIDEO_VIMEO_THUMB_MEDIUM</option>
+            <option value="3">JBZOO_JBVIDEO_VIMEO_THUMB_LARGE</option>
+        </param>
+
+        <!-- coub params -->
+        <param name="coub_params" type="jbspacer" default="JBZOO_JBVIDEO_COUB_PARAMS"/>
+
+        <param name="coub_hidetopbar" type="jbbool" default="0" label="JBZOO_JBVIDEO_COUB_HIDETOPBAR"
+               description="JBZOO_JBVIDEO_COUB_HIDETOPBAR_DESC"/>
+
+        <param name="coub_nositebuttons" type="jbbool" default="0" label="JBZOO_JBVIDEO_COUB_NOSITEBUTTONS"
+               description="JBZOO_JBVIDEO_COUB_NOSITEBUTTONS_DESC"/>
+
+        <param name="coub_startwithhd" type="jbbool" default="0" label="JBZOO_JBVIDEO_COUB_STARTWITHHD"
+               description="JBZOO_JBVIDEO_COUB_STARTWITHHD_DESC"/>
+
+        <param name="coub_muted" type="jbbool" default="0" label="JBZOO_JBVIDEO_COUB_MUTED"
+               description="JBZOO_JBVIDEO_COUB_MUTED_DESC"/>
+
+        <!-- rutube params -->
+        <param name="rutube_params" type="jbspacer" default="JBZOO_JBVIDEO_RUTUBE_PARAMS"/>
+
+        <param name="rutube_showtitle" type="jbbool" default="1" label="JBZOO_JBVIDEO_RUTUBE_SHOWTITLE"
+               description="JBZOO_JBVIDEO_RUTUBE_SHOWTITLE_DESC"/>
+
+        <param name="rutube_showauthor" type="jbbool" default="1" label="JBZOO_JBVIDEO_RUTUBE_SHOWAUTHOR"
+               description="JBZOO_JBVIDEO_RUTUBE_SHOWAUTHOR_DESC"/>
+
+        <param name="rutube_fulltab" type="jbbool" default="0" label="JBZOO_JBVIDEO_RUTUBE_FULLTAB"
+               description="JBZOO_JBVIDEO_RUTUBE_FULLTAB_DESC"/>
+
+        <param name="rutube_color" type="text" default="0e8dee" label="JBZOO_JBVIDEO_RUTUBE_COLOR"
+               description="JBZOO_JBVIDEO_RUTUBE_COLOR_DESC"/>
+
+        <param name="rutube_thumb" type="list" default="1" label="JBZOO_JBVIDEO_RUTUBE_THUMB"
+               description="JBZOO_JBVIDEO_RUTUBE_THUMB_DESC">
+            <option value="1">JBZOO_JBVIDEO_RUTUBE_THUMB_SMALL</option>
+            <option value="2">JBZOO_JBVIDEO_RUTUBE_THUMB_MEDIUM</option>
+            <option value="3">JBZOO_JBVIDEO_RUTUBE_THUMB_LARGE</option>
+        </param>
+    </params>
+</element>

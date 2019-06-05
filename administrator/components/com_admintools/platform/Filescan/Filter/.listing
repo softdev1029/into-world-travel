@@ -1,0 +1,9 @@
+drwxrwxr-x   2 sg       6012          182 Mar 26  2018 .
+drwxrwxr-x   9 sg       6012          130 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          896 Jul  9  2018 Excludefiles.php
+-rw-r--r--   1 sg       6012          844 Jul  9  2018 Excludefolders.php
+-rw-r--r--   1 sg       6012         2474 Jul  9  2018 Joomlaskipdirs.php
+-rw-r--r--   1 sg       6012         2334 Jul  9  2018 Joomlaskipfiles.php
+-rw-r--r--   1 sg       6012          904 Jul  9  2018 Regexfilesext.php
+-rw-r--r--   1 sg       6012         1157 Jul  9  2018 Siteroot.php
+-rw-r--r--   1 sg       6012         1079 Jul  9  2018 Systemcachefiles.php

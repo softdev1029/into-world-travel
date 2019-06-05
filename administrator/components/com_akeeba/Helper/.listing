@@ -1,0 +1,5 @@
+drwxrwxr-x   2 sg       6012           63 Mar 26  2018 .
+drwxrwxr-x  16 sg       6012         4096 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3277 Jul  9  2018 SecretWord.php
+-rw-r--r--   1 sg       6012         6735 Jul  9  2018 Status.php
+-rw-r--r--   1 sg       6012         1890 Jul  9  2018 Utils.php

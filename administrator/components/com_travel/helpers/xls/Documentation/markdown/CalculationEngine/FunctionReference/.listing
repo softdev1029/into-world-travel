@@ -1,0 +1,8 @@
+drwxr-xr-x   2 sg       6012          211 Sep 18  2018 .
+drwxr-xr-x   3 sg       6012           31 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012          597 Sep 18  2018 01-Introduction.md
+-rw-r--r--   1 sg       6012         6525 Sep 18  2018 02-01-Date-and-Time-Handling.md
+-rw-r--r--   1 sg       6012         1182 Sep 18  2018 02-General-Introduction.md
+-rw-r--r--   1 sg       6012          382 Sep 18  2018 03-01-Cube-Functions.md
+-rw-r--r--   1 sg       6012        22032 Sep 18  2018 03-02-Database-Functions.md
+-rw-r--r--   1 sg       6012        28101 Sep 18  2018 03-03-Date-and-Time-Functions.md

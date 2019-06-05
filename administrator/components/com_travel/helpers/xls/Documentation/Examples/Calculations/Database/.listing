@@ -1,0 +1,12 @@
+drwxr-xr-x   2 sg       6012          182 Sep 18  2018 .
+drwxr-xr-x   4 sg       6012           55 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         2659 Sep 18  2018 DAVERAGE.php
+-rw-r--r--   1 sg       6012         2636 Sep 18  2018 DCOUNT.php
+-rw-r--r--   1 sg       6012         2470 Sep 18  2018 DGET.php
+-rw-r--r--   1 sg       6012         2538 Sep 18  2018 DMAX.php
+-rw-r--r--   1 sg       6012         2541 Sep 18  2018 DMIN.php
+-rw-r--r--   1 sg       6012         2487 Sep 18  2018 DPRODUCT.php
+-rw-r--r--   1 sg       6012         2705 Sep 18  2018 DSTDEV.php
+-rw-r--r--   1 sg       6012         2704 Sep 18  2018 DSTDEVP.php
+-rw-r--r--   1 sg       6012         2663 Sep 18  2018 DVAR.php
+-rw-r--r--   1 sg       6012         2660 Sep 18  2018 DVARP.php

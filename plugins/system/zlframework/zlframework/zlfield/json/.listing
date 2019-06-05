@@ -1,0 +1,16 @@
+drwxrwxr-x   4 sg       6012         4096 Mar 26  2018 .
+drwxrwxr-x   5 sg       6012          103 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          636 Jul 19  2018 access.json.php
+-rw-r--r--   1 sg       6012         2842 Jul 19  2018 application.json.php
+-rw-r--r--   1 sg       6012         7929 Jul 19  2018 _example.php
+-rw-r--r--   1 sg       6012         3342 Jul 19  2018 files.json.php
+-rw-r--r--   1 sg       6012          823 Jul 19  2018 filter.json.php
+drwxrwxr-x   2 sg       6012          204 Mar 26  2018 itemfilter
+-rw-r--r--   1 sg       6012         4833 Jul 19  2018 itemfilter.json.php
+-rw-r--r--   1 sg       6012         4471 Jul 19  2018 itemorder.json.php
+-rw-r--r--   1 sg       6012         1544 Jul 19  2018 layout.json.php
+-rw-r--r--   1 sg       6012          316 Jul 19  2018 loadjson.json.php
+-rw-r--r--   1 sg       6012         1079 Jul 19  2018 separator.json.php
+-rw-r--r--   1 sg       6012         1424 Jul 19  2018 submission.json.php
+drwxrwxr-x   2 sg       6012           53 Mar 26  2018 widgetkit
+-rw-r--r--   1 sg       6012          884 Jul 19  2018 widgetkit.json.php

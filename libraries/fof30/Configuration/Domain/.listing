@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          137 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           45 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1722 Jul  9  2018 Authentication.php
+-rw-r--r--   1 sg       6012         1667 Jul  9  2018 Container.php
+-rw-r--r--   1 sg       6012         1678 Jul  9  2018 Dispatcher.php
+-rw-r--r--   1 sg       6012         1182 Jul  9  2018 DomainInterface.php
+-rw-r--r--   1 sg       6012         9689 Jul  9  2018 Models.php
+-rw-r--r--   1 sg       6012         8279 Jul  9  2018 Views.php

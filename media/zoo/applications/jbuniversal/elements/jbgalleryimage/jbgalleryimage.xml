@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<element type="jbgalleryimage" group="Fictionlabs.ru">
+    <name>FL Gallery Image</name>
+    <description>Image element with AJAX</description>
+    <author>Васюков Дмитрий</author>
+    <creationDate>November 2015</creationDate>
+    <authorEmail>info@fictionlabs.ru</authorEmail>
+    <authorUrl>Fictionlabs.ru</authorUrl>
+    <version>1.1.2</version>
+    <params>
+
+        <param name="image_settings" type="jbspacer" default="Настройки" />
+
+        <param name="upload_directory" type="text" default="images/uploads/" label="JBZOO_UPLOAD_DIRECTORY"
+               description="JBZOO_UPLOAD_DIRECTORY_DESC"/>
+
+        <param name="max_number" type="text" default="10" label="Количество изображений"
+               description="Максимальное количество изображений, по умолчанию - 100"/>
+
+        <param name="max_upload_size" type="text" default="512" label="Максимальный размер"
+               description="Максимальный размер загружаемых изображений в килобайтах, по умолчанию - 10000"/>
+
+        <param name="thumb_width" type="text" default="175" label="Ширина эскиза"
+               description="Ширина уменьшенного изображения, по умолчанию - 175"/>
+
+        <param name="thumb_height" type="text" default="110" label="Высота эскиза"
+               description="Высота уменьшенного изображения, по умолчанию - 175"/>
+
+        <param name="max_width" type="text" default="1920" label="Максимальная ширина"
+               description="До этой ширины будет уменьшено исходной изображение и загружено на сервер, по умолчанию - 5000000"/>
+
+        <param name="max_height" type="text" default="1080" label="Максимальная высота"
+               description="До этой высоты будет уменьшено исходной изображение и загружено на сервер, по умолчанию - 5000000"/>
+
+        <param name="watermark_settings" type="jbspacer" default="Водяной знак" />
+
+        <param name="watermark_enable" type="jbbool" default="1" label="Наложить водяной знак"
+               description="Водяной знак накладывается на каждое изображение после загрузки"/>
+
+        <param name="watermark_path" type="text" default="images/watermark.png" label="Путь для водяного знака"
+               description="Путь, где лежит файл для наложения водяной знака"/>
+
+        <param name="upload_settings" type="jbspacer" default="Режим загрузки" />
+
+        <param name="upload_by_user" type="jbbool" default="0" label="Загружать по пользователям"
+               description="Файлы разных пользователей будут загружаться в разные папки"/>
+
+        <param name="upload_by_date" type="jbbool" default="0" label="Загружать по датам"
+               description="Файлы будут загружаться в разные папки в зависимости от даты"/>
+
+        <param name="default_settings" type="jbspacer" default="По умолчанию" />
+
+        <param name="default_enable" type="jbbool" default="0" label="JBZOO_JBIMAGE_DEFAULT_ENABLE"
+               description="JBZOO_JBIMAGE_DEFAULT_ENABLE_DESC"/>
+
+        <param name="default_image" type="text" default="" label="JBZOO_JBIMAGE_DEFAULT"
+               description="JBZOO_JBIMAGE_DEFAULT_DESC"/>
+
+        <param name="delete_settings" type="jbspacer" default="Удаление изображений" />
+
+        <param name="remove_with_item" type="jbbool" default="0" label="Удалять с материалом?"
+               description="JBZOO_JBIMAGE_REMOVE_WITH_ITEM_DESC"/>
+
+        <param name="delete_type" type="list" default="simple" label="Режим удаления"
+               description="Режим удаления изображений. Удаление с сервера не работает для изображений, не находящихся в папке загрузок.">
+            <option value="simple">Удалять из элемента</option>
+            <option value="full">Удалять с сервера</option>
+        </param>
+
+    </params>
+    <params group="render">
+        <param name="separated_by" type="zoolist" default="Space" label="Separated by"
+               description="CHOOSE_SEPARATOR_REPEATED_ELEMENTS">
+            <option name="Space"><![CDATA[separator=[ ]]]></option>
+            <option name="Break"><![CDATA[separator=[<br />]]]></option>
+            <option name="Span"><![CDATA[tag=[<span>%s</span>]]]></option>
+            <option name="Paragraph"><![CDATA[tag=[<p>%s</p>]]]></option>
+            <option name="Div"><![CDATA[tag=[<div>%s</div>]]]></option>
+            <option name="List Item"><![CDATA[tag=[<li>%s</li>]]]></option>
+            <option name="Unordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]]]></option>
+            <option name="Ordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ol>%s</ol>]]]></option>
+            <option name="Warp Item"><![CDATA[tag=[<article class="item">%s</article>]]]></option>
+            <option name="Blank"><![CDATA[tag=[%s]]]></option>
+            <option name="UIkit Block"><![CDATA[tag=[<div class="uk-margin">%s</div>]]]></option>
+            <option name="UIkit Article"><![CDATA[tag=[<article class="uk-article">%s</article>]]]></option>
+            <option name="UIkit List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list">%s</ul>]]]></option>
+            <option name="UIkit List Line"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list uk-list-line">%s</ul>]]]></option>
+            <option name="UIkit Grid"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-grid uk-grid-width-1-5" data-uk-grid-match data-uk-grid-margin>%s</ul>]]]></option>
+        </param>
+
+        <param name="display" type="list" default="all" label="Display"
+               description="CHOOSE_RENDERING_MODE_ELEMENT_POSITION">
+            <option value="all">all</option>
+            <option value="first">first</option>
+            <option value="all_without_first">all without first</option>
+        </param>
+
+        <param name="template" type="list" default="default" label="JBZOO_JBIMAGE_TEMPLATE"
+               description="JBZOO_JBIMAGE_TEMPLATE_DESC">
+            <option value="default">JBZOO_DEFAULT</option>
+            <option value="link">JBZOO_LINK</option>
+            <option value="itemlink">JBZOO_ITEM_LINK</option>
+            <option value="popup">JBZOO_POPUP</option>
+        </param>
+
+        <param name="group_popup" type="jbbool" default="1" label="JBZOO_GROUP_POPUP"
+               description="JBZOO_GROUP_POPUP_DESC"/>
+
+        <param name="width" type="text" default="400" label="JBZOO_RESIZE_WIDTH"
+               description="JBZOO_RESIZE_WIDTH_DESC"/>
+
+        <param name="height" type="text" default="300" label="JBZOO_RESIZE_HEIGHT"
+               description="JBZOO_RESIZE_WIDTH_DESC"/>
+
+        <param name="width_popup" type="text" default="1280" label="JBZOO_RESIZE_POPUP_WIDTH"
+               description="JBZOO_RESIZE_WIDTH_POPUP_DESC"/>
+
+        <param name="height_popup" type="text" default="800" label="JBZOO_RESIZE_POPUP_HEIGHT"
+               description="JBZOO_RESIZE_WIDTH_POPUP_DESC"/>
+
+    </params>
+</element>

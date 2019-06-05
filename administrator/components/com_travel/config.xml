@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fields addfieldpath="/administrator/components/com_travel/models/fields/" >
+    <fieldset name="form" label="com_travel_configuration">
+	 <field
+			name="email"
+			type="text"
+		    default=""
+			label="E-mail уведомления о бронирование"
+			description=""
+		 />
+    
+    <field
+			name="pr"
+			type="text"
+		    default="${price}"
+			label="Шаблон цены"
+			description=""
+		 />
+    
+    <field
+		name="path"
+        type="text"
+		label="Address of xml hotel folder"
+	    default="HotelDetailXML"
+		/>
+ <field
+			name="spec"
+			type="GroupParent"
+			size="10"
+			default=""
+			label="Группа для агенства"
+			description=""
+		 />
+         
+         
+         
+   </fieldset>
+   
+   <fieldset name="form1" label="Доступ к api">
+   
+   	<field
+		name="org"
+        type="text"
+		label="Org"
+        default="SampleRequest"
+     	/>
+   	<field
+		name="user"
+        type="text"
+		label="User"
+        default="SampleRequest"
+     	/>
+     	<field
+		name="password"
+        type="text"
+		label="Password"
+        default="demo123"
+     	/>   
+        	<field
+		name="currency"
+        type="text"
+		label="Currency"
+        default="USD"
+     	/>  
+        	<field
+		name="language"
+        type="text"
+		label="Language"
+        default="en"
+     	/>  
+        <field name="testdebug" type="list" default="false" label="TestDebug" description="published">
+<option	value="false">false</option>
+<option	value="true">true</option>
+</field>
+	<field
+		name="version"
+        type="text"
+		label="Version"
+        default="1.26"
+     	/>  
+   
+   </fieldset>
+   
+   
+   <fieldset name="form3" label="Currency Rate">
+    <field
+		name="gbp"
+        type="text"
+		label="GBP"
+        default="1" 
+     	/>
+   	
+	
+	<field
+		name="eur"
+        type="text"
+		label="EUR"
+        default="1.26"
+     	/>  
+		
+		<field
+		name="usd"
+        type="text"
+		label="USD"
+        default="1.26"
+     	/>  
+		<field
+		name="cad" 
+        type="text"
+		label="CAD" 
+        default="1.26"
+     	/>
+   
+   </fieldset>
+   
+   
+   
+   <fieldset name="form2" label="Общие наценки">
+   
+   	<field
+		name="price"
+        type="text"
+		label="Наценки в процентах или сумме (10% или 10) Незарегестрированный пользователь"
+        default="0"
+     	/> 
+        <field
+		name="price_auth"
+        type="text"
+		label="Наценки в процентах или сумме (10% или 10) Зарегестированный пользователь"
+        default="0"
+     	/> 
+    </fieldset> 
+ </fields> 
+</config>

@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          206 Mar 26  2018 .
+drwxrwxr-x  10 sg       6012          334 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        16756 Jul  9  2018 de_DE.json
+-rw-r--r--   1 sg       6012        17514 Jul  9  2018 en_GB.json
+-rw-r--r--   1 sg       6012        11802 Jul  9  2018 es_ES.json
+-rw-r--r--   1 sg       6012        16931 Jul  9  2018 fr_FR.json
+-rw-r--r--   1 sg       6012        16553 Jul  9  2018 it_IT.json
+-rw-r--r--   1 sg       6012          105 Jul  9  2018 messages.php
+-rw-r--r--   1 sg       6012        15197 Jul  9  2018 nl_NL.json
+-rw-r--r--   1 sg       6012        10838 Jul  9  2018 pl_PL.json
+-rw-r--r--   1 sg       6012        16359 Jul  9  2018 pt_BR.json
+-rw-r--r--   1 sg       6012        17116 Jul  9  2018 ru_RU.json
+-rw-r--r--   1 sg       6012        10767 Jul  9  2018 tr_TR.json

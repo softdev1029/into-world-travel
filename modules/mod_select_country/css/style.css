@@ -1,0 +1,103 @@
+.data-country{
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin: 8px;
+	position: relative;
+}
+.ccform_overlay{
+	display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10000;
+}
+.ccform{
+	display: none;
+  width: 360px;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  margin-left: -180px;
+  z-index: 10010;
+  background: #fff;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+  box-sizing: border-box;
+}
+.ccform_close{
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-align: center;
+}
+.ccform_close:hover{
+	color: #ed5053;
+}
+.ccform_title{
+	font-size: 21px;
+	margin-bottom: 15px;
+}
+.ccform_data{
+	position: relative;
+}
+.ccform_data:before,
+.ccform_data:after{
+	content: " ";
+	display: table;
+}
+.ccform_link{
+	display: block;
+	float: left;
+	width: 50%;
+	min-width: 185px;
+	height: 40px;
+	padding: 5px 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+.ccform_link:hover{
+	background-color: #c8ab6f;
+}
+.ccform_link *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.ccform_link span{
+	line-height: 32px;
+	height: 32px;
+	color: #ed5053;
+	font-weight: 700;
+	padding-left: 10px;
+}
+@media only screen and (max-width: 992px){
+  .ccform_close{
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .ccform{
+      width: 90%;
+      margin-left: -45%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 320px){
+  .ccform{
+    padding: 20px;
+  }
+}

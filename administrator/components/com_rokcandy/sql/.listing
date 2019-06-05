@@ -1,0 +1,7 @@
+drwxrwxr-x   3 sg       6012          123 Mar 26  2018 .
+drwxrwxr-x  12 sg       6012          301 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012           30 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          390 Jul  9  2018 install.mysql.utf8.sql
+-rw-r--r--   1 sg       6012          800 Jul  9  2018 sampledata.sql
+-rw-r--r--   1 sg       6012          204 Jul  9  2018 uninstall.mysql.utf8.sql
+drwxrwxr-x   3 sg       6012           37 Mar 26  2018 updates

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><AvailabilitySearchResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Currency>GBP</Currency><Warning>
+</Warning><TestMode>false</TestMode><HotelAvailability hotelQuoteId="355638072_158635556"><Hotel id="158635556" name="Blue Beach Punta Cana Luxury Resort" type="Hotel" stars="4" rank="1"><Region id="16265" name="Punta Cana" /><Address><Address1>Calle Marlin Azul, S/N, Playa Cabeza de Toro</Address1><Address2 /><City>Punta Cana</City><Zip /><Country>Dominican Republic</Country><Tel>+8094682583</Tel><Fax>+0000000</Fax></Address><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>General Description
+Beautiful  views and exceptional service 
+Ideal accommodations for families 
+
+Recreation
+Relaxing full service spa 
+
+Restaurants &amp; Lounges
+3 Restaurants 
+3 Bars 
+
+Meeting Facilities
+Multiple conference/meeting rooms 
+
+Accommodations
+4 star accommodations 
+132 guestrooms</Text></Description><Description><Language>en</Language><Type>RoomTypes</Type><Text>4 star accommodations
+132 guestrooms</Text></Description><Description><Language>en</Language><Type>EssentialInfo</Type><Text>Room type Rooftop Blue Pod Suites is Adults only.</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating></Hotel><Result id="355638072-0"><Room><RoomType code="1001641" text="Junior Suite Standard" /><MealType code="1000002" text="All Inclusive" /><Price amt="211.82" /><Guests><Adult id="-1073741825" first="" last=""><Price amt="105.91" /></Adult><Adult id="-1073741826" first="" last=""><Price amt="105.91" /></Adult></Guests><CanxFees><Fee from="2019-04-29T21:24:37.4191421+01:00"><Amount amt="105.91" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>NonRefundable</CancellationPolicyStatus></Room></Result><Result id="355638072-1"><Room><RoomType code="1002196" text="Double Standard" /><MealType code="1000002" text="All Inclusive" /><Price amt="254.66" /><Guests><Adult id="-1073741827" first="" last=""><Price amt="127.33" /></Adult><Adult id="-1073741828" first="" last=""><Price amt="127.33" /></Adult></Guests><CanxFees><Fee from="2019-04-29T21:24:37.4191421+01:00"><Amount amt="127.33" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>NonRefundable</CancellationPolicyStatus></Room></Result><Result id="355638072-2"><Room><RoomType code="3344570" text="Room Standard" /><MealType code="1000002" text="All Inclusive" /><Price amt="361.96" /><Guests><Adult id="-1073741829" first="" last=""><Price amt="180.98" /></Adult><Adult id="-1073741830" first="" last=""><Price amt="180.98" /></Adult></Guests><CanxFees><Fee from="2019-04-29T21:24:37.4191421+01:00"><Amount amt="180.98" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>NonRefundable</CancellationPolicyStatus></Room></Result><Result id="355638072-3"><Room><RoomType code="1001637" text="Suite Standard" /><MealType code="1000002" text="All Inclusive" /><Price amt="385.78" /><Guests><Adult id="-1073741831" first="" last=""><Price amt="192.89" /></Adult><Adult id="-1073741832" first="" last=""><Price amt="192.89" /></Adult></Guests><CanxFees><Fee from="2019-04-29T21:24:37.4191421+01:00"><Amount amt="192.89" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>NonRefundable</CancellationPolicyStatus></Room></Result></HotelAvailability></AvailabilitySearchResult>

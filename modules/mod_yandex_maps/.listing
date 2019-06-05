@@ -1,0 +1,6 @@
+drwxrwxr-x   3 sg       6012           90 Mar 26  2018 .
+drwxr-xr-x  45 sg       6012         4096 Dec 25 20:39 ..
+-rw-r--r--   1 sg       6012          117 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012          876 Jul  9  2018 mod_yandex_maps.php
+-rw-r--r--   1 sg       6012         9290 Jul  9  2018 mod_yandex_maps.xml
+drwxrwxr-x   2 sg       6012           83 Mar 26  2018 tmpl

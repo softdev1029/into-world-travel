@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          136 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012          140 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1122 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012        17945 Jul  9  2018 events.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         1282 Jul  9  2018 standard_datetime.php
+-rw-r--r--   1 sg       6012         3897 Jul  9  2018 standard_html5.php
+-rw-r--r--   1 sg       6012         2656 Jul  9  2018 standard.php

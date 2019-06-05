@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderer>
+	<positions layout="itemmetadata">
+		<position name="title">Title</position>
+		<position name="description">Description</position>
+		<position name="keywords">Keywords</position>
+		<position name="author">Author</position>
+		<position name="og-title">Open Graph Title</position>
+		<position name="og-description">Open Graph Description</position>
+		<position name="og-type">Open Graph Type</position>
+		<position name="og-image">Open Graph Image</position>
+		<position name="og-url">Open Graph Url</position>
+		<position name="og-custom">Open Graph Custom</position>
+	</positions>
+</renderer>

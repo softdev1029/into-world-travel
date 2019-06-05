@@ -1,0 +1,10 @@
+drwxrwxr-x   2 sg       6012          195 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         6972 Jul  9  2018 detaillisting.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012        10798 Jul  9  2018 listing.php
+-rw-r--r--   1 sg       6012        12871 Jul  9  2018 mailinglist.php
+-rw-r--r--   1 sg       6012         1371 Jul  9  2018 menu.detaillisting.php
+-rw-r--r--   1 sg       6012         1003 Jul  9  2018 menu.mailinglist.php
+-rw-r--r--   1 sg       6012         1694 Jul  9  2018 unsubchart.php
+-rw-r--r--   1 sg       6012         4844 Jul  9  2018 unsubscribed.php

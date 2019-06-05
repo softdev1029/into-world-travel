@@ -1,0 +1,12 @@
+drwxr-xr-x   5 sg       6012         4096 Sep 18  2018 .
+drwxr-xr-x   5 sg       6012          196 Sep 18  2018 ..
+drwxr-xr-x   3 sg       6012           27 Sep 18  2018 assets
+drwxr-xr-x   5 sg       6012           86 Sep 18  2018 Examples
+-rw-r--r--   1 sg       6012        38912 Sep 18  2018 Functionality Cross-Reference.xls
+-rw-r--r--   1 sg       6012        22137 Sep 18  2018 FunctionListByCategory.txt
+-rw-r--r--   1 sg       6012        32958 Sep 18  2018 FunctionListByName.txt
+drwxr-xr-x   7 sg       6012          111 Sep 18  2018 markdown
+-rw-r--r--   1 sg       6012       636416 Sep 18  2018 PHPExcel AutoFilter Reference developer documentation.doc
+-rw-r--r--   1 sg       6012       885248 Sep 18  2018 PHPExcel developer documentation.doc
+-rw-r--r--   1 sg       6012       628736 Sep 18  2018 PHPExcel Function Reference developer documentation.doc
+-rw-r--r--   1 sg       6012       173568 Sep 18  2018 PHPExcel User Documentation - Reading Spreadsheet Files.doc

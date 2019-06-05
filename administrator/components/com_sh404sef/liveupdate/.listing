@@ -1,0 +1,9 @@
+drwxrwxr-x   5 sg       6012          128 Mar 26  2018 .
+drwxrwxr-x  20 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012          175 Mar 26  2018 assets
+drwxrwxr-x   4 sg       6012          198 Mar 26  2018 classes
+-rw-r--r--   1 sg       6012          790 Jul 19  2018 config.php
+-rw-r--r--   1 sg       6012          118 Jul 19  2018 index.html
+drwxrwxr-x  28 sg       6012         4096 Mar 26  2018 language
+-rw-r--r--   1 sg       6012         8333 Jul 19  2018 LICENSE.txt
+-rw-r--r--   1 sg       6012         4851 Jul 19  2018 liveupdate.php

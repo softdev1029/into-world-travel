@@ -1,0 +1,12 @@
+drwxr-xr-x   2 sg       6012          182 Mar 26  2018 .
+drwxr-xr-x   7 sg       6012          173 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1658 Jun 26  2018 group.php
+-rw-r--r--   1 sg       6012         3031 Jun 26  2018 groups.php
+-rw-r--r--   1 sg       6012         3166 Jun 26  2018 level.php
+-rw-r--r--   1 sg       6012          989 Jun 26  2018 levels.php
+-rw-r--r--   1 sg       6012         1266 Jun 26  2018 mail.php
+-rw-r--r--   1 sg       6012         1120 Jun 26  2018 note.php
+-rw-r--r--   1 sg       6012         1014 Jun 26  2018 notes.php
+-rw-r--r--   1 sg       6012          543 Jun 26  2018 profile.json.php
+-rw-r--r--   1 sg       6012         2075 Jun 26  2018 user.php
+-rw-r--r--   1 sg       6012         3156 Jun 26  2018 users.php

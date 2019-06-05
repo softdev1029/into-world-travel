@@ -1,0 +1,13 @@
+drwxrwxr-x   2 sg       6012          223 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          273 Jul  9  2018 confirm.php
+-rw-r--r--   1 sg       6012           87 Jul  9  2018 confirm.xml
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         6848 Jul  9  2018 modify.php
+-rw-r--r--   1 sg       6012         3362 Jul  9  2018 modify.xml
+-rw-r--r--   1 sg       6012          273 Jul  9  2018 saveunsub.php
+-rw-r--r--   1 sg       6012           87 Jul  9  2018 saveunsub.xml
+-rw-r--r--   1 sg       6012          968 Jul  9  2018 subs_default.php
+-rw-r--r--   1 sg       6012         1539 Jul  9  2018 subs_dropdown.php
+-rw-r--r--   1 sg       6012         5505 Jul  9  2018 unsub.php
+-rw-r--r--   1 sg       6012           87 Jul  9  2018 unsub.xml

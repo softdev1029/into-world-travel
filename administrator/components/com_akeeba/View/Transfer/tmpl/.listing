@@ -1,0 +1,7 @@
+drwxrwxr-x   2 sg       6012          154 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           34 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         2130 Jul  9  2018 default_manualtransfer.php
+-rw-r--r--   1 sg       6012         1123 Jul  9  2018 default.php
+-rw-r--r--   1 sg       6012         2136 Jul  9  2018 default_prerequisites.php
+-rw-r--r--   1 sg       6012         9754 Jul  9  2018 default_remoteconnection.php
+-rw-r--r--   1 sg       6012         1774 Jul  9  2018 default_upload.php

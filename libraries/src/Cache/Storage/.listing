@@ -1,0 +1,12 @@
+drwxr-xr-x   2 sg       6012          263 Jul  9  2018 .
+drwxr-xr-x   5 sg       6012          124 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         6858 Jun 26  2018 ApcStorage.php
+-rw-r--r--   1 sg       6012         6965 Jun 26  2018 ApcuStorage.php
+-rw-r--r--   1 sg       6012         7781 Jun 26  2018 CacheliteStorage.php
+-rw-r--r--   1 sg       6012         1041 Jun 26  2018 CacheStorageHelper.php
+-rw-r--r--   1 sg       6012        17656 Jun 26  2018 FileStorage.php
+-rw-r--r--   1 sg       6012         9902 Jun 26  2018 MemcachedStorage.php
+-rw-r--r--   1 sg       6012         9247 Jun 26  2018 MemcacheStorage.php
+-rw-r--r--   1 sg       6012         7633 Jun 26  2018 RedisStorage.php
+-rw-r--r--   1 sg       6012         4236 Jun 26  2018 WincacheStorage.php
+-rw-r--r--   1 sg       6012         5000 Jun 26  2018 XcacheStorage.php

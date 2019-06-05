@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+    @coder       Alexander Oganov <t_tapak@yahoo.com>
+-->
+<element type="element" group="Core" hidden="false">
+    <name>JBZOO_ELEMENT_SHIPPING_COURIER_NAME</name>
+    <author>JBZoo.com</author>
+    <creationDate>2014</creationDate>
+    <copyright>Copyright (C) JBZoo.com</copyright>
+    <authorEmail>admin@jbzoo.com</authorEmail>
+    <authorUrl>http://jbzoo.com</authorUrl>
+    <version>1.0</version>
+    <description>JBZOO_ELEMENT_SHIPPING_COURIER_DESC</description>
+
+    <params>
+
+        <param name="cost" type="text" default="0" label="JBZOO_ELEMENT_SHIPPING_COURIER_COST"
+               description="JBZOO_ELEMENT_SHIPPING_COURIER_COST_DESC"/>
+
+        <param name="fulldate" type="jbbool" default="0" label="JBZOO_ELEMENT_SHIPPING_COURIER_FULLDATE"
+               description="JBZOO_ELEMENT_SHIPPING_COURIER_FULLDATE_DESC"/>
+
+        <param name="weekday" type="list" default="all" label="JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY"
+               description="JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY_DESC">
+            <option value="none">JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY_NONE</option>
+            <option value="weekdays">JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY_WEEKDAYS</option>
+            <option value="weekend">JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY_WEEKEND</option>
+            <option value="all">JBZOO_ELEMENT_SHIPPING_COURIER_WEEKDAY_ALL</option>
+        </param>
+
+        <param name="hour" type="list" default="daytime" label="JBZOO_ELEMENT_SHIPPING_COURIER_HOUR"
+               description="JBZOO_ELEMENT_SHIPPING_COURIER_HOUR_DESC">
+            <option value="none">JBZOO_ELEMENT_SHIPPING_COURIER_HOUR_NONE</option>
+            <option value="daytime">JBZOO_ELEMENT_SHIPPING_COURIER_HOUR_DAYTIME</option>
+            <option value="all">JBZOO_ELEMENT_SHIPPING_COURIER_HOUR_ALL</option>
+        </param>
+
+    </params>
+
+</element>

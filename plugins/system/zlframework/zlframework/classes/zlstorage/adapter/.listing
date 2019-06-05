@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012           77 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012           42 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012        10024 Jul 19  2018 AmazonS3.php
+-rw-r--r--   1 sg       6012         2376 Jul 19  2018 Dropbox.php
+-rw-r--r--   1 sg       6012        10522 Jul 19  2018 Local.php
+-rw-r--r--   1 sg       6012         3846 Jul 19  2018 URI.php

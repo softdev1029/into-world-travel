@@ -1,0 +1,6 @@
+drwxrwxr-x   4 sg       6012           66 Mar 26  2018 .
+drwxrwxr-x  51 sg       6012         4096 Mar 26  2018 ..
+drwxrwxr-x   4 sg       6012           36 Mar 26  2018 assets
+-rw-r--r--   1 sg       6012         8658 Jul  9  2018 media.php
+-rw-r--r--   1 sg       6012          873 Jul  9  2018 media.xml
+drwxrwxr-x   2 sg       6012           44 Mar 26  2018 tmpl

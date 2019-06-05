@@ -1,0 +1,6 @@
+drwxr-xr-x   2 sg       6012           97 Jul  9  2018 .
+drwxr-xr-x   5 sg       6012          135 Jul  9  2018 ..
+-rw-r--r--   1 sg       6012         4101 Jun 26  2018 constants.php
+-rw-r--r--   1 sg       6012         1275 Jun 26  2018 namespaced.php
+-rw-r--r--   1 sg       6012        31718 Jun 26  2018 php72compat.php
+-rw-r--r--   1 sg       6012        24688 Jun 26  2018 sodium_compat.php

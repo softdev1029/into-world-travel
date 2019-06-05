@@ -1,0 +1,8 @@
+drwxrwxr-x   2 sg       6012          118 Mar 26  2018 .
+drwxrwxr-x   9 sg       6012          248 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         9842 Jul  9  2018 Abstract.php
+-rw-r--r--   1 sg       6012       134862 Jul  9  2018 cacerts.pem
+-rw-r--r--   1 sg       6012         3786 Jul  9  2018 Curl.php
+-rw-r--r--   1 sg       6012          432 Jul  9  2018 Exception.php
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+-rw-r--r--   1 sg       6012         5304 Jul  9  2018 Stream.php

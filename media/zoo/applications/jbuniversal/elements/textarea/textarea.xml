@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="textarea" group="Form" orderable="true">
+	<name>Textarea</name>
+	<author>YOOtheme</author>
+	<creationDate>August 2011</creationDate>
+	<copyright>Copyright (C) YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>2.5.0</version>
+	<description>HTML Textarea</description>
+	<params>
+		<param name="default" type="text" default="" label="Default" description="" />
+		<param name="jplugins" type="radio" default="1" label="Load Plugins" description="JOOMLA_CONTENT_COMPONENT">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</param>
+	</params>
+	<params group="render">
+		<param name="link_to_item" type="radio" default="0" label="Link to item" description="Wrap name in link to item">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</param>
+		<param name="wtipe" type="zoolist" default="notcut" label="Тип ограничения" description="Тип ограничения">
+			<option name="Не обрезать">notcut</option>
+			<option name="По словам">words</option>
+			<option name="По символам">simbols</option>
+			<option name="Сворачивать">expand</option>
+		</param>
+			<param name="wlimit" type="text" default="15" label="Лимит" description="Ограничение слов/символов в тексте." />
+			<param name="moreText" type="text" default="Развернуть" label="Текст развернуть" description="Текст для ссылки развернуть в режиме сворачивать." />
+			<param name="lessText" type="text" default="Свернуть" label="Текст свернуть" description="Текст для ссылки свернуть в режиме сворачивать." />
+			<param name="before" type="text" default="" label="Перед полем" description="Кода после текста (можно HTML)" />
+			<param name="after" type="text" default="" label="После поля" description="Код перед текстом (можно HTML)" />
+            <param name="ending" type="text" default="..." label="Финализатор" description="Как будем заканчивать обрезаные фразы (можно HTML)" />
+		<param name="separated_by" type="zoolist" default="Div" label="Separated by" description="CHOOSE_SEPARATOR_REPEATED_ELEMENTS">
+			<option name="COM_ZOO_NONE"><![CDATA[tag=[%s]]]></option>
+			<option name="Paragraph"><![CDATA[tag=[<p>%s</p>]]]></option>
+			<option name="Div"><![CDATA[tag=[<div>%s</div>]]]></option>
+			<option name="List Item"><![CDATA[tag=[<li>%s</li>]]]></option>
+			<option name="Unordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]]]></option>
+			<option name="Ordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ol>%s</ol>]]]></option>
+			<option name="Blank"><![CDATA[tag=[%s]]]></option>
+			<option name="UIkit Block"><![CDATA[tag=[<div class="uk-margin">%s</div>]]]></option>
+			<option name="UIkit Article"><![CDATA[tag=[<article class="uk-article">%s</article>]]]></option>
+			<option name="UIkit List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list">%s</ul>]]]></option>
+			<option name="UIkit List Line"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list uk-list-line">%s</ul>]]]></option>
+		</param>
+		<param name="display" type="list" default="all" label="Display" description="CHOOSE_RENDERING_MODE_ELEMENT_POSITION">
+			<option value="all">all</option>
+			<option value="first">first</option>
+			<option value="all_without_first">all without first</option>
+		</param>
+	</params>
+</element>

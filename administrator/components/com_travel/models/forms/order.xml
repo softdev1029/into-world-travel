@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <form>
+	<fieldset name='form' addfieldpath="/administrator/components/com_travel/models/fields"> 
+	
+    	 
+        	 
+
+   <field name="id" type="hidden"
+			default=""
+            label="id"
+            description="id"
+            
+		    />
+<field name="ordering" type="hidden"
+			default=""
+            label="ordering"
+            description="ordering"
+            
+		    />
+<field name="name" type="text"
+			default=""
+            label="name"
+            description="name"
+            
+		    />
+<field name="alias" type="text"
+			default=""
+            label="alias"
+            description="alias"
+            
+		    />
+<field name="published" type="list" default="" label="published" description="published">
+<option	value="1">Опубликован</option>
+<option	value="0">Не опубликован</option>
+</field>
+
+<field name="phone" type="text"
+			default=""
+            label="phone"
+            description="phone"
+            
+		    />
+<field name="fam" type="text"
+			default=""
+            label="fam"
+            description="fam"
+            
+		    />
+<field name="email" type="text"
+			default=""
+            label="email"
+            description="email"
+            
+		    />
+<field name="komm" type="textarea"
+			default=""
+            label="komm"
+            description="komm"
+            
+		    />
+    
+    </fieldset>
+   
+</form>

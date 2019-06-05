@@ -1,0 +1,10 @@
+drwxrwxr-x   2 sg       6012          292 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012          250 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012          142 Jul  9  2018 CommandException.php
+-rw-r--r--   1 sg       6012         3013 Jul  9  2018 CommandTransferException.php
+-rw-r--r--   1 sg       6012          153 Jul  9  2018 DescriptionBuilderException.php
+-rw-r--r--   1 sg       6012          918 Jul  9  2018 InconsistentClientTransferException.php
+-rw-r--r--   1 sg       6012          149 Jul  9  2018 ResponseClassException.php
+-rw-r--r--   1 sg       6012          149 Jul  9  2018 ServiceBuilderException.php
+-rw-r--r--   1 sg       6012          110 Jul  9  2018 ServiceNotFoundException.php
+-rw-r--r--   1 sg       6012          541 Jul  9  2018 ValidationException.php

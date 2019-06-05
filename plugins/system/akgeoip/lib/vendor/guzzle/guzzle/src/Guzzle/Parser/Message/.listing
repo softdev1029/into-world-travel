@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012          131 Mar 26  2018 .
+drwxrwxr-x   6 sg       6012          112 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1676 Jul  9  2018 AbstractMessageParser.php
+-rw-r--r--   1 sg       6012          695 Jul  9  2018 MessageParserInterface.php
+-rw-r--r--   1 sg       6012         3332 Jul  9  2018 MessageParser.php
+-rw-r--r--   1 sg       6012         1198 Jul  9  2018 PeclHttpMessageParser.php

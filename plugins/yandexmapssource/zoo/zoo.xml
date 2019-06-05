@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2015 content. All rights reserved.
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+-->
+<extension type="plugin" version="3.0" group="yandexmapssource" method="upgrade">
+	<name>plg_yandexmapssource_zoo</name>
+	<author>Chupurnov Valeriy</author>
+	<creationDate>December 2016</creationDate>
+	<copyright>Copyright (c) 2016 content. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>skoder@ya.ru</authorEmail>
+	<authorUrl>http://xdan.ru</authorUrl>
+	<version>3.3.4</version>
+	<description>PLG_YANDEXMAPSSOURCE_ZOO_DESCRIPTION</description>
+	<files>
+		<filename plugin="zoo">zoo.php</filename>
+		<filename>index.html</filename>
+		<filename>ru-RU.plg_yandexmapssource_zoo.ini</filename>
+		<filename>ru-RU.plg_yandexmapssource_zoo.sys.ini</filename>
+		<folder>data</folder>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset
+				name="another"
+				label="Инсталлирование элемента"
+				description=""
+				addfieldpath="plugins/yandexmapssource/zoo/data"
+			>
+				<field name="elstaller" type="elstaller" label="Элемент Яндекс Карты" description="Установка элемента Яндекс Карты для ZOO" />
+			</fieldset>
+			<fieldset
+				name="another"
+				label="Категории"
+				description=""
+				addfieldpath="/administrator/components/com_zoo/joomla/fields"
+			>
+				<field name="application" type="zooapplication" label="Приложение" required="true" description="Выберите приложение" />
+			</fieldset>
+			<fieldset
+				name="object_view"
+				label="Вид объекта"
+				description=""
+				addfieldpath="administrator/components/com_yandex_maps/models/fields/"
+			>
+				<field
+					name="object_preset"
+					type="listicons"
+					icon="yes"
+					label="Стиль метки&lt;br&gt;по умолчанию"
+					default="islands#icon"
+				/>
+				<field
+					name="object_iconColor"
+					type="color"
+					label="Цвет метки&lt;br&gt;по умолчанию"
+				/>
+				<field
+					name="object_use_category_image"
+					type="radio"
+					label="Использовать изображение&lt;br&gt;метки из изображения категории"
+					description="Использовать изображение&lt;br&gt;метки из изображения категории. Если нет, использовать следующие настройки"
+					default="1"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="object_iconImageHref"
+					type="media"
+					label="Собственная иконка&lt;br&gt;по умолчанию"
+				/>
+				<field
+					name="object_iconImageHref_CHANGE"
+					forid="jform_params_object_iconImageHref"
+					forsize="jform_params_object_iconImageSize"
+					foroffset="jform_params_object_iconImageOffset"
+					type="script"
+				/>
+				<field
+					name="object_iconImageSize"
+					type="xy"
+					label="Размер иконки&lt;br&gt;по умолчанию"
+				/>
+				<field
+					name="object_iconImageOffset"
+					type="xy"
+					label="Размер иконки&lt;br&gt;по умолчанию"
+				/>
+				<field
+					name="object_visible"
+					type="radio"
+					label="Видимый объект"
+					description="Видимый объект"
+					default="1"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="object_show_title_with_image"
+					type="radio"
+					label="Показывать подпись&lt;br&gt;когда выбрана&lt;br&gt;собственная иконка"
+					description="Показывать подпись&lt;br&gt;когда выбрана&lt;br&gt;собственная иконка"
+					default="0"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="how_open_link"
+					type="list"
+					label="Как открывать ссылки"
+					description="Как открывать ссылки"
+					default="_self"
+					class="btn-group"
+				>
+					<option value="_self">В том же окне</option>
+					<option value="_parent">В родителе</option>
+					<option value="_blank">В новом окне</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<languages>
+		<language tag="ru-RU">ru-RU.plg_yandexmapssource_zoo.ini</language>
+		<language tag="ru-RU">ru-RU.plg_yandexmapssource_zoo.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="Плагин plg_yandexmapssource_zoo">http://xdan.ru/update/plg_yandexmapssource_zoo.xml</server>
+	</updateservers>
+</extension>

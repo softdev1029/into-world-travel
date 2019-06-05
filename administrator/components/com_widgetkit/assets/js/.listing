@@ -1,0 +1,10 @@
+drwxrwxr-x   2 sg       6012          175 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012           64 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         3312 Jul  9  2018 application.js
+-rw-r--r--   1 sg       6012         3174 Jul  9  2018 controllers.js
+-rw-r--r--   1 sg       6012         1083 Jul  9  2018 directives.js
+-rw-r--r--   1 sg       6012         5480 Jul  9  2018 environment.js
+-rw-r--r--   1 sg       6012        15167 Jul  9  2018 fields.js
+-rw-r--r--   1 sg       6012         2961 Jul  9  2018 joomla.js
+-rw-r--r--   1 sg       6012         5895 Jul  9  2018 joomla.media.js
+-rw-r--r--   1 sg       6012          626 Jul  9  2018 joomla.tinymce.js

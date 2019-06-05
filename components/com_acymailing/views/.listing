@@ -1,0 +1,12 @@
+drwxrwxr-x  11 sg       6012          181 Mar 26  2018 .
+drwxrwxr-x   7 sg       6012          136 Mar 26  2018 ..
+drwxrwxr-x   3 sg       6012           98 Mar 26  2018 archive
+drwxrwxr-x   3 sg       6012           77 Mar 26  2018 frontdata
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 frontfile
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 frontnewsletter
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 frontsubscriber
+drwxrwxr-x   3 sg       6012           77 Mar 26  2018 fronttag
+drwxrwxr-x   3 sg       6012           77 Mar 26  2018 fronttemplate
+-rw-r--r--   1 sg       6012           44 Jul  9  2018 index.html
+drwxrwxr-x   3 sg       6012           78 Mar 26  2018 lists
+drwxrwxr-x   3 sg       6012           57 Mar 26  2018 user

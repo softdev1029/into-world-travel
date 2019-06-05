@@ -1,0 +1,6 @@
+drwxrwxr-x   2 sg       6012           98 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012          120 Mar 26  2018 ..
+-rw-r--r--   1 sg       6012         1846 Jul  9  2018 AbstractAdapter.php
+-rw-r--r--   1 sg       6012         3156 Jul  9  2018 AdapterInterface.php
+-rw-r--r--   1 sg       6012         3083 Jul  9  2018 Mcrypt.php
+-rw-r--r--   1 sg       6012         4262 Jul  9  2018 OpenSSL.php

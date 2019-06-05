@@ -1,0 +1,13 @@
+drwxrwxr-x   5 sg       6012          226 Mar 26  2018 .
+drwxr-xr-x  50 sg       6012         4096 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012          320 Jul  9  2018 access.xml
+-rw-r--r--   1 sg       6012        10982 Jul  9  2018 ajax.php
+-rw-r--r--   1 sg       6012         1836 Jul  9  2018 config.xml
+-rw-r--r--   1 sg       6012         2835 Jul  9  2018 controller.php
+-rw-r--r--   1 sg       6012         1717 Jul  9  2018 dbreplacer.php
+-rw-r--r--   1 sg       6012         1413 Jul  9  2018 dbreplacer.xml
+drwxrwxr-x   3 sg       6012           19 Mar 26  2018 language
+drwxrwxr-x   2 sg       6012           25 Mar 26  2018 models
+-rw-r--r--   1 sg       6012        17395 Jul  9  2018 script.install.helper.php
+-rw-r--r--   1 sg       6012          813 Jul  9  2018 script.install.php
+drwxrwxr-x   3 sg       6012           21 Mar 26  2018 views

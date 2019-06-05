@@ -1,0 +1,11 @@
+drwxr-xr-x   4 sg       6012          216 Sep 18  2018 .
+drwxr-xr-x   3 sg       6012           27 Sep 18  2018 ..
+-rw-r--r--   1 sg       6012         2085 Sep 18  2018 Architecture.cd
+-rw-r--r--   1 sg       6012        16945 Sep 18  2018 Architecture.png
+-rw-r--r--   1 sg       6012         2740 Sep 18  2018 ClassDiagrams.csproj
+-rw-r--r--   1 sg       6012          168 Sep 18  2018 ClassDiagrams.csproj.user
+-rw-r--r--   1 sg       6012          915 Sep 18  2018 ClassDiagrams.sln
+drwxr-xr-x   2 sg       6012          289 Sep 18  2018 Classes
+drwxr-xr-x   2 sg       6012           54 Sep 18  2018 Exports
+-rw-r--r--   1 sg       6012         6013 Sep 18  2018 ReaderWriter.cd
+-rw-r--r--   1 sg       6012        57944 Sep 18  2018 ReaderWriter.png

@@ -1,0 +1,8 @@
+drwxrwxr-x   4 sg       6012          139 Mar 26  2018 .
+drwxrwxr-x   3 sg       6012          297 Mar 26  2018 ..
+drwxrwxr-x   2 sg       6012          121 Mar 26  2018 Encapsulation
+-rw-r--r--   1 sg       6012         3210 Jul  9  2018 EncapsulationInterface.php
+-rw-r--r--   1 sg       6012         6964 Jul  9  2018 Encapsulation.php
+drwxrwxr-x   2 sg       6012         4096 Mar 26  2018 Task
+-rw-r--r--   1 sg       6012          956 Jul  9  2018 TaskInterface.php
+-rw-r--r--   1 sg       6012         2544 Jul  9  2018 Task.php

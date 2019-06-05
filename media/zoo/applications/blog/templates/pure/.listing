@@ -1,0 +1,17 @@
+drwxrwxr-x   4 sg       6012          324 Mar 26  2018 .
+drwxrwxr-x  10 sg       6012          110 Mar 26  2018 ..
+drwxrwxr-x   4 sg       6012           31 Mar 26  2018 assets
+-rw-r--r--   1 sg       6012         2452 Jul  9  2018 category.php
+-rw-r--r--   1 sg       6012         2704 Jul  9  2018 frontpage.php
+-rw-r--r--   1 sg       6012          468 Jul  9  2018 _item.php
+-rw-r--r--   1 sg       6012         1614 Jul  9  2018 item.php
+-rw-r--r--   1 sg       6012         1330 Jul  9  2018 _items.php
+-rw-r--r--   1 sg       6012          948 Jul  9  2018 mail.comment.admin.php
+-rw-r--r--   1 sg       6012         1123 Jul  9  2018 mail.comment.reply.php
+-rw-r--r--   1 sg       6012          868 Jul  9  2018 mail.submission.new.php
+-rw-r--r--   1 sg       6012         1007 Jul  9  2018 mysubmissions.php
+-rw-r--r--   1 sg       6012          456 Jul  9  2018 _pagination.php
+drwxrwxr-x   3 sg       6012           18 Mar 26  2018 renderer
+-rw-r--r--   1 sg       6012         1006 Jul  9  2018 submission.php
+-rw-r--r--   1 sg       6012          947 Jul  9  2018 tag.php
+-rw-r--r--   1 sg       6012         2547 Jul  9  2018 template.xml
