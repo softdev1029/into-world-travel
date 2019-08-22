@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><AvailabilitySearchResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Currency>GBP</Currency><Warning>
+</Warning><TestMode>false</TestMode><HotelAvailability hotelQuoteId="385469949_120820041"><Hotel id="120820041" name="Pullman Cayo Coco" type="Hotel" stars="4" rank="1"><Region id="16171" name="Cayo Coco" /><Address><Address1>Playa Las Coloradas  , Cayo Coco   67210 Ciego De Avila   Cuba</Address1><City>Cayo Coco</City><Zip /><Country>Cuba</Country><Tel>#5378605212</Tel><Fax /></Address><GeneralInfo /><Description><Language>en</Language><Type>General</Type><Text>The Pullman Cayo Coco has 568 rooms including 41 suites. All rooms are equipped with air conditioning, telephone, minibar, safe, LCD TV, iPod connection, acess to Internet/Wi-Fi (fee), kettle and private bathroom with hairdryer. It has rooms for people with reduced mobility.
+
+This hotel includes 8 restaurants of different specialties, 10 bars, a Spa and Wellness center with 4 massage rooms, 2 saunas, 2 Jacuzzis and hairdresser. It also includes 7 outdoors pools, gym, 2 tennis courts and 4 meeting and events rooms with technological and audiovisual equipment.
+
+Also note the room service, the 24-hour reception service, laundry, ironing service, currency exchange deposit, access to Internet / Wi-Fi for a fee, rent-a-car, medical service, business center, babysitting service and car parking.&lt;br/&gt;The Pullman Cayo Coco is located in the heart of the ecological park of Cayo Coco Island. From the Jardines del Rey International Airport to the hotel is 12 km.&lt;br/&gt;Total Rooms: 568
+Suites: 41
+Disabled Rooms: 4&lt;br/&gt;
+
+A/C
+TV (Cable/Satellite)
+WC
+Safe
+Mini-Bar
+Phone
+Internet
+Disabled Rooms
+Wi-Fi&lt;br/&gt;</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>City Centre: 10 km
+Beach: 0 m
+Shopping Area: 0 m
+Restaurants/Bars: 0 m
+Nightlife Area: 0 m
+Airport: 12 km -  Jardines del Rey International Airport
+Nearest City: 42 km - Cayo Guillermo&lt;br/&gt;</Text></Description><Description><Language>en</Language><Type>PoliciesDisclaimers</Type><Text>Check-In: 14h00
+Check-Out: 12h00
+Children Accepted
+Credit Cards Accepted&lt;br/&gt;Restaurant
+Bar/Coffee Shop
+Night Club
+Parking
+Banquets/Meetings Room
+Outdoor Pool
+Gym/Health Club
+Jacuzzi
+Sauna
+SPA
+Hairdresser
+Shopping&lt;br&gt;Reception
+Room Service
+Laundry
+Ironing
+Exchange
+Babysitting
+Internet
+Rent-a-Car
+Tours
+Tourist Information Point
+Wi-Fi&lt;br&gt;</Text></Description><Rating><System>Stars</System><Score>40</Score><Description>Four star</Description></Rating></Hotel><Result id="385469949-0"><Room><RoomType code="19405608" text="Deluxe Room - Garden View" /><MealType code="1000002" text="All Inclusive" /><Price amt="1080.45" /><Guests><Adult id="-1073741822" first="" last=""><Price amt="540.22" /></Adult><Adult id="-1073741823" first="" last=""><Price amt="540.23" /></Adult></Guests><CanxFees><Fee from="2019-12-03T00:00:00"><Amount amt="109" /></Fee><Fee from="2019-12-19T00:00:00"><Amount amt="271" /></Fee><Fee from="2019-12-28T00:00:00"><Amount amt="541" /></Fee><Fee from="2020-01-02T00:00:00"><Amount amt="811" /></Fee><Fee from="2020-01-07T00:00:00"><Amount amt="1080.45" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text /></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="385469949-1"><Room><RoomType code="2015765" text="Deluxe Room - Sea View" /><MealType code="1000002" text="All Inclusive" /><Price amt="1348.83" /><Guests><Adult id="-1073741824" first="" last=""><Price amt="674.42" /></Adult><Adult id="-1073741825" first="" last=""><Price amt="674.41" /></Adult></Guests><CanxFees><Fee from="2020-01-07T00:00:00"><Amount amt="190" /></Fee><Fee from="2020-01-11T00:00:00"><Amount amt="1329" /></Fee><Fee from="2020-01-11T00:00:00"><Amount amt="192.69000000000000000000000006" /></Fee><Fee from="2020-01-12T00:00:00"><Amount amt="1348.83" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text /></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result></HotelAvailability></AvailabilitySearchResult>

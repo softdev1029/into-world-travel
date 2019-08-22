@@ -30,6 +30,7 @@
     <positions>
         <position>callback</position>
         <position>slider</position>
+      <position>slider2</position>
         <position>user3</position>
         <position>currency</position>
         <position>search</position>

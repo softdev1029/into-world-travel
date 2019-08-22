@@ -8,11 +8,9 @@
       <div class="modal-top-header">     
       <span class="header_title_modal">	
       Available hotels in <?=$this->region->title?> on 
-      <?=date('d',$this->start)?> – <?=date('d',$this->end)?>  
+      <?=date('F j, Y',$this->start)?> – <?=date('F j, Y',$this->end)?>  
       
-      <?=($this->month_start[0]==$this->month_end[0]) ? $this->month_start[0] : $this->month_start[0].", ".$this->month_end[0]?>
-     
-      
+      <!-- <?=($this->month_start[0]==$this->month_end[0]) ? $this->month_start[0] : $this->month_start[0].", ".$this->month_end[0]?> -->
       </span> 
       
       </div>
@@ -119,3 +117,33 @@ $data['title2'] =  $otel->title;
 </div><!--info_message-->
 
     <!---->
+
+<script> 
+  jQuery(document).ready(function(){   
+  jQuery("#data_start").datepicker({
+      dateFormat: "dd-M-yy",
+      minDate: 0,
+      onSelect: function () {
+          var dt2 = jQuery('#data_end');
+          var startDate = jQuery(this).datepicker('getDate');
+          var minDate = jQuery(this).datepicker('getDate');
+          var dt2Date = dt2.datepicker('getDate');
+          //difference in days. 86400 seconds in day, 1000 ms in second
+          var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+          
+          startDate.setDate(startDate.getDate() + 30);
+          if (dt2Date == null || dateDiff < 0) {
+              dt2.datepicker('setDate', minDate);
+          }
+          //sets dt2 maxDate to the last day of 30 days window
+          //dt2.datepicker('option', 'maxDate', startDate);
+          dt2.datepicker('option', 'minDate', minDate);
+      }
+  });
+
+  jQuery('#data_end').datepicker({
+      dateFormat: "dd-M-yy",
+      minDate: 0
+  });
+  });    
+</script>

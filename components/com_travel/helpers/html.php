@@ -433,7 +433,7 @@ class html
   
   html::htmlInfo('<span style="    font-size: 22px;">Room</span>','');
  // html::htmlInfo('Room Night Cost ', 'Selling Price '.travel::pr1($HotelBooking->Room->NightCost->SellingPrice['amt'], $row), 'Night '.$HotelBooking->Room->NightCost->Night); 
-  html::htmlInfo('Room Night Cost ', 'Selling Price '.travel::pr1($total_seling_price, $row), 'Night '.travel::pr1($total_seling_price, $row)); 
+ // html::htmlInfo('Room Night Cost ', 'Selling Price '.travel::pr1($total_seling_price, $row), 'Night '. trim($HotelBooking->Nights)); 
   html::htmlInfo('Room Type',trim($HotelBooking->Room->RoomType['text']));
   html::htmlInfo('Meal Type',trim($HotelBooking->Room->MealType['text']));
   html::line();
@@ -1390,7 +1390,7 @@ $n=0;
                                                 target="_blank" data-history="replace" data-name="newTab">
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
  <tr>
-   <td><img class="zenfittedimage" src="<?=$f?>"></td>
+   <td><img class="zenfittedimage <?php if (!$f) echo 'no-image'; ?>" src="<?php if (!$f) { echo JURI::base() . "components/com_travel/images/noimage.png"; } else { echo $f; } ?>"></td>
  </tr>
 </table>
                                                 </a>
@@ -1484,7 +1484,7 @@ $n=0;
 <?php
   }  
   ?>
-  <div class="pagination"><?
+  <div class="pagination"><?php
    echo $pagination->getPagesLinks();
    ?>
    </div>

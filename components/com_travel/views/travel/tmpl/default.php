@@ -18,7 +18,6 @@ $max_price[]  = max($rooms_price['price']);
 $min = travel::convertPricevalue(min($min_price), $row);
 $max = travel::convertPricevalue(max($max_price), $row); 
 
-
 $data =$this->data; 
 
 if (isset($data['price_min']))
@@ -130,7 +129,7 @@ $type ='any';
   <div class="zen-filter-selects">
   <div class="zen-filters-selects-title">Price for </div>
   <div class="zen-filter-select-period zen-filter-select-period-disable">
-  <div class="zen-select"><div class="zen-select-label">1 night</div>
+  <div class="zen-select"><div class="zen-select-label"><?php echo $day ?> day(s)</div>
   <div class="zen-select-arrow"></div>
    </div></div> 
   <div class="zen-filter-currency-select">
@@ -224,14 +223,14 @@ Any
   <div class="zen-checkboxfield-styled-checkbox"></div><div class="zen-checkboxfield-stars-field"><span class="zen-checkboxfield-stars-star"></span><span class="zen-checkboxfield-stars-star"></span><span class="zen-checkboxfield-stars-star"></span></div></label><div class="zen-checkboxfield-tip"></div></div>
   </div>
   
-  <div class="zen-filter-checkbox-field"><div class="zen-checkboxfield">
+<!--   <div class="zen-filter-checkbox-field"><div class="zen-checkboxfield">
   <label class="zen-checkboxfield-wrapper">
 <input <?=($star==2) ? 'checked' : ''?> name="e[star]" value="2" class="zen-checkboxfield-element" type="radio">
   
   <div class="zen-checkboxfield-styled-checkbox"></div><div class="zen-checkboxfield-stars-field"><span class="zen-checkboxfield-stars-star"></span><span class="zen-checkboxfield-stars-star"></span></div></label><div class="zen-checkboxfield-tip"></div></div>
-  </div>
+  </div> -->
   
-  <div class="zen-filter-checkbox-field"><div class="zen-checkboxfield">
+<!--   <div class="zen-filter-checkbox-field"><div class="zen-checkboxfield">
   <label class="zen-checkboxfield-wrapper">
 <input <?=($star==1) ? 'checked' : ''?> name="e[star]" value="1" class="zen-checkboxfield-element" type="radio">
   <div class="zen-checkboxfield-styled-checkbox"></div>
@@ -239,7 +238,7 @@ Any
   <span class="zen-checkboxfield-stars-star"></span>
  
     </div></label>
-  <div class="zen-checkboxfield-tip"></div></div></div>
+  <div class="zen-checkboxfield-tip"></div></div></div> -->
   
   </div></div></div></div>
  

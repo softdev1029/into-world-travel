@@ -56,7 +56,26 @@
         type="text"
 		label="Password"
         default="demo123"
-     	/>   
+     	/>
+
+    <field
+        name="orgforb2c"
+        type="text"
+        label="Org For B2C"
+        default="SampleRequest"
+    />
+    <field
+        name="userforb2c"
+        type="text"
+        label="User For B2C"
+        default="SampleRequest"
+    />
+    <field
+        name="passwordforb2c"
+        type="text"
+        label="Password For B2C"
+        default="demo123"
+    />   
         	<field
 		name="currency"
         type="text"

@@ -538,7 +538,7 @@
 }
 .zen-mobile-gallery
 {
-	background:#2f353c;
+	background:#fff;
 	height:150px;
 	overflow:hidden;
 	position:relative;
@@ -4698,6 +4698,8 @@ p.zen-filter-distance-search-popup-value:hover
 	margin:0
 }
 .img-vm-tc td{ text-align:center; vertical-align:middle; height:240px;}
+.img-vm-tc td img { width: 100%; height: 100%;  }
+.img-vm-tc td img.no-image { opacity: 0.8; width:auto; height: auto; }
 .zen-checkboxfield-styled-checkbox {
     background: #fff;
     border-radius: 2px;

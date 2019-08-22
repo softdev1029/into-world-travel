@@ -4,33 +4,34 @@ class travel       {
     
      static public function strtotimed($data){
     
-     $arr['Jan']=1;
-     $arr['Feb']=2;
-     $arr['Mar']=3;
-     $arr['Apr']=4;
-     $arr['May']=5;
-     $arr['Jun']=6;
-     $arr['Jul']=7;
-     $arr['Aug']=8;
-     $arr['Sep']=9;
-     $arr['Oct']=10;
-     $arr['Nov']=11;
-     $arr['Dec']=12;
+  //    $arr['Jan']=1;
+  //    $arr['Feb']=2;
+  //    $arr['Mar']=3;
+  //    $arr['Apr']=4;
+  //    $arr['May']=5;
+  //    $arr['Jun']=6;
+  //    $arr['Jul']=7;
+  //    $arr['Aug']=8;
+  //    $arr['Sep']=9;
+  //    $arr['Oct']=10;
+  //    $arr['Nov']=11;
+  //    $arr['Dec']=12;
      
      
 
-     $data = explode('-',$data);
+  //    $data = explode('-',$data);
 	 
 	 
     
-	   $month = $arr[trim($data[0])];
+	 //   $month = $arr[trim($data[0])];
 	
-	 $date =trim($data[1]);
+	 // $date =trim($data[1]);
 	
 	 
 	 
       // mktime(0,0,0,10,3,1975)
-      return mktime(0,0,0,$month,$date,$data[2]);
+      //return mktime(0,0,0,$month,$date,$data[2]);
+      return strtotime($data);
 		
 		// return strtotime($data);
      }

@@ -1,8 +1,11 @@
 <div class="zen-roomspage-gallery-wrapper">
     <div class="zen-roomspage-gallery" >
      <div class="zen-roomspage-gallery-inner">
-       <div class="zen-tablet-gallery">
-        <div class="your-class">
+       <div class="zen-tablet-gallery <?php if (!count($this->all_foto)) echo 'no-image'; ?>">
+        <?php 
+          if ( count($this->all_foto) > 0 ) {
+        ?>
+        <div class="property-image">
    
    
    <div class="zen-tablet-gallery-thumb-big-wrapper">
@@ -53,7 +56,14 @@
    
 
 </div>
-       
+       <?php
+           } else {
+        ?>
+
+            <img class="zenfittedimage <?php if (!$f) echo 'no-image'; ?>" src="<?php if (!$f) { echo JURI::base() . "components/com_travel/images/noimage.png"; } else { echo $f; } ?>">
+        <?php
+           }
+       ?>
        </div><!--zen-tablet-gallery-->
      </div>    
     </div><!--zen-roomspage-gallery-->

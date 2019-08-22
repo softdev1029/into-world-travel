@@ -326,14 +326,14 @@ $user = $this->user;
                                 Write the hotel for special requests (eg view, floor, check in/check out time etc)
                             </div>
                             <div class="arrivaldetails-requests-field-wrapper">
-                                <span class="arrivaldetails-requests-field-tip">
+                                <!-- <span class="arrivaldetails-requests-field-tip">
                                     Your wishes
-                                </span>
+                                </span> -->
                                 <div class="arrivaldetails-requests-field-button-wrapper">
                                     <div class="arrivaldetails-requests-field-button">
                                     </div>
                                 </div>
-                                <textarea class="arrivaldetails-requests-field" name="user_comment" maxlength="255"></textarea>
+                                <textarea placeholder="Your wishes" class="arrivaldetails-requests-field" name="user_comment" maxlength="255"></textarea>
                             </div>
                         </div>
                     </div>

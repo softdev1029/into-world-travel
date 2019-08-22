@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?><AvailabilitySearchResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Currency>GBP</Currency><Warning>
+</Warning><TestMode>false</TestMode><HotelAvailability hotelQuoteId="403841360_89397"><Hotel id="89397" name="Jetwing Lighthouse" type="Hotel" stars="5" rank="1"><Region id="18488" name="Galle" /><Address><Address1>Dadella</Address1><City>Galle 80000</City><Zip /><Country>Sri Lanka</Country><Tel>94-91-2223744</Tel><Fax>94-91-2224021</Fax></Address><GeneralInfo /><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_2.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_2_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_1.jpg</Url><Width>261</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_3.jpg</Url><Width>286</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_3_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_4.jpg</Url><Width>192</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_4_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_5.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_5_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_6.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_6_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_7.jpg</Url><Width>192</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_7_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_9.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_9_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_10.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_10_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_8.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Exterior_8_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>ExternalViewOfTheHotel</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_2.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_2_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_3.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_3_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Lobby_2.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Lobby_2_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_4.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_4_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Lobby_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Lobby_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Restaurant_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>LobbyRestaurantAndBar</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Suite_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Suite_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Bar_Lounge_1.jpg</Url><Width>192</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Bar_Lounge_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Guest_Room_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Guest_Room_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Suite_2.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Suite_2_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_2.jpg</Url><Width>360</Width><Height>240</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_2_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_3.jpg</Url><Width>281</Width><Height>288</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Other_3_thumb.jpg</ThumbnailUrl><ThumbnailWidth>60</ThumbnailWidth><ThumbnailHeight>80</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Meeting_Room_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Meeting_Room_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Photo><Url>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Spa_1.jpg</Url><Width>360</Width><Height>241</Height><Bytes>0</Bytes><ThumbnailUrl>http://api.stuba.com/RXLImages/7/GLLE-LIGhotel_Spa_1_thumb.jpg</ThumbnailUrl><ThumbnailWidth>80</ThumbnailWidth><ThumbnailHeight>60</ThumbnailHeight><ThumbnailBytes>0</ThumbnailBytes><PhotoType>OtherPhotos</PhotoType></Photo><Description><Language>en</Language><Type>General</Type><Text>One of the top properties in Galle, as well as Sri Lanka, with all the facilities guests would expect of a deluxe property.  For leisure, guests can choose from the fitness centre, two fresh water pools, tennis or squash.  As well, a fully equipped spa is on-site.  TO/0608</Text></Description><Description><Language>en</Language><Type>SurroundingArea</Type><Text>Perched atop a small hill in the town of Galle in the southwest of Sri Lanka overlooking the Indian Ocean.  The property is approximately 150 kilometres from the capital  city of Colombo or can also be reached by taking a 20 minute flight to the nearby city of Koggala, just 20 minutes from the hotel (please note flights are not always in operation).</Text></Description><Description><Language>en</Language><Type>RoomTypes</Type><Text>Deluxe rooms are decorated in a colonial style, with neutral decor and accents such as colourful wooden shutters.  Each room is very large(60 sq. m) in size and equipped with air-conditioning, direct dial telephone, television, mini bar and private balcony with sea views.</Text></Description><Description><Language>en</Language><Type>PropertyInformation</Type><Text>The resort is comprised of low rise adjoining buildings in yellow with red tiled roofing set amongst lush gardens and two outdoor pools.</Text></Description><Description><Language>en</Language><Type>DiningFacilities</Type><Text>Guests may choose to dine at the main 24 hour restaurant, serving salads, pasta, sandwiches and mix of Asian dishes or at the poolside restaurant serving light fare. As well, a gourmet restaurant is available for dinner, in addition to speciality dinners, such as spa dining, that can be arranged by the hotel.</Text></Description><Description><Language>en</Language><Type>Short</Type><Text>The lobby is medium sized  with sweeping vista of the Ocean.</Text></Description><Amenity><Text>Tennis court</Text></Amenity><Amenity><Text>Outdoor swimming pool</Text></Amenity><Amenity><Text>Air conditioning</Text></Amenity><Amenity><Text>Car parking</Text></Amenity><Amenity><Text>Fitness room / Gym</Text></Amenity><Rating><System>Stars</System><Score>50</Score><Description>Five star</Description></Rating></Hotel><Result id="403841360-0"><Room><RoomType code="1002210" text="Double Deluxe" /><MealType code="1" text="Breakfast" /><Price amt="559.36" /><Guests><Adult id="-306783380" first="" last=""><Price amt="279.68" /></Adult><Adult id="-306783381" first="" last=""><Price amt="279.68" /></Adult></Guests><CanxFees><Fee from="2019-08-31T00:00:00"><Amount amt="140" /></Fee><Fee from="2019-09-21T00:00:00"><Amount amt="279.68" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-1"><Room><RoomType code="1002210" text="Double Deluxe" /><MealType code="1000019" text="Half board" /><Price amt="653.46" /><Guests><Adult id="-306783382" first="" last=""><Price amt="326.73" /></Adult><Adult id="-306783383" first="" last=""><Price amt="326.73" /></Adult></Guests><CanxFees><Fee from="2019-08-31T00:00:00"><Amount amt="164" /></Fee><Fee from="2019-09-21T00:00:00"><Amount amt="326.73" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-2"><Room><RoomType code="1002210" text="Double Deluxe" /><MealType code="1000021" text="Full board" /><Price amt="728.52" /><Guests><Adult id="-306783384" first="" last=""><Price amt="364.26" /></Adult><Adult id="-306783385" first="" last=""><Price amt="364.26" /></Adult></Guests><CanxFees><Fee from="2019-08-31T00:00:00"><Amount amt="183" /></Fee><Fee from="2019-09-21T00:00:00"><Amount amt="364.26" /></Fee></CanxFees><Messages /><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-3"><Room><RoomType code="1021133" text="Deluxe Room" /><MealType code="1000021" text="Full board" /><Price amt="516.32" /><Guests><Adult id="-920350136" first="" last=""><Price amt="258.16" /></Adult><Adult id="-920350137" first="" last=""><Price amt="258.16" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="130" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="258.16" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="516.32" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-4"><Room><RoomType code="1021133" text="Deluxe Room" /><MealType code="1" text="Breakfast" /><Price amt="353.96" /><Guests><Adult id="-920350138" first="" last=""><Price amt="176.98" /></Adult><Adult id="-920350139" first="" last=""><Price amt="176.98" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="89" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="176.98" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="353.96" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-5"><Room><RoomType code="1021133" text="Deluxe Room" /><MealType code="1000019" text="Half board" /><Price amt="444.04" /><Guests><Adult id="-920350140" first="" last=""><Price amt="222.02" /></Adult><Adult id="-920350141" first="" last=""><Price amt="222.02" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="112" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="222.02" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="444.04" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-6"><Room><RoomType code="31784798" text="Suites" /><MealType code="1000021" text="Full board" /><Price amt="877.28" /><Guests><Adult id="-920350142" first="" last=""><Price amt="438.64" /></Adult><Adult id="-920350143" first="" last=""><Price amt="438.64" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="220" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="438.64" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="877.28" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-7"><Room><RoomType code="31784798" text="Suites" /><MealType code="1" text="Breakfast" /><Price amt="714.92" /><Guests><Adult id="-920350144" first="" last=""><Price amt="357.46" /></Adult><Adult id="-920350145" first="" last=""><Price amt="357.46" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="179" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="357.46" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="714.92" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result><Result id="403841360-8"><Room><RoomType code="31784798" text="Suites" /><MealType code="1000019" text="Half board" /><Price amt="805.20" /><Guests><Adult id="-920350146" first="" last=""><Price amt="402.60" /></Adult><Adult id="-920350147" first="" last=""><Price amt="402.60" /></Adult></Guests><CanxFees><Fee from="2019-09-01T00:00:00"><Amount amt="202" /></Fee><Fee from="2019-09-08T00:00:00"><Amount amt="402.60" /></Fee><Fee from="2019-09-15T00:00:00"><Amount amt="805.20" /></Fee></CanxFees><Messages><Message><Type>Supplier Notes</Type><Text>&lt;b&gt;Room 1&lt;/b&gt;&lt;br/&gt;&lt;br&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;br&gt;AI Inclusive programme:
+
+All Inclusive package includes the following - Minimum of 03 nights stay 
+Breakfast, Lunch and Dinner on Set menu / Buffet style (all meals in the main restaurant) 
+Premium Sprits
+Option to eat in fine dining restaurant twice a week 
+Unlimited Drinks / Diet Cola/ Wines / Beer / Fresh juices / Cocktails - 10.00 a.m to 12 mid night 
+Room Service is not included&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in checkout time: 
+
+Please note that the check in is at 14.00 hs and check out time is 12 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Jetwing Lighthouse Club Value Additions 
+
+•Afternoon tea daily complimentary (High Tea) from 03.30pm – 04.30 pm
+•Complimentary “Club Hour” – Premier spirits for a whole hour FOC
+o03 choices of hot canapés
+o03 choices of cold canapés
+oJohnny Walker Black Label – Whiskey
+oAbsolute – Vodka
+oGlenfiddich – 12 year single malt Whiskey
+oBacardi – Rum
+oBombay Sapphire – Gin
+oRockland Ceylon Arrack – Arrack
+oBeer
+oWines
+oSoft Drinks
+oJuices
+•Water and Soda water available by the pool throughout the day
+•Fully stocked toiletries
+•Bluetooth music system / speaker in guest rooms 
+•Pillow menu with 4 different pillow type
+•Express laundry serviceIn room coffee machine with individual capsules
+•Nightly live entertainment ranging from flute, violin, guitar etc…
+•Souvenir for all children – Soft toy Whale
+•Complimentary 10 minute head or shoulder massage per person on arrival or during the stay&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Check in: 14:00, Check out: 12:00 noon.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;lease note that the check in is at 14.00 hs and check out time is 12 noon&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;During Religious holidays and Full Moon Poya days in Sri Lanka, alcohol will not be served in public areas at hotels or restaurants. Should you require information on specific dates this affects, please call our Customer Services Team.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;Important visa information for Sri Lanka All European visitors to Sri Lanka must have an Electronic Travel Authorisation (ETA) . Whilst it is possible to get an ETA on arrival this can make the immigration process much more lengthy, and we strongly recommend purchasing online before travelling.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;All regions of Sri Lanka have experienced some outbreaks of the mosquito-borne dengue fever. Please visit your health professional at least four to six weeks before travel to check whether you require any vaccinations or other preventive measures. Whilst visiting the affected areas visitors should take the necessary steps to avoid being bitten by mosquitoes. For more information please visit https://www.gov.uk/foreign-travel-advice/sri-lanka/health&lt;br&gt;&lt;br/&gt;  &lt;br/&gt;</Text></Message></Messages><CancellationPolicyStatus>Refundable</CancellationPolicyStatus></Room></Result></HotelAvailability></AvailabilitySearchResult>

@@ -55,11 +55,7 @@ JHtml::_('behavior.framework', true);
 
 <?php echo $view->position('debug'); ?>
 
-  <!-- BEGIN JIVOSITE CODE {literal} -->
- <!-- <script type='text/javascript'>
-(function(){ var widget_id = 'WekCipvABc';var d=document;var w=window;function l(){
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
---><!-- {/literal} END JIVOSITE CODE -->
+  <script src="//code.jivosite.com/widget.js" jv-id="XfitLTR9tv" async></script>
 
   <!-- Facebook Pixel Code -->
 <script>
@@ -141,21 +137,43 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
 
       </div>
 
-    </header>
-    <!-- END HEADER -->
-
-
-    <main>
-
       <!-- BEGIN BANNER-->
       <?php if ($view->containsModules('slider')) : ?>
       <section class="banner">
           
           
           
+<div class="banner__carousel slick-initialized slick-slider"><div aria-live="polite" class="slick-list draggable"><div class="slick-track" role="listbox" style="opacity: 1; width: auto; transform: translate3d(0px, 0px, 0px);">
+
           
-                  <?php echo $view->position('slider', 'oba-nostyle'); ?>        
-                
+<div class="container" 
+>
+<style>section.banner>.banner__carousel.slick-initialized.slick-slider>.slick-list.draggable>.slick-track>.container {
+    background: rgb(220, 220, 220, 0.9);
+    margin-top: 6%;
+    padding-bottom: 27px;
+    border-radius: 8px;
+    padding-top: 12px;
+}
+
+.banner{background: url(/images/uploads/832/knoxville_936414.jpg);}</style>
+<h2 class="section-title">Find Your Hotel</h2>
+<?php echo $view->position('slider2', 'oba-nostyle'); ?></div>
+                 
+
+
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
                 
 
    
@@ -163,24 +181,25 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
       </section>
       <?php endif; ?>
       <!-- END BANNER -->
+    </header>
+    <!-- END HEADER -->
 
       <!-- BEGIN SEARCH -->
       <?php if ($view->containsModules('search')) : ?>
       <section class="search">
-
         <div class="container">
-
           <h2 class="section-title">Find Your Hotel</h2>
-
-          
-                  <?php echo $view->position('search', 'oba-nostyle'); ?>        
-                
-
+          <?php echo $view->position('search', 'oba-nostyle'); ?>        
         </div>
-
       </section>
       <?php endif; ?>
       <!-- END SEARCH -->
+
+    <main>
+
+      <div class="container">
+
+
    <?php     
 //echo artxPost(array('content' => '<jdoc:include type="message" />', 'classes' => ' oba-messages'));
   echo '<jdoc:include type="component" />';?>
@@ -188,8 +207,7 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
       <!-- BEGIN SPECIAL -->
       <?php if ($view->containsModules('special')) : ?>
      <section class="special">
-          <div class="container ">
-        <div class="container container4">
+        <div class="container4">
 
           <h2 class="section-title">What is Your Next Travel Destination ?</h2>
 
@@ -241,7 +259,6 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
               </div>
 
           </div>-->
-          </div>
       </section>
       <?php endif; ?>
       <!-- END SPECIAL -->
@@ -252,23 +269,10 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
       <!-- BEGIN BESTS -->
       <?php if ($view->containsModules('bests')) : ?>
        <section class="bests">
-
-        <div class="container">
-            
-            
-
           <h2 class="section-title">Custom Made Tours</h2>
-
           <div class="section-row">
-              
               <?php echo $view->position('bests', 'oba-nostyle'); ?> 
-
-            
-
           </div>
-
-        </div>
-
       </section>
       <?php endif; ?>
       <!-- END BESTS -->
@@ -347,12 +351,10 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
       <?php if ($view->containsModules('map1', 'map2', 'map3', 'map4', 'map5')) : ?>
       <div class="maps">
 
-        <div class="container">
-
-<h2 class="section-title ">Browse by Highlights</h2>
+        <h2 class="section-title ">Browse by Highlights</h2>
 
 
-<?php if ($view->containsModules('map1')) : ?><div id="maps1"><?php echo $view->position('map1', 'oba-nostyle'); ?> </div><?php endif; ?>
+          <?php if ($view->containsModules('map1')) : ?><div id="maps1"><?php echo $view->position('map1', 'oba-nostyle'); ?> </div><?php endif; ?>
           <!--<div class="maps__tabs">
 
             <span class="maps__txt">Choose destination</span>
@@ -379,7 +381,6 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
 
           </div>-->
 
-        </div>
 
       </div>
       <?php endif; ?>
@@ -388,33 +389,23 @@ src="https://www.facebook.com/tr?id=219695701927544&ev=PageView
       <!-- BEGIN SUBSCRIBE -->
       <?php if ($view->containsModules('subscribe')) : ?>
       <section class="subscribe">
-
-        <div class="container">
-
-         <!-- <h2 class="section-title  section-title--subscribe">Feel Russia</h2>-->
-
-       <!--   <p class="subscribe__desc">Find out why now is such an excellent time to visit this enchanting country:</p>-->
-
-          <div class="clearfix">
-
-         <!--   <div class="video">
+        <!-- <h2 class="section-title  section-title--subscribe">Feel Russia</h2>-->
+        <!--   <p class="subscribe__desc">Find out why now is such an excellent time to visit this enchanting country:</p>-->
+        <div class="clearfix">
+        <!--   <div class="video">
 
              <span style="vertical-align: bottom; width: 100%; height: 240px;"><div class="custom-facebook-video">
                
                </div></span>
 
             </div>-->
-
-<?php echo $view->position('subscribe', 'oba-nostyle'); ?>
-
-
-          </div>
-
+          <?php echo $view->position('subscribe', 'oba-nostyle'); ?>
         </div>
-
       </section>
       <?php endif; ?>
       <!-- END SUBSCRIBE -->
+
+      </div>
 
     </main>
 

@@ -82,24 +82,24 @@ $data = $this->data;
 ?>  
 
 <script>
- PATH = "<?php echo JURI::root()?>";
- LINKDEFAULT = "<?=$def?>";
- PD_VP = <?=( strpos($def,'?')===false) ? 0 : 1?>;
+  PATH = "<?php echo JURI::root()?>";
+  LINKDEFAULT = "<?=$def?>";
+  PD_VP = <?=( strpos($def,'?')===false) ? 0 : 1?>;
 </script>
 
- <script src="https://maps.googleapis.com/maps/api/js?v=3.20&signed_in=true&libraries=places&key=AIzaSyChhTLzGNb925EBySsEQz7D58tpS6MkZ4A"></script>
-  
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
-  <script src="<?php echo JURI::root()?>components/com_travel/js/modal.js" type="text/javascript"></script>
-  <script src="<?php echo JURI::root()?>components/com_travel/js/nouislider.min.js"></script>
-  <script src="<?php echo JURI::root()?>components/com_travel/js/wNumb.js"></script>
- <link rel="stylesheet" href="<?php echo JURI::root()?>components/com_travel/js/slick/slick.css" type="text/css" />
+<script src="https://maps.googleapis.com/maps/api/js?v=3.20&signed_in=true&libraries=places&key=AIzaSyChhTLzGNb925EBySsEQz7D58tpS6MkZ4A"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+<script src="<?php echo JURI::root()?>components/com_travel/js/modal.js" type="text/javascript"></script>
+<script src="<?php echo JURI::root()?>components/com_travel/js/nouislider.min.js"></script>
+<script src="<?php echo JURI::root()?>components/com_travel/js/wNumb.js"></script>
 
- <link rel="stylesheet" type="text/css" href="<?php echo JURI::root()?>components/com_travel/js/slick/slick-theme.css"/>
- 
-  <script src="<?php echo JURI::root()?>components/com_travel/js/slick/slick.min.js"></script>
-  
-  <link rel="stylesheet" href="<?php echo JURI::root()?>components/com_travel/css/rooms.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo JURI::root()?>components/com_travel/js/slick/slick.css" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="<?php echo JURI::root()?>components/com_travel/js/slick/slick-theme.css"/>
+
+<script src="<?php echo JURI::root()?>components/com_travel/js/slick/slick.min.js"></script>
+
+<link rel="stylesheet" href="<?php echo JURI::root()?>components/com_travel/css/rooms.css" type="text/css" />
 
  
  <div class="zen-roomspage">
@@ -114,7 +114,7 @@ $data = $this->data;
    </div>
    <div class="zen-regioninfo-footer">
    <div class="zen-regioninfo-request">
-   <div class="zen-regioninfo-dates"> <?=$this->month_start[1]?> <?=date('d',$this->start)?> — <?=$this->month_end[1]?><?=date('d',$this->end)?> </div>
+   <div class="zen-regioninfo-dates"> <?=$this->month_start[1]?> <?=date('d',$this->start)?> — <?=$this->month_end[1]?> <?=date('d',$this->end)?> </div>
    <div class="zen-regioninfo-rooms"><?=$this->data['rooms']?> room for&nbsp;<?=$this->data['mann']+$this->data['kind']+$dop  ?>&nbsp;guests</div></div>
    <span class="zen-regioninfo-change-wrapper">
    <span class="zen-regioninfo-change-text">change</span>
@@ -153,42 +153,39 @@ $data = $this->data;
  
 <script>
 jQuery(document).ready(function(){
-    var n=1;
- jQuery( ".similarhotels-hotel" ).each(function( index ) {
-//jQuery(this)
-
-if (n>3){
-jQuery(this).hide();
-jQuery(this).addClass('hide');
-}
-n++;
-  });
-
- jQuery(document).on('click', '.similarhotels-showmore', function () { 
- var obj = jQuery(this);
-   var n=1;
-   
-  jQuery( ".similarhotels-hotel.hide" ).each(function( index ) {
-  
-if (n<=3){
-jQuery(this).show();
-jQuery(this).removeClass('hide');
-}
+  var n=1;
+  jQuery( ".similarhotels-hotel" ).each(function( index ) {
+    //jQuery(this)
+    if (n>3){
+      jQuery(this).hide();
+      jQuery(this).addClass('hide');
+    }
     n++;
   });
-  
-  
- if (jQuery( ".similarhotels-hotel.hide" ).length)
- {
-    
- }
- else
- {jQuery( ".similarhotels-showmore" ).hide();
- }
 
- 
- return false;
- });
+  jQuery(document).on('click', '.similarhotels-showmore', function () { 
+    var obj = jQuery(this);
+    var n=1;
+    jQuery( ".similarhotels-hotel.hide" ).each(function( index ) {
+      if (n<=3)
+      {
+        jQuery(this).show();
+        jQuery(this).removeClass('hide');
+      }
+      n++;
+    });
+
+
+    if (jQuery( ".similarhotels-hotel.hide" ).length)
+    {
+
+    }
+    else
+    {
+      jQuery( ".similarhotels-showmore" ).hide();
+    }
+    return false;
+  });
 
 });
 </script>
@@ -376,57 +373,53 @@ $img = str_replace(' ', '', $img);
  
  <!----------------------- Карта отеля ------------------------>
  
- <script>
- var map,map2, infoWindows, latlngbounds,geocoder;
- 
-function initMap() {
- 
+ <?php
+  if ( $latitude && $longitude ) :
+ ?>
+
+<script>
+  var map, map2, infoWindows, latlngbounds,geocoder;
+
+  function initMap() {
     var centerLatLng = new google.maps.LatLng(<?=$latitude?>,<?=$longitude?>);
-	var mapOptions = {
-		center: centerLatLng,
-		zoom: 17,
-        gestureHandling: 'greedy'
-	};
-    	var mapOptions2 = {
-		center: centerLatLng,
-		zoom: 10,
-        gestureHandling: 'greedy'
-	};
-        map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        map2 = new google.maps.Map(document.getElementById("mini"), mapOptions2);
-        
-        latlngbounds= new google.maps.LatLngBounds();
-         var latLng = new google.maps.LatLng(<?=$latitude?>,<?=$longitude?>);
-        addMarker(latLng);
-    
-     var marker = new google.maps.Marker({
-        position: latLng,
-        map: map2,
-        title: "<?=$row->title?>"
-        
+    var mapOptions = {
+      center: centerLatLng,
+      zoom: 17,
+      gestureHandling: 'greedy'
+    };
+    var mapOptions2 = {
+      center: centerLatLng,
+      zoom: 10,
+      gestureHandling: 'greedy'
+    };
+    map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    map2 = new google.maps.Map(document.getElementById("mini"), mapOptions2);
+
+    latlngbounds= new google.maps.LatLngBounds();
+    var latLng = new google.maps.LatLng(<?=$latitude?>,<?=$longitude?>);
+    addMarker(latLng);
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map2,
+      title: "<?=$row->title?>"
     });
-    
-       // map.setCenter( latlngbounds.getCenter(), map.fitBounds(latlngbounds));	 
-      
-      
- }
- 
- function addMarker(latLng) {
-    
-   
+    // map.setCenter( latlngbounds.getCenter(), map.fitBounds(latlngbounds));	
+  }
+
+  function addMarker(latLng) {  
     latlngbounds.extend(latLng);
     var marker = new google.maps.Marker({
         position: latLng,
         map: map,
-        title: "<?=$row->title?>"
-        
-    });
-    
-}
+        title: "<?=$row->title?>"        
+    });    
+  }
 
- 
- google.maps.event.addDomListener(window, "load", initMap);
- </script>  <a name="maps"></a>
+  google.maps.event.addDomListener(window, "load", initMap);
+</script>  
+<?php endif ?>
+<a name="maps"></a>
  <div class="zenroomspage-geoblock-wrapper">
   <div class="zenroomspagegeoblock">
     <header class="zenroomspagegeoblock-header">
@@ -529,45 +522,41 @@ include(JPATH_SITE."/components/com_travel/helpers/html/modal_find.php");
 <script src="<?php echo JURI::root()?>components/com_travel/js/main.js" type="text/javascript"></script>
      
  
-<script>
+<script>  
 jQuery(document).ready(function(){
-jQuery('.your-class').slick({
-  dots: false,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: false,
-  variableWidth: true
-});
-jQuery('.galery_travel').magnificPopup({
-  type: 'image',
-  gallery:{
-    enabled:true
-  }
-});
+  jQuery('.property-image').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    centerMode: false,
+    variableWidth: true
+  });
 
-jQuery(document).on('click', '.zen-roomspage-about-button', function () { 
-var obj = jQuery(this);
+  jQuery('.galery_travel').magnificPopup({
+    type: 'image',
+    gallery:{
+      enabled:true
+    }
+  });
 
- if (obj.hasClass('zen-roomspage-about-button-hide'))
- {jQuery('.zen-roomspage-about-button-caption').html('Expand description');
-    
-    jQuery('.zen-roomspage-about-item').hide();
-    jQuery('.zen-roomspage-about-item:first').show();
-    obj.removeClass('zen-roomspage-about-button-hide'); 
-  
- }
- else
- {jQuery('.zen-roomspage-about-button-caption').html('Collapse description');
-    jQuery('.zen-roomspage-about-item').show();
-    obj.addClass('zen-roomspage-about-button-hide');  
- }
-
-
-
-
-return false;
-});
-
+  jQuery(document).on('click', '.zen-roomspage-about-button', function () { 
+    var obj = jQuery(this);
+    if (obj.hasClass('zen-roomspage-about-button-hide'))
+    {
+      jQuery('.zen-roomspage-about-button-caption').html('Expand description');
+      jQuery('.zen-roomspage-about-item').hide();
+      jQuery('.zen-roomspage-about-item:first').show();
+      obj.removeClass('zen-roomspage-about-button-hide'); 
+    }
+    else
+    {
+      jQuery('.zen-roomspage-about-button-caption').html('Collapse description');
+      jQuery('.zen-roomspage-about-item').show();
+      obj.addClass('zen-roomspage-about-button-hide');  
+    }
+    return false;
+  });    
 });
 </script>

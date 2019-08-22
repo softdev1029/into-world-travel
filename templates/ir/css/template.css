@@ -196,7 +196,6 @@ article.oba-post.oba-messages .catalog {
     max-width: 500px;
 }
 .top-menu__email a {
-    font-size: 16px !important;
 }
 .special .section-row .item {
     max-width: 278px !important;
@@ -513,4 +512,12 @@ img.wildfire.lazy-loaded {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+}
+
+section.banner>.banner__carousel.slick-initialized.slick-slider>.slick-list.draggable>.slick-track>.item.slick-slide.slick-current.slick-active>.container {
+    background: rgb(220, 220, 220, 0.9);
+    margin-top: 6%;
+    padding-bottom: 27px;
+    border-radius: 8px;
+    padding-top: 12px;
 }

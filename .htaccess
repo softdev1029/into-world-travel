@@ -1,8 +1,13 @@
 <IfModule mod_dtimeout.c>
 <Files ~ “.php”>
-SetEnvIf Request_URI “index.php” DynamicTimeout=400
+SetEnvIf Request_URI “index.php” DynamicTimeout=2400
+SetEnvIf Request_URI “admin-ajax.php” DynamicTimeout=2400
 </Files>
 </IfModule>
+
+SetEnv PHPRC /home/intowor6/public_html/php.ini
+
+
 
 ### ===========================================================================
 ### Security Enhanced & Highly Optimized .htaccess File for Joomla!
@@ -533,6 +538,6 @@ Header append Vary User-Agent env=!dont-vary
 
 # ETags (Entity Tags) are a mechanism that web servers and browsers use to determine if the component in the browser?s cache matches the
 # To disable ETags, paste this into your .htaccess file
-Header unset ETag
+#Header unset ETag
 FileETag None
 #End Etag

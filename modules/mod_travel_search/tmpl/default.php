@@ -264,30 +264,54 @@ method="get" action="<?=travel::link('travel')?>" class="jsFilter jbfilter jbfil
   jQuery(".zen-select-native").chosen({}, 0);
   jQuery("#select_kind").chosen({}, 0);
   
+  jQuery("#data_start").datepicker({
+      dateFormat: "M-dd-yy",
+      minDate: 0,
+      onSelect: function () {
+          var dt2 = jQuery('#data_end');
+          var startDate = jQuery(this).datepicker('getDate');
+          var minDate = jQuery(this).datepicker('getDate');
+          var dt2Date = dt2.datepicker('getDate');
+          var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+          
+          startDate.setDate(startDate.getDate() + 30);
+          if (dt2Date == null || dateDiff < 0) {
+              dt2.datepicker('setDate', minDate);
+          }
+          dt2.datepicker('option', 'minDate', minDate);
+
+          jQuery("#data_start").attr("value", jQuery("#data_start").datepicker({ dateFormat: 'M-dd-yy' }).val());
+          jQuery("#data_end").attr("value", jQuery("#data_end").datepicker({ dateFormat: 'M-dd-yy' }).val());
+      }
+  });
+
+  jQuery('#data_end').datepicker({
+      dateFormat: "M-dd-yy",
+      minDate: 0,
+      onSelect: function () {
+          jQuery("#data_start").attr("value", jQuery("#data_start").datepicker({ dateFormat: 'M-dd-yy' }).val());
+          jQuery("#data_end").attr("value", jQuery("#data_end").datepicker({ dateFormat: 'M-dd-yy' }).val());
+      }
+  });
+
  /* jQuery("#data_start").datepicker({"dateFormat":formatdata,"timeFormat":"hh:mm:ss"}); */
  
-   jQuery("#data_end").datepicker({ minDate: 0,"dateFormat":formatdata,"timeFormat":"hh:mm:ss" });
+   // jQuery("#data_end").datepicker({ minDate: 0,"dateFormat":formatdata,"timeFormat":"hh:mm:ss" });
   
-  jQuery("#data_start").datepicker({
-	  minDate: 0  ,
-	  "dateFormat":formatdata,"timeFormat":"hh:mm:ss",
-  onSelect: function(dateText) {
+//   jQuery("#data_start").datepicker({
+// 	  minDate: 0  ,
+// 	  "dateFormat":formatdata,"timeFormat":"hh:mm:ss",
+//   onSelect: function(dateText) {
      
-     var newDate = jQuery(this).datepicker('getDate');
-       if (newDate) { // Not null
-             //  newDate.setDate(newDate.getDate() + 1);
-               newDate.setDate(newDate.getDate() + 0);
-       }
-	   //jQuery("#data_end").datepicker({"dateFormat":formatdata,"timeFormat":"hh:mm:ss"}); 
-	   jQuery('#data_end').datepicker('setDate', newDate);
-	  // jQuery('#data_end').datepicker('dateFormat', formatdata);
-       // jQuery('#data_end').datepicker('minDate', newDate); 
-       jQuery("#data_end").datepicker("option", "minDate", newDate); 	  
-	  
-     
-  },
+//      var newDate = jQuery(this).datepicker('getDate');
+//        if (newDate) { 
+//           newDate.setDate(newDate.getDate() + 0);
+//        }
+// 	   jQuery('#data_end').datepicker('setDate', newDate);
+//        jQuery("#data_end").datepicker("option", "minDate", newDate); 	  
+//   },
   
-});
+// });
    
   
  
